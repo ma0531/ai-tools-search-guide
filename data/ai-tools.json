@@ -1,1 +1,164 @@
-
+{
+  "tools": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "学習・教育"],
+      "strengths": ["高精度な情報検索", "自然な会話", "長文対応"],
+      "url": "https://chat.openai.com",
+      "freeLimit": "月3回の高度な機能制限あり（GPT-4は有料）"
+    },
+    {
+      "id": 2,
+      "name": "Claude",
+      "category": ["アプリ作成", "要約と構造化", "データ分析・予測", "パーソナルアシスタント"],
+      "strengths": ["コード生成精度が高い", "長文処理に強い", "複雑な論理構造に対応"],
+      "url": "https://claude.ai",
+      "freeLimit": "月使用回数制限あり（無料版でも基本機能は利用可）"
+    },
+    {
+      "id": 3,
+      "name": "Stable Diffusion（WebUI）",
+      "category": ["画像作成"],
+      "strengths": ["高品質な画像生成", "ローカル実行可能", "カスタマイズ性が高い"],
+      "url": "https://stablediffusionweb.com",
+      "freeLimit": "無制限（ローカル実行は完全無料）"
+    },
+    {
+      "id": 4,
+      "name": "Perplexity AI",
+      "category": ["情報検索・リサーチ", "学習・教育"],
+      "strengths": ["リアルタイム検索に対応", "情報源を明記", "最新情報の取得"],
+      "url": "https://www.perplexity.ai",
+      "freeLimit": "無料版で基本機能利用可"
+    },
+    {
+      "id": 5,
+      "name": "Google Gemini",
+      "category": ["情報検索・リサーチ", "画像作成", "動画作成", "データ分析・予測"],
+      "strengths": ["Googleの最新AI", "高い精度", "マルチモーダル対応"],
+      "url": "https://gemini.google.com",
+      "freeLimit": "無料版でも十分な機能あり"
+    },
+    {
+      "id": 6,
+      "name": "GitHub Copilot",
+      "category": ["アプリ作成", "コード補完"],
+      "strengths": ["コード自動補完が優秀", "複数言語対応", "IDE統合"],
+      "url": "https://github.com/features/copilot",
+      "freeLimit": "学生は無料、一般は有料（無料トライアル2ヶ月）"
+    },
+    {
+      "id": 7,
+      "name": "ElevenLabs",
+      "category": ["音楽・音声生成"],
+      "strengths": ["自然な音声生成", "複数言語対応", "感情表現"],
+      "url": "https://elevenlabs.io",
+      "freeLimit": "月1,000文字まで無料"
+    },
+    {
+      "id": 8,
+      "name": "DeepL",
+      "category": ["言語・翻訳"],
+      "strengths": ["自然な翻訳", "高い精度", "複数言語対応"],
+      "url": "https://www.deepl.com",
+      "freeLimit": "月500,000文字まで無料"
+    },
+    {
+      "id": 9,
+      "name": "Synthesia",
+      "category": ["動画作成"],
+      "strengths": ["AI動画生成", "アバター利用可能", "複数言語対応"],
+      "url": "https://www.synthesia.io",
+      "freeLimit": "無料トライアルあり"
+    },
+    {
+      "id": 10,
+      "name": "Midjourney",
+      "category": ["画像作成"],
+      "strengths": ["高品質な画像生成", "アート風の表現", "カスタムトレーニング可能"],
+      "url": "https://www.midjourney.com",
+      "freeLimit": "無料トライアル25枚"
+    },
+    {
+      "id": 11,
+      "name": "Make（旧Integromat）",
+      "category": ["タスクの自動化（RPA連携）"],
+      "strengths": ["ノーコード自動化", "複数サービス連携", "複雑なワークフロー対応"],
+      "url": "https://www.make.com",
+      "freeLimit": "月1,000操作まで無料"
+    },
+    {
+      "id": 12,
+      "name": "Zapier",
+      "category": ["タスクの自動化（RPA連携）"],
+      "strengths": ["複数アプリ連携", "ユーザーフレンドリー", "テンプレート充実"],
+      "url": "https://zapier.com",
+      "freeLimit": "月100タスクまで無料"
+    },
+    {
+      "id": 13,
+      "name": "ChatBot by Tidio",
+      "category": ["パーソナルアシスタント", "悩み相談"],
+      "strengths": ["チャットボット作成簡単", "24時間対応", "AI学習"],
+      "url": "https://www.tidio.com",
+      "freeLimit": "基本機能は無料"
+    },
+    {
+      "id": 14,
+      "name": "Wistia",
+      "category": ["動画作成"],
+      "strengths": ["動画ホスティング", "マーケティング分析", "プレイヤーカスタマイズ"],
+      "url": "https://wistia.com",
+      "freeLimit": "1動画無料アップロード"
+    },
+    {
+      "id": 15,
+      "name": "Runway ML",
+      "category": ["動画作成", "画像作成"],
+      "strengths": ["AI動画編集", "背景除去", "モーション追跡"],
+      "url": "https://runwayml.com",
+      "freeLimit": "月250クレジット（無料）"
+    },
+    {
+      "id": 16,
+      "name": "Microsoft Copilot",
+      "category": ["情報検索・リサーチ", "パーソナルアシスタント"],
+      "strengths": ["Bing統合", "最新情報", "Windowsネイティブ"],
+      "url": "https://copilot.microsoft.com",
+      "freeLimit": "完全無料"
+    },
+    {
+      "id": 17,
+      "name": "Notion AI",
+      "category": ["要約と構造化", "パーソナルアシスタント"],
+      "strengths": ["ドキュメント管理", "AI補助", "テンプレート豊富"],
+      "url": "https://www.notion.so",
+      "freeLimit": "Notion無料版+有料AI機能"
+    },
+    {
+      "id": 18,
+      "name": "Hugging Face",
+      "category": ["アプリ作成", "データ分析・予測"],
+      "strengths": ["オープンソースモデル", "無料GPU使用可能", "研究向け"],
+      "url": "https://huggingface.co",
+      "freeLimit": "ほぼ無制限（スペース有限）"
+    },
+    {
+      "id": 19,
+      "name": "LGTM（Loom）",
+      "category": ["動画作成"],
+      "strengths": ["スクリーン記録", "動画共有", "注釈機能"],
+      "url": "https://www.loom.com",
+      "freeLimit": "月25本まで無料"
+    },
+    {
+      "id": 20,
+      "name": "Colab（Google Colaboratory）",
+      "category": ["データ分析・予測", "アプリ作成"],
+      "strengths": ["無料GPU/TPU利用可", "Pythonノートブック", "大規模計算対応"],
+      "url": "https://colab.research.google.com",
+      "freeLimit": "完全無料（リソース制限あり）"
+    }
+  ]
+}
