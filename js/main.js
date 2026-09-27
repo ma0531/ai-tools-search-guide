@@ -322,6 +322,7 @@ function createRow(tool) {
         <td class="tool-company col-company">${esc(tool.company)}</td>
         <td class="tool-country">${esc(tool.country)}</td>
         <td class="tool-jp col-jp">${jpBadge(tool)}</td>
+        <td class="tool-category col-category"><div class="cat-tags">${tool.category.map(c => `<span class="cat-tag">${esc(c)}</span>`).join('')}</div></td>
         <td class="tool-strengths"><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></td>
         <td class="tool-free-limit">${PRICING_BADGE[tool.pricing] || ''} ${extraBadges(tool)}<br>${esc(tool.freeLimit)}</td>
         <td class="tool-link"><a href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">開く →</a></td>
