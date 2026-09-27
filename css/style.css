@@ -613,3 +613,35 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
 .guide-table th { color: #1f6f4a; font-weight: 700; width: 45%; background: #f0faf5; }
 body.view-mobile .guide-btn { display: block; margin: 6px 0 0; }
 body.view-mobile .guide-table th { width: 40%; }
+/* ==========================================
+   「目的で絞り込む」の行の右端に出すAI利用の注意
+   ========================================== */
+.cat-details > summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+}
+.cat-details > summary::before { display: none; }
+.summary-left::before { content: "▼ "; font-size: 0.8em; }
+.cat-details:not([open]) .summary-left::before { content: "▶ "; }
+.cat-details:not([open]) > summary::after { display: none; }
+.ai-warning {
+    color: #d32f2f;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-decoration: none;
+    text-align: right;
+    line-height: 1.5;
+    margin-left: auto;
+}
+.ai-warning:hover { text-decoration: underline; }
+body.view-mobile .ai-warning { text-align: left; font-size: 0.78rem; margin-left: 0; }
+
+/* 下部の注意セクション */
+.safety { border: 2px solid #f3c2c2; scroll-margin-top: 16px; }
+.safety h2 { color: #d32f2f !important; }
+.safety-list { padding-left: 1.2em; font-size: 0.93rem; line-height: 1.8; }
+.safety-list li { margin-bottom: 6px; }
+.safety-list strong { color: #b71c1c; }
