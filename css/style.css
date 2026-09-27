@@ -184,7 +184,7 @@ body {
 
 table { width: 100%; border-collapse: collapse; }
 thead { background: linear-gradient(135deg, #56c596 0%, #38b27a 100%); color: white; }
-th { padding: 14px 12px; text-align: left; font-weight: 600; }
+th { padding: 14px 12px; text-align: center; font-weight: 600; }
 td { padding: 12px; border-bottom: 1px solid #eee; vertical-align: top; }
 tbody tr:hover { background: #f0faf5; }
 
