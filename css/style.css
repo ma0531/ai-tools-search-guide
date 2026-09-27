@@ -422,3 +422,25 @@ footer {
         padding: 6px 4px;
     }
 }
+/* ==========================================
+   ソート機能のスタイル
+   ========================================== */
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.sortable:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sortable.sorted {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.sort-icon {
+    font-size: 0.85rem;
+    margin-left: 4px;
+    opacity: 0.8;
+}
