@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>無料AI検索ガイド</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー部分 -->
+        <header>
+            <h1>🤖 利用目的別 無料AIツール検索ガイド</h1>
+            <p>あなたの目的に最適なAIツールを見つけよう</p>
+        </header>
 
+        <!-- 検索・フィルタ部分 -->
+        <div class="search-area">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="キーワード検索...">
+            </div>
+            
+            <div class="filters">
+                <label><input type="checkbox" class="category-filter" value="アプリ作成"> アプリ作成</label>
+                <label><input type="checkbox" class="category-filter" value="画像作成"> 画像作成</label>
+                <label><input type="checkbox" class="category-filter" value="動画作成"> 動画作成</label>
+                <label><input type="checkbox" class="category-filter" value="悩み相談"> 悩み相談</label>
+                <label><input type="checkbox" class="category-filter" value="情報検索・リサーチ"> 情報検索</label>
+                <label><input type="checkbox" class="category-filter" value="音楽・音声生成"> 音楽・音声</label>
+                <label><input type="checkbox" class="category-filter" value="要約と構造化"> 要約と構造化</label>
+                <label><input type="checkbox" class="category-filter" value="言語・翻訳"> 言語・翻訳</label>
+                <label><input type="checkbox" class="category-filter" value="データ分析・予測"> データ分析</label>
+                <label><input type="checkbox" class="category-filter" value="タスクの自動化（RPA連携）"> RPA・自動化</label>
+                <label><input type="checkbox" class="category-filter" value="学習・教育"> 学習・教育</label>
+                <label><input type="checkbox" class="category-filter" value="医療・ヘルスケア"> 医療・ヘルスケア</label>
+                <label><input type="checkbox" class="category-filter" value="製造・ロボティクス"> 製造・ロボティクス</label>
+                <label><input type="checkbox" class="category-filter" value="パーソナルアシスタント"> パーソナルアシスタント</label>
+                <label><input type="checkbox" class="category-filter" value="コード補完"> コード補完</label>
+            </div>
+
+            <button id="resetBtn" class="reset-button">フィルタをリセット</button>
+        </div>
+
+        <!-- 結果表示部分 -->
+        <div class="results-area">
+            <div class="results-info">
+                <p>検索結果：<span id="resultCount">0</span> 件</p>
+            </div>
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>ツール名</th>
+                        <th>カテゴリ</th>
+                        <th>強み</th>
+                        <th>無料利用範囲</th>
+                        <th>リンク</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- JavaScriptで動的生成 -->
+                </tbody>
+            </table>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>該当するツールがありません。検索条件を変更してください。</p>
+            </div>
+        </div>
+
+        <!-- フッター -->
+        <footer>
+            <p>© 2026 無料AI検索ガイド | 定期的に情報を更新しています</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
