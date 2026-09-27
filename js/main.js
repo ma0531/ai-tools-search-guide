@@ -272,6 +272,7 @@ function getFilteredAndSortedTools() {
 function updateNotices(cats) {
     document.getElementById('notice-medical').hidden = !cats.includes('医療・ヘルスケア');
     document.getElementById('notice-consult').hidden = !cats.includes('悩み相談');
+    updateCategoryInfo(cats);
 }
 
 // ==========================================
