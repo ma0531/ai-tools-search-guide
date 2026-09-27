@@ -63,6 +63,8 @@ function createToolRow(tool) {
     const row = document.createElement('tr');
     row.innerHTML = `
         <td class="tool-name"><strong>${tool.name}</strong></td>
+        <td class="tool-company">${tool.company}</td>
+        <td class="tool-country">${tool.country}</td>
         <td class="tool-category">${tool.category.join(', ')}</td>
         <td class="tool-strengths">${tool.strengths.join(', ')}</td>
         <td class="tool-free-limit">${tool.freeLimit}</td>
