@@ -199,10 +199,10 @@ function createToolRow(tool) {
     const row = document.createElement('tr');
     row.innerHTML = `
         <td class="tool-name"><strong>${tool.name}</strong></td>
-        <td class="tool-company">${tool.company}</td>
+        <td class="tool-company col-company">${tool.company}</td>
         <td class="tool-country">${tool.country}</td>
         <td class="tool-category col-category">${tool.category.join(', ')}</td>
-        <td class="tool-strengths col-strengths">${tool.strengths.join(', ')}</td>
+        <td class="tool-strengths">${tool.strengths.join(', ')}</td>
         <td class="tool-free-limit">${tool.freeLimit}</td>
         <td class="tool-link">
             <a href="${tool.url}" target="_blank" rel="noopener noreferrer">開く →</a>
