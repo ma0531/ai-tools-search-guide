@@ -43,6 +43,10 @@ body {
     border-radius: 12px;
     padding: 6px 10px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    /* タイトルと被らないよう上部に余白確保 */
+    top: auto;
+    bottom: 20px;
+    right: 16px;
 }
 
 .device-btn {
@@ -280,9 +284,9 @@ body.view-mobile table             { font-size: 0.78rem; }
 body.view-mobile th,
 body.view-mobile td                { padding: 7px 5px; }
 body.view-mobile .tool-link a      { padding: 4px 8px; font-size: 0.78rem; }
-/* スマホではカテゴリ・強みを非表示にして見やすく */
+/* スマホではカテゴリ・開発企業を非表示、強みは表示 */
 body.view-mobile .col-category,
-body.view-mobile .col-strengths    { display: none; }
+body.view-mobile .col-company      { display: none; }
 
 /* ---- タブレット ---- */
 body.view-tablet .container        { max-width: 1024px; padding: 0 10px; }
@@ -317,4 +321,4 @@ body.view-pc header h1             { font-size: 2.2rem; }
 
 /* スマホ時の非表示列ヘッダーも隠す */
 body.view-mobile thead .col-category,
-body.view-mobile thead .col-strengths { display: none; }
+body.view-mobile thead .col-company   { display: none; }
