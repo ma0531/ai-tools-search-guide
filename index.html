@@ -21,14 +21,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
     <div class="container">
         <div class="top-bar">
             <p class="last-updated">最終更新日：<span id="lastUpdated">確認中…</span></p>
+            <div class="top-right">
+            <a class="howto-link" href="#howto">📖 このサイトの使用方法</a>
             <div class="device-switcher" role="group" aria-label="表示サイズの切り替え">
                 <button class="device-btn" id="btn-mobile" type="button" title="スマホ表示">📱<span class="device-label">スマホ</span></button>
                 <button class="device-btn" id="btn-tablet" type="button" title="タブレット表示">📟<span class="device-label">タブレット</span></button>
                 <button class="device-btn" id="btn-pc" type="button" title="PC表示">🖥️<span class="device-label">PC</span></button>
+            </div>
             </div>
         </div>
 
@@ -129,7 +132,6 @@
                         <th class="sortable col-company" data-key="company">開発企業 <span class="sort-icon">⇅</span></th>
                         <th class="sortable" data-key="country">国 <span class="sort-icon">⇅</span></th>
                         <th class="col-jp">日本語</th>
-                        <th class="col-category">カテゴリ</th>
                         <th>強み</th>
                         <th>無料利用範囲</th>
                         <th>リンク</th>
@@ -170,6 +172,45 @@
             <h2>📮 情報の誤り報告・掲載リクエスト</h2>
             <p>リンク切れや情報の間違い、「このAIも載せてほしい」というご要望はこちらからお送りください。</p>
             <a id="feedbackLink" class="feedback-button" href="#" target="_blank" rel="noopener noreferrer">報告・リクエストを送る</a>
+        </section>
+
+        <section id="howto" class="howto">
+            <h2>📖 このサイトの使用方法</h2>
+            <ol class="howto-steps">
+                <li>
+                    <h3>キーワードで探す</h3>
+                    <p>一番上の検索欄に言葉を入れると、すぐに結果がしぼり込まれます。AIの名前だけでなく、「中国」「Google」「字幕」「無料」のように、国名・会社名・できることでも探せます。</p>
+                </li>
+                <li>
+                    <h3>条件でしぼり込む</h3>
+                    <p><strong>料金タイプ</strong>では「完全無料のみ」や、お試し期間しか使えないものを除く「トライアル以外」を選べます。<strong>日本語対応</strong>では日本語で使えるものだけを表示できます。<strong>その他</strong>では、アカウント登録なしで試せるAIや、お気に入りに登録したAIだけを表示できます。</p>
+                </li>
+                <li>
+                    <h3>目的で選ぶ</h3>
+                    <p>「画像作成」「動画作成」「Excel・事務作業」など、やりたいことにチェックを入れてください。複数選ぶと、どれかに当てはまるAIがすべて表示されます。迷ったら「👑 よく使われるAIのTOP10」から試すのがおすすめです。項目の横の数字は、その目的に当てはまるAIの数です。</p>
+                </li>
+                <li>
+                    <h3>並び替える</h3>
+                    <p>表の「AI」「開発企業」「国」の見出しを押すと、その順に並び替わります。もう一度押すと逆の順になります。スマホ表示では、結果の上にある「並び替え」から選べます。</p>
+                </li>
+                <li>
+                    <h3>詳しく見る・使ってみる</h3>
+                    <p>AIの名前を押すと、できることや使うときの注意点が表示されます。「開く →」を押すと、そのAIの公式サイトが新しいタブで開きます。</p>
+                </li>
+                <li>
+                    <h3>お気に入りに登録する</h3>
+                    <p>AI名の横の ☆ を押すと ★ になり、お気に入りに登録されます。登録はこのブラウザに保存されるので、次に開いたときも残っています（別のブラウザやスマホとは共有されません）。</p>
+                </li>
+                <li>
+                    <h3>条件を保存・共有する</h3>
+                    <p>「🔗 この条件をURLでコピー」を押すと、今のしぼり込み条件がURLとしてコピーされます。ブックマークしたり、LINEやメールで人に送ったりできます。「フィルタとソートをリセット」を押すと、最初の状態に戻ります。</p>
+                </li>
+                <li>
+                    <h3>表示サイズを切り替える</h3>
+                    <p>右上の 📱スマホ・📟タブレット・🖥️PC のボタンで見やすい表示に切り替えられます。選んだ表示は次回も保たれます。スマホ表示では、AIが1つずつカードで表示されます。</p>
+                </li>
+            </ol>
+            <p class="howto-back"><a href="#top">▲ ページの一番上に戻る</a></p>
         </section>
 
         <footer>

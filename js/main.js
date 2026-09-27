@@ -322,8 +322,7 @@ function createRow(tool) {
         <td class="tool-company col-company">${esc(tool.company)}</td>
         <td class="tool-country">${esc(tool.country)}</td>
         <td class="tool-jp col-jp">${jpBadge(tool)}</td>
-        <td class="tool-category col-category">${tool.category.map(esc).join(', ')}</td>
-        <td class="tool-strengths">${tool.strengths.map(esc).join(', ')}</td>
+        <td class="tool-strengths"><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></td>
         <td class="tool-free-limit">${PRICING_BADGE[tool.pricing] || ''} ${extraBadges(tool)}<br>${esc(tool.freeLimit)}</td>
         <td class="tool-link"><a href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">開く →</a></td>
     </tr>`;
@@ -340,7 +339,7 @@ function createCard(tool) {
             ${favButton(tool)}
         </div>
         <div class="card-badges">${PRICING_BADGE[tool.pricing] || ''} ${extraBadges(tool)}</div>
-        <p class="card-strengths">${tool.strengths.map(esc).join(' ／ ')}</p>
+        <ul class="strength-list card-strengths">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
         <p class="card-limit">${esc(tool.freeLimit)}</p>
         <div class="card-actions">
             <button type="button" class="detail-btn" data-detail="${esc(tool.name)}">詳しく見る</button>
@@ -367,7 +366,7 @@ function openModal(name) {
             <dt>開発企業</dt><dd>${esc(tool.company)}（${esc(tool.country)}）</dd>
             <dt>日本語対応</dt><dd>${jpBadge(tool)} ${JP_LABEL[tool.japanese]}</dd>
             <dt>できること</dt><dd>${tool.category.map(esc).join('、')}</dd>
-            <dt>強み</dt><dd>${tool.strengths.map(esc).join('、')}</dd>
+            <dt>強み</dt><dd><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></dd>
             <dt>無料の範囲</dt><dd>${esc(tool.freeLimit)}</dd>
         </dl>
         ${tips.length ? `<h3>使うときのポイント</h3><ul class="tips">${tips.join('')}</ul>` : ''}

@@ -398,3 +398,93 @@ th.col-jp { white-space: nowrap; }
 .cat-details summary::before { content: "▼ "; font-size: 0.8em; }
 .cat-details:not([open]) summary::before { content: "▶ "; }
 .cat-details:not([open]) summary::after { content: "（タップで開く）"; font-size: 0.8em; color: #888; font-weight: 400; }
+
+/* ========== 上部右側（使用方法リンク＋表示切替） ========== */
+.top-right { display: flex; align-items: center; gap: 10px; }
+.howto-link {
+    background: rgba(255,255,255,0.9);
+    color: #1f6f4a;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 8px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.howto-link:hover { background: white; text-decoration: underline; }
+body.view-mobile .top-bar { flex-wrap: wrap; }
+body.view-mobile .top-right { gap: 6px; }
+body.view-mobile .howto-link { font-size: 0.72rem; padding: 6px 9px; }
+
+/* ========== 表：左4列を詰め、強みを広く ========== */
+#resultsTable { table-layout: auto; }
+#resultsTable th, #resultsTable td { padding: 10px 8px; }
+#resultsTable th:nth-child(-n+4), #resultsTable td:nth-child(-n+4) { padding-left: 6px; padding-right: 6px; }
+#resultsTable td:first-child, #resultsTable th:first-child { padding-left: 10px; }
+.tool-name { min-width: 8.5em; max-width: 12em; }
+.tool-company { min-width: 5em; max-width: 9em; }
+.tool-country { min-width: 3.5em; }
+.tool-jp, th.col-jp { width: 3.2em; text-align: center; }
+.tool-strengths { min-width: 20em; }
+.tool-free-limit { min-width: 10em; max-width: 15em; }
+.tool-link { width: 5.5em; }
+
+.strength-list { list-style: none; padding: 0; margin: 0; }
+.strength-list li { position: relative; padding-left: 0.95em; line-height: 1.55; }
+.strength-list li::before {
+    content: "";
+    position: absolute; left: 0.1em; top: 0.62em;
+    width: 0.4em; height: 0.4em; border-radius: 50%;
+    background: #56c596;
+}
+.card-strengths { font-size: 0.85rem; color: #333; margin-top: 4px; }
+.detail-list .strength-list li { margin-bottom: 2px; }
+
+/* ========== 使用方法 ========== */
+.howto {
+    background: white; border-radius: 12px; padding: 24px 26px; margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    scroll-margin-top: 16px;
+}
+.howto > h2 {
+    font-family: 'Zen Maru Gothic', 'Meiryo', sans-serif;
+    font-size: 1.5rem; color: #1f6f4a; margin-bottom: 14px;
+}
+.howto-steps { list-style: none; counter-reset: step; padding: 0; display: grid; gap: 14px; }
+.howto-steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 12px 14px 12px 56px;
+    background: #f0faf5;
+    border-radius: 10px;
+}
+.howto-steps li::before {
+    content: counter(step);
+    position: absolute; left: 14px; top: 12px;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: #38b27a; color: white;
+    font-weight: 900; display: flex; align-items: center; justify-content: center;
+}
+.howto-steps h3 { font-size: 1.02rem; color: #1f6f4a; margin-bottom: 4px; }
+.howto-steps p { font-size: 0.93rem; line-height: 1.8; color: #333; }
+.howto-back { margin-top: 14px; text-align: right; font-size: 0.9rem; }
+.howto-back a { color: #2e8b62; font-weight: 700; }
+body.view-mobile .howto { padding: 18px 14px; }
+body.view-mobile .howto-steps li { padding: 10px 10px 10px 48px; }
+body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px; }
+
+/* 列幅を固定して、残りをすべて「強み」に回す */
+#resultsTable { table-layout: fixed; width: 100%; }
+#resultsTable th:nth-child(1) { width: 10em; }
+#resultsTable th:nth-child(2) { width: 7.5em; }
+#resultsTable th:nth-child(3) { width: 5.2em; }
+#resultsTable th:nth-child(4) { width: 3.6em; }
+#resultsTable th:nth-child(6) { width: 11.5em; }
+#resultsTable th:nth-child(7) { width: 5.6em; }
+.tool-name, .tool-company, .tool-country, .tool-strengths, .tool-free-limit { min-width: 0; max-width: none; overflow-wrap: anywhere; }
+#resultsTable th .sort-icon { margin-left: 2px; }
+#resultsTable th:nth-child(1) { width: 9.5em; }
+#resultsTable th:nth-child(2) { width: 7em; }
+#resultsTable th:nth-child(3) { width: 6em; }
+#resultsTable th:nth-child(6) { width: 10.5em; }
+.tool-country { font-size: 0.88rem; white-space: normal; }
