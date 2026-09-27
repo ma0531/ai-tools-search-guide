@@ -999,6 +999,106 @@
       "country": "アメリカ",
       "company": "Project Jupyter",
       "freeLimit": "完全オープンソース無料"
+    }    ,
+    {
+      "id": 101,
+      "name": "Digen AI",
+      "category": ["動画作成", "音楽・音声生成"],
+      "strengths": ["AIリップシンク動画生成", "テキスト→動画", "多言語対応", "音声同期技術"],
+      "url": "https://digen.ai/en/explore",
+      "country": "アメリカ",
+      "company": "Digen AI",
+      "freeLimit": "無料プランあり（有料プランで機能拡張）"
+    },
+    {
+      "id": 102,
+      "name": "DeepSeek",
+      "category": ["情報検索・リサーチ", "アプリ作成", "パーソナルアシスタント", "学習・教育"],
+      "strengths": ["高性能オープンソース", "コード生成精度が高い", "コスト効率が高い", "中国発の最先端AI"],
+      "url": "https://www.deepseek.com",
+      "country": "中国",
+      "company": "DeepSeek",
+      "freeLimit": "完全無料（APIは低コスト）"
+    },
+    {
+      "id": 103,
+      "name": "Suno AI",
+      "category": ["音楽・音声生成"],
+      "strengths": ["テキストから音楽生成", "高品質な楽曲生成", "複数ジャンル対応"],
+      "url": "https://suno.com",
+      "country": "アメリカ",
+      "company": "Suno AI",
+      "freeLimit": "1日50クレジット無料"
+    },
+    {
+      "id": 104,
+      "name": "Udio",
+      "category": ["音楽・音声生成"],
+      "strengths": ["高品質AI作曲", "多ジャンル対応", "歌詞生成も可能"],
+      "url": "https://www.udio.com",
+      "country": "アメリカ",
+      "company": "Udio",
+      "freeLimit": "月100曲まで無料"
+    },
+    {
+      "id": 105,
+      "name": "Mubert",
+      "category": ["音楽・音声生成"],
+      "strengths": ["AIBGMリアルタイム生成", "商用利用可能", "ムード指定可能"],
+      "url": "https://mubert.com",
+      "country": "ロシア",
+      "company": "Mubert",
+      "freeLimit": "月25曲まで無料"
+    },
+    {
+      "id": 106,
+      "name": "Soundraw",
+      "category": ["音楽・音声生成"],
+      "strengths": ["ロイヤリティフリー音楽生成", "カスタマイズ可能", "動画向けBGM"],
+      "url": "https://soundraw.io",
+      "country": "日本",
+      "company": "Soundraw",
+      "freeLimit": "試聴は無料（ダウンロードは有料）"
+    },
+    {
+      "id": 107,
+      "name": "Beatoven.ai",
+      "category": ["音楽・音声生成"],
+      "strengths": ["ムード別音楽生成", "動画・ポッドキャスト向け", "シンプルUI"],
+      "url": "https://www.beatoven.ai",
+      "country": "インド",
+      "company": "Beatoven",
+      "freeLimit": "月15分まで無料"
+    },
+    {
+      "id": 108,
+      "name": "Boomy",
+      "category": ["音楽・音声生成"],
+      "strengths": ["ワンクリック作曲", "ストリーミング配信可能", "初心者向け"],
+      "url": "https://boomy.com",
+      "country": "アメリカ",
+      "company": "Boomy",
+      "freeLimit": "基本機能は無料"
+    },
+    {
+      "id": 109,
+      "name": "AIVA",
+      "category": ["音楽・音声生成"],
+      "strengths": ["クラシック・映画音楽生成", "感情表現豊か", "楽譜出力可能"],
+      "url": "https://www.aiva.ai",
+      "country": "ルクセンブルク",
+      "company": "AIVA",
+      "freeLimit": "月3曲まで無料"
+    },
+    {
+      "id": 110,
+      "name": "Riffusion",
+      "category": ["音楽・音声生成"],
+      "strengths": ["テキストから音楽生成", "オープンソース", "ユニークな音楽"],
+      "url": "https://www.riffusion.com",
+      "country": "アメリカ",
+      "company": "Riffusion",
+      "freeLimit": "完全無料"
     }
   ]
 }
