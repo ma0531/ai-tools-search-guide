@@ -466,8 +466,27 @@ body.view-mobile .howto-link { font-size: 0.72rem; padding: 6px 9px; }
     font-weight: 900; display: flex; align-items: center; justify-content: center;
 }
 .howto-steps h3 { font-size: 1.02rem; color: #1f6f4a; margin-bottom: 4px; }
-.howto-steps p { font-size: 0.93rem; line-height: 1.8; color: #333; }
-.howto-back { margin-top: 14px; text-align: right; font-size: 0.9rem; }
+.howto-back {
+    margin-top: 24px;
+    text-align: center;
+}
+.howto-back a {
+    display: inline-block;
+    color: white;
+    background: #38b27a;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 14px 36px;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(56,178,122,0.35);
+    transition: all 0.2s ease;
+}
+.howto-back a:hover {
+    background: #2e9a66;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(56,178,122,0.45);
+}
 .howto-back a { color: #2e8b62; font-weight: 700; }
 body.view-mobile .howto { padding: 18px 14px; }
 body.view-mobile .howto-steps li { padding: 10px 10px 10px 48px; }
