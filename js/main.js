@@ -15,23 +15,20 @@ const PRICING_BADGE = {
 // ==========================================
 document.addEventListener('DOMContentLoaded', function () {
     injectDeviceSwitcher();
+    showLastUpdated();
     detectDevice();
     loadTools();
     setupEventListeners();
 });
 
 // ==========================================
-// デバイス切り替えボタン（右下）
+// デバイス切り替えボタン（右上）
 // ==========================================
 function injectDeviceSwitcher() {
-    const switcher = document.createElement('div');
-    switcher.className = 'device-switcher';
-    switcher.innerHTML = `
-        <button class="device-btn" id="btn-mobile" onclick="setView('mobile')" title="スマホ表示">📱<span class="device-label">スマホ</span></button>
-        <button class="device-btn" id="btn-tablet" onclick="setView('tablet')" title="タブレット表示">📟<span class="device-label">タブレット</span></button>
-        <button class="device-btn" id="btn-pc" onclick="setView('pc')" title="PC表示">🖥️<span class="device-label">PC</span></button>
-    `;
-    document.body.appendChild(switcher);
+    ['mobile', 'tablet', 'pc'].forEach(d => {
+        const btn = document.getElementById('btn-' + d);
+        if (btn) btn.addEventListener('click', () => setView(d));
+    });
 }
 
 // ==========================================
@@ -67,6 +64,36 @@ function setView(device, save = true) {
 }
 
 // ==========================================
+// 最終更新日（GitHubの最新コミット日を自動取得）
+// ==========================================
+function formatDate(d) {
+    return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
+}
+
+function showLastUpdated() {
+    const el = document.getElementById('lastUpdated');
+    const owner = location.hostname.split('.')[0];
+    const repo = location.pathname.split('/').filter(Boolean)[0];
+
+    const fallback = () => {
+        const v = window.dataLastUpdated;
+        el.textContent = v ? formatDate(new Date(v + 'T00:00:00')) : '不明';
+    };
+
+    if (!location.hostname.endsWith('github.io') || !repo) {
+        setTimeout(fallback, 800);
+        return;
+    }
+    fetch(`https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`)
+        .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(list => {
+            const date = list[0].commit.committer.date;
+            el.textContent = formatDate(new Date(date));
+        })
+        .catch(() => setTimeout(fallback, 800));
+}
+
+// ==========================================
 // データ読み込み
 // ==========================================
 function loadTools() {
@@ -74,6 +101,8 @@ function loadTools() {
         .then(r => r.json())
         .then(data => {
             allTools = data.tools;
+            window.dataLastUpdated = data.lastUpdated;
+            document.getElementById('toolTotal').textContent = allTools.length;
             updateFilterCounts();
             filterTools();
         })
@@ -162,6 +191,11 @@ function getFilteredAndSortedTools() {
         return matchSearch && matchCat && matchPricing;
     });
 
+    // TOP10を選んでいて並び替え未指定なら順位順に
+    if (!currentSort.key && cats.includes('よく使われるAIのTOP10')) {
+        result = result.slice().sort((a, b) => (a.rank || 999) - (b.rank || 999));
+    }
+
     if (currentSort.key) {
         result = result.slice().sort((a, b) => {
             const va = (a[currentSort.key] || '').toLowerCase();
@@ -197,7 +231,7 @@ function renderTable(tools) {
 function createToolRow(tool) {
     const row = document.createElement('tr');
     row.innerHTML = `
-        <td class="tool-name"><strong>${tool.name}</strong></td>
+        <td class="tool-name">${tool.rank ? `<span class="rank-badge">👑 ${tool.rank}位</span><br>` : ''}<strong>${tool.name}</strong></td>
         <td class="tool-company col-company">${tool.company}</td>
         <td class="tool-country">${tool.country}</td>
         <td class="tool-category col-category">${tool.category.join(', ')}</td>
