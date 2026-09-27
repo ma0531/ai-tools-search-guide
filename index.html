@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>無料AI検索ガイド</title>
+    <title>無料AIツール検索ガイド｜目的別に340以上のAIを比較</title>
+    <meta name="description" content="画像・動画・文章・翻訳・RPAなど、やりたいことから無料で使えるAIツールを探せる検索ガイド。日本語対応や登録不要でも絞り込めます。">
+
+    <!-- SNSで共有したときの表示（OGP） -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="無料AIツール検索ガイド">
+    <meta property="og:description" content="やりたいことを選ぶだけ。340以上のAIから、あなたの相棒が見つかる。">
+    <meta property="og:url" content="https://ma0531.github.io/ai-tools-search-guide/">
+    <meta property="og:image" content="https://ma0531.github.io/ai-tools-search-guide/images/ogp.png">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,31 +33,55 @@
         </div>
 
         <header class="hero">
-            <h1 class="hero-title"><span class="hero-icon" aria-hidden="true">🔍</span>無料AIツール<br class="sp-br">検索ガイド</h1>
-            <p class="hero-sub">やりたいことを選ぶだけ。<br class="sp-br"><strong id="toolTotal">300</strong>のAIから、あなたの相棒が見つかる。</p>
+            <h1 class="hero-title"><span class="hero-icon" aria-hidden="true">🔍</span><span class="marker">無料AIツール<br class="sp-br">検索ガイド</span></h1>
+            <p class="hero-sub">やりたいことを選ぶだけ。<br class="sp-br"><strong id="toolTotal">340</strong>のAIから、あなたの相棒が見つかる。</p>
         </header>
 
         <div class="search-area">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="国名・企業名・カテゴリなどで検索可能">
+                <input type="text" id="searchInput" placeholder="国名・企業名・カテゴリなどで検索可能" aria-label="キーワード検索">
             </div>
 
-            <h2 class="filter-title">料金タイプ</h2>
-            <div class="pricing-filters">
-                <label><input type="radio" name="pricing" value="all" checked> すべて表示</label>
-                <label><input type="radio" name="pricing" value="free"> ✅ 完全無料のみ</label>
-                <label><input type="radio" name="pricing" value="notrial"> 🟢 トライアル以外（ずっと無料で使える）</label>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <h2 class="filter-title">料金タイプ</h2>
+                    <div class="radio-group">
+                        <label><input type="radio" name="pricing" value="all" checked> すべて</label>
+                        <label><input type="radio" name="pricing" value="free"> ✅ 完全無料のみ</label>
+                        <label><input type="radio" name="pricing" value="notrial"> 🟢 トライアル以外（ずっと無料で使える）</label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h2 class="filter-title">日本語対応</h2>
+                    <div class="radio-group">
+                        <label><input type="radio" name="japanese" value="all" checked> すべて</label>
+                        <label><input type="radio" name="japanese" value="o"> ◯ 日本語の画面あり</label>
+                        <label><input type="radio" name="japanese" value="oa"> ◯＋△ 日本語で使える</label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h2 class="filter-title">その他</h2>
+                    <div class="radio-group">
+                        <label><input type="checkbox" id="noSignupFilter"> 🚪 登録不要ですぐ試せる</label>
+                        <label><input type="checkbox" id="favFilter"> ⭐ お気に入りだけ表示（<span id="favCount">0</span>）</label>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="filter-title">目的で絞り込む</h2>
+            <details id="catDetails" class="cat-details" open>
+            <summary class="filter-title">目的で絞り込む</summary>
             <div class="filters">
                 <label class="filter-top10"><input type="checkbox" class="category-filter" value="よく使われるAIのTOP10"> 👑 よく使われるAIのTOP10</label>
                 <label><input type="checkbox" class="category-filter" value="パーソナルアシスタント"> 🤖 パーソナルアシスタント</label>
                 <label><input type="checkbox" class="category-filter" value="情報検索・リサーチ"> 🔍 情報検索・リサーチ</label>
-                <label><input type="checkbox" class="category-filter" value="アプリ作成"> 💻 アプリ作成</label>
+                <label><input type="checkbox" class="category-filter" value="ノーコードでアプリ作成"> 🧩 ノーコードでアプリ作成</label>
+                <label><input type="checkbox" class="category-filter" value="開発者向けツール"> 🛠️ 開発者向けツール</label>
                 <label><input type="checkbox" class="category-filter" value="コード補完"> ⌨️ コード補完</label>
+                <label><input type="checkbox" class="category-filter" value="Android開発"> 📱 Android開発</label>
+                <label><input type="checkbox" class="category-filter" value="ゲーム開発"> 🎮 ゲーム開発</label>
                 <label><input type="checkbox" class="category-filter" value="画像作成"> 🎨 画像作成</label>
                 <label><input type="checkbox" class="category-filter" value="画像編集"> ✂️ 画像編集</label>
+                <label><input type="checkbox" class="category-filter" value="3Dモデル生成"> 🧊 3Dモデル生成</label>
                 <label><input type="checkbox" class="category-filter" value="動画作成"> 🎬 動画作成</label>
                 <label><input type="checkbox" class="category-filter" value="音楽・音声生成"> 🎵 音楽・音声生成</label>
                 <label><input type="checkbox" class="category-filter" value="音声認識"> 🎙️ 音声認識</label>
@@ -55,6 +90,7 @@
                 <label><input type="checkbox" class="category-filter" value="言語・翻訳"> 🌐 言語・翻訳</label>
                 <label><input type="checkbox" class="category-filter" value="要約と構造化"> 📝 要約と構造化</label>
                 <label><input type="checkbox" class="category-filter" value="データ分析・予測"> 📊 データ分析・予測</label>
+                <label><input type="checkbox" class="category-filter" value="Excel・事務作業"> 🗂️ Excel・事務作業</label>
                 <label><input type="checkbox" class="category-filter" value="タスクの自動化（RPA連携）"> ⚙️ RPA・自動化</label>
                 <label><input type="checkbox" class="category-filter" value="学習・教育"> 📚 学習・教育</label>
                 <label><input type="checkbox" class="category-filter" value="悩み相談"> 💬 悩み相談</label>
@@ -63,20 +99,36 @@
                 <label><input type="checkbox" class="category-filter" value="製造・ロボティクス"> 🦾 製造・ロボティクス</label>
                 <label><input type="checkbox" class="category-filter" value="日本語特化"> 🇯🇵 日本語特化</label>
             </div>
+            </details>
 
-            <button id="resetBtn" class="reset-button">フィルタとソートをリセット</button>
+            <div class="action-buttons">
+                <button id="resetBtn" class="reset-button" type="button">フィルタとソートをリセット</button>
+                <button id="shareBtn" class="share-button" type="button">🔗 この条件をURLでコピー</button>
+            </div>
+        </div>
+
+        <!-- カテゴリ選択時に出る注意書き -->
+        <div id="notice-medical" class="notice notice-warn" hidden>
+            🏥 医療・ヘルスケアのAIは、あくまで情報の目安です。<strong>医師の診断の代わりにはなりません。</strong>体調に不安があるときは医療機関を受診してください。
+        </div>
+        <div id="notice-consult" class="notice notice-info" hidden>
+            💬 AIは気軽な話し相手になりますが、つらい気持ちが強いときは人の相談窓口も頼ってください。
+            <a href="https://www.mhlw.go.jp/mamorouyokokoro/" target="_blank" rel="noopener noreferrer">厚生労働省「まもろうよ こころ」（相談窓口の一覧）</a>
         </div>
 
         <div class="results-area">
             <div class="results-info">
                 <p>検索結果：<span id="resultCount">0</span> 件</p>
             </div>
+
+            <!-- PC・タブレット用の表 -->
             <table id="resultsTable">
                 <thead>
                     <tr>
                         <th class="sortable" data-key="name">AI <span class="sort-icon">⇅</span></th>
                         <th class="sortable col-company" data-key="company">開発企業 <span class="sort-icon">⇅</span></th>
                         <th class="sortable" data-key="country">国 <span class="sort-icon">⇅</span></th>
+                        <th class="col-jp">日本語</th>
                         <th class="col-category">カテゴリ</th>
                         <th>強み</th>
                         <th>無料利用範囲</th>
@@ -85,15 +137,53 @@
                 </thead>
                 <tbody id="tableBody"></tbody>
             </table>
-            <div id="noResults" class="no-results" style="display: none;">
-                <p>該当するツールがありません。検索条件を変更してください。</p>
+
+            <!-- スマホ用の並び替え＋カード -->
+            <div class="mobile-sort">
+                <label for="mobileSort">並び替え：</label>
+                <select id="mobileSort">
+                    <option value="">標準</option>
+                    <option value="name:asc">AI名（A→Z）</option>
+                    <option value="name:desc">AI名（Z→A）</option>
+                    <option value="country:asc">国名順</option>
+                </select>
             </div>
-            <p class="data-note">※「よく使われるAIのTOP10」はSimilarwebの2026年7月時点の世界のアクセス数ランキングをもとに選定しています。<br>※無料の範囲や料金は各サービスの都合で変わることがあります。利用前に公式サイトでご確認ください。</p>
+            <div id="cardList" class="card-list"></div>
+
+            <div id="noResults" class="no-results" hidden>
+                <p>条件に合うAIが見つかりませんでした。チェックを減らすか、「フィルタとソートをリセット」を押してください。</p>
+            </div>
+
+            <div class="legend">
+                <p><strong>日本語対応の見方：</strong>◯ 日本語の画面あり ／ △ 画面は英語などだが日本語で入力・出力できる ／ × 英語中心（目安です）</p>
+                <p>※「よく使われるAIのTOP10」はSimilarwebの2026年7月時点の世界のアクセス数ランキングをもとに選定しています。</p>
+                <p>※無料の範囲や料金は各サービスの都合で変わることがあります。利用前に公式サイトでご確認ください。</p>
+            </div>
         </div>
 
+        <section class="safety">
+            <h2>🔒 AIを使うときの注意</h2>
+            <p>AIには<strong>名前・住所・電話番号・パスワードなどの個人情報や、会社の秘密情報を入力しない</strong>ようにしましょう。入力した内容がAIの学習に使われる設定になっているサービスもあります。AIの答えは間違っていることもあるので、大事なことは公式の情報で確認してください。</p>
+        </section>
+
+        <section class="feedback">
+            <h2>📮 情報の誤り報告・掲載リクエスト</h2>
+            <p>リンク切れや情報の間違い、「このAIも載せてほしい」というご要望はこちらからお送りください。</p>
+            <a id="feedbackLink" class="feedback-button" href="#" target="_blank" rel="noopener noreferrer">報告・リクエストを送る</a>
+        </section>
+
         <footer>
-            <p>© 2026 無料AI検索ガイド | 定期的に情報を更新しています</p>
+            <p>© 2026 無料AIツール検索ガイド</p>
         </footer>
+    </div>
+
+    <!-- 詳細ポップアップ -->
+    <div id="modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" type="button" data-close aria-label="閉じる">✕</button>
+            <div id="modalBody"></div>
+        </div>
     </div>
 
     <script src="js/main.js"></script>

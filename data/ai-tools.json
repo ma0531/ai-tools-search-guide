@@ -13,7 +13,8 @@
         "情報検索・リサーチ",
         "学習・教育",
         "テキスト生成・AI執筆",
-        "画像作成"
+        "画像作成",
+        "Excel・事務作業"
       ],
       "strengths": [
         "自然な会話",
@@ -22,7 +23,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 1
+      "rank": 1,
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 2,
@@ -33,10 +36,11 @@
       "category": [
         "よく使われるAIのTOP10",
         "パーソナルアシスタント",
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "要約と構造化",
         "テキスト生成・AI執筆",
-        "データ分析・予測"
+        "データ分析・予測",
+        "Excel・事務作業"
       ],
       "strengths": [
         "長文読解",
@@ -45,7 +49,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 3
+      "rank": 3,
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 3,
@@ -58,7 +64,8 @@
         "パーソナルアシスタント",
         "情報検索・リサーチ",
         "画像作成",
-        "データ分析・予測"
+        "データ分析・予測",
+        "Excel・事務作業"
       ],
       "strengths": [
         "Googleサービス連携",
@@ -67,7 +74,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 2
+      "rank": 2,
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 4,
@@ -79,7 +88,8 @@
         "よく使われるAIのTOP10",
         "パーソナルアシスタント",
         "情報検索・リサーチ",
-        "画像作成"
+        "画像作成",
+        "Excel・事務作業"
       ],
       "strengths": [
         "Web検索連携",
@@ -88,7 +98,9 @@
       ],
       "pricing": "完全無料",
       "freeLimit": "Microsoftアカウントで無料利用可",
-      "rank": 7
+      "rank": 7,
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 5,
@@ -108,7 +120,9 @@
       ],
       "pricing": "完全無料",
       "freeLimit": "無料で利用可能",
-      "rank": 10
+      "rank": 10,
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 6,
@@ -129,7 +143,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 5
+      "rank": 5,
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 7,
@@ -149,7 +165,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 6
+      "rank": 6,
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 8,
@@ -160,7 +178,7 @@
       "category": [
         "よく使われるAIのTOP10",
         "パーソナルアシスタント",
-        "アプリ作成",
+        "開発者向けツール",
         "情報検索・リサーチ",
         "学習・教育"
       ],
@@ -171,7 +189,9 @@
       ],
       "pricing": "完全無料",
       "freeLimit": "無料で利用可能",
-      "rank": 4
+      "rank": 4,
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 9,
@@ -190,7 +210,9 @@
         "長文処理"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 10,
@@ -209,7 +231,9 @@
         "検索連携"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 11,
@@ -227,7 +251,9 @@
         "多機能"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 12,
@@ -245,7 +271,9 @@
         "画像生成"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 13,
@@ -263,7 +291,9 @@
         "長文処理"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 14,
@@ -281,7 +311,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 15,
@@ -299,7 +331,9 @@
         "教育向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 16,
@@ -317,7 +351,9 @@
         "画像生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 17,
@@ -334,7 +370,9 @@
         "比較しやすい"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 18,
@@ -352,7 +390,9 @@
         "雑談向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 19,
@@ -369,7 +409,9 @@
         "リサーチモード"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 20,
@@ -387,7 +429,9 @@
         "まとめページ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 21,
@@ -405,7 +449,9 @@
         "出典付き"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 22,
@@ -423,7 +469,9 @@
         "調査"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 23,
@@ -441,7 +489,9 @@
         "複数AI利用"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 24,
@@ -458,7 +508,9 @@
         "多機能"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 25,
@@ -475,7 +527,9 @@
         "検索連携"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 26,
@@ -493,7 +547,9 @@
         "画像生成"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 27,
@@ -511,7 +567,9 @@
         "ページ要約"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 28,
@@ -528,7 +586,9 @@
         "構造化回答"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 29,
@@ -546,7 +606,9 @@
         "深掘り"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 30,
@@ -563,7 +625,9 @@
         "カスタマイズ"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "お試し検索回数のみ（継続は有料）"
+      "freeLimit": "お試し検索回数のみ（継続は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 31,
@@ -581,7 +645,9 @@
         "ハイライト"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 32,
@@ -599,7 +665,9 @@
         "リサーチ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 33,
@@ -608,7 +676,7 @@
       "country": "アメリカ",
       "company": "Meta",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "オープンモデル",
@@ -616,7 +684,9 @@
         "カスタマイズ"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 34,
@@ -625,7 +695,7 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "軽量オープンモデル",
@@ -633,7 +703,9 @@
         "商用利用可"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 35,
@@ -642,7 +714,7 @@
       "country": "アメリカ",
       "company": "Microsoft",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "小型高性能モデル",
@@ -650,7 +722,9 @@
         "オープン"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 36,
@@ -659,7 +733,7 @@
       "country": "アメリカ",
       "company": "Allen Institute for AI",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "論文・リサーチ分析"
       ],
       "strengths": [
@@ -668,7 +742,9 @@
         "研究向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 37,
@@ -677,7 +753,7 @@
       "country": "アラブ首長国連邦",
       "company": "TII",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "オープンモデル",
@@ -685,7 +761,9 @@
         "多言語"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 38,
@@ -694,7 +772,7 @@
       "country": "韓国",
       "company": "LG AI Research",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "韓国語・英語に強い",
@@ -702,7 +780,9 @@
         "推論力"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 39,
@@ -711,7 +791,7 @@
       "country": "日本",
       "company": "東京科学大学",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "日本語特化"
       ],
       "strengths": [
@@ -720,7 +800,9 @@
         "研究向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 40,
@@ -729,7 +811,7 @@
       "country": "日本",
       "company": "国立情報学研究所",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "日本語特化"
       ],
       "strengths": [
@@ -738,7 +820,9 @@
         "日本語"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 41,
@@ -747,7 +831,7 @@
       "country": "日本",
       "company": "ELYZA",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "日本語特化"
       ],
       "strengths": [
@@ -756,7 +840,9 @@
         "業務活用"
       ],
       "pricing": "完全無料",
-      "freeLimit": "公開モデルは無料"
+      "freeLimit": "公開モデルは無料",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 42,
@@ -765,7 +851,7 @@
       "country": "日本",
       "company": "rinna",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "日本語特化"
       ],
       "strengths": [
@@ -774,7 +860,9 @@
         "オープン公開"
       ],
       "pricing": "完全無料",
-      "freeLimit": "公開モデルは無料"
+      "freeLimit": "公開モデルは無料",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 43,
@@ -783,7 +871,7 @@
       "country": "アメリカ",
       "company": "Ollama",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "PCでAIを動かす",
@@ -791,7 +879,9 @@
         "オフライン"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": true
     },
     {
       "id": 44,
@@ -800,7 +890,7 @@
       "country": "アメリカ",
       "company": "Element Labs",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "GUIでローカルAI",
@@ -808,7 +898,9 @@
         "初心者向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 45,
@@ -817,7 +909,7 @@
       "country": "アメリカ",
       "company": "Nomic AI",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "オフラインチャット",
@@ -825,7 +917,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": true
     },
     {
       "id": 46,
@@ -834,7 +928,7 @@
       "country": "シンガポール",
       "company": "Menlo Research",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "オフラインAI",
@@ -842,7 +936,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": true
     },
     {
       "id": 47,
@@ -851,7 +947,7 @@
       "country": "アメリカ",
       "company": "Open WebUI",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "自前のAIチャット画面",
@@ -859,7 +955,9 @@
         "拡張性"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 48,
@@ -868,7 +966,7 @@
       "country": "アメリカ",
       "company": "Hugging Face",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -877,7 +975,9 @@
         "コミュニティ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 49,
@@ -886,7 +986,7 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "Gemini APIを無料で試せる",
@@ -894,7 +994,9 @@
         "アプリ生成"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 50,
@@ -903,7 +1005,7 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測",
         "学習・教育"
       ],
@@ -913,7 +1015,9 @@
         "共有が簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料GPUは時間制限あり"
+      "freeLimit": "無料GPUは時間制限あり",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 51,
@@ -931,7 +1035,9 @@
         "コンペ"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 52,
@@ -940,7 +1046,7 @@
       "country": "アメリカ",
       "company": "Groq",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "超高速推論API",
@@ -948,7 +1054,9 @@
         "無料枠"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 53,
@@ -957,7 +1065,7 @@
       "country": "アメリカ",
       "company": "OpenRouter",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "多数のAIを1つのAPIで",
@@ -965,7 +1073,9 @@
         "比較"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 54,
@@ -974,7 +1084,7 @@
       "country": "アメリカ",
       "company": "Replicate",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "画像作成"
       ],
       "strengths": [
@@ -983,7 +1093,9 @@
         "従量課金"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 55,
@@ -992,7 +1104,7 @@
       "country": "アメリカ",
       "company": "Together AI",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "オープンモデルAPI",
@@ -1000,7 +1112,9 @@
         "高速"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 56,
@@ -1009,7 +1123,7 @@
       "country": "カナダ",
       "company": "Cohere",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "検索・RAG向け",
@@ -1017,7 +1131,9 @@
         "試用キー"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 57,
@@ -1026,7 +1142,7 @@
       "country": "アメリカ",
       "company": "LangGenius",
       "category": [
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "タスクの自動化（RPA連携）"
       ],
       "strengths": [
@@ -1035,7 +1151,9 @@
         "RAG"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "クラウド版の無料枠・自前運用は無料"
+      "freeLimit": "クラウド版の無料枠・自前運用は無料",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 58,
@@ -1044,7 +1162,7 @@
       "country": "アメリカ",
       "company": "FlowiseAI",
       "category": [
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "ドラッグ操作でAIアプリ",
@@ -1052,7 +1170,9 @@
         "RAG"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 59,
@@ -1061,7 +1181,7 @@
       "country": "アメリカ",
       "company": "LangChain",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "LLMアプリ開発の定番",
@@ -1069,7 +1189,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 60,
@@ -1078,7 +1200,7 @@
       "country": "アメリカ",
       "company": "LlamaIndex",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -1087,7 +1209,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 61,
@@ -1096,7 +1220,7 @@
       "country": "アメリカ",
       "company": "CrewAI",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "タスクの自動化（RPA連携）"
       ],
       "strengths": [
@@ -1105,7 +1229,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 62,
@@ -1115,7 +1241,7 @@
       "company": "Significant Gravitas",
       "category": [
         "タスクの自動化（RPA連携）",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "自律エージェント",
@@ -1123,7 +1249,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 63,
@@ -1132,7 +1260,7 @@
       "country": "アメリカ",
       "company": "Hugging Face",
       "category": [
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "数行でAIデモ画面",
@@ -1140,7 +1268,9 @@
         "Python"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 64,
@@ -1149,7 +1279,7 @@
       "country": "アメリカ",
       "company": "Snowflake",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -1158,7 +1288,9 @@
         "無料公開"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 65,
@@ -1167,7 +1299,7 @@
       "country": "アメリカ",
       "company": "PyTorch Foundation",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -1176,7 +1308,9 @@
         "柔軟"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 66,
@@ -1185,7 +1319,7 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -1194,7 +1328,9 @@
         "教材豊富"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 67,
@@ -1212,7 +1348,9 @@
         "Python"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 68,
@@ -1229,7 +1367,9 @@
         "高速"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 69,
@@ -1247,7 +1387,9 @@
         "教育向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 70,
@@ -1257,7 +1399,7 @@
       "company": "Weights & Biases",
       "category": [
         "データ分析・予測",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "学習の記録・比較",
@@ -1265,7 +1407,9 @@
         "チーム共有"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 71,
@@ -1282,7 +1426,9 @@
         "マネージド"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 72,
@@ -1299,7 +1445,9 @@
         "ハイブリッド検索"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 73,
@@ -1316,7 +1464,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 74,
@@ -1333,7 +1483,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 75,
@@ -1350,7 +1502,9 @@
         "高速"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 76,
@@ -1359,7 +1513,7 @@
       "country": "アメリカ",
       "company": "Supabase",
       "category": [
-        "アプリ作成",
+        "開発者向けツール",
         "データ分析・予測"
       ],
       "strengths": [
@@ -1368,7 +1522,9 @@
         "無料枠"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 77,
@@ -1385,7 +1541,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 78,
@@ -1394,7 +1552,7 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "学習・教育",
         "製造・ロボティクス"
       ],
@@ -1404,7 +1562,9 @@
         "学習向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 79,
@@ -1413,7 +1573,8 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "アプリ作成"
+        "ノーコードでアプリ作成",
+        "Android開発"
       ],
       "strengths": [
         "AIでアプリ試作",
@@ -1421,7 +1582,9 @@
         "Android対応"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 80,
@@ -1431,7 +1594,8 @@
       "company": "GitHub（Microsoft）",
       "category": [
         "コード補完",
-        "アプリ作成"
+        "開発者向けツール",
+        "Android開発"
       ],
       "strengths": [
         "コード補完の定番",
@@ -1439,7 +1603,9 @@
         "チャット"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "Copilot Free（月の回数制限）"
+      "freeLimit": "Copilot Free（月の回数制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 81,
@@ -1450,7 +1616,8 @@
       "category": [
         "よく使われるAIのTOP10",
         "コード補完",
-        "アプリ作成"
+        "開発者向けツール",
+        "Android開発"
       ],
       "strengths": [
         "AIエディタ",
@@ -1459,7 +1626,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 9
+      "rank": 9,
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 82,
@@ -1469,7 +1638,7 @@
       "company": "Cognition",
       "category": [
         "コード補完",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "AIエディタ",
@@ -1477,7 +1646,9 @@
         "旧Codeium"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 83,
@@ -1486,7 +1657,8 @@
       "country": "アメリカ",
       "company": "Google",
       "category": [
-        "コード補完"
+        "コード補完",
+        "Android開発"
       ],
       "strengths": [
         "個人は無料",
@@ -1494,7 +1666,9 @@
         "補完"
       ],
       "pricing": "完全無料",
-      "freeLimit": "個人利用は無料"
+      "freeLimit": "個人利用は無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 84,
@@ -1511,7 +1685,9 @@
         "セキュリティ診断"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 85,
@@ -1521,7 +1697,7 @@
       "company": "Amazon",
       "category": [
         "コード補完",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "仕様書から開発",
@@ -1529,7 +1705,9 @@
         "設計支援"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 86,
@@ -1546,7 +1724,9 @@
         "自動修正"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 87,
@@ -1563,7 +1743,9 @@
         "多IDE対応"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 88,
@@ -1580,7 +1762,9 @@
         "VS Code"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 89,
@@ -1597,7 +1781,9 @@
         "ローカルAI可"
       ],
       "pricing": "完全無料",
-      "freeLimit": "拡張は無料（AI利用料は別）"
+      "freeLimit": "拡張は無料（AI利用料は別）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 90,
@@ -1614,7 +1800,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "ツールは無料（AI利用料は別）"
+      "freeLimit": "ツールは無料（AI利用料は別）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 91,
@@ -1623,7 +1811,7 @@
       "country": "アメリカ",
       "company": "Replit",
       "category": [
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "コード補完",
         "学習・教育"
       ],
@@ -1633,7 +1821,9 @@
         "公開簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 92,
@@ -1642,7 +1832,7 @@
       "country": "アメリカ",
       "company": "StackBlitz",
       "category": [
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "指示だけでWebアプリ作成",
@@ -1650,7 +1840,9 @@
         "公開"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 93,
@@ -1659,7 +1851,7 @@
       "country": "スウェーデン",
       "company": "Lovable",
       "category": [
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "デザイン・UI/UX"
       ],
       "strengths": [
@@ -1668,7 +1860,9 @@
         "DB連携"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 94,
@@ -1677,7 +1871,7 @@
       "country": "アメリカ",
       "company": "Vercel",
       "category": [
-        "アプリ作成",
+        "ノーコードでアプリ作成",
         "デザイン・UI/UX"
       ],
       "strengths": [
@@ -1686,7 +1880,9 @@
         "即公開"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 95,
@@ -1703,7 +1899,9 @@
         "エラー解説"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 96,
@@ -1720,7 +1918,9 @@
         "品質向上"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 97,
@@ -1729,7 +1929,8 @@
       "country": "チェコ",
       "company": "JetBrains",
       "category": [
-        "コード補完"
+        "コード補完",
+        "Android開発"
       ],
       "strengths": [
         "Android Studio等に統合",
@@ -1737,7 +1938,9 @@
         "リファクタリング"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 98,
@@ -1747,7 +1950,7 @@
       "company": "ByteDance",
       "category": [
         "コード補完",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "AIエディタ",
@@ -1755,7 +1958,9 @@
         "無料枠が大きい"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 99,
@@ -1772,7 +1977,9 @@
         "IDE対応"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 100,
@@ -1789,7 +1996,9 @@
         "オープンモデル"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 101,
@@ -1806,7 +2015,9 @@
         "拡張機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 102,
@@ -1823,7 +2034,9 @@
         "スタイル豊富"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "現在は有料プランのみ（無料トライアルは不定期）"
+      "freeLimit": "現在は有料プランのみ（無料トライアルは不定期）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 103,
@@ -1840,7 +2053,9 @@
         "簡単操作"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 104,
@@ -1858,7 +2073,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 105,
@@ -1876,7 +2093,9 @@
         "生成塗りつぶし"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "月ごとの無料クレジット"
+      "freeLimit": "月ごとの無料クレジット",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 106,
@@ -1886,7 +2105,8 @@
       "company": "Leonardo AI（Canva）",
       "category": [
         "画像作成",
-        "デザイン・UI/UX"
+        "デザイン・UI/UX",
+        "ゲーム開発"
       ],
       "strengths": [
         "ゲーム素材向け",
@@ -1894,7 +2114,9 @@
         "毎日クレジット"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "毎日無料クレジット付与"
+      "freeLimit": "毎日無料クレジット付与",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 107,
@@ -1912,7 +2134,9 @@
         "高品質"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 108,
@@ -1929,7 +2153,9 @@
         "拡張豊富"
       ],
       "pricing": "完全無料",
-      "freeLimit": "ローカル実行は無料"
+      "freeLimit": "ローカル実行は無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 109,
@@ -1946,7 +2172,9 @@
         "高品質"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "初回クレジットのみ"
+      "freeLimit": "初回クレジットのみ",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 110,
@@ -1963,7 +2191,9 @@
         "オンライン生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 111,
@@ -1980,7 +2210,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 112,
@@ -1997,7 +2229,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 113,
@@ -2015,7 +2249,9 @@
         "編集機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 114,
@@ -2032,7 +2268,9 @@
         "毎日クレジット"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 115,
@@ -2049,7 +2287,9 @@
         "手軽"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料（広告あり）"
+      "freeLimit": "無料（広告あり）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 116,
@@ -2067,7 +2307,9 @@
         "動画生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 117,
@@ -2084,7 +2326,9 @@
         "文字表現"
       ],
       "pricing": "完全無料",
-      "freeLimit": "公開モデルはローカルで無料"
+      "freeLimit": "公開モデルはローカルで無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 118,
@@ -2102,7 +2346,9 @@
         "ブランド統一"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 119,
@@ -2119,7 +2365,9 @@
         "毎日クレジット"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 120,
@@ -2137,7 +2385,9 @@
         "CapCut連携"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "毎日無料クレジット付与"
+      "freeLimit": "毎日無料クレジット付与",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 121,
@@ -2154,7 +2404,9 @@
         "高品質"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 122,
@@ -2171,7 +2423,9 @@
         "編集機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 123,
@@ -2189,7 +2443,9 @@
         "高画質化"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 124,
@@ -2206,7 +2462,9 @@
         "手軽"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 125,
@@ -2223,7 +2481,9 @@
         "コラージュ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 126,
@@ -2241,7 +2501,9 @@
         "イラスト向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 127,
@@ -2259,7 +2521,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 128,
@@ -2276,7 +2540,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "ローカル版は無料"
+      "freeLimit": "ローカル版は無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 129,
@@ -2293,7 +2559,9 @@
         "中国語対応"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 130,
@@ -2311,7 +2579,9 @@
         "高品質"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 131,
@@ -2330,7 +2600,9 @@
         "誰でも簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 132,
@@ -2347,7 +2619,9 @@
         "一瞬で完了"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "低解像度は無料"
+      "freeLimit": "低解像度は無料",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 133,
@@ -2364,7 +2638,9 @@
         "スマホ対応"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 134,
@@ -2382,7 +2658,9 @@
         "高画質化"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 135,
@@ -2399,7 +2677,9 @@
         "高品質"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 136,
@@ -2416,7 +2696,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 137,
@@ -2433,7 +2715,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 138,
@@ -2451,7 +2735,9 @@
         "完全無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 139,
@@ -2468,7 +2754,9 @@
         "色補正"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 140,
@@ -2485,7 +2773,9 @@
         "シャープ化"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 141,
@@ -2503,7 +2793,9 @@
         "背景除去"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 142,
@@ -2521,7 +2813,9 @@
         "背景除去"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 143,
@@ -2538,7 +2832,9 @@
         "AI置換"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料（広告あり）"
+      "freeLimit": "無料（広告あり）",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 144,
@@ -2556,7 +2852,9 @@
         "SNS向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 145,
@@ -2573,7 +2871,9 @@
         "完全無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 146,
@@ -2590,7 +2890,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 147,
@@ -2607,7 +2909,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 148,
@@ -2624,7 +2928,9 @@
         "プロ向け"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 149,
@@ -2641,7 +2947,9 @@
         "人物補正"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 150,
@@ -2659,7 +2967,9 @@
         "SNS素材"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 151,
@@ -2676,7 +2986,9 @@
         "一括処理"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 152,
@@ -2693,7 +3005,9 @@
         "高速"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 153,
@@ -2711,7 +3025,9 @@
         "プロ向け"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "初回のみ無料クレジット"
+      "freeLimit": "初回のみ無料クレジット",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 154,
@@ -2728,7 +3044,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 155,
@@ -2746,7 +3064,9 @@
         "毎日クレジット"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "毎日無料クレジット付与"
+      "freeLimit": "毎日無料クレジット付与",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 156,
@@ -2763,7 +3083,9 @@
         "無料枠"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 157,
@@ -2780,7 +3102,9 @@
         "高速生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 158,
@@ -2797,7 +3121,9 @@
         "SNS向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 159,
@@ -2815,7 +3141,9 @@
         "カメラ操作"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 160,
@@ -2832,7 +3160,9 @@
         "高品質"
       ],
       "pricing": "完全無料",
-      "freeLimit": "公開モデルは無料"
+      "freeLimit": "公開モデルは無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 161,
@@ -2849,7 +3179,9 @@
         "研究向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 162,
@@ -2866,7 +3198,9 @@
         "研究向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 163,
@@ -2883,7 +3217,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 164,
@@ -2900,7 +3236,9 @@
         "研修動画向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 165,
@@ -2918,7 +3256,9 @@
         "多言語"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 166,
@@ -2935,7 +3275,9 @@
         "プレゼン向け"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 167,
@@ -2952,7 +3294,9 @@
         "音声同期"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 168,
@@ -2969,7 +3313,9 @@
         "ショート動画"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 169,
@@ -2986,7 +3332,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 170,
@@ -3004,7 +3352,9 @@
         "収録"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 171,
@@ -3021,7 +3371,9 @@
         "共同作業"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 172,
@@ -3038,7 +3390,9 @@
         "素材豊富"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料版は透かし付き"
+      "freeLimit": "無料版は透かし付き",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 173,
@@ -3056,7 +3410,9 @@
         "字幕"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 174,
@@ -3073,7 +3429,9 @@
         "ハイライト作成"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 175,
@@ -3090,7 +3448,9 @@
         "自動字幕"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 176,
@@ -3108,7 +3468,9 @@
         "日本語対応"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 177,
@@ -3125,7 +3487,9 @@
         "AI要約"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 178,
@@ -3143,7 +3507,9 @@
         "翻訳"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 179,
@@ -3160,7 +3526,9 @@
         "無料"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 180,
@@ -3177,7 +3545,9 @@
         "エフェクト"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料版は透かし付き"
+      "freeLimit": "無料版は透かし付き",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 181,
@@ -3194,7 +3564,9 @@
         "手ぶれ補正"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 182,
@@ -3212,7 +3584,9 @@
         "音声同期"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 183,
@@ -3229,7 +3603,9 @@
         "高品質"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "毎日無料クレジット付与"
+      "freeLimit": "毎日無料クレジット付与",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 184,
@@ -3246,7 +3622,9 @@
         "歌詞生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 185,
@@ -3263,7 +3641,9 @@
         "参考曲から生成"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 186,
@@ -3272,7 +3652,8 @@
       "country": "イギリス",
       "company": "Stability AI",
       "category": [
-        "音楽・音声生成"
+        "音楽・音声生成",
+        "ゲーム開発"
       ],
       "strengths": [
         "効果音・BGM生成",
@@ -3280,7 +3661,9 @@
         "商用配慮"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 187,
@@ -3298,7 +3681,9 @@
         "動画向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "作成・試聴は無料（ダウンロードは有料）"
+      "freeLimit": "作成・試聴は無料（ダウンロードは有料）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 188,
@@ -3315,7 +3700,9 @@
         "感情表現"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 189,
@@ -3332,7 +3719,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 190,
@@ -3349,7 +3738,9 @@
         "初心者向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 191,
@@ -3366,7 +3757,9 @@
         "配信向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 192,
@@ -3383,7 +3776,9 @@
         "編集機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 193,
@@ -3400,7 +3795,9 @@
         "動画向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 194,
@@ -3417,7 +3814,9 @@
         "商用向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 195,
@@ -3435,7 +3834,9 @@
         "練習向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 196,
@@ -3452,7 +3853,9 @@
         "ボーカル抽出"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "初回の無料分のみ"
+      "freeLimit": "初回の無料分のみ",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 197,
@@ -3469,7 +3872,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 198,
@@ -3479,7 +3884,8 @@
       "company": "ElevenLabs",
       "category": [
         "音楽・音声生成",
-        "言語・翻訳"
+        "言語・翻訳",
+        "ゲーム開発"
       ],
       "strengths": [
         "自然な音声合成",
@@ -3487,7 +3893,9 @@
         "多言語吹替"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 199,
@@ -3504,7 +3912,9 @@
         "動画向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 200,
@@ -3522,7 +3932,9 @@
         "学習支援"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 201,
@@ -3540,7 +3952,9 @@
         "ブラウザ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 202,
@@ -3558,7 +3972,9 @@
         "完全無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 203,
@@ -3576,7 +3992,9 @@
         "ナレーション"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 204,
@@ -3594,7 +4012,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 205,
@@ -3611,7 +4031,9 @@
         "偽音声検出"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 206,
@@ -3628,7 +4050,9 @@
         "ブラウザ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 207,
@@ -3645,7 +4069,9 @@
         "オープンモデル"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 208,
@@ -3663,7 +4089,9 @@
         "ローカル実行"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 209,
@@ -3681,7 +4109,9 @@
         "英語に強い"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 210,
@@ -3698,7 +4128,9 @@
         "人手サービスも"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 211,
@@ -3709,7 +4141,8 @@
       "category": [
         "音声認識",
         "要約と構造化",
-        "日本語特化"
+        "日本語特化",
+        "Excel・事務作業"
       ],
       "strengths": [
         "日本語文字起こし",
@@ -3717,7 +4150,9 @@
         "多言語"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 212,
@@ -3735,7 +4170,9 @@
         "各種会議ツール連携"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 213,
@@ -3753,7 +4190,9 @@
         "多言語"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 214,
@@ -3771,7 +4210,9 @@
         "ハイライト"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 215,
@@ -3789,7 +4230,9 @@
         "要約"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 216,
@@ -3807,7 +4250,9 @@
         "分析"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 217,
@@ -3824,7 +4269,9 @@
         "会議メモ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 218,
@@ -3834,7 +4281,7 @@
       "company": "Gladia",
       "category": [
         "音声認識",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "リアルタイム音声認識API",
@@ -3842,7 +4289,9 @@
         "低遅延"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 219,
@@ -3852,7 +4301,7 @@
       "company": "AssemblyAI",
       "category": [
         "音声認識",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "音声認識API",
@@ -3860,7 +4309,9 @@
         "要約"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "初回クレジットのみ"
+      "freeLimit": "初回クレジットのみ",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 220,
@@ -3870,7 +4321,7 @@
       "company": "Deepgram",
       "category": [
         "音声認識",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "高速音声認識API",
@@ -3878,7 +4329,9 @@
         "音声合成"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "初回クレジットのみ"
+      "freeLimit": "初回クレジットのみ",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 221,
@@ -3895,7 +4348,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 222,
@@ -3913,7 +4368,9 @@
         "高速"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 223,
@@ -3930,7 +4387,9 @@
         "多言語"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 224,
@@ -3947,7 +4406,9 @@
         "安価"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 225,
@@ -3964,7 +4425,9 @@
         "チーム向け"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 226,
@@ -3981,7 +4444,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 227,
@@ -3999,7 +4464,9 @@
         "Bテスト"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 228,
@@ -4017,7 +4484,9 @@
         "構成案"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 229,
@@ -4035,7 +4504,9 @@
         "ブラウザ拡張"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 230,
@@ -4054,7 +4525,9 @@
         "文法チェック"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 231,
@@ -4072,7 +4545,9 @@
         "拡張機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 232,
@@ -4090,7 +4565,9 @@
         "拡張機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 233,
@@ -4107,7 +4584,9 @@
         "小説向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 234,
@@ -4124,7 +4603,9 @@
         "描写強化"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 235,
@@ -4142,7 +4623,9 @@
         "チーム"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 236,
@@ -4159,7 +4642,9 @@
         "ブラウザ拡張"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 237,
@@ -4177,7 +4662,9 @@
         "日本語対応"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 238,
@@ -4195,7 +4682,9 @@
         "記事執筆"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 239,
@@ -4213,7 +4702,9 @@
         "企画書"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 240,
@@ -4231,7 +4722,9 @@
         "文章補完"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 241,
@@ -4249,7 +4742,9 @@
         "投稿前チェック"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 242,
@@ -4267,7 +4762,9 @@
         "Notion統合"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料版は試用回数のみ"
+      "freeLimit": "無料版は試用回数のみ",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 243,
@@ -4285,7 +4782,9 @@
         "簡単編集"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 244,
@@ -4303,7 +4802,9 @@
         "編集可能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 245,
@@ -4320,7 +4821,9 @@
         "高精度"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 246,
@@ -4337,7 +4840,9 @@
         "完全無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 247,
@@ -4354,7 +4859,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 248,
@@ -4371,7 +4878,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 249,
@@ -4388,7 +4897,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 250,
@@ -4405,7 +4916,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 251,
@@ -4422,7 +4935,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 252,
@@ -4440,7 +4955,9 @@
         "言い換え"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 253,
@@ -4457,7 +4974,9 @@
         "拡張機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 254,
@@ -4475,7 +4994,9 @@
         "長文対応"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 255,
@@ -4494,7 +5015,9 @@
         "出典付き"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 256,
@@ -4512,7 +5035,9 @@
         "構造化"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 257,
@@ -4530,7 +5055,9 @@
         "質問応答"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 258,
@@ -4548,7 +5075,9 @@
         "比較"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 259,
@@ -4566,7 +5095,9 @@
         "参考文献整理"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 260,
@@ -4585,7 +5116,9 @@
         "引用付き"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 261,
@@ -4603,7 +5136,9 @@
         "文献レビュー"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 262,
@@ -4620,7 +5155,9 @@
         "論文検索"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 263,
@@ -4638,7 +5175,9 @@
         "引用ネットワーク"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 264,
@@ -4656,7 +5195,9 @@
         "PDFと会話"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 265,
@@ -4673,7 +5214,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 266,
@@ -4690,7 +5233,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 267,
@@ -4707,7 +5252,9 @@
         "引用関係"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 268,
@@ -4725,7 +5272,9 @@
         "レポート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 269,
@@ -4743,7 +5292,9 @@
         "旧Unriddle"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 270,
@@ -4753,7 +5304,8 @@
       "company": "Julius AI",
       "category": [
         "データ分析・予測",
-        "論文・リサーチ分析"
+        "論文・リサーチ分析",
+        "Excel・事務作業"
       ],
       "strengths": [
         "会話でデータ分析",
@@ -4761,7 +5313,9 @@
         "Excel・CSV対応"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 271,
@@ -4779,7 +5333,9 @@
         "幅広い知識"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": true
     },
     {
       "id": 272,
@@ -4788,7 +5344,8 @@
       "country": "ドイツ",
       "company": "Rows",
       "category": [
-        "データ分析・予測"
+        "データ分析・予測",
+        "Excel・事務作業"
       ],
       "strengths": [
         "AI付き表計算",
@@ -4796,7 +5353,9 @@
         "自動分析"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 273,
@@ -4806,7 +5365,8 @@
       "company": "KNIME",
       "category": [
         "データ分析・予測",
-        "タスクの自動化（RPA連携）"
+        "タスクの自動化（RPA連携）",
+        "Excel・事務作業"
       ],
       "strengths": [
         "ノーコードでデータ処理",
@@ -4814,7 +5374,9 @@
         "無料デスクトップ版"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 274,
@@ -4832,7 +5394,9 @@
         "学習向け"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 275,
@@ -4849,7 +5413,9 @@
         "Python・R"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 276,
@@ -4858,7 +5424,8 @@
       "country": "アメリカ",
       "company": "Microsoft",
       "category": [
-        "タスクの自動化（RPA連携）"
+        "タスクの自動化（RPA連携）",
+        "Excel・事務作業"
       ],
       "strengths": [
         "Windowsで無料RPA",
@@ -4866,7 +5433,9 @@
         "AI連携"
       ],
       "pricing": "完全無料",
-      "freeLimit": "Windowsユーザーは無料"
+      "freeLimit": "Windowsユーザーは無料",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 277,
@@ -4883,7 +5452,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 278,
@@ -4900,7 +5471,9 @@
         "連携豊富"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 279,
@@ -4917,7 +5490,9 @@
         "初心者向け"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 280,
@@ -4927,7 +5502,7 @@
       "company": "n8n",
       "category": [
         "タスクの自動化（RPA連携）",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "AIワークフロー",
@@ -4935,7 +5510,9 @@
         "柔軟"
       ],
       "pricing": "完全無料",
-      "freeLimit": "自前運用（セルフホスト）は無料"
+      "freeLimit": "自前運用（セルフホスト）は無料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 281,
@@ -4944,7 +5521,8 @@
       "country": "アメリカ",
       "company": "UiPath",
       "category": [
-        "タスクの自動化（RPA連携）"
+        "タスクの自動化（RPA連携）",
+        "Excel・事務作業"
       ],
       "strengths": [
         "本格RPA",
@@ -4952,7 +5530,9 @@
         "個人向けCommunity版"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "Community版（個人・小規模）は無料"
+      "freeLimit": "Community版（個人・小規模）は無料",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 282,
@@ -4969,7 +5549,9 @@
         "Community版"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 283,
@@ -4986,7 +5568,9 @@
         "拡張機能"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 284,
@@ -5003,7 +5587,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 285,
@@ -5021,7 +5607,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 286,
@@ -5039,7 +5627,9 @@
         "カレンダー連携"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 287,
@@ -5056,7 +5646,9 @@
         "自動再計画"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 288,
@@ -5073,7 +5665,9 @@
         "名刺デザイン"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "デザイン作成は無料・ダウンロードは有料"
+      "freeLimit": "デザイン作成は無料・ダウンロードは有料",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 289,
@@ -5090,7 +5684,9 @@
         "チーム"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 290,
@@ -5100,7 +5696,7 @@
       "company": "Uizard",
       "category": [
         "デザイン・UI/UX",
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "手書きからアプリ画面",
@@ -5108,7 +5704,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 291,
@@ -5118,7 +5716,8 @@
       "company": "Figma",
       "category": [
         "デザイン・UI/UX",
-        "アプリ作成"
+        "開発者向けツール",
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "UIデザインの定番",
@@ -5126,7 +5725,9 @@
         "共同編集"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 292,
@@ -5136,7 +5737,7 @@
       "company": "Framer",
       "category": [
         "デザイン・UI/UX",
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "AIでWebサイト作成",
@@ -5144,7 +5745,9 @@
         "公開まで"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 293,
@@ -5154,7 +5757,7 @@
       "company": "Google",
       "category": [
         "デザイン・UI/UX",
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "テキストからアプリ画面",
@@ -5162,7 +5765,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 294,
@@ -5179,7 +5784,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 295,
@@ -5197,7 +5804,9 @@
         "共同作業"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 296,
@@ -5207,7 +5816,8 @@
       "company": "Landbot",
       "category": [
         "パーソナルアシスタント",
-        "デザイン・UI/UX"
+        "デザイン・UI/UX",
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "ノーコードでチャットボット",
@@ -5215,7 +5825,9 @@
         "テンプレート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 297,
@@ -5225,7 +5837,7 @@
       "company": "Durable",
       "category": [
         "デザイン・UI/UX",
-        "アプリ作成"
+        "ノーコードでアプリ作成"
       ],
       "strengths": [
         "AIでWebサイト自動作成",
@@ -5233,7 +5845,9 @@
         "簡単"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 298,
@@ -5250,7 +5864,9 @@
         "教師向け無料"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "教師向けは無料"
+      "freeLimit": "教師向けは無料",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 299,
@@ -5267,7 +5883,9 @@
         "暗記学習"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 300,
@@ -5284,7 +5902,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "基本の解説は無料"
+      "freeLimit": "基本の解説は無料",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 301,
@@ -5301,7 +5921,9 @@
         "宿題支援"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 302,
@@ -5318,7 +5940,9 @@
         "コミュニティ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 303,
@@ -5335,7 +5959,9 @@
         "練習問題"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": true
     },
     {
       "id": 304,
@@ -5352,7 +5978,9 @@
         "簡単"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 305,
@@ -5370,7 +5998,9 @@
         "日本語対応"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 306,
@@ -5388,7 +6018,9 @@
         "フィードバック"
       ],
       "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+      "freeLimit": "無料トライアルのみ（継続利用は有料）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 307,
@@ -5406,7 +6038,9 @@
         "無料"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 308,
@@ -5423,7 +6057,9 @@
         "評価支援"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 309,
@@ -5441,7 +6077,9 @@
         "試験対策"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 310,
@@ -5461,7 +6099,9 @@
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
-      "rank": 8
+      "rank": 8,
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 311,
@@ -5478,7 +6118,9 @@
         "感情サポート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 312,
@@ -5496,7 +6138,9 @@
         "セルフケア"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 313,
@@ -5514,7 +6158,9 @@
         "対話型サポート"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 314,
@@ -5531,7 +6177,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 315,
@@ -5549,7 +6197,9 @@
         "気分記録"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 316,
@@ -5567,7 +6217,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": false
     },
     {
       "id": 317,
@@ -5584,7 +6236,9 @@
         "多言語"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
     },
     {
       "id": 318,
@@ -5602,7 +6256,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true
     },
     {
       "id": 319,
@@ -5619,7 +6275,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": true
     },
     {
       "id": 320,
@@ -5636,7 +6294,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 321,
@@ -5654,7 +6314,9 @@
         "引用付き"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "医療従事者は無料"
+      "freeLimit": "医療従事者は無料",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 322,
@@ -5671,7 +6333,9 @@
         "臨床メモ"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 323,
@@ -5688,7 +6352,9 @@
         "セルフケア"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 324,
@@ -5705,7 +6371,9 @@
         "無料"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 325,
@@ -5722,7 +6390,9 @@
         "豊富な部品"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 326,
@@ -5732,7 +6402,7 @@
       "company": "Hugging Face",
       "category": [
         "製造・ロボティクス",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "ロボットAIの学習",
@@ -5740,7 +6410,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 327,
@@ -5750,7 +6422,7 @@
       "company": "Edge Impulse（Qualcomm）",
       "category": [
         "製造・ロボティクス",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "マイコン向けAI",
@@ -5758,7 +6430,9 @@
         "無料枠"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 328,
@@ -5769,7 +6443,7 @@
       "category": [
         "製造・ロボティクス",
         "画像編集",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "画像認識モデル作成",
@@ -5777,7 +6451,9 @@
         "データ注釈"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 329,
@@ -5787,7 +6463,7 @@
       "company": "Ultralytics",
       "category": [
         "製造・ロボティクス",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "物体検出",
@@ -5795,7 +6471,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 330,
@@ -5805,7 +6483,7 @@
       "company": "OpenCV.org",
       "category": [
         "製造・ロボティクス",
-        "アプリ作成"
+        "開発者向けツール"
       ],
       "strengths": [
         "画像処理の定番",
@@ -5813,7 +6491,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 331,
@@ -5830,7 +6510,9 @@
         "文書抽出"
       ],
       "pricing": "無料枠あり",
-      "freeLimit": "無料プランあり（回数・機能に制限）"
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 332,
@@ -5848,7 +6530,9 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
     },
     {
       "id": 333,
@@ -5865,7 +6549,285 @@
         "オープンソース"
       ],
       "pricing": "完全無料",
-      "freeLimit": "無料で利用可能"
+      "freeLimit": "無料で利用可能",
+      "japanese": "×",
+      "noSignup": false
+    },
+    {
+      "id": 334,
+      "name": "Meshy",
+      "url": "https://www.meshy.ai",
+      "country": "アメリカ",
+      "company": "Meshy",
+      "category": [
+        "3Dモデル生成",
+        "ゲーム開発"
+      ],
+      "strengths": [
+        "テキスト・画像から3Dモデル",
+        "テクスチャ生成",
+        "ゲーム素材向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 335,
+      "name": "Tripo AI",
+      "url": "https://www.tripo3d.ai",
+      "country": "中国",
+      "company": "VAST",
+      "category": [
+        "3Dモデル生成",
+        "ゲーム開発"
+      ],
+      "strengths": [
+        "画像から高品質3D",
+        "リギング対応",
+        "素早い生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 336,
+      "name": "Hyper3D Rodin",
+      "url": "https://hyper3d.ai",
+      "country": "中国",
+      "company": "Deemos",
+      "category": [
+        "3Dモデル生成"
+      ],
+      "strengths": [
+        "高精細な3D生成",
+        "画像・テキスト対応",
+        "プロ品質"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 337,
+      "name": "Hunyuan3D",
+      "url": "https://3d.hunyuan.tencent.com",
+      "country": "中国",
+      "company": "Tencent",
+      "category": [
+        "3Dモデル生成"
+      ],
+      "strengths": [
+        "オープンな3D生成モデル",
+        "画像から3D",
+        "ローカル実行可"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 338,
+      "name": "TRELLIS",
+      "url": "https://github.com/microsoft/TRELLIS",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "3Dモデル生成",
+        "開発者向けツール"
+      ],
+      "strengths": [
+        "オープンな3D生成",
+        "研究向け",
+        "ローカル実行"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 339,
+      "name": "Spline",
+      "url": "https://spline.design",
+      "country": "アメリカ",
+      "company": "Spline",
+      "category": [
+        "3Dモデル生成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ブラウザで3Dデザイン",
+        "AIで3D生成",
+        "Web公開"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 340,
+      "name": "Rosebud AI",
+      "url": "https://rosebud.ai",
+      "country": "アメリカ",
+      "company": "Rosebud AI",
+      "category": [
+        "ゲーム開発",
+        "ノーコードでアプリ作成"
+      ],
+      "strengths": [
+        "会話でブラウザゲーム作成",
+        "公開・共有",
+        "初心者向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 341,
+      "name": "Unity AI",
+      "url": "https://unity.com/features/ai",
+      "country": "アメリカ",
+      "company": "Unity",
+      "category": [
+        "ゲーム開発",
+        "コード補完"
+      ],
+      "strengths": [
+        "Unityエディタ内のAIアシスタント",
+        "素材生成",
+        "C#支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "Unityのプランにより利用範囲が異なる",
+      "japanese": "◯",
+      "noSignup": false
+    },
+    {
+      "id": 342,
+      "name": "Inworld AI",
+      "url": "https://inworld.ai",
+      "country": "アメリカ",
+      "company": "Inworld AI",
+      "category": [
+        "ゲーム開発",
+        "開発者向けツール"
+      ],
+      "strengths": [
+        "ゲームキャラクターの会話AI",
+        "音声合成",
+        "Unity対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 343,
+      "name": "Gemini in Android Studio",
+      "url": "https://developer.android.com/studio/gemini/overview",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "Android開発",
+        "コード補完"
+      ],
+      "strengths": [
+        "Android Studio内蔵AI",
+        "Kotlinコード生成",
+        "エラー解説"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "個人利用は無料",
+      "japanese": "◯",
+      "noSignup": false
+    },
+    {
+      "id": 344,
+      "name": "FlutterFlow",
+      "url": "https://www.flutterflow.io",
+      "country": "アメリカ",
+      "company": "FlutterFlow",
+      "category": [
+        "Android開発",
+        "ノーコードでアプリ作成"
+      ],
+      "strengths": [
+        "ノーコードでスマホアプリ",
+        "Flutter出力",
+        "AI画面生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 345,
+      "name": "Formula Bot",
+      "url": "https://www.formulabot.com",
+      "country": "アメリカ",
+      "company": "Formula Bot",
+      "category": [
+        "Excel・事務作業",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "文章からExcel関数を生成",
+        "関数の解説",
+        "データ分析"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 346,
+      "name": "Numerous.ai",
+      "url": "https://numerous.ai",
+      "country": "アメリカ",
+      "company": "Numerous.ai",
+      "category": [
+        "Excel・事務作業"
+      ],
+      "strengths": [
+        "ExcelやスプレッドシートでAI関数",
+        "一括処理",
+        "文章分類"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
+    },
+    {
+      "id": 347,
+      "name": "Sheet+",
+      "url": "https://sheetplus.ai",
+      "country": "アメリカ",
+      "company": "Sheet+",
+      "category": [
+        "Excel・事務作業"
+      ],
+      "strengths": [
+        "Excel・Googleスプレッドシート関数生成",
+        "数式の説明",
+        "VBA支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）",
+      "japanese": "△",
+      "noSignup": false
     }
   ]
 }
