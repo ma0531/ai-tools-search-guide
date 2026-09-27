@@ -41,13 +41,28 @@ function detectDevice() {
     const ua = navigator.userAgent;
     const w  = window.innerWidth;
 
-    let device = 'pc';
-    if (/Mobi|Android|iPhone|iPod/i.test(ua) || w <= 600) {
-        device = 'mobile';
-    } else if (/iPad|Tablet/i.test(ua) || (w > 600 && w <= 1024)) {
-        device = 'tablet';
-    }
+    // ローカルストレージに保存済みの設定があれば優先する
+    try {
+        const saved = localStorage.getItem('preferredView');
+        if (saved) {
+            setView(saved);
+            return;
+        }
+    } catch(e) {}
 
+    let device = 'pc';
+
+    // スマホ判定：UAにスマホキーワードがある、または幅600px以下
+    if (/Mobi|Android|iPhone|iPod/i.test(ua) && w <= 820) {
+        device = 'mobile';
+    // タブレット判定：UAにiPad/Tabletがある場合のみ（幅だけでは判定しない）
+    } else if (/iPad|Tablet/i.test(ua)) {
+        device = 'tablet';
+    // それ以外はすべてPC
+    } else {
+        device = 'pc';
+    }
+    
     setView(device);
 }
 
