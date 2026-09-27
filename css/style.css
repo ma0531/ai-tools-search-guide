@@ -507,3 +507,25 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
 #resultsTable th:nth-child(3) { width: 6em; }
 #resultsTable th:nth-child(6) { width: 10.5em; }
 .tool-country { font-size: 0.88rem; white-space: normal; }
+/* ==========================================
+   カテゴリ列：横幅が広いPC表示のときだけ表示
+   ========================================== */
+#resultsTable .col-category { display: none; }
+#resultsTable th.col-strengths { width: auto; }
+#resultsTable th.col-limit { width: 10.5em; }
+#resultsTable th.col-link { width: 5.6em; }
+@media (min-width: 1300px) {
+    body.view-pc #resultsTable .col-category { display: table-cell; }
+    body.view-pc #resultsTable th.col-category { width: 15em; }
+    body.view-pc #resultsTable th.col-limit { width: 12em; }
+}
+.cat-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.cat-tag {
+    font-size: 0.75rem;
+    background: #f0faf5;
+    color: #2e8b62;
+    border: 1px solid #cdeedd;
+    border-radius: 999px;
+    padding: 1px 8px;
+    white-space: nowrap;
+}
