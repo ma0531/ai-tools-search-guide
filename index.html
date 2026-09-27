@@ -81,7 +81,7 @@
             </div>
 
             <details id="catDetails" class="cat-details" open>
-            <summary class="filter-title">目的で絞り込む</summary>
+            <summary class="filter-title">目的で絞り込む <button type="button" id="guideBtn" class="guide-btn">❓ 目的の説明を見る</button></summary>
             <div class="filters">
                 <label class="filter-top10"><input type="checkbox" class="category-filter" value="よく使われるAIのTOP10"> 👑 よく使われるAIのTOP10</label>
                 <label><input type="checkbox" class="category-filter" value="パーソナルアシスタント"> 🤖 パーソナルアシスタント</label>
@@ -120,6 +120,7 @@
         </div>
 
         <!-- カテゴリ選択時に出る注意書き -->
+        <div id="categoryInfo" class="category-info" hidden></div>
         <div id="notice-medical" class="notice notice-warn" hidden>
             🏥 医療・ヘルスケアのAIは、あくまで情報の目安です。<strong>医師の診断の代わりにはなりません。</strong>体調に不安があるときは医療機関を受診してください。
         </div>
