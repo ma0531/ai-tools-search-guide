@@ -3,1312 +3,5848 @@
     {
       "id": 1,
       "name": "ChatGPT",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "学習・教育", "トライアル以外"],
-      "strengths": ["高精度な情報検索", "自然な会話", "長文対応"],
-      "url": "https://chat.openai.com",
+      "url": "https://chatgpt.com",
       "country": "アメリカ",
       "company": "OpenAI",
-      "freeLimit": "月3回の高度な機能制限あり"
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ",
+        "学習・教育",
+        "テキスト生成・AI執筆",
+        "画像作成"
+      ],
+      "strengths": [
+        "自然な会話",
+        "文章・画像生成",
+        "幅広い用途"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 2,
       "name": "Claude",
-      "category": ["アプリ作成", "要約と構造化", "データ分析・予測", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["コード生成精度が高い", "長文処理に強い", "複雑な論理構造に対応"],
       "url": "https://claude.ai",
       "country": "アメリカ",
       "company": "Anthropic",
-      "freeLimit": "月使用回数制限あり"
+      "category": [
+        "パーソナルアシスタント",
+        "アプリ作成",
+        "要約と構造化",
+        "テキスト生成・AI執筆",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "長文読解",
+        "コード生成",
+        "丁寧な文章"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 3,
-      "name": "Stable Diffusion",
-      "category": ["画像作成", "完全無料"],
-      "strengths": ["高品質な画像生成", "ローカル実行可能", "カスタマイズ性が高い"],
-      "url": "https://stablediffusionweb.com",
-      "country": "イギリス",
-      "company": "Stability AI",
-      "freeLimit": "無制限"
-    },
-    {
-      "id": 4,
-      "name": "Perplexity AI",
-      "category": ["情報検索・リサーチ", "学習・教育", "トライアル以外"],
-      "strengths": ["リアルタイム検索に対応", "情報源を明記", "最新情報の取得"],
-      "url": "https://www.perplexity.ai",
-      "country": "アメリカ",
-      "company": "Perplexity AI",
-      "freeLimit": "無料版で基本機能利用可"
-    },
-    {
-      "id": 5,
       "name": "Google Gemini",
-      "category": ["情報検索・リサーチ", "画像作成", "動画作成", "データ分析・予測", "トライアル以外"],
-      "strengths": ["Googleの最新AI", "高い精度", "マルチモーダル対応"],
       "url": "https://gemini.google.com",
       "country": "アメリカ",
       "company": "Google",
-      "freeLimit": "無料版でも十分な機能あり"
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ",
+        "画像作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "Googleサービス連携",
+        "マルチモーダル",
+        "画像生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ",
+        "画像作成"
+      ],
+      "strengths": [
+        "Web検索連携",
+        "画像生成",
+        "Windows統合"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "Microsoftアカウントで無料利用可"
+    },
+    {
+      "id": 5,
+      "name": "Meta AI",
+      "url": "https://www.meta.ai",
+      "country": "アメリカ",
+      "company": "Meta",
+      "category": [
+        "パーソナルアシスタント",
+        "画像作成"
+      ],
+      "strengths": [
+        "会話",
+        "画像生成",
+        "SNS連携"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 6,
       "name": "Grok",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["リアルタイム情報", "ユーモア対応", "議論的思考"],
       "url": "https://grok.com",
       "country": "アメリカ",
       "company": "xAI",
-      "freeLimit": "X Premium加入が必要"
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ",
+        "画像作成"
+      ],
+      "strengths": [
+        "X(旧Twitter)の最新情報",
+        "画像生成",
+        "率直な回答"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 7,
-      "name": "Microsoft Copilot",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "完全無料"],
-      "strengths": ["Bing統合", "最新情報", "Windowsネイティブ"],
-      "url": "https://copilot.microsoft.com",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
       "country": "アメリカ",
-      "company": "Microsoft",
-      "freeLimit": "完全無料"
+      "company": "Perplexity AI",
+      "category": [
+        "情報検索・リサーチ",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "出典付き回答",
+        "リアルタイム検索",
+        "深掘り調査"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 8,
-      "name": "GitHub Copilot",
-      "category": ["アプリ作成", "コード補完", "トライアル以外"],
-      "strengths": ["コード自動補完が優秀", "複数言語対応", "IDE統合"],
-      "url": "https://github.com/features/copilot",
-      "country": "アメリカ",
-      "company": "GitHub (Microsoft)",
-      "freeLimit": "学生は無料、一般は有料"
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "country": "中国",
+      "company": "DeepSeek",
+      "category": [
+        "パーソナルアシスタント",
+        "アプリ作成",
+        "情報検索・リサーチ",
+        "学習・教育"
+      ],
+      "strengths": [
+        "高い推論力",
+        "コード生成",
+        "完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 9,
-      "name": "DALL-E 3",
-      "category": ["画像作成", "トライアル以外"],
-      "strengths": ["高品質画像生成", "詳細なテキスト指定", "正確な細部描写"],
-      "url": "https://openai.com/dall-e-3",
-      "country": "アメリカ",
-      "company": "OpenAI",
-      "freeLimit": "ChatGPT Plusに含まれる"
+      "name": "Qwen Chat（通义千问）",
+      "url": "https://chat.qwen.ai",
+      "country": "中国",
+      "company": "Alibaba",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ",
+        "画像作成"
+      ],
+      "strengths": [
+        "多言語対応",
+        "画像生成",
+        "長文処理"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 10,
-      "name": "Midjourney",
-      "category": ["画像作成", "トライアル以外"],
-      "strengths": ["高品質な画像生成", "アート風の表現", "カスタムトレーニング可能"],
-      "url": "https://www.midjourney.com",
-      "country": "アメリカ",
-      "company": "Midjourney",
-      "freeLimit": "無料トライアル25枚"
+      "name": "Kimi",
+      "url": "https://www.kimi.com",
+      "country": "中国",
+      "company": "Moonshot AI",
+      "category": [
+        "パーソナルアシスタント",
+        "要約と構造化",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "超長文の読解",
+        "ファイル要約",
+        "検索連携"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 11,
-      "name": "Bing Image Creator",
-      "category": ["画像作成", "完全無料"],
-      "strengths": ["DALL-E統合", "高品質生成", "無料利用可能"],
-      "url": "https://www.bing.com/create",
-      "country": "アメリカ",
-      "company": "Microsoft",
-      "freeLimit": "月100ブースト無料"
+      "name": "Doubao（豆包）",
+      "url": "https://www.doubao.com",
+      "country": "中国",
+      "company": "ByteDance",
+      "category": [
+        "パーソナルアシスタント",
+        "学習・教育"
+      ],
+      "strengths": [
+        "中国語に強い",
+        "音声会話",
+        "多機能"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 12,
-      "name": "DeepL",
-      "category": ["言語・翻訳", "トライアル以外"],
-      "strengths": ["自然な翻訳", "高い精度", "複数言語対応"],
-      "url": "https://www.deepl.com",
-      "country": "ドイツ",
-      "company": "DeepL",
-      "freeLimit": "月500,000文字まで無料"
+      "name": "ERNIE Bot（文心一言）",
+      "url": "https://yiyan.baidu.com",
+      "country": "中国",
+      "company": "Baidu",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "中国語検索連携",
+        "知識量",
+        "画像生成"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 13,
-      "name": "Google Translate",
-      "category": ["言語・翻訳", "完全無料"],
-      "strengths": ["複数言語対応", "高速翻訳", "リアルタイムカメラ翻訳"],
-      "url": "https://translate.google.com",
-      "country": "アメリカ",
-      "company": "Google",
-      "freeLimit": "完全無料"
+      "name": "智谱清言（ChatGLM）",
+      "url": "https://chatglm.cn",
+      "country": "中国",
+      "company": "Zhipu AI",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "中国語対応",
+        "エージェント機能",
+        "長文処理"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 14,
-      "name": "ElevenLabs",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["自然な音声生成", "複数言語対応", "感情表現"],
-      "url": "https://elevenlabs.io",
-      "country": "アメリカ",
-      "company": "ElevenLabs",
-      "freeLimit": "月1,000文字まで無料"
+      "name": "腾讯元宝（Yuanbao）",
+      "url": "https://yuanbao.tencent.com",
+      "country": "中国",
+      "company": "Tencent",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "WeChat情報検索",
+        "DeepSeek搭載",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 15,
-      "name": "Runway ML",
-      "category": ["動画作成", "画像作成", "トライアル以外"],
-      "strengths": ["AI動画編集", "背景除去", "モーション追跡"],
-      "url": "https://runwayml.com",
-      "country": "アメリカ",
-      "company": "Runway",
-      "freeLimit": "月250クレジット無料"
+      "name": "讯飞星火（iFlytek Spark）",
+      "url": "https://xinghuo.xfyun.cn",
+      "country": "中国",
+      "company": "iFlytek",
+      "category": [
+        "パーソナルアシスタント",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "音声技術に強い",
+        "翻訳",
+        "教育向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 16,
-      "name": "Synthesia",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["AI動画生成", "アバター利用可能", "複数言語対応"],
-      "url": "https://www.synthesia.io",
-      "country": "イギリス",
-      "company": "Synthesia",
-      "freeLimit": "無料トライアルのみ"
+      "name": "Le Chat",
+      "url": "https://chat.mistral.ai",
+      "country": "フランス",
+      "company": "Mistral AI",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "高速応答",
+        "欧州発",
+        "画像生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 17,
-      "name": "HeyGen",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["AI顔作成動画", "複数言語対応", "高品質"],
-      "url": "https://www.heygen.com",
-      "country": "シンガポール",
-      "company": "HeyGen",
-      "freeLimit": "無料トライアルのみ"
+      "name": "Poe",
+      "url": "https://poe.com",
+      "country": "アメリカ",
+      "company": "Quora",
+      "category": [
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "複数AIを切替",
+        "ボット作成",
+        "比較しやすい"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 18,
-      "name": "Pika",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["AI動画生成", "テキストから動画", "高速生成"],
-      "url": "https://pika.art",
+      "name": "Pi",
+      "url": "https://pi.ai",
       "country": "アメリカ",
-      "company": "Pika Labs",
-      "freeLimit": "無料トライアルのみ"
+      "company": "Inflection AI",
+      "category": [
+        "悩み相談",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "共感的な会話",
+        "音声会話",
+        "雑談向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 19,
-      "name": "Loom",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["スクリーン記録", "動画共有", "注釈機能"],
-      "url": "https://www.loom.com",
+      "name": "You.com",
+      "url": "https://you.com",
       "country": "アメリカ",
-      "company": "Loom",
-      "freeLimit": "月25本まで無料"
+      "company": "You.com",
+      "category": [
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "AI検索",
+        "出典表示",
+        "リサーチモード"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 20,
-      "name": "Make（旧Integromat）",
-      "category": ["タスクの自動化（RPA連携）", "トライアル以外"],
-      "strengths": ["ノーコード自動化", "複数サービス連携", "複雑なワークフロー対応"],
-      "url": "https://www.make.com",
-      "country": "スロベニア",
-      "company": "Make",
-      "freeLimit": "月1,000操作まで無料"
+      "name": "Genspark",
+      "url": "https://www.genspark.ai",
+      "country": "アメリカ",
+      "company": "Genspark",
+      "category": [
+        "情報検索・リサーチ",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "AIエージェント検索",
+        "資料作成",
+        "まとめページ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 21,
-      "name": "Zapier",
-      "category": ["タスクの自動化（RPA連携）", "トライアル以外"],
-      "strengths": ["複数アプリ連携", "ユーザーフレンドリー", "テンプレート充実"],
-      "url": "https://zapier.com",
-      "country": "アメリカ",
-      "company": "Zapier",
-      "freeLimit": "月100タスクまで無料"
+      "name": "Felo",
+      "url": "https://felo.ai",
+      "country": "日本",
+      "company": "Sparticle",
+      "category": [
+        "情報検索・リサーチ",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語AI検索",
+        "スライド生成",
+        "出典付き"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 22,
-      "name": "IFTTT",
-      "category": ["タスクの自動化（RPA連携）", "トライアル以外"],
-      "strengths": ["シンプルな自動化", "多数のアプリ連携", "直感的UI"],
-      "url": "https://ifttt.com",
-      "country": "アメリカ",
-      "company": "IFTTT",
-      "freeLimit": "基本機能は無料"
+      "name": "Manus",
+      "url": "https://manus.im",
+      "country": "シンガポール",
+      "company": "Butterfly Effect",
+      "category": [
+        "パーソナルアシスタント",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "自律型エージェント",
+        "タスク代行",
+        "調査"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 23,
-      "name": "Grammarly",
-      "category": ["言語・翻訳", "学習・教育", "トライアル以外"],
-      "strengths": ["文法チェック", "スタイル改善", "複数言語"],
-      "url": "https://www.grammarly.com",
-      "country": "アメリカ",
-      "company": "Grammarly",
-      "freeLimit": "基本的な文法チェックは無料"
+      "name": "Monica",
+      "url": "https://monica.im",
+      "country": "シンガポール",
+      "company": "Butterfly Effect",
+      "category": [
+        "パーソナルアシスタント",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "ブラウザ拡張",
+        "Webページ要約",
+        "複数AI利用"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 24,
-      "name": "Quillbot",
-      "category": ["言語・翻訳", "要約と構造化", "トライアル以外"],
-      "strengths": ["テキスト言い換え", "文章改善", "複数の言い換えオプション"],
-      "url": "https://quillbot.com",
-      "country": "アメリカ",
-      "company": "Quillbot",
-      "freeLimit": "月125単語まで無料"
+      "name": "GigaChat",
+      "url": "https://giga.chat",
+      "country": "ロシア",
+      "company": "Sber",
+      "category": [
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "ロシア語に強い",
+        "画像生成",
+        "多機能"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 25,
-      "name": "Copilot for Power Automate",
-      "category": ["タスクの自動化（RPA連携）", "トライアル以外"],
-      "strengths": ["RPA連携", "ノーコード自動化", "Power Platform統合"],
-      "url": "https://learn.microsoft.com/ja-jp/power-automate/",
-      "country": "アメリカ",
-      "company": "Microsoft",
-      "freeLimit": "Power Automate無料版あり"
+      "name": "Alice（YandexGPT）",
+      "url": "https://alice.yandex.ru",
+      "country": "ロシア",
+      "company": "Yandex",
+      "category": [
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "ロシア語対応",
+        "音声アシスタント",
+        "検索連携"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 26,
-      "name": "Notion AI",
-      "category": ["要約と構造化", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["ドキュメント管理", "AI補助", "テンプレート豊富"],
-      "url": "https://www.notion.so",
-      "country": "アメリカ",
-      "company": "Notion",
-      "freeLimit": "Notion無料版+有料AI機能"
+      "name": "Wrtn（リートン）",
+      "url": "https://wrtn.ai",
+      "country": "韓国",
+      "company": "Wrtn Technologies",
+      "category": [
+        "パーソナルアシスタント",
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "最新AIを無料で利用",
+        "文章作成",
+        "画像生成"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 27,
-      "name": "Jasper",
-      "category": ["パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["AI文章生成", "マーケティングテンプレート", "複数言語"],
-      "url": "https://www.jasper.ai",
+      "name": "Brave Leo",
+      "url": "https://brave.com/leo/",
       "country": "アメリカ",
-      "company": "Jasper",
-      "freeLimit": "無料トライアル10日間のみ"
+      "company": "Brave",
+      "category": [
+        "パーソナルアシスタント",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "ブラウザ内蔵",
+        "プライバシー重視",
+        "ページ要約"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 28,
-      "name": "Copy.ai",
-      "category": ["パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["AI文章生成", "使いやすいUI", "複数テンプレート"],
-      "url": "https://www.copy.ai",
-      "country": "アメリカ",
-      "company": "Copy.ai",
-      "freeLimit": "月5,000単語まで無料"
+      "name": "秘塔AI搜索（Metaso）",
+      "url": "https://metaso.cn",
+      "country": "中国",
+      "company": "秘塔科技",
+      "category": [
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "広告なしAI検索",
+        "学術検索",
+        "構造化回答"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 29,
-      "name": "Character.AI",
-      "category": ["悩み相談", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["会話型AI", "複数キャラクター", "カスタマイズ可能"],
-      "url": "https://character.ai",
-      "country": "アメリカ",
-      "company": "Character AI",
-      "freeLimit": "基本機能は無料"
+      "name": "Skywork",
+      "url": "https://skywork.ai",
+      "country": "シンガポール",
+      "company": "Skywork AI（Kunlun Tech）",
+      "category": [
+        "情報検索・リサーチ",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "エージェント調査",
+        "資料生成",
+        "深掘り"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 30,
-      "name": "Hugging Face",
-      "category": ["アプリ作成", "データ分析・予測", "完全無料"],
-      "strengths": ["オープンソースモデル", "無料GPU使用可能", "研究向け"],
-      "url": "https://huggingface.co",
+      "name": "Kagi",
+      "url": "https://kagi.com",
       "country": "アメリカ",
-      "company": "Hugging Face",
-      "freeLimit": "ほぼ無制限"
+      "company": "Kagi",
+      "category": [
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "広告なし検索",
+        "AI要約",
+        "カスタマイズ"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "お試し検索回数のみ（継続は有料）"
     },
     {
       "id": 31,
-      "name": "Google Colab",
-      "category": ["データ分析・予測", "アプリ作成", "完全無料"],
-      "strengths": ["無料GPU/TPU利用可", "Pythonノートブック", "大規模計算対応"],
-      "url": "https://colab.research.google.com",
-      "country": "アメリカ",
-      "company": "Google",
-      "freeLimit": "完全無料"
+      "name": "Liner",
+      "url": "https://getliner.com",
+      "country": "韓国",
+      "company": "Liner",
+      "category": [
+        "情報検索・リサーチ",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "出典の信頼性重視",
+        "学術検索",
+        "ハイライト"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 32,
-      "name": "Wolfram Alpha",
-      "category": ["データ分析・予測", "学習・教育", "トライアル以外"],
-      "strengths": ["計算エンジン", "データ分析", "多分野対応"],
-      "url": "https://www.wolframalpha.com",
+      "name": "HyperWrite",
+      "url": "https://www.hyperwriteai.com",
       "country": "アメリカ",
-      "company": "Wolfram Research",
-      "freeLimit": "基本的な計算は無料"
+      "company": "OthersideAI",
+      "category": [
+        "テキスト生成・AI執筆",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "文章補完",
+        "ブラウザエージェント",
+        "リサーチ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 33,
-      "name": "ChatYuan（元語）",
-      "category": ["情報検索・リサーチ", "学習・教育", "トライアル以外"],
-      "strengths": ["中文特化", "高速応答", "複数タスク対応"],
-      "url": "https://www.chatyuan.ai",
-      "country": "中国",
-      "company": "元語",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 34,
-      "name": "ChatGLM",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["中文対応", "長文処理", "複数分野に対応"],
-      "url": "https://chatglm.cn",
-      "country": "中国",
-      "company": "清華大学",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 35,
-      "name": "Qwen（通义千问）",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "学習・教育", "トライアル以外"],
-      "strengths": ["中文最適化", "マルチモーダル", "高速処理"],
-      "url": "https://qwenlm.github.io/",
-      "country": "中国",
-      "company": "阿里巴巴（Alibaba）",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 36,
-      "name": "Baidu ERNIE Bot",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["中文対応", "百度統合", "知識ベース充実"],
-      "url": "https://yiyan.baidu.com",
-      "country": "中国",
-      "company": "百度（Baidu）",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 37,
-      "name": "Moonshot AI",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["中文特化", "長文処理得意", "実用的"],
-      "url": "https://www.moonshot.cn",
-      "country": "中国",
-      "company": "月之暗面",
-      "freeLimit": "トライアル期間あり"
-    },
-    {
-      "id": 38,
-      "name": "Doubao（豆包）",
-      "category": ["パーソナルアシスタント", "学習・教育", "完全無料"],
-      "strengths": ["字節跳動AI", "中文最適化", "複数機能"],
-      "url": "https://www.doubao.com",
-      "country": "中国",
-      "company": "字節跳動（ByteDance）",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 39,
-      "name": "Kimi Chat",
-      "category": ["情報検索・リサーチ", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["中文対応", "長文処理", "複数分野"],
-      "url": "https://kimi.moonshot.cn",
-      "country": "中国",
-      "company": "月之暗面",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 40,
-      "name": "MOSS（復旦大学）",
-      "category": ["パーソナルアシスタント", "学習・教育", "完全無料"],
-      "strengths": ["中文対応", "複数言語", "研究用"],
-      "url": "https://www.moss.ai",
-      "country": "中国",
-      "company": "復旦大学",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 41,
-      "name": "Llama 2",
-      "category": ["アプリ作成", "データ分析・予測", "完全無料"],
-      "strengths": ["オープンソース", "高性能", "ローカル実行可能"],
+      "name": "Llama",
       "url": "https://www.llama.com",
       "country": "アメリカ",
       "company": "Meta",
-      "freeLimit": "完全オープンソース無料"
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "オープンモデル",
+        "ローカル実行可",
+        "カスタマイズ"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 34,
+      "name": "Gemma",
+      "url": "https://ai.google.dev/gemma",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "軽量オープンモデル",
+        "PCで動作",
+        "商用利用可"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 35,
+      "name": "Phi",
+      "url": "https://azure.microsoft.com/ja-jp/products/phi",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "小型高性能モデル",
+        "省メモリ",
+        "オープン"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 36,
+      "name": "OLMo",
+      "url": "https://allenai.org/olmo",
+      "country": "アメリカ",
+      "company": "Allen Institute for AI",
+      "category": [
+        "アプリ作成",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "完全オープン",
+        "学習データ公開",
+        "研究向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 37,
+      "name": "Falcon",
+      "url": "https://falconllm.tii.ae",
+      "country": "アラブ首長国連邦",
+      "company": "TII",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "オープンモデル",
+        "中東発",
+        "多言語"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 38,
+      "name": "EXAONE",
+      "url": "https://www.lgresearch.ai",
+      "country": "韓国",
+      "company": "LG AI Research",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "韓国語・英語に強い",
+        "オープンモデル",
+        "推論力"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 39,
+      "name": "Swallow",
+      "url": "https://swallow-llm.github.io",
+      "country": "日本",
+      "company": "東京科学大学",
+      "category": [
+        "アプリ作成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語強化モデル",
+        "オープン",
+        "研究向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 40,
+      "name": "LLM-jp",
+      "url": "https://llm-jp.nii.ac.jp",
+      "country": "日本",
+      "company": "国立情報学研究所",
+      "category": [
+        "アプリ作成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "国産オープンLLM",
+        "学習データ公開",
+        "日本語"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 41,
+      "name": "ELYZA",
+      "url": "https://elyza.ai",
+      "country": "日本",
+      "company": "ELYZA",
+      "category": [
+        "アプリ作成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語特化モデル",
+        "オープン公開",
+        "業務活用"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "公開モデルは無料"
     },
     {
       "id": 42,
-      "name": "Mistral AI",
-      "category": ["アプリ作成", "パーソナルアシスタント", "完全無料"],
-      "strengths": ["高性能モデル", "効率的", "オープンソース"],
-      "url": "https://mistral.ai",
-      "country": "フランス",
-      "company": "Mistral AI",
-      "freeLimit": "基本機能は無料"
+      "name": "rinna",
+      "url": "https://rinna.co.jp",
+      "country": "日本",
+      "company": "rinna",
+      "category": [
+        "アプリ作成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語モデル",
+        "音声合成研究",
+        "オープン公開"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "公開モデルは無料"
     },
     {
       "id": 43,
-      "name": "Replicate",
-      "category": ["アプリ作成", "画像作成", "トライアル以外"],
-      "strengths": ["簡単API", "多数のモデル", "ペイアズユーゴー"],
-      "url": "https://replicate.com",
+      "name": "Ollama",
+      "url": "https://ollama.com",
       "country": "アメリカ",
-      "company": "Replicate",
-      "freeLimit": "月3,000回のAPI呼び出し無料"
+      "company": "Ollama",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "PCでAIを動かす",
+        "簡単導入",
+        "オフライン"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 44,
-      "name": "Together AI",
-      "category": ["アプリ作成", "データ分析・予測", "トライアル以外"],
-      "strengths": ["複数のLLM", "低レイテンシー", "API提供"],
-      "url": "https://www.together.ai",
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
       "country": "アメリカ",
-      "company": "Together AI",
-      "freeLimit": "無料トライアルあり"
+      "company": "Element Labs",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "GUIでローカルAI",
+        "モデル検索",
+        "初心者向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 45,
-      "name": "Cohere",
-      "category": ["アプリ作成", "トライアル以外"],
-      "strengths": ["NLP特化", "エンタープライズ対応", "API充実"],
-      "url": "https://cohere.ai",
-      "country": "カナダ",
-      "company": "Cohere",
-      "freeLimit": "月100,000トークンまで無料"
+      "name": "GPT4All",
+      "url": "https://www.nomic.ai/gpt4all",
+      "country": "アメリカ",
+      "company": "Nomic AI",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "オフラインチャット",
+        "文書検索",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 46,
-      "name": "Pinecone",
-      "category": ["データ分析・予測", "トライアル以外"],
-      "strengths": ["ベクトルDB", "高速検索", "スケーラブル"],
-      "url": "https://www.pinecone.io",
-      "country": "アメリカ",
-      "company": "Pinecone",
-      "freeLimit": "無料プランあり"
+      "name": "Jan",
+      "url": "https://jan.ai",
+      "country": "シンガポール",
+      "company": "Menlo Research",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "オフラインAI",
+        "プライバシー重視",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 47,
-      "name": "Weaviate",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["ベクトルサーチ", "オープンソース", "スケーラブル"],
-      "url": "https://weaviate.io",
-      "country": "オランダ",
-      "company": "Weaviate",
-      "freeLimit": "オープンソース版は無料"
+      "name": "Open WebUI",
+      "url": "https://openwebui.com",
+      "country": "アメリカ",
+      "company": "Open WebUI",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "自前のAIチャット画面",
+        "Ollama連携",
+        "拡張性"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 48,
-      "name": "Milvus",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["ベクトルDB", "高性能", "オープンソース"],
-      "url": "https://milvus.io",
-      "country": "中国",
-      "company": "LF AI & Data",
-      "freeLimit": "完全オープンソース無料"
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "country": "アメリカ",
+      "company": "Hugging Face",
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "モデル数が膨大",
+        "デモ公開",
+        "コミュニティ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
       "id": 49,
-      "name": "LangChain",
-      "category": ["アプリ作成", "完全無料"],
-      "strengths": ["LLM統合フレームワーク", "複数LLM対応", "プラグイン豊富"],
-      "url": "https://www.langchain.com",
+      "name": "Google AI Studio",
+      "url": "https://aistudio.google.com",
       "country": "アメリカ",
-      "company": "LangChain",
-      "freeLimit": "完全オープンソース無料"
+      "company": "Google",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "Gemini APIを無料で試せる",
+        "プロンプト検証",
+        "アプリ生成"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 50,
-      "name": "AutoGPT",
-      "category": ["パーソナルアシスタント", "タスクの自動化（RPA連携）", "完全無料"],
-      "strengths": ["自動タスク実行", "自己改善", "目標指向"],
-      "url": "https://github.com/Significant-Gravitas/Auto-GPT",
-      "country": "アメリカ",
-      "company": "Significant Gravitas",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 51,
-      "name": "BabyAGI",
-      "category": ["パーソナルアシスタント", "タスクの自動化（RPA連携）", "完全無料"],
-      "strengths": ["自動タスク分解", "優先順位付け", "シンプル"],
-      "url": "https://github.com/yoheinakajima/babyagi",
-      "country": "アメリカ",
-      "company": "Yohei Nakajima",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 52,
-      "name": "Otter.ai",
-      "category": ["音声認識", "要約と構造化", "トライアル以外"],
-      "strengths": ["高精度音声認識", "自動要約", "複数言語"],
-      "url": "https://otter.ai",
-      "country": "アメリカ",
-      "company": "Otter.ai",
-      "freeLimit": "月600分まで無料"
-    },
-    {
-      "id": 53,
-      "name": "Rev",
-      "category": ["音声認識", "トライアル以外"],
-      "strengths": ["高精度文字起こし", "複数言語", "編集サービス"],
-      "url": "https://www.rev.com",
-      "country": "アメリカ",
-      "company": "Rev",
-      "freeLimit": "最初の試験的利用が無料"
-    },
-    {
-      "id": 54,
-      "name": "Whisper（OpenAI）",
-      "category": ["音声認識", "完全無料"],
-      "strengths": ["多言語対応", "高精度", "ノイズ耐性"],
-      "url": "https://openai.com/blog/whisper",
-      "country": "アメリカ",
-      "company": "OpenAI",
-      "freeLimit": "オープンソース版は無料"
-    },
-    {
-      "id": 55,
-      "name": "Gladia",
-      "category": ["音声認識", "トライアル以外"],
-      "strengths": ["リアルタイム音声認識", "多言語", "低レイテンシー"],
-      "url": "https://www.gladia.io",
-      "country": "フランス",
-      "company": "Gladia",
-      "freeLimit": "無料トライアルあり"
-    },
-    {
-      "id": 56,
-      "name": "Pictory.ai",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["テキストから動画生成", "自動字幕", "複数スタイル"],
-      "url": "https://pictory.ai",
-      "country": "アメリカ",
-      "company": "Pictory",
-      "freeLimit": "無料トライアルのみ"
-    },
-    {
-      "id": 57,
-      "name": "Descript",
-      "category": ["動画作成", "音声認識", "トライアル以外"],
-      "strengths": ["ビデオ編集", "音声認識", "コラボレーション対応"],
-      "url": "https://www.descript.com",
-      "country": "アメリカ",
-      "company": "Descript",
-      "freeLimit": "月1時間まで無料"
-    },
-    {
-      "id": 58,
-      "name": "Adobe Firefly",
-      "category": ["画像作成", "トライアル以外"],
-      "strengths": ["高品質生成", "Adobe統合", "商用利用可能"],
-      "url": "https://www.adobe.com/products/firefly",
-      "country": "アメリカ",
-      "company": "Adobe",
-      "freeLimit": "月25クレジット無料"
-    },
-    {
-      "id": 59,
-      "name": "Canva Magic Write",
-      "category": ["画像作成", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["テンプレート豊富", "AI文章生成", "デザイン統合"],
-      "url": "https://www.canva.com",
-      "country": "オーストラリア",
-      "company": "Canva",
-      "freeLimit": "無料版で基本機能利用可"
-    },
-    {
-      "id": 60,
-      "name": "Remove.bg",
-      "category": ["画像編集", "トライアル以外"],
-      "strengths": ["背景除去AI", "高精度", "一括処理可能"],
-      "url": "https://www.remove.bg",
-      "country": "ドイツ",
-      "company": "Remove.bg",
-      "freeLimit": "月50枚まで無料"
-    },
-    {
-      "id": 61,
-      "name": "Cleanup.pictures",
-      "category": ["画像編集", "トライアル以外"],
-      "strengths": ["不要物除去", "簡単操作", "高品質"],
-      "url": "https://cleanup.pictures",
-      "country": "アメリカ",
-      "company": "Cleanup",
-      "freeLimit": "月20クレジット無料"
-    },
-    {
-      "id": 62,
-      "name": "Real-ESRGAN",
-      "category": ["画像編集", "完全無料"],
-      "strengths": ["画像アップスケール", "ノイズ除去", "高品質"],
-      "url": "https://github.com/xinntao/Real-ESRGAN",
-      "country": "中国",
-      "company": "Xinntao",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 63,
-      "name": "Upscayl",
-      "category": ["画像編集", "完全無料"],
-      "strengths": ["画像拡大AI", "ローカル処理", "オープンソース"],
-      "url": "https://upscayl.github.io",
-      "country": "インド",
-      "company": "Upscayl",
-      "freeLimit": "完全無料"
-    },
-    {
-      "id": 64,
-      "name": "Waifu2x",
-      "category": ["画像編集", "日本語特化", "完全無料"],
-      "strengths": ["アニメ画像拡大", "ノイズ除去", "高品質"],
-      "url": "https://waifu2x.udp.jp",
-      "country": "日本",
-      "company": "Waifu2x Project",
-      "freeLimit": "完全無料"
-    },
-    {
-      "id": 65,
-      "name": "PhotoScissors",
-      "category": ["画像編集", "トライアル以外"],
-      "strengths": ["背景除去", "自動検出", "ワンクリック"],
-      "url": "https://photoscissors.com",
-      "country": "ロシア",
-      "company": "PhotoScissors",
-      "freeLimit": "月5枚まで無料"
-    },
-    {
-      "id": 66,
-      "name": "Snapseed",
-      "category": ["画像編集", "完全無料"],
-      "strengths": ["高度な編集機能", "AI自動調整", "モバイル対応"],
-      "url": "https://snapseed.online",
-      "country": "アメリカ",
-      "company": "Google",
-      "freeLimit": "完全無料"
-    },
-    {
-      "id": 67,
-      "name": "Rembg",
-      "category": ["画像編集", "完全無料"],
-      "strengths": ["背景除去", "自動検出", "シンプル"],
-      "url": "https://github.com/danielgatis/rembg",
-      "country": "ブラジル",
-      "company": "Daniel Gatis",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 68,
-      "name": "Med-PaLM",
-      "category": ["医療・ヘルスケア", "トライアル以外"],
-      "strengths": ["医療AI", "正確な診断補助", "医学知識"],
-      "url": "https://www.deepmind.com/research/publications/2023/med-palm",
-      "country": "アメリカ",
-      "company": "Google DeepMind",
-      "freeLimit": "研究用限定"
-    },
-    {
-      "id": 69,
-      "name": "GigaChat",
-      "category": ["パーソナルアシスタント", "学習・教育", "トライアル以外"],
-      "strengths": ["ロシア言語対応", "高精度", "複数分野"],
-      "url": "https://gigachat.ai",
-      "country": "ロシア",
-      "company": "Sber",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 70,
-      "name": "YandexGPT",
-      "category": ["パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["ロシア言語特化", "高速応答", "統合サービス"],
-      "url": "https://yandex.ru",
-      "country": "ロシア",
-      "company": "Yandex",
-      "freeLimit": "統合版で無料"
-    },
-    {
-      "id": 71,
-      "name": "Anima",
-      "category": ["悩み相談", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["心理サポート", "カウンセリング型AI", "24時間対応"],
-      "url": "https://www.animaapp.com",
-      "country": "アメリカ",
-      "company": "Anima",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 72,
-      "name": "Woebot",
-      "category": ["悩み相談", "学習・教育", "トライアル以外"],
-      "strengths": ["心理カウンセリング", "認知行動療法", "サポート"],
-      "url": "https://www.woebot.io",
-      "country": "アメリカ",
-      "company": "Woebot Labs",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 73,
-      "name": "Rasa",
-      "category": ["パーソナルアシスタント", "完全無料"],
-      "strengths": ["チャットボット構築", "オープンソース", "カスタマイズ可"],
-      "url": "https://rasa.com",
-      "country": "ドイツ",
-      "company": "Rasa",
-      "freeLimit": "オープンソース版は無料"
-    },
-    {
-      "id": 74,
-      "name": "Botpress",
-      "category": ["パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["チャットボット構築", "ノーコード", "統合豊富"],
-      "url": "https://botpress.com",
-      "country": "カナダ",
-      "company": "Botpress",
-      "freeLimit": "無料プランあり"
-    },
-    {
-      "id": 75,
-      "name": "Llama Index",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["データインデックス", "高速検索", "フレームワーク"],
-      "url": "https://www.llamaindex.ai",
-      "country": "アメリカ",
-      "company": "LlamaIndex",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 76,
-      "name": "Supabase Vectors",
-      "category": ["データ分析・予測", "トライアル以外"],
-      "strengths": ["ベクトルDB", "PostgreSQL統合", "スケーラブル"],
-      "url": "https://supabase.com/vector",
-      "country": "アメリカ",
-      "company": "Supabase",
-      "freeLimit": "無料プランあり"
-    },
-    {
-      "id": 77,
-      "name": "Qdrant",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["ベクトルデータベース", "高性能", "スケーラブル"],
-      "url": "https://qdrant.tech",
-      "country": "ロシア",
-      "company": "Qdrant",
-      "freeLimit": "オープンソース版無料"
-    },
-    {
-      "id": 78,
-      "name": "Chroma",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["ベクトルDB", "埋め込み管理", "シンプル"],
-      "url": "https://www.trychroma.com",
-      "country": "アメリカ",
-      "company": "Chroma",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 79,
-      "name": "Vespa",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["ベクトル検索", "機械学習統合", "スケーラブル"],
-      "url": "https://vespa.ai",
-      "country": "ノルウェー",
-      "company": "Yahoo",
-      "freeLimit": "オープンソース無料"
-    },
-    {
-      "id": 80,
-      "name": "Clarifai",
-      "category": ["画像作成", "画像認識", "トライアル以外"],
-      "strengths": ["画像AI", "カスタムモデル", "API提供"],
-      "url": "https://clarifai.com",
-      "country": "アメリカ",
-      "company": "Clarifai",
-      "freeLimit": "無料トライアルあり"
-    },
-    {
-      "id": 81,
-      "name": "IBM Watson",
-      "category": ["データ分析・予測", "トライアル以外"],
-      "strengths": ["エンタープライズAI", "多機能", "サポート充実"],
-      "url": "https://www.ibm.com/watson",
-      "country": "アメリカ",
-      "company": "IBM",
-      "freeLimit": "無料トライアルあり"
-    },
-    {
-      "id": 82,
       "name": "Google Colab",
-      "category": ["データ分析・予測", "アプリ作成", "完全無料"],
-      "strengths": ["無料GPU/TPU利用可", "Pythonノートブック", "大規模計算対応"],
       "url": "https://colab.research.google.com",
       "country": "アメリカ",
       "company": "Google",
-      "freeLimit": "完全無料"
+      "category": [
+        "アプリ作成",
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "ブラウザでPython",
+        "無料GPU",
+        "共有が簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料GPUは時間制限あり"
     },
     {
-      "id": 83,
+      "id": 51,
+      "name": "Kaggle",
+      "url": "https://www.kaggle.com",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "データセット多数",
+        "無料GPU",
+        "コンペ"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 52,
+      "name": "Groq",
+      "url": "https://groq.com",
+      "country": "アメリカ",
+      "company": "Groq",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "超高速推論API",
+        "オープンモデル",
+        "無料枠"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 53,
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "country": "アメリカ",
+      "company": "OpenRouter",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "多数のAIを1つのAPIで",
+        "無料モデルあり",
+        "比較"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 54,
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "country": "アメリカ",
+      "company": "Replicate",
+      "category": [
+        "アプリ作成",
+        "画像作成"
+      ],
+      "strengths": [
+        "多数モデルをAPIで",
+        "簡単デプロイ",
+        "従量課金"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 55,
+      "name": "Together AI",
+      "url": "https://www.together.ai",
+      "country": "アメリカ",
+      "company": "Together AI",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "オープンモデルAPI",
+        "ファインチューニング",
+        "高速"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 56,
+      "name": "Cohere",
+      "url": "https://cohere.com",
+      "country": "カナダ",
+      "company": "Cohere",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "検索・RAG向け",
+        "多言語埋め込み",
+        "試用キー"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 57,
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "country": "アメリカ",
+      "company": "LangGenius",
+      "category": [
+        "アプリ作成",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "ノーコードでAIアプリ",
+        "ワークフロー",
+        "RAG"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "クラウド版の無料枠・自前運用は無料"
+    },
+    {
+      "id": 58,
+      "name": "Flowise",
+      "url": "https://flowiseai.com",
+      "country": "アメリカ",
+      "company": "FlowiseAI",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "ドラッグ操作でAIアプリ",
+        "オープンソース",
+        "RAG"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 59,
+      "name": "LangChain",
+      "url": "https://www.langchain.com",
+      "country": "アメリカ",
+      "company": "LangChain",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "LLMアプリ開発の定番",
+        "連携豊富",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 60,
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai",
+      "country": "アメリカ",
+      "company": "LlamaIndex",
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "文書検索AI",
+        "データ接続",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 61,
+      "name": "CrewAI",
+      "url": "https://www.crewai.com",
+      "country": "アメリカ",
+      "company": "CrewAI",
+      "category": [
+        "アプリ作成",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "複数エージェント連携",
+        "自動化",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 62,
+      "name": "AutoGPT",
+      "url": "https://agpt.co",
+      "country": "アメリカ",
+      "company": "Significant Gravitas",
+      "category": [
+        "タスクの自動化（RPA連携）",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "自律エージェント",
+        "タスク自動化",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 63,
+      "name": "Gradio",
+      "url": "https://www.gradio.app",
+      "country": "アメリカ",
+      "company": "Hugging Face",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "数行でAIデモ画面",
+        "共有簡単",
+        "Python"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 64,
+      "name": "Streamlit",
+      "url": "https://streamlit.io",
+      "country": "アメリカ",
+      "company": "Snowflake",
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "PythonでWebアプリ",
+        "データ可視化",
+        "無料公開"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 65,
       "name": "PyTorch",
-      "category": ["アプリ作成", "データ分析・予測", "完全無料"],
-      "strengths": ["深層学習フレームワーク", "高性能", "柔軟"],
       "url": "https://pytorch.org",
       "country": "アメリカ",
-      "company": "Meta & Linux Foundation",
-      "freeLimit": "完全オープンソース無料"
+      "company": "PyTorch Foundation",
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "深層学習の定番",
+        "研究向け",
+        "柔軟"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 84,
+      "id": 66,
       "name": "TensorFlow",
-      "category": ["アプリ作成", "データ分析・予測", "完全無料"],
-      "strengths": ["機械学習フレームワーク", "高性能", "豊富なツール"],
       "url": "https://www.tensorflow.org",
       "country": "アメリカ",
       "company": "Google",
-      "freeLimit": "完全オープンソース無料"
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "機械学習ライブラリ",
+        "スマホ向けLite",
+        "教材豊富"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 85,
-      "name": "Scikit-learn",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["機械学習ライブラリ", "シンプル", "豊富なアルゴリズム"],
+      "id": 67,
+      "name": "scikit-learn",
       "url": "https://scikit-learn.org",
-      "country": "アメリカ",
-      "company": "Scikit-learn Team",
-      "freeLimit": "完全オープンソース無料"
+      "country": "フランス",
+      "company": "scikit-learnコミュニティ（Inria発）",
+      "category": [
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "機械学習入門",
+        "豊富なアルゴリズム",
+        "Python"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 86,
+      "id": 68,
       "name": "XGBoost",
-      "category": ["データ分析・予測", "完全無料"],
-      "strengths": ["勾配ブースティング", "高性能", "広く使用"],
       "url": "https://xgboost.readthedocs.io",
       "country": "アメリカ",
-      "company": "XGBoost Community",
-      "freeLimit": "完全オープンソース無料"
+      "company": "DMLC",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "予測精度が高い",
+        "表データに強い",
+        "高速"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 87,
+      "id": 69,
       "name": "Jupyter",
-      "category": ["データ分析・予測", "学習・教育", "完全無料"],
-      "strengths": ["ノートブック環境", "インタラクティブ", "複数言語対応"],
       "url": "https://jupyter.org",
       "country": "アメリカ",
       "company": "Project Jupyter",
-      "freeLimit": "完全オープンソース無料"
+      "category": [
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "対話型ノートブック",
+        "可視化",
+        "教育向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 88,
-      "name": "Digen AI",
-      "category": ["動画作成", "音楽・音声生成", "トライアル以外"],
-      "strengths": ["AIリップシンク動画生成", "テキスト→動画", "多言語対応"],
-      "url": "https://digen.ai/en/explore",
+      "id": 70,
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai",
       "country": "アメリカ",
-      "company": "Digen AI",
-      "freeLimit": "無料プランあり"
+      "company": "Weights & Biases",
+      "category": [
+        "データ分析・予測",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "学習の記録・比較",
+        "可視化",
+        "チーム共有"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 89,
-      "name": "DeepSeek",
-      "category": ["情報検索・リサーチ", "アプリ作成", "パーソナルアシスタント", "学習・教育", "完全無料"],
-      "strengths": ["高性能オープンソース", "コード生成精度が高い", "コスト効率が高い"],
-      "url": "https://www.deepseek.com",
+      "id": 71,
+      "name": "Pinecone",
+      "url": "https://www.pinecone.io",
+      "country": "アメリカ",
+      "company": "Pinecone",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "ベクトルDB",
+        "高速検索",
+        "マネージド"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 72,
+      "name": "Weaviate",
+      "url": "https://weaviate.io",
+      "country": "オランダ",
+      "company": "Weaviate",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "ベクトル検索",
+        "オープンソース",
+        "ハイブリッド検索"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 73,
+      "name": "Qdrant",
+      "url": "https://qdrant.tech",
+      "country": "ドイツ",
+      "company": "Qdrant",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "ベクトルDB",
+        "高性能",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 74,
+      "name": "Chroma",
+      "url": "https://www.trychroma.com",
+      "country": "アメリカ",
+      "company": "Chroma",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "手軽なベクトルDB",
+        "Python向け",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 75,
+      "name": "Milvus",
+      "url": "https://milvus.io",
       "country": "中国",
-      "company": "DeepSeek",
-      "freeLimit": "完全無料"
+      "company": "Zilliz",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "大規模ベクトル検索",
+        "オープンソース",
+        "高速"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 90,
-      "name": "Suno AI",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["テキストから音楽生成", "高品質な楽曲生成", "複数ジャンル対応"],
-      "url": "https://suno.com",
+      "id": 76,
+      "name": "Supabase",
+      "url": "https://supabase.com",
       "country": "アメリカ",
-      "company": "Suno AI",
-      "freeLimit": "1日50クレジット無料"
+      "company": "Supabase",
+      "category": [
+        "アプリ作成",
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "DB+認証",
+        "ベクトル検索",
+        "無料枠"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 91,
-      "name": "Udio",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["高品質AI作曲", "多ジャンル対応", "歌詞生成も可能"],
-      "url": "https://www.udio.com",
-      "country": "アメリカ",
-      "company": "Udio",
-      "freeLimit": "月100曲まで無料"
+      "id": 77,
+      "name": "Vespa",
+      "url": "https://vespa.ai",
+      "country": "ノルウェー",
+      "company": "Vespa.ai",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "検索+機械学習",
+        "大規模向け",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 92,
-      "name": "Mubert",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["AIBGMリアルタイム生成", "商用利用可能", "ムード指定可能"],
-      "url": "https://mubert.com",
-      "country": "ロシア",
-      "company": "Mubert",
-      "freeLimit": "月25曲まで無料"
-    },
-    {
-      "id": 93,
-      "name": "Soundraw",
-      "category": ["音楽・音声生成", "日本語特化", "トライアル以外"],
-      "strengths": ["日本発の音楽生成AI", "ロイヤリティフリー", "動画BGM向け"],
-      "url": "https://soundraw.io",
-      "country": "日本",
-      "company": "Soundraw",
-      "freeLimit": "試聴は無料（ダウンロードは有料）"
-    },
-    {
-      "id": 94,
-      "name": "Beatoven.ai",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["ムード別音楽生成", "動画・ポッドキャスト向け", "シンプルUI"],
-      "url": "https://www.beatoven.ai",
-      "country": "インド",
-      "company": "Beatoven",
-      "freeLimit": "月15分まで無料"
-    },
-    {
-      "id": 95,
-      "name": "Boomy",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["ワンクリック作曲", "ストリーミング配信可能", "初心者向け"],
-      "url": "https://boomy.com",
-      "country": "アメリカ",
-      "company": "Boomy",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 96,
-      "name": "AIVA",
-      "category": ["音楽・音声生成", "トライアル以外"],
-      "strengths": ["クラシック・映画音楽生成", "感情表現豊か", "楽譜出力可能"],
-      "url": "https://www.aiva.ai",
-      "country": "ルクセンブルク",
-      "company": "AIVA",
-      "freeLimit": "月3曲まで無料"
-    },
-    {
-      "id": 97,
-      "name": "Riffusion",
-      "category": ["音楽・音声生成", "完全無料"],
-      "strengths": ["テキストから音楽生成", "オープンソース", "ユニークな音楽"],
-      "url": "https://www.riffusion.com",
-      "country": "アメリカ",
-      "company": "Riffusion",
-      "freeLimit": "完全無料"
-    },
-    {
-      "id": 98,
-      "name": "Writesonic",
-      "category": ["テキスト生成・AI執筆", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["ブログ記事生成", "SEOコンテンツ対応", "複数言語対応"],
-      "url": "https://writesonic.com",
-      "country": "アメリカ",
-      "company": "Writesonic",
-      "freeLimit": "1日50生成まで無料"
-    },
-    {
-      "id": 99,
-      "name": "Anyword",
-      "category": ["テキスト生成・AI執筆", "トライアル以外"],
-      "strengths": ["マーケティングコピー生成", "パフォーマンス予測スコア", "複数コピー比較"],
-      "url": "https://anyword.com",
-      "country": "アメリカ",
-      "company": "Anyword",
-      "freeLimit": "無料トライアルのみ"
-    },
-    {
-      "id": 100,
-      "name": "Rytr",
-      "category": ["テキスト生成・AI執筆", "学習・教育", "トライアル以外"],
-      "strengths": ["40以上のユースケース対応", "35以上の言語対応", "シンプルなUI"],
-      "url": "https://rytr.me",
-      "country": "アメリカ",
-      "company": "Rytr",
-      "freeLimit": "月10,000文字まで無料"
-    },
-    {
-      "id": 101,
-      "name": "Frase",
-      "category": ["テキスト生成・AI執筆", "情報検索・リサーチ", "トライアル以外"],
-      "strengths": ["SEO最適化文章生成", "競合コンテンツ分析", "コンテンツブリーフ作成"],
-      "url": "https://www.frase.io",
-      "country": "アメリカ",
-      "company": "Frase",
-      "freeLimit": "無料トライアルのみ"
-    },
-    {
-      "id": 102,
-      "name": "GhostWriter（Replit）",
-      "category": ["テキスト生成・AI執筆", "アプリ作成", "トライアル以外"],
-      "strengths": ["テック記事生成", "コード補完機能内蔵", "開発者向け"],
-      "url": "https://replit.com/ghostwriter",
-      "country": "アメリカ",
-      "company": "Replit",
-      "freeLimit": "Replit無料版に含まれる"
-    },
-    {
-      "id": 103,
-      "name": "Wordtune",
-      "category": ["テキスト生成・AI執筆", "言語・翻訳", "トライアル以外"],
-      "strengths": ["文章リライト", "複数の言い換え候補提示", "ブラウザ拡張機能あり"],
-      "url": "https://www.wordtune.com",
-      "country": "イスラエル",
-      "company": "AI21 Labs",
-      "freeLimit": "月10回まで無料"
-    },
-    {
-      "id": 104,
-      "name": "Leonardo.Ai",
-      "category": ["画像作成", "デザイン・UI/UX", "トライアル以外"],
-      "strengths": ["高品質画像生成", "ゲーム・クリエイティブ向け", "カスタムモデル学習可能"],
-      "url": "https://leonardo.ai",
-      "country": "オーストラリア",
-      "company": "Leonardo AI",
-      "freeLimit": "1日150クレジット無料"
-    },
-    {
-      "id": 105,
-      "name": "Civitai",
-      "category": ["画像作成", "完全無料"],
-      "strengths": ["AIモデル共有コミュニティ", "カスタムLoRA多数", "オープンソース"],
-      "url": "https://civitai.com",
-      "country": "アメリカ",
-      "company": "Civitai",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 106,
-      "name": "DreamStudio",
-      "category": ["画像作成", "トライアル以外"],
-      "strengths": ["Stable Diffusion公式UI", "高品質生成", "細かい設定が可能"],
-      "url": "https://dreamstudio.ai",
-      "country": "イギリス",
-      "company": "Stability AI",
-      "freeLimit": "初回25クレジット無料"
-    },
-    {
-      "id": 107,
-      "name": "Fotor",
-      "category": ["画像作成", "画像編集", "トライアル以外"],
-      "strengths": ["AI画像編集", "テンプレート豊富", "背景除去・加工"],
-      "url": "https://www.fotor.com",
-      "country": "中国",
-      "company": "Fotor",
-      "freeLimit": "基本機能は無料"
-    },
-    {
-      "id": 108,
-      "name": "ImageFX",
-      "category": ["画像作成", "完全無料"],
-      "strengths": ["Google公式画像生成AI", "高品質", "テキスト描画に強い"],
-      "url": "https://labs.google/fx/tools/image-fx",
+      "id": 78,
+      "name": "Teachable Machine",
+      "url": "https://teachablemachine.withgoogle.com",
       "country": "アメリカ",
       "company": "Google",
-      "freeLimit": "完全無料"
+      "category": [
+        "アプリ作成",
+        "学習・教育",
+        "製造・ロボティクス"
+      ],
+      "strengths": [
+        "ブラウザで画像認識AI作成",
+        "コード不要",
+        "学習向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 109,
-      "name": "Fliki",
-      "category": ["動画作成", "音楽・音声生成", "トライアル以外"],
-      "strengths": ["テキスト→動画生成", "字幕自動生成", "多言語音声対応"],
-      "url": "https://fliki.ai",
+      "id": 79,
+      "name": "Firebase Studio",
+      "url": "https://firebase.studio",
       "country": "アメリカ",
-      "company": "Fliki",
-      "freeLimit": "月5分まで無料"
+      "company": "Google",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIでアプリ試作",
+        "ブラウザ開発",
+        "Android対応"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 110,
-      "name": "InVideo",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["マーケティング動画生成", "テンプレート豊富", "AIスクリプト生成"],
-      "url": "https://invideo.io",
-      "country": "インド",
-      "company": "InVideo",
-      "freeLimit": "月4動画まで無料（透かし付き）"
-    },
-    {
-      "id": 111,
-      "name": "Kapwing",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["AI動画編集", "字幕自動生成", "コラボレーション機能"],
-      "url": "https://www.kapwing.com",
+      "id": 80,
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
       "country": "アメリカ",
-      "company": "Kapwing",
-      "freeLimit": "基本機能は無料（透かし付き）"
+      "company": "GitHub（Microsoft）",
+      "category": [
+        "コード補完",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "コード補完の定番",
+        "IDE統合",
+        "チャット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "Copilot Free（月の回数制限）"
     },
     {
-      "id": 112,
-      "name": "OpusClip",
-      "category": ["動画作成", "トライアル以外"],
-      "strengths": ["長尺動画→ショート動画自動切り抜き", "ハイライト自動検出", "SNS最適化"],
-      "url": "https://www.opus.pro",
+      "id": 81,
+      "name": "Cursor",
+      "url": "https://cursor.com",
       "country": "アメリカ",
-      "company": "Opus",
-      "freeLimit": "月60分まで無料"
+      "company": "Anysphere",
+      "category": [
+        "コード補完",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIエディタ",
+        "プロジェクト全体を理解",
+        "高精度"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 113,
-      "name": "Looka",
-      "category": ["デザイン・UI/UX", "トライアル以外"],
-      "strengths": ["AIロゴデザイン", "ブランドキット生成", "SNSアイコン対応"],
-      "url": "https://looka.com",
-      "country": "カナダ",
-      "company": "Looka",
-      "freeLimit": "ロゴ案の確認まで無料（ダウンロードは有料）"
-    },
-    {
-      "id": 114,
-      "name": "Microsoft Designer",
-      "category": ["デザイン・UI/UX", "画像作成", "完全無料"],
-      "strengths": ["AI画像生成＋デザイン統合", "DALL-E搭載", "SNS投稿デザイン向け"],
-      "url": "https://designer.microsoft.com",
+      "id": 82,
+      "name": "Windsurf",
+      "url": "https://windsurf.com",
       "country": "アメリカ",
-      "company": "Microsoft",
-      "freeLimit": "完全無料"
+      "company": "Cognition",
+      "category": [
+        "コード補完",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIエディタ",
+        "エージェント機能",
+        "旧Codeium"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 115,
-      "name": "Gamma",
-      "category": ["デザイン・UI/UX", "テキスト生成・AI執筆", "トライアル以外"],
-      "strengths": ["AIプレゼン資料生成", "Webページ・ドキュメントも作成可能", "テンプレート豊富"],
-      "url": "https://gamma.app",
+      "id": 83,
+      "name": "Gemini Code Assist",
+      "url": "https://codeassist.google",
       "country": "アメリカ",
-      "company": "Gamma",
-      "freeLimit": "月400AIクレジット無料"
+      "company": "Google",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "個人は無料",
+        "VS Code・JetBrains対応",
+        "補完"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "個人利用は無料"
     },
     {
-      "id": 116,
-      "name": "Beautiful.ai",
-      "category": ["デザイン・UI/UX", "トライアル以外"],
-      "strengths": ["AIスライドデザイン", "自動レイアウト調整", "プレゼン向け"],
-      "url": "https://www.beautiful.ai",
+      "id": 84,
+      "name": "Amazon Q Developer",
+      "url": "https://aws.amazon.com/q/developer/",
       "country": "アメリカ",
-      "company": "Beautiful.ai",
-      "freeLimit": "無料トライアルのみ"
+      "company": "Amazon",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "AWS連携",
+        "コード変換",
+        "セキュリティ診断"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 117,
+      "id": 85,
+      "name": "Kiro",
+      "url": "https://kiro.dev",
+      "country": "アメリカ",
+      "company": "Amazon",
+      "category": [
+        "コード補完",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "仕様書から開発",
+        "エージェントIDE",
+        "設計支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 86,
+      "name": "Jules",
+      "url": "https://jules.google",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "非同期コーディングエージェント",
+        "GitHub連携",
+        "自動修正"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 87,
       "name": "Tabnine",
-      "category": ["コード補完", "アプリ作成", "トライアル以外"],
-      "strengths": ["プライバシー重視のコード補完", "ローカル実行可能", "複数IDE対応"],
       "url": "https://www.tabnine.com",
       "country": "イスラエル",
       "company": "Tabnine",
-      "freeLimit": "基本機能は無料"
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "プライバシー重視",
+        "社内運用可",
+        "多IDE対応"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
     },
     {
-      "id": 118,
-      "name": "Codeium",
-      "category": ["コード補完", "アプリ作成", "完全無料"],
-      "strengths": ["GitHub Copilot代替", "70以上の言語対応", "無料で高機能"],
-      "url": "https://codeium.com",
+      "id": 88,
+      "name": "Continue",
+      "url": "https://www.continue.dev",
       "country": "アメリカ",
-      "company": "Codeium",
-      "freeLimit": "個人利用は完全無料"
+      "company": "Continue",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "オープンソース補完",
+        "好きなAIを接続",
+        "VS Code"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 119,
+      "id": 89,
+      "name": "Cline",
+      "url": "https://cline.bot",
+      "country": "アメリカ",
+      "company": "Cline",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "VS Code用エージェント",
+        "オープンソース",
+        "ローカルAI可"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "拡張は無料（AI利用料は別）"
+    },
+    {
+      "id": 90,
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "country": "アメリカ",
+      "company": "Aider",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "ターミナルでAIペアプロ",
+        "Git連携",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "ツールは無料（AI利用料は別）"
+    },
+    {
+      "id": 91,
       "name": "Replit",
-      "category": ["アプリ作成", "コード補完", "学習・教育", "トライアル以外"],
-      "strengths": ["クラウド開発環境", "AIコード生成", "ブラウザだけで開発可能"],
       "url": "https://replit.com",
       "country": "アメリカ",
       "company": "Replit",
-      "freeLimit": "基本機能は無料"
+      "category": [
+        "アプリ作成",
+        "コード補完",
+        "学習・教育"
+      ],
+      "strengths": [
+        "ブラウザで開発",
+        "AIがアプリ作成",
+        "公開簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 120,
+      "id": 92,
+      "name": "Bolt.new",
+      "url": "https://bolt.new",
+      "country": "アメリカ",
+      "company": "StackBlitz",
+      "category": [
+        "アプリ作成"
+      ],
+      "strengths": [
+        "指示だけでWebアプリ作成",
+        "即プレビュー",
+        "公開"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 93,
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "country": "スウェーデン",
+      "company": "Lovable",
+      "category": [
+        "アプリ作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "会話でアプリ作成",
+        "デザイン性",
+        "DB連携"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 94,
+      "name": "v0",
+      "url": "https://v0.app",
+      "country": "アメリカ",
+      "company": "Vercel",
+      "category": [
+        "アプリ作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "テキストからUI生成",
+        "React対応",
+        "即公開"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 95,
       "name": "Warp",
-      "category": ["アプリ作成", "コード補完", "完全無料"],
-      "strengths": ["AIターミナル", "コマンド補完", "エラー自動診断"],
       "url": "https://www.warp.dev",
       "country": "アメリカ",
       "company": "Warp",
-      "freeLimit": "個人利用は無料"
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "AIターミナル",
+        "コマンド提案",
+        "エラー解説"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 121,
-      "name": "Consensus",
-      "category": ["論文・リサーチ分析", "情報検索・リサーチ", "学習・教育", "トライアル以外"],
-      "strengths": ["2億件以上の論文検索", "論文の一致度メーター", "引用付き回答"],
-      "url": "https://consensus.app",
+      "id": 96,
+      "name": "Qodo",
+      "url": "https://www.qodo.ai",
+      "country": "イスラエル",
+      "company": "Qodo",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "テスト自動生成",
+        "コードレビュー",
+        "品質向上"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 97,
+      "name": "JetBrains AI Assistant",
+      "url": "https://www.jetbrains.com/ai/",
+      "country": "チェコ",
+      "company": "JetBrains",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "Android Studio等に統合",
+        "補完",
+        "リファクタリング"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 98,
+      "name": "Trae",
+      "url": "https://www.trae.ai",
+      "country": "シンガポール",
+      "company": "ByteDance",
+      "category": [
+        "コード補完",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIエディタ",
+        "エージェント",
+        "無料枠が大きい"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 99,
+      "name": "通义灵码（Lingma）",
+      "url": "https://lingma.aliyun.com",
+      "country": "中国",
+      "company": "Alibaba",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "無料コード補完",
+        "多言語",
+        "IDE対応"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 100,
+      "name": "CodeGeeX",
+      "url": "https://codegeex.cn",
+      "country": "中国",
+      "company": "Zhipu AI",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "無料コード補完",
+        "翻訳",
+        "オープンモデル"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 101,
+      "name": "Blackbox AI",
+      "url": "https://www.blackbox.ai",
       "country": "アメリカ",
-      "company": "Consensus",
-      "freeLimit": "基本検索は無料"
+      "company": "Blackbox",
+      "category": [
+        "コード補完"
+      ],
+      "strengths": [
+        "コード検索・生成",
+        "画像からコード",
+        "拡張機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
     },
     {
-      "id": 122,
-      "name": "Elicit",
-      "category": ["論文・リサーチ分析", "情報検索・リサーチ", "トライアル以外"],
-      "strengths": ["論文の自動分析", "研究質問への回答", "データ抽出自動化"],
-      "url": "https://elicit.com",
+      "id": 102,
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
       "country": "アメリカ",
-      "company": "Elicit",
-      "freeLimit": "月5,000クレジットまで無料"
+      "company": "Midjourney",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "芸術性が高い",
+        "高品質",
+        "スタイル豊富"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "現在は有料プランのみ（無料トライアルは不定期）"
     },
     {
-      "id": 123,
-      "name": "Scite",
-      "category": ["論文・リサーチ分析", "トライアル以外"],
-      "strengths": ["論文引用分析", "支持・反証の分類", "信頼性評価"],
-      "url": "https://scite.ai",
+      "id": 103,
+      "name": "Bing Image Creator",
+      "url": "https://www.bing.com/create",
       "country": "アメリカ",
-      "company": "Scite",
-      "freeLimit": "無料トライアルのみ"
+      "company": "Microsoft",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "OpenAIの画像モデル",
+        "無料",
+        "簡単操作"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 124,
-      "name": "Julius.ai",
-      "category": ["データ分析・予測", "論文・リサーチ分析", "トライアル以外"],
-      "strengths": ["自然言語でデータ分析", "40以上のグラフタイプ", "Python/R/SQL対応"],
-      "url": "https://julius.ai",
+      "id": 104,
+      "name": "Microsoft Designer",
+      "url": "https://designer.microsoft.com",
       "country": "アメリカ",
-      "company": "Julius AI",
-      "freeLimit": "月15メッセージまで無料"
+      "company": "Microsoft",
+      "category": [
+        "デザイン・UI/UX",
+        "画像作成"
+      ],
+      "strengths": [
+        "画像生成+デザイン",
+        "SNS投稿向け",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
-      "id": 125,
-      "name": "Sourcegraph Cody",
-      "category": ["アプリ作成", "コード補完", "情報検索・リサーチ", "完全無料"],
-      "strengths": ["コードベース横断検索", "AIコードレビュー", "大規模リポジトリ対応"],
-      "url": "https://sourcegraph.com/cody",
+      "id": 105,
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com",
       "country": "アメリカ",
-      "company": "Sourcegraph",
-      "freeLimit": "個人利用は無料"
+      "company": "Adobe",
+      "category": [
+        "画像作成",
+        "画像編集"
+      ],
+      "strengths": [
+        "商用利用に配慮",
+        "Adobe連携",
+        "生成塗りつぶし"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "月ごとの無料クレジット"
     },
     {
-      "id": 126,
-      "name": "rinna",
-      "category": ["日本語特化", "パーソナルアシスタント", "完全無料"],
-      "strengths": ["日本語特化LLM", "会話・テキスト生成に強い", "オープンソースモデルあり"],
-      "url": "https://rinna.jp",
-      "country": "日本",
-      "company": "rinna株式会社",
-      "freeLimit": "APIトライアルあり"
+      "id": 106,
+      "name": "Leonardo.Ai",
+      "url": "https://leonardo.ai",
+      "country": "オーストラリア",
+      "company": "Leonardo AI（Canva）",
+      "category": [
+        "画像作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ゲーム素材向け",
+        "モデル豊富",
+        "毎日クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日無料クレジット付与"
     },
     {
-      "id": 127,
-      "name": "Google NotebookLM",
-      "category": ["要約と構造化", "論文・リサーチ分析", "学習・教育", "完全無料"],
-      "strengths": ["PDFや資料を読み込んでAI分析", "音声ポッドキャスト自動生成", "引用付き回答"],
-      "url": "https://notebooklm.google.com",
-      "country": "アメリカ",
-      "company": "Google",
-      "freeLimit": "完全無料"
-    },
-    {
-      "id": 128,
+      "id": 107,
       "name": "Ideogram",
-      "category": ["画像作成", "デザイン・UI/UX", "トライアル以外"],
-      "strengths": ["テキスト描画精度が高い", "ロゴ・バナー作成向け", "高品質生成"],
       "url": "https://ideogram.ai",
       "country": "カナダ",
       "company": "Ideogram",
-      "freeLimit": "1日10枚まで無料"
+      "category": [
+        "画像作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "文字入り画像に強い",
+        "ロゴ・ポスター",
+        "高品質"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 108,
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "country": "イギリス",
+      "company": "Stability AI",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "オープンモデル",
+        "PCで無制限生成",
+        "拡張豊富"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "ローカル実行は無料"
+    },
+    {
+      "id": 109,
+      "name": "DreamStudio",
+      "url": "https://dreamstudio.ai",
+      "country": "イギリス",
+      "company": "Stability AI",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "Stable Diffusion公式Web版",
+        "細かい設定",
+        "高品質"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "初回クレジットのみ"
+    },
+    {
+      "id": 110,
+      "name": "Civitai",
+      "url": "https://civitai.com",
+      "country": "アメリカ",
+      "company": "Civitai",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "モデル・LoRA共有",
+        "作例豊富",
+        "オンライン生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 111,
+      "name": "ImageFX",
+      "url": "https://labs.google/fx/tools/image-fx",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "Google製画像生成",
+        "高品質",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 112,
+      "name": "Whisk",
+      "url": "https://labs.google/fx/tools/whisk",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "画像を組み合わせて生成",
+        "直感操作",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 113,
+      "name": "Playground",
+      "url": "https://playground.com",
+      "country": "アメリカ",
+      "company": "Playground",
+      "category": [
+        "画像作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "デザイン向け生成",
+        "テンプレート",
+        "編集機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 114,
+      "name": "NightCafe",
+      "url": "https://creator.nightcafe.studio",
+      "country": "オーストラリア",
+      "company": "NightCafe",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "複数モデル利用",
+        "コミュニティ",
+        "毎日クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 115,
+      "name": "Craiyon",
+      "url": "https://www.craiyon.com",
+      "country": "アメリカ",
+      "company": "Craiyon",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "登録不要",
+        "完全無料",
+        "手軽"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料（広告あり）"
+    },
+    {
+      "id": 116,
+      "name": "Krea",
+      "url": "https://www.krea.ai",
+      "country": "アメリカ",
+      "company": "Krea",
+      "category": [
+        "画像作成",
+        "動画作成"
+      ],
+      "strengths": [
+        "リアルタイム生成",
+        "高画質化",
+        "動画生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 117,
+      "name": "FLUX",
+      "url": "https://bfl.ai",
+      "country": "ドイツ",
+      "company": "Black Forest Labs",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "高品質オープンモデル",
+        "写実的",
+        "文字表現"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "公開モデルはローカルで無料"
+    },
+    {
+      "id": 118,
+      "name": "Recraft",
+      "url": "https://www.recraft.ai",
+      "country": "アメリカ",
+      "company": "Recraft",
+      "category": [
+        "画像作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ベクター画像生成",
+        "アイコン",
+        "ブランド統一"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 119,
+      "name": "SeaArt",
+      "url": "https://www.seaart.ai",
+      "country": "シンガポール",
+      "company": "SeaArt",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "イラスト向け",
+        "モデル豊富",
+        "毎日クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 120,
+      "name": "Dreamina（即梦）",
+      "url": "https://dreamina.capcut.com",
+      "country": "シンガポール",
+      "company": "ByteDance",
+      "category": [
+        "画像作成",
+        "動画作成"
+      ],
+      "strengths": [
+        "高品質画像",
+        "動画生成",
+        "CapCut連携"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日無料クレジット付与"
+    },
+    {
+      "id": 121,
+      "name": "Lexica",
+      "url": "https://lexica.art",
+      "country": "アメリカ",
+      "company": "Lexica",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "画像検索+生成",
+        "プロンプト参考",
+        "高品質"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 122,
+      "name": "OpenArt",
+      "url": "https://openart.ai",
+      "country": "アメリカ",
+      "company": "OpenArt",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "多数モデル",
+        "キャラクター一貫性",
+        "編集機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 123,
+      "name": "Freepik AI",
+      "url": "https://www.freepik.com/ai",
+      "country": "スペイン",
+      "company": "Freepik",
+      "category": [
+        "画像作成",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "素材サイト統合",
+        "画像・動画生成",
+        "高画質化"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 124,
+      "name": "Mage.space",
+      "url": "https://www.mage.space",
+      "country": "アメリカ",
+      "company": "Mage",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "無料生成",
+        "モデル選択",
+        "手軽"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 125,
+      "name": "Artbreeder",
+      "url": "https://www.artbreeder.com",
+      "country": "アメリカ",
+      "company": "Artbreeder",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "画像を掛け合わせ",
+        "キャラクター作成",
+        "コラージュ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 126,
+      "name": "AIピカソ",
+      "url": "https://aipicasso.app",
+      "country": "日本",
+      "company": "AI Picasso",
+      "category": [
+        "画像作成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語で画像生成",
+        "スマホアプリ",
+        "イラスト向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 127,
+      "name": "ComfyUI",
+      "url": "https://www.comfy.org",
+      "country": "アメリカ",
+      "company": "Comfy Org",
+      "category": [
+        "画像作成",
+        "動画作成"
+      ],
+      "strengths": [
+        "ノード式で自由に生成",
+        "動画対応",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 128,
+      "name": "InvokeAI",
+      "url": "https://www.invoke.com",
+      "country": "アメリカ",
+      "company": "Invoke",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "ローカル画像生成",
+        "キャンバス編集",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "ローカル版は無料"
     },
     {
       "id": 129,
-      "name": "Cursor",
-      "category": ["アプリ作成", "コード補完", "トライアル以外"],
-      "strengths": ["AIコードエディタ", "コードベース全体を理解", "高精度なコード補完"],
-      "url": "https://cursor.sh",
-      "country": "アメリカ",
-      "company": "Anysphere",
-      "freeLimit": "月2,000回の補完まで無料"
+      "name": "Qwen-Image",
+      "url": "https://github.com/QwenLM/Qwen-Image",
+      "country": "中国",
+      "company": "Alibaba",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "文字描画に強い",
+        "オープンモデル",
+        "中国語対応"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     },
     {
       "id": 130,
-      "name": "v0.dev",
-      "category": ["アプリ作成", "デザイン・UI/UX", "トライアル以外"],
-      "strengths": ["テキスト→UIコード生成", "React/Next.js対応", "即時プレビュー"],
-      "url": "https://v0.dev",
+      "name": "NovelAI",
+      "url": "https://novelai.net",
       "country": "アメリカ",
-      "company": "Vercel",
-      "freeLimit": "月200クレジットまで無料"
+      "company": "Anlatan",
+      "category": [
+        "画像作成",
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "アニメ調イラスト",
+        "小説生成",
+        "高品質"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
     },
     {
       "id": 131,
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "country": "オーストラリア",
+      "company": "Canva",
+      "category": [
+        "デザイン・UI/UX",
+        "画像作成",
+        "動画作成"
+      ],
+      "strengths": [
+        "テンプレート豊富",
+        "AI画像・文章",
+        "誰でも簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 132,
+      "name": "remove.bg",
+      "url": "https://www.remove.bg",
+      "country": "オーストリア",
+      "company": "Kaleido AI（Canva）",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "背景除去",
+        "高精度",
+        "一瞬で完了"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "低解像度は無料"
+    },
+    {
+      "id": 133,
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com",
+      "country": "フランス",
+      "company": "Photoroom",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "商品写真",
+        "背景除去・生成",
+        "スマホ対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 134,
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co",
+      "country": "フランス",
+      "company": "Jasper",
+      "category": [
+        "画像編集",
+        "画像作成"
+      ],
+      "strengths": [
+        "背景除去",
+        "不要物消去",
+        "高画質化"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 135,
+      "name": "Cleanup.pictures",
+      "url": "https://cleanup.pictures",
+      "country": "フランス",
+      "company": "Clipdrop",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "写真の不要物を消す",
+        "簡単操作",
+        "高品質"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 136,
+      "name": "Upscayl",
+      "url": "https://upscayl.org",
+      "country": "インド",
+      "company": "Upscayl",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "画像の高画質化",
+        "PCで無料",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 137,
+      "name": "Real-ESRGAN",
+      "url": "https://github.com/xinntao/Real-ESRGAN",
+      "country": "中国",
+      "company": "Tencent ARC Lab",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "高画質化",
+        "ノイズ除去",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 138,
+      "name": "waifu2x",
+      "url": "https://unlimited.waifu2x.net",
+      "country": "日本",
+      "company": "nagadomi",
+      "category": [
+        "画像編集",
+        "日本語特化"
+      ],
+      "strengths": [
+        "イラストの拡大",
+        "ノイズ除去",
+        "完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 139,
+      "name": "Let's Enhance",
+      "url": "https://letsenhance.io",
+      "country": "ウクライナ",
+      "company": "Let's Enhance",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "高画質化",
+        "印刷用拡大",
+        "色補正"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 140,
+      "name": "Topaz Photo AI",
+      "url": "https://www.topazlabs.com",
+      "country": "アメリカ",
+      "company": "Topaz Labs",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "プロ向け高画質化",
+        "ノイズ除去",
+        "シャープ化"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 141,
+      "name": "Pixlr",
+      "url": "https://pixlr.com",
+      "country": "シンガポール",
+      "company": "Inmagine",
+      "category": [
+        "画像編集",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ブラウザ画像編集",
+        "AI生成",
+        "背景除去"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 142,
+      "name": "Fotor",
+      "url": "https://www.fotor.com",
+      "country": "中国",
+      "company": "Everimaging",
+      "category": [
+        "画像編集",
+        "画像作成"
+      ],
+      "strengths": [
+        "AI写真編集",
+        "テンプレート",
+        "背景除去"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 143,
+      "name": "Photopea",
+      "url": "https://www.photopea.com",
+      "country": "チェコ",
+      "company": "Photopea",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "Photoshop風ブラウザ編集",
+        "PSD対応",
+        "AI置換"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料（広告あり）"
+    },
+    {
+      "id": 144,
+      "name": "Picsart",
+      "url": "https://picsart.com",
+      "country": "アメリカ",
+      "company": "Picsart",
+      "category": [
+        "画像編集",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "スマホ写真加工",
+        "AI生成",
+        "SNS向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 145,
+      "name": "Snapseed",
+      "url": "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "スマホ写真編集",
+        "自動補正",
+        "完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 146,
+      "name": "Rembg",
+      "url": "https://github.com/danielgatis/rembg",
+      "country": "ブラジル",
+      "company": "Daniel Gatis",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "背景除去",
+        "Pythonで一括処理",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 147,
+      "name": "IOPaint",
+      "url": "https://github.com/Sanster/IOPaint",
+      "country": "中国",
+      "company": "Sanster",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "不要物消去",
+        "ローカル実行",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 148,
+      "name": "Magnific",
+      "url": "https://magnific.ai",
+      "country": "スペイン",
+      "company": "Freepik",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "超高画質化",
+        "ディテール追加",
+        "プロ向け"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 149,
+      "name": "Luminar Neo",
+      "url": "https://skylum.com/luminar",
+      "country": "ウクライナ",
+      "company": "Skylum",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "AI写真現像",
+        "空の置換",
+        "人物補正"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 150,
+      "name": "Adobe Express",
+      "url": "https://www.adobe.com/express/",
+      "country": "アメリカ",
+      "company": "Adobe",
+      "category": [
+        "デザイン・UI/UX",
+        "画像編集"
+      ],
+      "strengths": [
+        "テンプレート",
+        "AI生成",
+        "SNS素材"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 151,
+      "name": "PicWish",
+      "url": "https://picwish.com",
+      "country": "中国",
+      "company": "Wangxu Technology",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "背景除去",
+        "高画質化",
+        "一括処理"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 152,
+      "name": "Upscale.media",
+      "url": "https://www.upscale.media",
+      "country": "インド",
+      "company": "PixelBin",
+      "category": [
+        "画像編集"
+      ],
+      "strengths": [
+        "画像拡大",
+        "ブラウザで簡単",
+        "高速"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 153,
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "country": "アメリカ",
+      "company": "Runway",
+      "category": [
+        "動画作成",
+        "画像編集"
+      ],
+      "strengths": [
+        "高品質動画生成",
+        "編集ツール",
+        "プロ向け"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "初回のみ無料クレジット"
+    },
+    {
+      "id": 154,
+      "name": "Pika",
+      "url": "https://pika.art",
+      "country": "アメリカ",
+      "company": "Pika Labs",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "テキスト・画像から動画",
+        "エフェクト",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 155,
+      "name": "Kling AI（可灵）",
+      "url": "https://klingai.com",
+      "country": "中国",
+      "company": "Kuaishou",
+      "category": [
+        "動画作成",
+        "画像作成"
+      ],
+      "strengths": [
+        "高品質動画生成",
+        "リアルな動き",
+        "毎日クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日無料クレジット付与"
+    },
+    {
+      "id": 156,
+      "name": "Hailuo AI（海螺）",
+      "url": "https://hailuoai.video",
+      "country": "中国",
+      "company": "MiniMax",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "動画生成",
+        "表現力が高い",
+        "無料枠"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 157,
+      "name": "Vidu",
+      "url": "https://www.vidu.com",
+      "country": "中国",
+      "company": "Shengshu Technology",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "キャラクター一貫性",
+        "アニメ調",
+        "高速生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 158,
+      "name": "PixVerse",
+      "url": "https://pixverse.ai",
+      "country": "中国",
+      "company": "AISphere",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "動画生成",
+        "エフェクト",
+        "SNS向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 159,
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "country": "アメリカ",
+      "company": "Luma AI",
+      "category": [
+        "動画作成",
+        "画像作成"
+      ],
+      "strengths": [
+        "自然な動き",
+        "画像生成",
+        "カメラ操作"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 160,
+      "name": "Wan（通义万相）",
+      "url": "https://wan.video",
+      "country": "中国",
+      "company": "Alibaba",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "オープン動画モデル",
+        "ローカル実行可",
+        "高品質"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "公開モデルは無料"
+    },
+    {
+      "id": 161,
+      "name": "HunyuanVideo",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "country": "中国",
+      "company": "Tencent",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "オープン動画モデル",
+        "高品質",
+        "研究向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 162,
+      "name": "CogVideoX",
+      "url": "https://github.com/THUDM/CogVideo",
+      "country": "中国",
+      "company": "Zhipu AI",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "オープン動画モデル",
+        "ローカル実行",
+        "研究向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 163,
+      "name": "Mochi",
+      "url": "https://www.genmo.ai",
+      "country": "アメリカ",
+      "company": "Genmo",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "オープン動画モデル",
+        "滑らかな動き",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 164,
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io",
+      "country": "イギリス",
+      "company": "Synthesia",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "AIアバター動画",
+        "多言語",
+        "研修動画向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 165,
+      "name": "HeyGen",
+      "url": "https://www.heygen.com",
+      "country": "アメリカ",
+      "company": "HeyGen",
+      "category": [
+        "動画作成",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "AIアバター",
+        "動画翻訳・口パク",
+        "多言語"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 166,
+      "name": "D-ID",
+      "url": "https://www.d-id.com",
+      "country": "イスラエル",
+      "company": "D-ID",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "写真を話させる",
+        "アバター",
+        "プレゼン向け"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 167,
+      "name": "Hedra",
+      "url": "https://www.hedra.com",
+      "country": "アメリカ",
+      "company": "Hedra",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "キャラクターが話す動画",
+        "表情豊か",
+        "音声同期"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 168,
+      "name": "Captions",
+      "url": "https://www.captions.ai",
+      "country": "アメリカ",
+      "company": "Captions",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "自動字幕",
+        "アバター",
+        "ショート動画"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 169,
+      "name": "CapCut",
+      "url": "https://www.capcut.com",
+      "country": "シンガポール",
+      "company": "ByteDance",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "無料動画編集",
+        "自動字幕",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 170,
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "country": "アメリカ",
+      "company": "Descript",
+      "category": [
+        "動画作成",
+        "音声認識"
+      ],
+      "strengths": [
+        "文字起こしで動画編集",
+        "ノイズ除去",
+        "収録"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 171,
+      "name": "Kapwing",
+      "url": "https://www.kapwing.com",
+      "country": "アメリカ",
+      "company": "Kapwing",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "ブラウザ動画編集",
+        "自動字幕",
+        "共同作業"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 172,
+      "name": "InVideo",
+      "url": "https://invideo.io",
+      "country": "インド",
+      "company": "InVideo",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "テキストから動画",
+        "テンプレート",
+        "素材豊富"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料版は透かし付き"
+    },
+    {
+      "id": 173,
+      "name": "Fliki",
+      "url": "https://fliki.ai",
+      "country": "アメリカ",
+      "company": "Fliki",
+      "category": [
+        "動画作成",
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "文章から動画",
+        "多言語ナレーション",
+        "字幕"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 174,
+      "name": "Pictory",
+      "url": "https://pictory.ai",
+      "country": "アメリカ",
+      "company": "Pictory",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "記事から動画",
+        "自動字幕",
+        "ハイライト作成"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 175,
+      "name": "OpusClip",
+      "url": "https://www.opus.pro",
+      "country": "アメリカ",
+      "company": "Opus",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "長い動画から切り抜き",
+        "ショート動画",
+        "自動字幕"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 176,
+      "name": "Vrew",
+      "url": "https://vrew.ai",
+      "country": "韓国",
+      "company": "VoyagerX",
+      "category": [
+        "動画作成",
+        "音声認識"
+      ],
+      "strengths": [
+        "自動字幕",
+        "テキストで編集",
+        "日本語対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 177,
+      "name": "Loom",
+      "url": "https://www.loom.com",
+      "country": "アメリカ",
+      "company": "Loom（Atlassian）",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "画面録画",
+        "共有",
+        "AI要約"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 178,
+      "name": "VEED",
+      "url": "https://www.veed.io",
+      "country": "イギリス",
+      "company": "VEED",
+      "category": [
+        "動画作成",
+        "音声認識"
+      ],
+      "strengths": [
+        "ブラウザ動画編集",
+        "字幕",
+        "翻訳"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 179,
+      "name": "Clipchamp",
+      "url": "https://clipchamp.com",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "Windows標準の動画編集",
+        "自動字幕",
+        "無料"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 180,
+      "name": "Filmora",
+      "url": "https://filmora.wondershare.com",
+      "country": "中国",
+      "company": "Wondershare",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "初心者向け動画編集",
+        "AI機能",
+        "エフェクト"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料版は透かし付き"
+    },
+    {
+      "id": 181,
+      "name": "Topaz Video AI",
+      "url": "https://www.topazlabs.com/topaz-video-ai",
+      "country": "アメリカ",
+      "company": "Topaz Labs",
+      "category": [
+        "動画作成"
+      ],
+      "strengths": [
+        "動画の高画質化",
+        "フレーム補間",
+        "手ぶれ補正"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 182,
+      "name": "Digen AI",
+      "url": "https://digen.ai/en/explore",
+      "country": "要確認",
+      "company": "Digen AI",
+      "category": [
+        "動画作成",
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "リップシンク動画",
+        "複数動画モデル",
+        "音声同期"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 183,
+      "name": "Suno",
+      "url": "https://suno.com",
+      "country": "アメリカ",
+      "company": "Suno",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "歌付きの曲を生成",
+        "日本語歌詞対応",
+        "高品質"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日無料クレジット付与"
+    },
+    {
+      "id": 184,
+      "name": "Udio",
+      "url": "https://www.udio.com",
+      "country": "アメリカ",
+      "company": "Udio",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "高音質の作曲",
+        "多ジャンル",
+        "歌詞生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 185,
+      "name": "Mureka",
+      "url": "https://www.mureka.ai",
+      "country": "シンガポール",
+      "company": "Skywork AI（Kunlun Tech）",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "作曲",
+        "歌詞生成",
+        "参考曲から生成"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 186,
+      "name": "Stable Audio",
+      "url": "https://stableaudio.com",
+      "country": "イギリス",
+      "company": "Stability AI",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "効果音・BGM生成",
+        "高音質",
+        "商用配慮"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 187,
+      "name": "SOUNDRAW",
+      "url": "https://soundraw.io",
+      "country": "日本",
+      "company": "SOUNDRAW",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本発のBGM生成",
+        "著作権フリー",
+        "動画向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "作成・試聴は無料（ダウンロードは有料）"
+    },
+    {
+      "id": 188,
+      "name": "AIVA",
+      "url": "https://www.aiva.ai",
+      "country": "ルクセンブルク",
+      "company": "AIVA",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "クラシック・映画音楽",
+        "楽譜出力",
+        "感情表現"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 189,
+      "name": "Beatoven.ai",
+      "url": "https://www.beatoven.ai",
+      "country": "インド",
+      "company": "Beatoven",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "雰囲気別BGM",
+        "動画・ポッドキャスト向け",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 190,
+      "name": "Boomy",
+      "url": "https://boomy.com",
+      "country": "アメリカ",
+      "company": "Boomy",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "ワンクリック作曲",
+        "配信可能",
+        "初心者向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 191,
+      "name": "Mubert",
+      "url": "https://mubert.com",
+      "country": "アメリカ",
+      "company": "Mubert",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "BGM自動生成",
+        "ループ",
+        "配信向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 192,
+      "name": "Riffusion",
+      "url": "https://www.riffusion.com",
+      "country": "アメリカ",
+      "company": "Riffusion",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "テキストから作曲",
+        "歌付き",
+        "編集機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 193,
+      "name": "Soundful",
+      "url": "https://soundful.com",
+      "country": "アメリカ",
+      "company": "Soundful",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "著作権フリーBGM",
+        "ジャンル選択",
+        "動画向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 194,
+      "name": "Loudly",
+      "url": "https://www.loudly.com",
+      "country": "ドイツ",
+      "company": "Loudly",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "BGM生成",
+        "素材ライブラリ",
+        "商用向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 195,
+      "name": "Moises",
+      "url": "https://moises.ai",
+      "country": "ブラジル",
+      "company": "Moises",
+      "category": [
+        "音楽・音声生成",
+        "学習・教育"
+      ],
+      "strengths": [
+        "ボーカル・楽器の分離",
+        "テンポ変更",
+        "練習向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 196,
+      "name": "LALAL.AI",
+      "url": "https://www.lalal.ai",
+      "country": "スイス",
+      "company": "LALAL.AI",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "高精度な音源分離",
+        "ノイズ除去",
+        "ボーカル抽出"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "初回の無料分のみ"
+    },
+    {
+      "id": 197,
+      "name": "Ultimate Vocal Remover",
+      "url": "https://ultimatevocalremover.com",
+      "country": "アメリカ",
+      "company": "UVRチーム",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "ボーカル分離",
+        "PCで無料",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 198,
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "country": "アメリカ",
+      "company": "ElevenLabs",
+      "category": [
+        "音楽・音声生成",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "自然な音声合成",
+        "声のクローン",
+        "多言語吹替"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 199,
+      "name": "Murf",
+      "url": "https://murf.ai",
+      "country": "アメリカ",
+      "company": "Murf AI",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "ナレーション作成",
+        "声の種類豊富",
+        "動画向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 200,
+      "name": "Speechify",
+      "url": "https://speechify.com",
+      "country": "アメリカ",
+      "company": "Speechify",
+      "category": [
+        "音楽・音声生成",
+        "学習・教育"
+      ],
+      "strengths": [
+        "文章の読み上げ",
+        "速度調整",
+        "学習支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 201,
+      "name": "NaturalReader",
+      "url": "https://www.naturalreaders.com",
+      "country": "カナダ",
+      "company": "NaturalSoft",
+      "category": [
+        "音楽・音声生成",
+        "学習・教育"
+      ],
+      "strengths": [
+        "文章・PDF読み上げ",
+        "自然な声",
+        "ブラウザ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 202,
+      "name": "VOICEVOX",
+      "url": "https://voicevox.hiroshiba.jp",
+      "country": "日本",
+      "company": "ヒホ",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語音声合成",
+        "キャラクター声",
+        "完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 203,
+      "name": "CoeFont",
+      "url": "https://coefont.cloud",
+      "country": "日本",
+      "company": "CoeFont",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語の声が豊富",
+        "自分の声作成",
+        "ナレーション"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 204,
+      "name": "Style-Bert-VITS2",
+      "url": "https://github.com/litagin02/Style-Bert-VITS2",
+      "country": "日本",
+      "company": "litagin02",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "感情豊かな日本語音声",
+        "ローカル実行",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 205,
+      "name": "Resemble AI",
+      "url": "https://www.resemble.ai",
+      "country": "アメリカ",
+      "company": "Resemble AI",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "声のクローン",
+        "感情表現",
+        "偽音声検出"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 206,
+      "name": "Adobe Podcast",
+      "url": "https://podcast.adobe.com",
+      "country": "アメリカ",
+      "company": "Adobe",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "録音の音質改善",
+        "ノイズ除去",
+        "ブラウザ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 207,
+      "name": "Fish Audio",
+      "url": "https://fish.audio",
+      "country": "アメリカ",
+      "company": "Fish Audio",
+      "category": [
+        "音楽・音声生成"
+      ],
+      "strengths": [
+        "多言語音声合成",
+        "声のクローン",
+        "オープンモデル"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 208,
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "country": "アメリカ",
+      "company": "OpenAI",
+      "category": [
+        "音声認識",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "高精度文字起こし",
+        "多言語",
+        "ローカル実行"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 209,
+      "name": "Otter.ai",
+      "url": "https://otter.ai",
+      "country": "アメリカ",
+      "company": "Otter.ai",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "会議の文字起こし",
+        "自動要約",
+        "英語に強い"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 210,
+      "name": "Rev",
+      "url": "https://www.rev.com",
+      "country": "アメリカ",
+      "company": "Rev",
+      "category": [
+        "音声認識"
+      ],
+      "strengths": [
+        "文字起こし",
+        "字幕作成",
+        "人手サービスも"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 211,
+      "name": "Notta",
+      "url": "https://www.notta.ai",
+      "country": "日本",
+      "company": "Notta",
+      "category": [
+        "音声認識",
+        "要約と構造化",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語文字起こし",
+        "会議要約",
+        "多言語"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 212,
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai",
+      "country": "アメリカ",
+      "company": "Fireflies.ai",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "会議録音・要約",
+        "検索",
+        "各種会議ツール連携"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 213,
+      "name": "tl;dv",
+      "url": "https://tldv.io",
+      "country": "ドイツ",
+      "company": "tl;dv",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "Meet・Zoom記録",
+        "AI議事録",
+        "多言語"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 214,
+      "name": "Fathom",
+      "url": "https://fathom.video",
+      "country": "アメリカ",
+      "company": "Fathom",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "無料で会議録画",
+        "要約",
+        "ハイライト"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 215,
+      "name": "Tactiq",
+      "url": "https://tactiq.io",
+      "country": "オーストラリア",
+      "company": "Tactiq",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "Meetの文字起こし",
+        "拡張機能",
+        "要約"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 216,
+      "name": "Read AI",
+      "url": "https://www.read.ai",
+      "country": "アメリカ",
+      "company": "Read AI",
+      "category": [
+        "音声認識",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "会議要約",
+        "メール要約",
+        "分析"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 217,
+      "name": "Krisp",
+      "url": "https://krisp.ai",
+      "country": "アメリカ",
+      "company": "Krisp",
+      "category": [
+        "音声認識"
+      ],
+      "strengths": [
+        "通話のノイズ除去",
+        "文字起こし",
+        "会議メモ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 218,
+      "name": "Gladia",
+      "url": "https://www.gladia.io",
+      "country": "フランス",
+      "company": "Gladia",
+      "category": [
+        "音声認識",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "リアルタイム音声認識API",
+        "多言語",
+        "低遅延"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 219,
+      "name": "AssemblyAI",
+      "url": "https://www.assemblyai.com",
+      "country": "アメリカ",
+      "company": "AssemblyAI",
+      "category": [
+        "音声認識",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "音声認識API",
+        "話者分離",
+        "要約"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "初回クレジットのみ"
+    },
+    {
+      "id": 220,
+      "name": "Deepgram",
+      "url": "https://deepgram.com",
+      "country": "アメリカ",
+      "company": "Deepgram",
+      "category": [
+        "音声認識",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "高速音声認識API",
+        "リアルタイム",
+        "音声合成"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "初回クレジットのみ"
+    },
+    {
+      "id": 221,
+      "name": "Speechnotes",
+      "url": "https://speechnotes.co",
+      "country": "イスラエル",
+      "company": "Speechnotes",
+      "category": [
+        "音声認識"
+      ],
+      "strengths": [
+        "ブラウザで音声入力",
+        "登録不要",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 222,
+      "name": "Rimo Voice",
+      "url": "https://rimo.app",
+      "country": "日本",
+      "company": "Rimo",
+      "category": [
+        "音声認識",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語に強い文字起こし",
+        "要約",
+        "高速"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 223,
+      "name": "Writesonic",
+      "url": "https://writesonic.com",
+      "country": "アメリカ",
+      "company": "Writesonic",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "ブログ記事生成",
+        "SEO対応",
+        "多言語"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 224,
+      "name": "Rytr",
+      "url": "https://rytr.me",
+      "country": "アメリカ",
+      "company": "Rytr",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "用途別テンプレート",
+        "多言語",
+        "安価"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 225,
+      "name": "Jasper",
+      "url": "https://www.jasper.ai",
+      "country": "アメリカ",
+      "company": "Jasper",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "マーケティング文章",
+        "ブランド統一",
+        "チーム向け"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 226,
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai",
+      "country": "アメリカ",
+      "company": "Copy.ai",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "広告・営業文",
+        "ワークフロー",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 227,
+      "name": "Anyword",
+      "url": "https://www.anyword.com",
+      "country": "アメリカ",
+      "company": "Anyword",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "広告コピー",
+        "効果予測スコア",
+        "A",
+        "Bテスト"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 228,
+      "name": "Frase",
+      "url": "https://www.frase.io",
+      "country": "アメリカ",
+      "company": "Frase",
+      "category": [
+        "テキスト生成・AI執筆",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "SEO記事作成",
+        "競合分析",
+        "構成案"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 229,
+      "name": "Wordtune",
+      "url": "https://www.wordtune.com",
+      "country": "イスラエル",
+      "company": "AI21 Labs",
+      "category": [
+        "テキスト生成・AI執筆",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "英文の言い換え",
+        "要約",
+        "ブラウザ拡張"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 230,
+      "name": "QuillBot",
+      "url": "https://quillbot.com",
+      "country": "アメリカ",
+      "company": "Learneo",
+      "category": [
+        "テキスト生成・AI執筆",
+        "言語・翻訳",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "言い換え",
+        "要約",
+        "文法チェック"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 231,
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com",
+      "country": "アメリカ",
+      "company": "Grammarly",
+      "category": [
+        "テキスト生成・AI執筆",
+        "学習・教育"
+      ],
+      "strengths": [
+        "英文法チェック",
+        "トーン調整",
+        "拡張機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 232,
+      "name": "LanguageTool",
+      "url": "https://languagetool.org",
+      "country": "ドイツ",
+      "company": "LanguageTooler",
+      "category": [
+        "テキスト生成・AI執筆",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "多言語校正",
+        "日本語対応",
+        "拡張機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 233,
+      "name": "ProWritingAid",
+      "url": "https://prowritingaid.com",
+      "country": "イギリス",
+      "company": "ProWritingAid",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "英文の文体改善",
+        "詳細レポート",
+        "小説向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 234,
+      "name": "Sudowrite",
+      "url": "https://www.sudowrite.com",
+      "country": "アメリカ",
+      "company": "Sudowrite",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "小説執筆支援",
+        "展開のアイデア",
+        "描写強化"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 235,
+      "name": "Simplified",
+      "url": "https://simplified.com",
+      "country": "アメリカ",
+      "company": "Simplified",
+      "category": [
+        "テキスト生成・AI執筆",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "文章・デザイン・動画を一括",
+        "SNS運用",
+        "チーム"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 236,
+      "name": "TextCortex",
+      "url": "https://textcortex.com",
+      "country": "ドイツ",
+      "company": "TextCortex",
+      "category": [
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "文章作成",
+        "言い換え",
+        "ブラウザ拡張"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 237,
+      "name": "DeepL Write",
+      "url": "https://www.deepl.com/write",
+      "country": "ドイツ",
+      "company": "DeepL",
+      "category": [
+        "テキスト生成・AI執筆",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "文章の添削",
+        "自然な言い換え",
+        "日本語対応"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 238,
+      "name": "Shodo",
+      "url": "https://shodo.ink",
+      "country": "日本",
+      "company": "ゼンプロダクツ",
+      "category": [
+        "テキスト生成・AI執筆",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語AI校正",
+        "誤字脱字チェック",
+        "記事執筆"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 239,
+      "name": "Catchy",
+      "url": "https://lp.ai-copywriter.jp",
+      "country": "日本",
+      "company": "デジタルレシピ",
+      "category": [
+        "テキスト生成・AI執筆",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語コピー生成",
+        "用途別テンプレート",
+        "企画書"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 240,
+      "name": "Jenni AI",
+      "url": "https://jenni.ai",
+      "country": "アメリカ",
+      "company": "Jenni AI",
+      "category": [
+        "テキスト生成・AI執筆",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "論文執筆支援",
+        "引用管理",
+        "文章補完"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 241,
+      "name": "Paperpal",
+      "url": "https://paperpal.com",
+      "country": "インド",
+      "company": "Cactus Communications",
+      "category": [
+        "テキスト生成・AI執筆",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "英語論文の校正",
+        "学術表現",
+        "投稿前チェック"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 242,
+      "name": "Notion AI",
+      "url": "https://www.notion.com/product/ai",
+      "country": "アメリカ",
+      "company": "Notion",
+      "category": [
+        "要約と構造化",
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "メモ・資料の要約",
+        "文章作成",
+        "Notion統合"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料版は試用回数のみ"
+    },
+    {
+      "id": 243,
+      "name": "Gamma",
+      "url": "https://gamma.app",
+      "country": "アメリカ",
+      "company": "Gamma",
+      "category": [
+        "デザイン・UI/UX",
+        "テキスト生成・AI執筆"
+      ],
+      "strengths": [
+        "プレゼン資料を自動作成",
+        "Webページ",
+        "簡単編集"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 244,
+      "name": "Napkin AI",
+      "url": "https://www.napkin.ai",
+      "country": "アメリカ",
+      "company": "Napkin AI",
+      "category": [
+        "デザイン・UI/UX",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "文章から図解を生成",
+        "ビジネス資料",
+        "編集可能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 245,
+      "name": "DeepL",
+      "url": "https://www.deepl.com",
+      "country": "ドイツ",
+      "company": "DeepL",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "自然な翻訳",
+        "文書翻訳",
+        "高精度"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 246,
+      "name": "Google翻訳",
+      "url": "https://translate.google.com",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "100以上の言語",
+        "カメラ翻訳",
+        "完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 247,
+      "name": "Microsoft Translator",
+      "url": "https://www.bing.com/translator",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "多言語翻訳",
+        "会話翻訳",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 248,
+      "name": "Papago",
+      "url": "https://papago.naver.com",
+      "country": "韓国",
+      "company": "Naver",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "日韓翻訳に強い",
+        "画像翻訳",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 249,
+      "name": "Yandex翻訳",
+      "url": "https://translate.yandex.com",
+      "country": "ロシア",
+      "company": "Yandex",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "ロシア語などに強い",
+        "画像翻訳",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 250,
+      "name": "百度翻訳",
+      "url": "https://fanyi.baidu.com",
+      "country": "中国",
+      "company": "Baidu",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "中国語翻訳に強い",
+        "文書翻訳",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 251,
+      "name": "有道翻訳（Youdao）",
+      "url": "https://fanyi.youdao.com",
+      "country": "中国",
+      "company": "NetEase",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "中国語翻訳",
+        "辞書機能",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 252,
+      "name": "Reverso",
+      "url": "https://www.reverso.net",
+      "country": "フランス",
+      "company": "Reverso",
+      "category": [
+        "言語・翻訳",
+        "学習・教育"
+      ],
+      "strengths": [
+        "例文付き翻訳",
+        "辞書",
+        "言い換え"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 253,
+      "name": "Immersive Translate",
+      "url": "https://immersivetranslate.com",
+      "country": "中国",
+      "company": "Immersive Translate",
+      "category": [
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "Webページ対訳表示",
+        "PDF翻訳",
+        "拡張機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 254,
+      "name": "PLaMo翻訳",
+      "url": "https://translate.preferredai.jp",
+      "country": "日本",
+      "company": "Preferred Networks",
+      "category": [
+        "言語・翻訳",
+        "日本語特化"
+      ],
+      "strengths": [
+        "国産AI翻訳",
+        "自然な日本語",
+        "長文対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 255,
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "要約と構造化",
+        "論文・リサーチ分析",
+        "学習・教育"
+      ],
+      "strengths": [
+        "資料を読み込んでQ&A",
+        "音声解説を自動生成",
+        "出典付き"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 256,
+      "name": "Mapify",
+      "url": "https://mapify.so",
+      "country": "中国（香港）",
+      "company": "Xmind",
+      "category": [
+        "要約と構造化",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "文章・動画をマインドマップ化",
+        "要約",
+        "構造化"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 257,
+      "name": "ChatPDF",
+      "url": "https://www.chatpdf.com",
+      "country": "ドイツ",
+      "company": "ChatPDF",
+      "category": [
+        "要約と構造化",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "PDFと会話",
+        "要約",
+        "質問応答"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 258,
+      "name": "Humata",
+      "url": "https://www.humata.ai",
+      "country": "アメリカ",
+      "company": "Humata",
+      "category": [
+        "要約と構造化",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "PDF・論文の質問応答",
+        "要約",
+        "比較"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 259,
+      "name": "Scholarcy",
+      "url": "https://www.scholarcy.com",
+      "country": "イギリス",
+      "company": "Scholarcy",
+      "category": [
+        "要約と構造化",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "論文を要約カード化",
+        "要点抽出",
+        "参考文献整理"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 260,
+      "name": "Consensus",
+      "url": "https://consensus.app",
+      "country": "アメリカ",
+      "company": "Consensus",
+      "category": [
+        "論文・リサーチ分析",
+        "情報検索・リサーチ",
+        "学習・教育"
+      ],
+      "strengths": [
+        "論文から根拠のある回答",
+        "研究の一致度表示",
+        "引用付き"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 261,
+      "name": "Elicit",
+      "url": "https://elicit.com",
+      "country": "アメリカ",
+      "company": "Elicit",
+      "category": [
+        "論文・リサーチ分析",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "論文検索・要約",
+        "データ抽出",
+        "文献レビュー"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 262,
+      "name": "Scite",
+      "url": "https://scite.ai",
+      "country": "アメリカ",
+      "company": "Scite",
+      "category": [
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "引用の支持・反論を分類",
+        "信頼性確認",
+        "論文検索"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 263,
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org",
+      "country": "アメリカ",
+      "company": "Allen Institute for AI",
+      "category": [
+        "論文・リサーチ分析",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "無料論文検索",
+        "AI要約",
+        "引用ネットワーク"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 264,
+      "name": "SciSpace",
+      "url": "https://scispace.com",
+      "country": "インド",
+      "company": "SciSpace",
+      "category": [
+        "論文・リサーチ分析",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "論文の解説",
+        "文献レビュー",
+        "PDFと会話"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 265,
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com",
+      "country": "イスラエル",
+      "company": "Connected Papers",
+      "category": [
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "関連論文をグラフ表示",
+        "研究の全体像",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 266,
+      "name": "ResearchRabbit",
+      "url": "https://www.researchrabbit.ai",
+      "country": "アメリカ",
+      "company": "ResearchRabbit",
+      "category": [
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "関連論文の探索",
+        "可視化",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 267,
+      "name": "Litmaps",
+      "url": "https://www.litmaps.com",
+      "country": "ニュージーランド",
+      "company": "Litmaps",
+      "category": [
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "文献マップ",
+        "新着論文の通知",
+        "引用関係"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 268,
+      "name": "Undermind",
+      "url": "https://www.undermind.ai",
+      "country": "アメリカ",
+      "company": "Undermind",
+      "category": [
+        "論文・リサーチ分析",
+        "情報検索・リサーチ"
+      ],
+      "strengths": [
+        "深い論文探索",
+        "網羅的な調査",
+        "レポート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 269,
+      "name": "Anara",
+      "url": "https://anara.com",
+      "country": "アメリカ",
+      "company": "Anara",
+      "category": [
+        "論文・リサーチ分析",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "複数論文を横断質問",
+        "出典付き",
+        "旧Unriddle"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 270,
+      "name": "Julius AI",
+      "url": "https://julius.ai",
+      "country": "アメリカ",
+      "company": "Julius AI",
+      "category": [
+        "データ分析・予測",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "会話でデータ分析",
+        "グラフ作成",
+        "Excel・CSV対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 271,
+      "name": "Wolfram Alpha",
+      "url": "https://www.wolframalpha.com",
+      "country": "アメリカ",
+      "company": "Wolfram Research",
+      "category": [
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "計算・数式処理",
+        "統計",
+        "幅広い知識"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 272,
+      "name": "Rows",
+      "url": "https://rows.com",
+      "country": "ドイツ",
+      "company": "Rows",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "AI付き表計算",
+        "データ連携",
+        "自動分析"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 273,
+      "name": "KNIME",
+      "url": "https://www.knime.com",
+      "country": "スイス",
+      "company": "KNIME",
+      "category": [
+        "データ分析・予測",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "ノーコードでデータ処理",
+        "機械学習",
+        "無料デスクトップ版"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 274,
+      "name": "Orange Data Mining",
+      "url": "https://orangedatamining.com",
+      "country": "スロベニア",
+      "company": "リュブリャナ大学",
+      "category": [
+        "データ分析・予測",
+        "学習・教育"
+      ],
+      "strengths": [
+        "ブロックをつなぐだけで分析",
+        "可視化",
+        "学習向け"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 275,
+      "name": "Prophet",
+      "url": "https://facebook.github.io/prophet/",
+      "country": "アメリカ",
+      "company": "Meta",
+      "category": [
+        "データ分析・予測"
+      ],
+      "strengths": [
+        "時系列予測",
+        "簡単に使える",
+        "Python・R"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 276,
+      "name": "Power Automate Desktop",
+      "url": "https://www.microsoft.com/ja-jp/power-platform/products/power-automate",
+      "country": "アメリカ",
+      "company": "Microsoft",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "Windowsで無料RPA",
+        "Excel・Web操作",
+        "AI連携"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "Windowsユーザーは無料"
+    },
+    {
+      "id": 277,
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "country": "アメリカ",
+      "company": "Zapier",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "数千のアプリ連携",
+        "AI自動化",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 278,
+      "name": "Make",
+      "url": "https://www.make.com",
+      "country": "チェコ",
+      "company": "Make",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "視覚的なシナリオ作成",
+        "複雑な自動化",
+        "連携豊富"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 279,
+      "name": "IFTTT",
+      "url": "https://ifttt.com",
+      "country": "アメリカ",
+      "company": "IFTTT",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "シンプルな自動化",
+        "スマホ・家電連携",
+        "初心者向け"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 280,
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "country": "ドイツ",
+      "company": "n8n",
+      "category": [
+        "タスクの自動化（RPA連携）",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIワークフロー",
+        "自前運用で無料",
+        "柔軟"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "自前運用（セルフホスト）は無料"
+    },
+    {
+      "id": 281,
+      "name": "UiPath",
+      "url": "https://www.uipath.com",
+      "country": "アメリカ",
+      "company": "UiPath",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "本格RPA",
+        "AIエージェント",
+        "個人向けCommunity版"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "Community版（個人・小規模）は無料"
+    },
+    {
+      "id": 282,
+      "name": "Automation Anywhere",
+      "url": "https://www.automationanywhere.com",
+      "country": "アメリカ",
+      "company": "Automation Anywhere",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "クラウドRPA",
+        "AI文書処理",
+        "Community版"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 283,
+      "name": "Bardeen",
+      "url": "https://www.bardeen.ai",
+      "country": "アメリカ",
+      "company": "Bardeen",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "ブラウザ作業の自動化",
+        "データ収集",
+        "拡張機能"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 284,
+      "name": "Relay.app",
+      "url": "https://www.relay.app",
+      "country": "アメリカ",
+      "company": "Relay",
+      "category": [
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "AIステップ付き自動化",
+        "人の確認を挟める",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 285,
+      "name": "Lindy",
+      "url": "https://www.lindy.ai",
+      "country": "アメリカ",
+      "company": "Lindy",
+      "category": [
+        "タスクの自動化（RPA連携）",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "AIエージェント作成",
+        "メール・予定の自動化",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 286,
+      "name": "Reclaim.ai",
+      "url": "https://reclaim.ai",
+      "country": "アメリカ",
+      "company": "Reclaim.ai",
+      "category": [
+        "パーソナルアシスタント",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "予定の自動調整",
+        "タスク時間確保",
+        "カレンダー連携"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 287,
+      "name": "Motion",
+      "url": "https://www.usemotion.com",
+      "country": "アメリカ",
+      "company": "Motion",
+      "category": [
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "AIスケジュール作成",
+        "タスク管理",
+        "自動再計画"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 288,
+      "name": "Looka",
+      "url": "https://looka.com",
+      "country": "カナダ",
+      "company": "Looka",
+      "category": [
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "AIロゴ作成",
+        "ブランドキット",
+        "名刺デザイン"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "デザイン作成は無料・ダウンロードは有料"
+    },
+    {
+      "id": 289,
+      "name": "Beautiful.ai",
+      "url": "https://www.beautiful.ai",
+      "country": "アメリカ",
+      "company": "Beautiful.ai",
+      "category": [
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "スライド自動レイアウト",
+        "テンプレート",
+        "チーム"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 290,
+      "name": "Uizard",
+      "url": "https://uizard.io",
+      "country": "デンマーク",
+      "company": "Uizard",
+      "category": [
+        "デザイン・UI/UX",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "手書きからアプリ画面",
+        "UI試作",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 291,
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "country": "アメリカ",
+      "company": "Figma",
+      "category": [
+        "デザイン・UI/UX",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "UIデザインの定番",
+        "AIで試作",
+        "共同編集"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 292,
+      "name": "Framer",
+      "url": "https://www.framer.com",
+      "country": "オランダ",
+      "company": "Framer",
+      "category": [
+        "デザイン・UI/UX",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIでWebサイト作成",
+        "デザイン性",
+        "公開まで"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 293,
+      "name": "Stitch",
+      "url": "https://stitch.withgoogle.com",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "デザイン・UI/UX",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "テキストからアプリ画面",
+        "Figma連携",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 294,
+      "name": "Kittl",
+      "url": "https://www.kittl.com",
+      "country": "ドイツ",
+      "company": "Kittl",
+      "category": [
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ロゴ・Tシャツデザイン",
+        "文字装飾",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 295,
+      "name": "Miro",
+      "url": "https://miro.com",
+      "country": "アメリカ",
+      "company": "Miro",
+      "category": [
+        "デザイン・UI/UX",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "オンラインホワイトボード",
+        "AIで図解",
+        "共同作業"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 296,
       "name": "Landbot",
-      "category": ["デザイン・UI/UX", "パーソナルアシスタント", "トライアル以外"],
-      "strengths": ["ノーコードチャットボットUI構築", "直感的なフロービルダー", "複数チャネル対応"],
       "url": "https://landbot.io",
       "country": "スペイン",
       "company": "Landbot",
-      "freeLimit": "月100会話まで無料"
+      "category": [
+        "パーソナルアシスタント",
+        "デザイン・UI/UX"
+      ],
+      "strengths": [
+        "ノーコードでチャットボット",
+        "Web・LINE等",
+        "テンプレート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 297,
+      "name": "Durable",
+      "url": "https://durable.com",
+      "country": "カナダ",
+      "company": "Durable",
+      "category": [
+        "デザイン・UI/UX",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "AIでWebサイト自動作成",
+        "小規模事業向け",
+        "簡単"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 298,
+      "name": "Khanmigo",
+      "url": "https://www.khanmigo.ai",
+      "country": "アメリカ",
+      "company": "Khan Academy",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "答えを教えず導く家庭教師AI",
+        "数学",
+        "教師向け無料"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "教師向けは無料"
+    },
+    {
+      "id": 299,
+      "name": "Quizlet",
+      "url": "https://quizlet.com",
+      "country": "アメリカ",
+      "company": "Quizlet",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "単語カード",
+        "AIで問題作成",
+        "暗記学習"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 300,
+      "name": "Photomath",
+      "url": "https://photomath.com",
+      "country": "クロアチア",
+      "company": "Google",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "数式を撮影して解説",
+        "手順表示",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "基本の解説は無料"
+    },
+    {
+      "id": 301,
+      "name": "Gauth",
+      "url": "https://www.gauthmath.com",
+      "country": "シンガポール",
+      "company": "ByteDance",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "問題を撮影して解説",
+        "数学・理科",
+        "宿題支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 302,
+      "name": "Brainly",
+      "url": "https://brainly.com",
+      "country": "ポーランド",
+      "company": "Brainly",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "宿題Q&A",
+        "AI解説",
+        "コミュニティ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 303,
+      "name": "Symbolab",
+      "url": "https://www.symbolab.com",
+      "country": "イスラエル",
+      "company": "Symbolab",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "数学の途中式",
+        "グラフ",
+        "練習問題"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 304,
+      "name": "Mathway",
+      "url": "https://www.mathway.com",
+      "country": "アメリカ",
+      "company": "Chegg",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "数学問題の解答",
+        "幅広い分野",
+        "簡単"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 305,
+      "name": "ELSA Speak",
+      "url": "https://elsaspeak.com",
+      "country": "アメリカ",
+      "company": "ELSA",
+      "category": [
+        "学習・教育",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "英語発音の採点",
+        "会話練習",
+        "日本語対応"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 306,
+      "name": "Speak",
+      "url": "https://www.speak.com",
+      "country": "アメリカ",
+      "company": "Speak",
+      "category": [
+        "学習・教育",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "AI英会話",
+        "スピーキング練習",
+        "フィードバック"
+      ],
+      "pricing": "トライアルのみ",
+      "freeLimit": "無料トライアルのみ（継続利用は有料）"
+    },
+    {
+      "id": 307,
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "country": "アメリカ",
+      "company": "Duolingo",
+      "category": [
+        "学習・教育",
+        "言語・翻訳"
+      ],
+      "strengths": [
+        "ゲーム感覚の語学学習",
+        "40以上の言語",
+        "無料"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 308,
+      "name": "MagicSchool",
+      "url": "https://www.magicschool.ai",
+      "country": "アメリカ",
+      "company": "MagicSchool AI",
+      "category": [
+        "学習・教育"
+      ],
+      "strengths": [
+        "教師向け教材作成",
+        "授業計画",
+        "評価支援"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 309,
+      "name": "Knowt",
+      "url": "https://knowt.com",
+      "country": "アメリカ",
+      "company": "Knowt",
+      "category": [
+        "学習・教育",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "ノートから単語カード",
+        "AI要約",
+        "試験対策"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 310,
+      "name": "Character.AI",
+      "url": "https://character.ai",
+      "country": "アメリカ",
+      "company": "Character AI",
+      "category": [
+        "悩み相談",
+        "パーソナルアシスタント"
+      ],
+      "strengths": [
+        "キャラクターと会話",
+        "自由な雑談",
+        "カスタマイズ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 311,
+      "name": "Replika",
+      "url": "https://replika.com",
+      "country": "アメリカ",
+      "company": "Luka",
+      "category": [
+        "悩み相談"
+      ],
+      "strengths": [
+        "話し相手AI",
+        "日記",
+        "感情サポート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 312,
+      "name": "Wysa",
+      "url": "https://www.wysa.com",
+      "country": "インド",
+      "company": "Wysa",
+      "category": [
+        "悩み相談",
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "認知行動療法ベース",
+        "匿名で相談",
+        "セルフケア"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 313,
+      "name": "Youper",
+      "url": "https://www.youper.com",
+      "country": "アメリカ",
+      "company": "Youper",
+      "category": [
+        "悩み相談",
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "気分の記録",
+        "セルフケア",
+        "対話型サポート"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 314,
+      "name": "Earkick",
+      "url": "https://earkick.com",
+      "country": "スイス",
+      "company": "Earkick",
+      "category": [
+        "悩み相談"
+      ],
+      "strengths": [
+        "気分・ストレスの記録",
+        "AI相談",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 315,
+      "name": "awarefy",
+      "url": "https://www.awarefy.app",
+      "country": "日本",
+      "company": "Awarefy",
+      "category": [
+        "悩み相談",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語のメンタルケア",
+        "AI相談",
+        "気分記録"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 316,
+      "name": "cotomo",
+      "url": "https://cotomo.ai",
+      "country": "日本",
+      "company": "Starley",
+      "category": [
+        "悩み相談",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語の音声おしゃべりAI",
+        "雑談",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 317,
+      "name": "Ada",
+      "url": "https://ada.com",
+      "country": "ドイツ",
+      "company": "Ada Health",
+      "category": [
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "症状チェック",
+        "医学知識ベース",
+        "多言語"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 318,
+      "name": "ユビー（Ubie）",
+      "url": "https://ubie.app",
+      "country": "日本",
+      "company": "Ubie",
+      "category": [
+        "医療・ヘルスケア",
+        "日本語特化"
+      ],
+      "strengths": [
+        "日本語の症状検索",
+        "受診先の目安",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 319,
+      "name": "Symptomate",
+      "url": "https://symptomate.com",
+      "country": "ポーランド",
+      "company": "Infermedica",
+      "category": [
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "症状チェック",
+        "受診の目安",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 320,
+      "name": "Buoy Health",
+      "url": "https://www.buoyhealth.com",
+      "country": "アメリカ",
+      "company": "Buoy Health",
+      "category": [
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "症状チェック",
+        "受診先の案内",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 321,
+      "name": "OpenEvidence",
+      "url": "https://www.openevidence.com",
+      "country": "アメリカ",
+      "company": "OpenEvidence",
+      "category": [
+        "医療・ヘルスケア",
+        "論文・リサーチ分析"
+      ],
+      "strengths": [
+        "医学論文に基づく回答",
+        "医療従事者向け",
+        "引用付き"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "医療従事者は無料"
+    },
+    {
+      "id": 322,
+      "name": "Glass Health",
+      "url": "https://glass.health",
+      "country": "アメリカ",
+      "company": "Glass Health",
+      "category": [
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "医師向け診断支援",
+        "鑑別診断",
+        "臨床メモ"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 323,
+      "name": "Healthily",
+      "url": "https://www.livehealthily.com",
+      "country": "イギリス",
+      "company": "Healthily",
+      "category": [
+        "医療・ヘルスケア"
+      ],
+      "strengths": [
+        "症状チェック",
+        "健康情報",
+        "セルフケア"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 324,
+      "name": "NVIDIA Isaac Sim",
+      "url": "https://developer.nvidia.com/isaac/sim",
+      "country": "アメリカ",
+      "company": "NVIDIA",
+      "category": [
+        "製造・ロボティクス"
+      ],
+      "strengths": [
+        "ロボットのシミュレーション",
+        "AI学習",
+        "無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 325,
+      "name": "ROS 2",
+      "url": "https://www.ros.org",
+      "country": "アメリカ",
+      "company": "Open Robotics",
+      "category": [
+        "製造・ロボティクス"
+      ],
+      "strengths": [
+        "ロボット開発の標準基盤",
+        "オープンソース",
+        "豊富な部品"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 326,
+      "name": "LeRobot",
+      "url": "https://huggingface.co/lerobot",
+      "country": "アメリカ",
+      "company": "Hugging Face",
+      "category": [
+        "製造・ロボティクス",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "ロボットAIの学習",
+        "安価なロボット対応",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 327,
+      "name": "Edge Impulse",
+      "url": "https://edgeimpulse.com",
+      "country": "アメリカ",
+      "company": "Edge Impulse（Qualcomm）",
+      "category": [
+        "製造・ロボティクス",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "マイコン向けAI",
+        "センサー分析",
+        "無料枠"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 328,
+      "name": "Roboflow",
+      "url": "https://roboflow.com",
+      "country": "アメリカ",
+      "company": "Roboflow",
+      "category": [
+        "製造・ロボティクス",
+        "画像編集",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "画像認識モデル作成",
+        "外観検査",
+        "データ注釈"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 329,
+      "name": "Ultralytics YOLO",
+      "url": "https://www.ultralytics.com",
+      "country": "アメリカ",
+      "company": "Ultralytics",
+      "category": [
+        "製造・ロボティクス",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "物体検出",
+        "リアルタイム",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 330,
+      "name": "OpenCV",
+      "url": "https://opencv.org",
+      "country": "アメリカ",
+      "company": "OpenCV.org",
+      "category": [
+        "製造・ロボティクス",
+        "アプリ作成"
+      ],
+      "strengths": [
+        "画像処理の定番",
+        "カメラ認識",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 331,
+      "name": "LandingAI",
+      "url": "https://landing.ai",
+      "country": "アメリカ",
+      "company": "LandingAI",
+      "category": [
+        "製造・ロボティクス"
+      ],
+      "strengths": [
+        "製造業の外観検査AI",
+        "少量データ学習",
+        "文書抽出"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（回数・機能に制限）"
+    },
+    {
+      "id": 332,
+      "name": "Webots",
+      "url": "https://cyberbotics.com",
+      "country": "スイス",
+      "company": "Cyberbotics",
+      "category": [
+        "製造・ロボティクス",
+        "学習・教育"
+      ],
+      "strengths": [
+        "ロボットシミュレーター",
+        "教育向け",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
+    },
+    {
+      "id": 333,
+      "name": "MuJoCo",
+      "url": "https://mujoco.org",
+      "country": "アメリカ",
+      "company": "Google DeepMind",
+      "category": [
+        "製造・ロボティクス"
+      ],
+      "strengths": [
+        "物理シミュレーション",
+        "ロボット学習",
+        "オープンソース"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能"
     }
   ]
 }
