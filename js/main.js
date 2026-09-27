@@ -1,5 +1,6 @@
 // AIツールデータを格納する変数
 let allTools = [];
+let currentSort = { key: null, direction: 'asc' };
 
 // ページが読み込まれたときに実行
 document.addEventListener('DOMContentLoaded', function() {
@@ -17,8 +18,8 @@ function loadTools() {
         })
         .catch(error => {
             console.error('データ読み込みエラー:', error);
-            document.getElementById('tableBody').innerHTML = 
-                '<tr><td colspan="5">データの読み込みに失敗しました</td></tr>';
+            document.getElementById('tableBody').innerHTML =
+                '<tr><td colspan="7">データの読み込みに失敗しました</td></tr>';
         });
 }
 
@@ -26,36 +27,120 @@ function loadTools() {
 function setupEventListeners() {
     // キーワード検索
     document.getElementById('searchInput').addEventListener('input', filterTools);
-    
+
     // カテゴリチェックボックス
     document.querySelectorAll('.category-filter').forEach(checkbox => {
         checkbox.addEventListener('change', filterTools);
     });
-    
+
     // リセットボタン
     document.getElementById('resetBtn').addEventListener('click', resetFilters);
+
+    // ソートボタン（ヘッダークリック）
+    document.querySelectorAll('.sortable').forEach(th => {
+        th.addEventListener('click', function() {
+            const key = this.getAttribute('data-key');
+            sortTools(key);
+        });
+    });
+}
+
+// ソート処理
+function sortTools(key) {
+    // 同じキーなら方向を反転、違うキーなら昇順にリセット
+    if (currentSort.key === key) {
+        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+    } else {
+        currentSort.key = key;
+        currentSort.direction = 'asc';
+    }
+
+    // ソートアイコンを更新
+    document.querySelectorAll('.sortable').forEach(th => {
+        const icon = th.querySelector('.sort-icon');
+        if (th.getAttribute('data-key') === key) {
+            icon.textContent = currentSort.direction === 'asc' ? '▲' : '▼';
+            th.classList.add('sorted');
+        } else {
+            icon.textContent = '⇅';
+            th.classList.remove('sorted');
+        }
+    });
+
+    // 現在の表示を再フィルタ＆ソートして表示
+    filterTools();
+}
+
+// フィルタ＋ソートを適用してツールを取得
+function getFilteredAndSortedTools() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+    const selectedCategories = Array.from(
+        document.querySelectorAll('.category-filter:checked')
+    ).map(cb => cb.value);
+
+    // フィルタリング
+    let result = allTools.filter(tool => {
+        const matchesSearch =
+            tool.name.toLowerCase().includes(searchTerm) ||
+            tool.company.toLowerCase().includes(searchTerm) ||
+            tool.country.toLowerCase().includes(searchTerm) ||
+            tool.strengths.some(s => s.toLowerCase().includes(searchTerm)) ||
+            tool.category.some(c => c.toLowerCase().includes(searchTerm)) ||
+            tool.freeLimit.toLowerCase().includes(searchTerm);
+
+        const matchesCategory = selectedCategories.length === 0 ||
+            selectedCategories.some(cat => tool.category.includes(cat));
+
+        return matchesSearch && matchesCategory;
+    });
+
+    // ソート
+    if (currentSort.key) {
+        result = result.slice().sort((a, b) => {
+            const valA = (a[currentSort.key] || '').toLowerCase();
+            const valB = (b[currentSort.key] || '').toLowerCase();
+            if (valA < valB) return currentSort.direction === 'asc' ? -1 : 1;
+            if (valA > valB) return currentSort.direction === 'asc' ? 1 : -1;
+            return 0;
+        });
+    }
+
+    return result;
 }
 
 // 全ツールを表示
 function displayAllTools() {
+    const tools = getFilteredAndSortedTools();
+    renderTable(tools);
+}
+
+// 検索・フィルタ機能
+function filterTools() {
+    const tools = getFilteredAndSortedTools();
+    renderTable(tools);
+}
+
+// テーブルに結果を描画
+function renderTable(tools) {
     const tableBody = document.getElementById('tableBody');
     const noResults = document.getElementById('noResults');
-    
+
     tableBody.innerHTML = '';
-    
-    if (allTools.length === 0) {
+
+    if (tools.length === 0) {
         noResults.style.display = 'block';
         document.getElementById('resultCount').textContent = '0';
         return;
     }
-    
-    allTools.forEach(tool => {
+
+    tools.forEach(tool => {
         const row = createToolRow(tool);
         tableBody.appendChild(row);
     });
-    
+
     noResults.style.display = 'none';
-    document.getElementById('resultCount').textContent = allTools.length;
+    document.getElementById('resultCount').textContent = tools.length;
 }
 
 // ツール行を作成する関数
@@ -73,64 +158,21 @@ function createToolRow(tool) {
     return row;
 }
 
-// 検索・フィルタ機能
-function filterTools() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    
-    const selectedCategories = Array.from(
-        document.querySelectorAll('.category-filter:checked')
-    ).map(cb => cb.value);
-
-    const filtered = allTools.filter(tool => {
-        const matchesSearch = 
-            tool.name.toLowerCase().includes(searchTerm) ||
-            tool.company.toLowerCase().includes(searchTerm) ||
-            tool.country.toLowerCase().includes(searchTerm) ||
-            tool.strengths.some(s => s.toLowerCase().includes(searchTerm)) ||
-            tool.category.some(c => c.toLowerCase().includes(searchTerm)) ||
-            tool.freeLimit.toLowerCase().includes(searchTerm);
-        
-        const matchesCategory = selectedCategories.length === 0 ||
-                               selectedCategories.some(cat => tool.category.includes(cat));
-        
-        return matchesSearch && matchesCategory;
-    });
-
-    displayFilteredTools(filtered);
-}
-
-// フィルタ結果を表示
-function displayFilteredTools(filtered) {
-    const tableBody = document.getElementById('tableBody');
-    const noResults = document.getElementById('noResults');
-    
-    tableBody.innerHTML = '';
-    
-    if (filtered.length === 0) {
-        noResults.style.display = 'block';
-        document.getElementById('resultCount').textContent = '0';
-        return;
-    }
-    
-    filtered.forEach(tool => {
-        const row = createToolRow(tool);
-        tableBody.appendChild(row);
-    });
-    
-    noResults.style.display = 'none';
-    document.getElementById('resultCount').textContent = filtered.length;
-}
-
 // フィルタをリセット
 function resetFilters() {
-    // 検索ボックスをクリア
     document.getElementById('searchInput').value = '';
-    
-    // すべてのチェックボックスをオフ
+
     document.querySelectorAll('.category-filter').forEach(checkbox => {
         checkbox.checked = false;
     });
-    
-    // 全ツールを表示
+
+    // ソートもリセット
+    currentSort = { key: null, direction: 'asc' };
+    document.querySelectorAll('.sortable').forEach(th => {
+        const icon = th.querySelector('.sort-icon');
+        icon.textContent = '⇅';
+        th.classList.remove('sorted');
+    });
+
     displayAllTools();
 }
