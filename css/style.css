@@ -529,3 +529,10 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
     padding: 1px 8px;
     white-space: nowrap;
 }
+/* ==========================================
+   開発企業・国・日本語・リンクを「強み」の2行目の高さにそろえる
+   ========================================== */
+#resultsTable td.tool-company,
+#resultsTable td.tool-country,
+#resultsTable td.tool-jp { padding-top: calc(10px + 1.35rem); }
+#resultsTable td.tool-link { padding-top: calc(4px + 1.3rem); }
