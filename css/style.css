@@ -390,3 +390,35 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #764ba2;
 }
+/* ==========================================
+   新しい列用のスタイル
+   ========================================== */
+.tool-company {
+    color: #555;
+    font-size: 0.95rem;
+    min-width: 120px;
+}
+
+.tool-country {
+    color: #667eea;
+    font-weight: 600;
+    text-align: center;
+    min-width: 100px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .tool-company,
+    .tool-country {
+        min-width: auto;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tool-company,
+    .tool-country {
+        font-size: 0.8rem;
+        padding: 6px 4px;
+    }
+}
