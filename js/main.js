@@ -77,28 +77,25 @@ function createToolRow(tool) {
 function filterTools() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     
-    // チェックされたカテゴリを取得
     const selectedCategories = Array.from(
         document.querySelectorAll('.category-filter:checked')
     ).map(cb => cb.value);
 
-    // フィルタリング処理
     const filtered = allTools.filter(tool => {
-        // キーワード検索（ツール名、強み、カテゴリから検索）
         const matchesSearch = 
             tool.name.toLowerCase().includes(searchTerm) ||
+            tool.company.toLowerCase().includes(searchTerm) ||
+            tool.country.toLowerCase().includes(searchTerm) ||
             tool.strengths.some(s => s.toLowerCase().includes(searchTerm)) ||
             tool.category.some(c => c.toLowerCase().includes(searchTerm)) ||
             tool.freeLimit.toLowerCase().includes(searchTerm);
         
-        // カテゴリフィルタ
         const matchesCategory = selectedCategories.length === 0 ||
                                selectedCategories.some(cat => tool.category.includes(cat));
         
         return matchesSearch && matchesCategory;
     });
 
-    // フィルタ結果を表示
     displayFilteredTools(filtered);
 }
 
