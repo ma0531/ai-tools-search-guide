@@ -1,1 +1,392 @@
+/* ==========================================
+   基本設定
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+/* ==========================================
+   コンテナ
+   ========================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ==========================================
+   ヘッダー
+   ========================================== */
+header {
+    background: white;
+    border-radius: 12px;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    animation: slideDown 0.6s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header h1 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* ==========================================
+   検索・フィルタエリア
+   ========================================== */
+.search-area {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    animation: slideUp 0.6s ease-out 0.1s backwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 検索ボックス */
+.search-box {
+    margin-bottom: 25px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #667eea;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #764ba2;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+#searchInput::placeholder {
+    color: #999;
+}
+
+/* フィルタ */
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filters label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.filters label:hover {
+    background: #f0f0f0;
+}
+
+.filters input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #667eea;
+}
+
+/* リセットボタン */
+.reset-button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 30px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.reset-button:active {
+    transform: translateY(0);
+}
+
+/* ==========================================
+   結果表示エリア
+   ========================================== */
+.results-area {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    overflow-x: auto;
+    animation: slideUp 0.6s ease-out 0.2s backwards;
+}
+
+.results-info {
+    margin-bottom: 20px;
+    color: #667eea;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    border: none;
+}
+
+td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr {
+    transition: all 0.2s ease;
+}
+
+tbody tr:hover {
+    background: #f8f9ff;
+}
+
+/* ツール名セル */
+.tool-name {
+    font-weight: 600;
+    color: #333;
+    min-width: 150px;
+}
+
+/* カテゴリセル */
+.tool-category {
+    color: #667eea;
+    font-size: 0.95rem;
+    min-width: 200px;
+}
+
+/* 強みセル */
+.tool-strengths {
+    color: #555;
+    font-size: 0.95rem;
+    min-width: 250px;
+}
+
+/* 無料利用範囲セル */
+.tool-free-limit {
+    color: #666;
+    font-size: 0.95rem;
+    min-width: 180px;
+}
+
+/* リンクセル */
+.tool-link a {
+    color: white;
+    background: #667eea;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.tool-link a:hover {
+    background: #764ba2;
+    transform: translateX(2px);
+}
+
+/* ==========================================
+   結果なしメッセージ
+   ========================================== */
+.no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+/* ==========================================
+   フッター
+   ========================================== */
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* ==========================================
+   レスポンシブデザイン
+   ========================================== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .filters {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .search-area,
+    .results-area {
+        padding: 20px;
+    }
+
+    th, td {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+    }
+
+    .tool-name,
+    .tool-category,
+    .tool-strengths,
+    .tool-free-limit {
+        min-width: auto;
+    }
+
+    .tool-link a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px 0;
+    }
+
+    header {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .search-area,
+    .results-area {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .filters {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    th, td {
+        padding: 8px 6px;
+    }
+
+    .reset-button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* ==========================================
+   スクロールバーのスタイル（Chrome用）
+   ========================================== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #764ba2;
+}
