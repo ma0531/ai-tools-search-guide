@@ -662,7 +662,7 @@
     {
       "id": 31,
       "name": "Liner",
-      "url": "https://getliner.com",
+      "url": "https://liner.com",
       "country": "韓国",
       "company": "Liner",
       "category": [
@@ -887,27 +887,6 @@
     },
     {
       "id": 42,
-      "name": "rinna",
-      "url": "https://rinna.co.jp",
-      "country": "日本",
-      "company": "rinna",
-      "category": [
-        "開発者向けツール",
-        "日本語特化"
-      ],
-      "strengths": [
-        "日本語の言語モデルを公開",
-        "音声合成・画像生成の研究",
-        "りんなキャラクターで有名",
-        "研究向けに無料公開"
-      ],
-      "pricing": "完全無料",
-      "freeLimit": "公開モデルは無料",
-      "japanese": "◯",
-      "noSignup": false
-    },
-    {
-      "id": 43,
       "name": "Ollama",
       "url": "https://ollama.com",
       "country": "アメリカ",
@@ -927,7 +906,7 @@
       "noSignup": true
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "LM Studio",
       "url": "https://lmstudio.ai",
       "country": "アメリカ",
@@ -947,7 +926,7 @@
       "noSignup": true
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "GPT4All",
       "url": "https://www.nomic.ai/gpt4all",
       "country": "アメリカ",
@@ -967,7 +946,7 @@
       "noSignup": true
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Jan",
       "url": "https://jan.ai",
       "country": "シンガポール",
@@ -987,7 +966,7 @@
       "noSignup": true
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Open WebUI",
       "url": "https://openwebui.com",
       "country": "アメリカ",
@@ -1007,7 +986,7 @@
       "noSignup": false
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "Hugging Face",
       "url": "https://huggingface.co",
       "country": "アメリカ",
@@ -1028,7 +1007,7 @@
       "noSignup": false
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "Google AI Studio",
       "url": "https://aistudio.google.com",
       "country": "アメリカ",
@@ -1048,7 +1027,7 @@
       "noSignup": false
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Google Colab",
       "url": "https://colab.research.google.com",
       "country": "アメリカ",
@@ -1070,7 +1049,7 @@
       "noSignup": false
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Kaggle",
       "url": "https://www.kaggle.com",
       "country": "アメリカ",
@@ -1091,7 +1070,7 @@
       "noSignup": false
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Groq",
       "url": "https://groq.com",
       "country": "アメリカ",
@@ -1111,7 +1090,7 @@
       "noSignup": false
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "country": "アメリカ",
@@ -1131,7 +1110,7 @@
       "noSignup": false
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Replicate",
       "url": "https://replicate.com",
       "country": "アメリカ",
@@ -1152,7 +1131,7 @@
       "noSignup": false
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Together AI",
       "url": "https://www.together.ai",
       "country": "アメリカ",
@@ -1172,7 +1151,7 @@
       "noSignup": false
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Cohere",
       "url": "https://cohere.com",
       "country": "カナダ",
@@ -1192,7 +1171,7 @@
       "noSignup": false
     },
     {
-      "id": 57,
+      "id": 56,
       "name": "Dify",
       "url": "https://dify.ai",
       "country": "アメリカ",
@@ -1213,7 +1192,7 @@
       "noSignup": false
     },
     {
-      "id": 58,
+      "id": 57,
       "name": "Flowise",
       "url": "https://flowiseai.com",
       "country": "アメリカ",
@@ -1233,7 +1212,7 @@
       "noSignup": false
     },
     {
-      "id": 59,
+      "id": 58,
       "name": "LangChain",
       "url": "https://www.langchain.com",
       "country": "アメリカ",
@@ -1253,7 +1232,7 @@
       "noSignup": false
     },
     {
-      "id": 60,
+      "id": 59,
       "name": "LlamaIndex",
       "url": "https://www.llamaindex.ai",
       "country": "アメリカ",
@@ -1274,7 +1253,7 @@
       "noSignup": false
     },
     {
-      "id": 61,
+      "id": 60,
       "name": "CrewAI",
       "url": "https://www.crewai.com",
       "country": "アメリカ",
@@ -1295,7 +1274,7 @@
       "noSignup": false
     },
     {
-      "id": 62,
+      "id": 61,
       "name": "AutoGPT",
       "url": "https://agpt.co",
       "country": "アメリカ",
@@ -1316,7 +1295,7 @@
       "noSignup": false
     },
     {
-      "id": 63,
+      "id": 62,
       "name": "Gradio",
       "url": "https://www.gradio.app",
       "country": "アメリカ",
@@ -1336,7 +1315,7 @@
       "noSignup": false
     },
     {
-      "id": 64,
+      "id": 63,
       "name": "Streamlit",
       "url": "https://streamlit.io",
       "country": "アメリカ",
@@ -1357,7 +1336,7 @@
       "noSignup": false
     },
     {
-      "id": 65,
+      "id": 64,
       "name": "PyTorch",
       "url": "https://pytorch.org",
       "country": "アメリカ",
@@ -1378,7 +1357,7 @@
       "noSignup": false
     },
     {
-      "id": 66,
+      "id": 65,
       "name": "TensorFlow",
       "url": "https://www.tensorflow.org",
       "country": "アメリカ",
@@ -1399,7 +1378,7 @@
       "noSignup": false
     },
     {
-      "id": 67,
+      "id": 66,
       "name": "scikit-learn",
       "url": "https://scikit-learn.org",
       "country": "フランス",
@@ -1420,7 +1399,7 @@
       "noSignup": false
     },
     {
-      "id": 68,
+      "id": 67,
       "name": "XGBoost",
       "url": "https://xgboost.readthedocs.io",
       "country": "アメリカ",
@@ -1440,7 +1419,7 @@
       "noSignup": false
     },
     {
-      "id": 69,
+      "id": 68,
       "name": "Jupyter",
       "url": "https://jupyter.org",
       "country": "アメリカ",
@@ -1461,7 +1440,7 @@
       "noSignup": false
     },
     {
-      "id": 70,
+      "id": 69,
       "name": "Weights & Biases",
       "url": "https://wandb.ai",
       "country": "アメリカ",
@@ -1482,7 +1461,7 @@
       "noSignup": false
     },
     {
-      "id": 71,
+      "id": 70,
       "name": "Pinecone",
       "url": "https://www.pinecone.io",
       "country": "アメリカ",
@@ -1502,7 +1481,7 @@
       "noSignup": false
     },
     {
-      "id": 72,
+      "id": 71,
       "name": "Weaviate",
       "url": "https://weaviate.io",
       "country": "オランダ",
@@ -1522,7 +1501,7 @@
       "noSignup": false
     },
     {
-      "id": 73,
+      "id": 72,
       "name": "Qdrant",
       "url": "https://qdrant.tech",
       "country": "ドイツ",
@@ -1542,7 +1521,7 @@
       "noSignup": false
     },
     {
-      "id": 74,
+      "id": 73,
       "name": "Chroma",
       "url": "https://www.trychroma.com",
       "country": "アメリカ",
@@ -1562,7 +1541,7 @@
       "noSignup": false
     },
     {
-      "id": 75,
+      "id": 74,
       "name": "Milvus",
       "url": "https://milvus.io",
       "country": "中国",
@@ -1582,7 +1561,7 @@
       "noSignup": false
     },
     {
-      "id": 76,
+      "id": 75,
       "name": "Supabase",
       "url": "https://supabase.com",
       "country": "アメリカ",
@@ -1603,7 +1582,7 @@
       "noSignup": false
     },
     {
-      "id": 77,
+      "id": 76,
       "name": "Vespa",
       "url": "https://vespa.ai",
       "country": "ノルウェー",
@@ -1623,7 +1602,7 @@
       "noSignup": false
     },
     {
-      "id": 78,
+      "id": 77,
       "name": "Teachable Machine",
       "url": "https://teachablemachine.withgoogle.com",
       "country": "アメリカ",
@@ -1645,7 +1624,7 @@
       "noSignup": false
     },
     {
-      "id": 79,
+      "id": 78,
       "name": "Firebase Studio",
       "url": "https://firebase.studio",
       "country": "アメリカ",
@@ -1666,7 +1645,7 @@
       "noSignup": false
     },
     {
-      "id": 80,
+      "id": 79,
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
       "country": "アメリカ",
@@ -1688,7 +1667,7 @@
       "noSignup": false
     },
     {
-      "id": 81,
+      "id": 80,
       "name": "Cursor",
       "url": "https://cursor.com",
       "country": "アメリカ",
@@ -1712,9 +1691,9 @@
       "rank": 9
     },
     {
-      "id": 82,
-      "name": "Windsurf",
-      "url": "https://windsurf.com",
+      "id": 81,
+      "name": "Devin Desktop",
+      "url": "https://devin.ai/desktop",
       "country": "アメリカ",
       "company": "Cognition",
       "category": [
@@ -1733,7 +1712,7 @@
       "noSignup": false
     },
     {
-      "id": 83,
+      "id": 82,
       "name": "Gemini Code Assist",
       "url": "https://codeassist.google",
       "country": "アメリカ",
@@ -1754,7 +1733,7 @@
       "noSignup": false
     },
     {
-      "id": 84,
+      "id": 83,
       "name": "Amazon Q Developer",
       "url": "https://aws.amazon.com/q/developer/",
       "country": "アメリカ",
@@ -1774,7 +1753,7 @@
       "noSignup": false
     },
     {
-      "id": 85,
+      "id": 84,
       "name": "Kiro",
       "url": "https://kiro.dev",
       "country": "アメリカ",
@@ -1795,7 +1774,7 @@
       "noSignup": false
     },
     {
-      "id": 86,
+      "id": 85,
       "name": "Jules",
       "url": "https://jules.google",
       "country": "アメリカ",
@@ -1815,27 +1794,7 @@
       "noSignup": false
     },
     {
-      "id": 87,
-      "name": "Tabnine",
-      "url": "https://www.tabnine.com",
-      "country": "イスラエル",
-      "company": "Tabnine",
-      "category": [
-        "コード補完"
-      ],
-      "strengths": [
-        "コードを外部に出さない運用が可能",
-        "社内サーバーで動かせる",
-        "多くのIDEに対応",
-        "企業向け"
-      ],
-      "pricing": "トライアルのみ",
-      "freeLimit": "無料トライアルのみ（継続利用は有料）",
-      "japanese": "△",
-      "noSignup": false
-    },
-    {
-      "id": 88,
+      "id": 86,
       "name": "Continue",
       "url": "https://www.continue.dev",
       "country": "アメリカ",
@@ -1855,7 +1814,7 @@
       "noSignup": false
     },
     {
-      "id": 89,
+      "id": 87,
       "name": "Cline",
       "url": "https://cline.bot",
       "country": "アメリカ",
@@ -1875,7 +1834,7 @@
       "noSignup": false
     },
     {
-      "id": 90,
+      "id": 88,
       "name": "Aider",
       "url": "https://aider.chat",
       "country": "アメリカ",
@@ -1895,7 +1854,7 @@
       "noSignup": false
     },
     {
-      "id": 91,
+      "id": 89,
       "name": "Replit",
       "url": "https://replit.com",
       "country": "アメリカ",
@@ -1917,7 +1876,7 @@
       "noSignup": false
     },
     {
-      "id": 92,
+      "id": 90,
       "name": "Bolt.new",
       "url": "https://bolt.new",
       "country": "アメリカ",
@@ -1937,7 +1896,7 @@
       "noSignup": false
     },
     {
-      "id": 93,
+      "id": 91,
       "name": "Lovable",
       "url": "https://lovable.dev",
       "country": "スウェーデン",
@@ -1958,7 +1917,7 @@
       "noSignup": false
     },
     {
-      "id": 94,
+      "id": 92,
       "name": "v0",
       "url": "https://v0.app",
       "country": "アメリカ",
@@ -1979,7 +1938,7 @@
       "noSignup": false
     },
     {
-      "id": 95,
+      "id": 93,
       "name": "Warp",
       "url": "https://www.warp.dev",
       "country": "アメリカ",
@@ -1999,7 +1958,7 @@
       "noSignup": false
     },
     {
-      "id": 96,
+      "id": 94,
       "name": "Qodo",
       "url": "https://www.qodo.ai",
       "country": "イスラエル",
@@ -2019,7 +1978,7 @@
       "noSignup": false
     },
     {
-      "id": 97,
+      "id": 95,
       "name": "JetBrains AI Assistant",
       "url": "https://www.jetbrains.com/ai/",
       "country": "チェコ",
@@ -2040,7 +1999,7 @@
       "noSignup": false
     },
     {
-      "id": 98,
+      "id": 96,
       "name": "Trae",
       "url": "https://www.trae.ai",
       "country": "シンガポール",
@@ -2061,7 +2020,7 @@
       "noSignup": false
     },
     {
-      "id": 99,
+      "id": 97,
       "name": "通义灵码（Lingma）",
       "url": "https://lingma.aliyun.com",
       "country": "中国",
@@ -2081,7 +2040,7 @@
       "noSignup": false
     },
     {
-      "id": 100,
+      "id": 98,
       "name": "CodeGeeX",
       "url": "https://codegeex.cn",
       "country": "中国",
@@ -2101,7 +2060,7 @@
       "noSignup": false
     },
     {
-      "id": 101,
+      "id": 99,
       "name": "Blackbox AI",
       "url": "https://www.blackbox.ai",
       "country": "アメリカ",
@@ -2121,7 +2080,7 @@
       "noSignup": false
     },
     {
-      "id": 102,
+      "id": 100,
       "name": "Midjourney",
       "url": "https://www.midjourney.com",
       "country": "アメリカ",
@@ -2141,7 +2100,7 @@
       "noSignup": false
     },
     {
-      "id": 103,
+      "id": 101,
       "name": "Bing Image Creator",
       "url": "https://www.bing.com/create",
       "country": "アメリカ",
@@ -2161,7 +2120,7 @@
       "noSignup": false
     },
     {
-      "id": 104,
+      "id": 102,
       "name": "Microsoft Designer",
       "url": "https://designer.microsoft.com",
       "country": "アメリカ",
@@ -2182,7 +2141,7 @@
       "noSignup": false
     },
     {
-      "id": 105,
+      "id": 103,
       "name": "Adobe Firefly",
       "url": "https://firefly.adobe.com",
       "country": "アメリカ",
@@ -2203,7 +2162,7 @@
       "noSignup": false
     },
     {
-      "id": 106,
+      "id": 104,
       "name": "Leonardo.Ai",
       "url": "https://leonardo.ai",
       "country": "オーストラリア",
@@ -2225,7 +2184,7 @@
       "noSignup": false
     },
     {
-      "id": 107,
+      "id": 105,
       "name": "Ideogram",
       "url": "https://ideogram.ai",
       "country": "カナダ",
@@ -2246,7 +2205,7 @@
       "noSignup": false
     },
     {
-      "id": 108,
+      "id": 106,
       "name": "Stable Diffusion",
       "url": "https://stability.ai",
       "country": "イギリス",
@@ -2266,27 +2225,7 @@
       "noSignup": false
     },
     {
-      "id": 109,
-      "name": "DreamStudio",
-      "url": "https://dreamstudio.ai",
-      "country": "イギリス",
-      "company": "Stability AI",
-      "category": [
-        "画像作成"
-      ],
-      "strengths": [
-        "Stability AI公式のWeb版",
-        "ブラウザで細かく設定",
-        "最新モデルを利用",
-        "初回クレジットのみ"
-      ],
-      "pricing": "トライアルのみ",
-      "freeLimit": "初回クレジットのみ",
-      "japanese": "△",
-      "noSignup": false
-    },
-    {
-      "id": 110,
+      "id": 107,
       "name": "Civitai",
       "url": "https://civitai.com",
       "country": "アメリカ",
@@ -2306,27 +2245,7 @@
       "noSignup": false
     },
     {
-      "id": 111,
-      "name": "ImageFX",
-      "url": "https://labs.google/fx/tools/image-fx",
-      "country": "アメリカ",
-      "company": "Google",
-      "category": [
-        "画像作成"
-      ],
-      "strengths": [
-        "Googleの画像モデル（Imagen）",
-        "写実的な画像",
-        "プロンプトの言い換え提案",
-        "無料"
-      ],
-      "pricing": "完全無料",
-      "freeLimit": "無料で利用可能",
-      "japanese": "△",
-      "noSignup": false
-    },
-    {
-      "id": 112,
+      "id": 108,
       "name": "Whisk",
       "url": "https://labs.google/fx/tools/whisk",
       "country": "アメリカ",
@@ -2346,7 +2265,7 @@
       "noSignup": false
     },
     {
-      "id": 113,
+      "id": 109,
       "name": "Playground",
       "url": "https://playground.com",
       "country": "アメリカ",
@@ -2367,7 +2286,7 @@
       "noSignup": false
     },
     {
-      "id": 114,
+      "id": 110,
       "name": "NightCafe",
       "url": "https://creator.nightcafe.studio",
       "country": "オーストラリア",
@@ -2387,7 +2306,7 @@
       "noSignup": false
     },
     {
-      "id": 115,
+      "id": 111,
       "name": "Craiyon",
       "url": "https://www.craiyon.com",
       "country": "アメリカ",
@@ -2407,7 +2326,7 @@
       "noSignup": true
     },
     {
-      "id": 116,
+      "id": 112,
       "name": "Krea",
       "url": "https://www.krea.ai",
       "country": "アメリカ",
@@ -2428,7 +2347,7 @@
       "noSignup": false
     },
     {
-      "id": 117,
+      "id": 113,
       "name": "FLUX",
       "url": "https://bfl.ai",
       "country": "ドイツ",
@@ -2448,7 +2367,7 @@
       "noSignup": false
     },
     {
-      "id": 118,
+      "id": 114,
       "name": "Recraft",
       "url": "https://www.recraft.ai",
       "country": "アメリカ",
@@ -2469,7 +2388,7 @@
       "noSignup": false
     },
     {
-      "id": 119,
+      "id": 115,
       "name": "SeaArt",
       "url": "https://www.seaart.ai",
       "country": "シンガポール",
@@ -2489,7 +2408,7 @@
       "noSignup": false
     },
     {
-      "id": 120,
+      "id": 116,
       "name": "Dreamina（即梦）",
       "url": "https://dreamina.capcut.com",
       "country": "シンガポール",
@@ -2510,7 +2429,7 @@
       "noSignup": false
     },
     {
-      "id": 121,
+      "id": 117,
       "name": "Lexica",
       "url": "https://lexica.art",
       "country": "アメリカ",
@@ -2530,7 +2449,7 @@
       "noSignup": false
     },
     {
-      "id": 122,
+      "id": 118,
       "name": "OpenArt",
       "url": "https://openart.ai",
       "country": "アメリカ",
@@ -2550,7 +2469,7 @@
       "noSignup": false
     },
     {
-      "id": 123,
+      "id": 119,
       "name": "Freepik AI",
       "url": "https://www.freepik.com/ai",
       "country": "スペイン",
@@ -2571,7 +2490,7 @@
       "noSignup": false
     },
     {
-      "id": 124,
+      "id": 120,
       "name": "Mage.space",
       "url": "https://www.mage.space",
       "country": "アメリカ",
@@ -2591,7 +2510,7 @@
       "noSignup": false
     },
     {
-      "id": 125,
+      "id": 121,
       "name": "Artbreeder",
       "url": "https://www.artbreeder.com",
       "country": "アメリカ",
@@ -2611,7 +2530,7 @@
       "noSignup": false
     },
     {
-      "id": 126,
+      "id": 122,
       "name": "AIピカソ",
       "url": "https://aipicasso.app",
       "country": "日本",
@@ -2632,7 +2551,7 @@
       "noSignup": false
     },
     {
-      "id": 127,
+      "id": 123,
       "name": "ComfyUI",
       "url": "https://www.comfy.org",
       "country": "アメリカ",
@@ -2653,7 +2572,7 @@
       "noSignup": false
     },
     {
-      "id": 128,
+      "id": 124,
       "name": "InvokeAI",
       "url": "https://www.invoke.com",
       "country": "アメリカ",
@@ -2673,7 +2592,7 @@
       "noSignup": false
     },
     {
-      "id": 129,
+      "id": 125,
       "name": "Qwen-Image",
       "url": "https://github.com/QwenLM/Qwen-Image",
       "country": "中国",
@@ -2693,7 +2612,7 @@
       "noSignup": false
     },
     {
-      "id": 130,
+      "id": 126,
       "name": "NovelAI",
       "url": "https://novelai.net",
       "country": "アメリカ",
@@ -2714,7 +2633,7 @@
       "noSignup": false
     },
     {
-      "id": 131,
+      "id": 127,
       "name": "Canva",
       "url": "https://www.canva.com",
       "country": "オーストラリア",
@@ -2736,7 +2655,7 @@
       "noSignup": false
     },
     {
-      "id": 132,
+      "id": 128,
       "name": "remove.bg",
       "url": "https://www.remove.bg",
       "country": "オーストリア",
@@ -2756,7 +2675,7 @@
       "noSignup": true
     },
     {
-      "id": 133,
+      "id": 129,
       "name": "Photoroom",
       "url": "https://www.photoroom.com",
       "country": "フランス",
@@ -2776,7 +2695,7 @@
       "noSignup": false
     },
     {
-      "id": 134,
+      "id": 130,
       "name": "Clipdrop",
       "url": "https://clipdrop.co",
       "country": "フランス",
@@ -2797,7 +2716,7 @@
       "noSignup": false
     },
     {
-      "id": 135,
+      "id": 131,
       "name": "Cleanup.pictures",
       "url": "https://cleanup.pictures",
       "country": "フランス",
@@ -2817,7 +2736,7 @@
       "noSignup": true
     },
     {
-      "id": 136,
+      "id": 132,
       "name": "Upscayl",
       "url": "https://upscayl.org",
       "country": "インド",
@@ -2837,7 +2756,7 @@
       "noSignup": true
     },
     {
-      "id": 137,
+      "id": 133,
       "name": "Real-ESRGAN",
       "url": "https://github.com/xinntao/Real-ESRGAN",
       "country": "中国",
@@ -2857,7 +2776,7 @@
       "noSignup": false
     },
     {
-      "id": 138,
+      "id": 134,
       "name": "waifu2x",
       "url": "https://unlimited.waifu2x.net",
       "country": "日本",
@@ -2878,7 +2797,7 @@
       "noSignup": true
     },
     {
-      "id": 139,
+      "id": 135,
       "name": "Let's Enhance",
       "url": "https://letsenhance.io",
       "country": "ウクライナ",
@@ -2898,7 +2817,7 @@
       "noSignup": false
     },
     {
-      "id": 140,
+      "id": 136,
       "name": "Topaz Photo AI",
       "url": "https://www.topazlabs.com",
       "country": "アメリカ",
@@ -2918,7 +2837,7 @@
       "noSignup": false
     },
     {
-      "id": 141,
+      "id": 137,
       "name": "Pixlr",
       "url": "https://pixlr.com",
       "country": "シンガポール",
@@ -2939,7 +2858,7 @@
       "noSignup": false
     },
     {
-      "id": 142,
+      "id": 138,
       "name": "Fotor",
       "url": "https://www.fotor.com",
       "country": "中国",
@@ -2960,7 +2879,7 @@
       "noSignup": false
     },
     {
-      "id": 143,
+      "id": 139,
       "name": "Photopea",
       "url": "https://www.photopea.com",
       "country": "チェコ",
@@ -2980,7 +2899,7 @@
       "noSignup": true
     },
     {
-      "id": 144,
+      "id": 140,
       "name": "Picsart",
       "url": "https://picsart.com",
       "country": "アメリカ",
@@ -3001,7 +2920,7 @@
       "noSignup": false
     },
     {
-      "id": 145,
+      "id": 141,
       "name": "Snapseed",
       "url": "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed",
       "country": "アメリカ",
@@ -3021,7 +2940,7 @@
       "noSignup": true
     },
     {
-      "id": 146,
+      "id": 142,
       "name": "Rembg",
       "url": "https://github.com/danielgatis/rembg",
       "country": "ブラジル",
@@ -3041,7 +2960,7 @@
       "noSignup": false
     },
     {
-      "id": 147,
+      "id": 143,
       "name": "IOPaint",
       "url": "https://github.com/Sanster/IOPaint",
       "country": "中国",
@@ -3061,7 +2980,7 @@
       "noSignup": false
     },
     {
-      "id": 148,
+      "id": 144,
       "name": "Magnific",
       "url": "https://magnific.ai",
       "country": "スペイン",
@@ -3081,7 +3000,7 @@
       "noSignup": false
     },
     {
-      "id": 149,
+      "id": 145,
       "name": "Luminar Neo",
       "url": "https://skylum.com/luminar",
       "country": "ウクライナ",
@@ -3101,7 +3020,7 @@
       "noSignup": false
     },
     {
-      "id": 150,
+      "id": 146,
       "name": "Adobe Express",
       "url": "https://www.adobe.com/express/",
       "country": "アメリカ",
@@ -3122,7 +3041,7 @@
       "noSignup": false
     },
     {
-      "id": 151,
+      "id": 147,
       "name": "PicWish",
       "url": "https://picwish.com",
       "country": "中国",
@@ -3142,7 +3061,7 @@
       "noSignup": false
     },
     {
-      "id": 152,
+      "id": 148,
       "name": "Upscale.media",
       "url": "https://www.upscale.media",
       "country": "インド",
@@ -3162,7 +3081,7 @@
       "noSignup": true
     },
     {
-      "id": 153,
+      "id": 149,
       "name": "Runway",
       "url": "https://runwayml.com",
       "country": "アメリカ",
@@ -3183,7 +3102,7 @@
       "noSignup": false
     },
     {
-      "id": 154,
+      "id": 150,
       "name": "Pika",
       "url": "https://pika.art",
       "country": "アメリカ",
@@ -3203,7 +3122,7 @@
       "noSignup": false
     },
     {
-      "id": 155,
+      "id": 151,
       "name": "Kling AI（可灵）",
       "url": "https://klingai.com",
       "country": "中国",
@@ -3224,7 +3143,7 @@
       "noSignup": false
     },
     {
-      "id": 156,
+      "id": 152,
       "name": "Hailuo AI（海螺）",
       "url": "https://hailuoai.video",
       "country": "中国",
@@ -3244,7 +3163,7 @@
       "noSignup": false
     },
     {
-      "id": 157,
+      "id": 153,
       "name": "Vidu",
       "url": "https://www.vidu.com",
       "country": "中国",
@@ -3264,7 +3183,7 @@
       "noSignup": false
     },
     {
-      "id": 158,
+      "id": 154,
       "name": "PixVerse",
       "url": "https://pixverse.ai",
       "country": "中国",
@@ -3284,7 +3203,7 @@
       "noSignup": false
     },
     {
-      "id": 159,
+      "id": 155,
       "name": "Luma Dream Machine",
       "url": "https://lumalabs.ai/dream-machine",
       "country": "アメリカ",
@@ -3305,7 +3224,7 @@
       "noSignup": false
     },
     {
-      "id": 160,
+      "id": 156,
       "name": "Wan（通义万相）",
       "url": "https://wan.video",
       "country": "中国",
@@ -3325,7 +3244,7 @@
       "noSignup": false
     },
     {
-      "id": 161,
+      "id": 157,
       "name": "HunyuanVideo",
       "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "country": "中国",
@@ -3345,7 +3264,7 @@
       "noSignup": false
     },
     {
-      "id": 162,
+      "id": 158,
       "name": "CogVideoX",
       "url": "https://github.com/THUDM/CogVideo",
       "country": "中国",
@@ -3365,7 +3284,7 @@
       "noSignup": false
     },
     {
-      "id": 163,
+      "id": 159,
       "name": "Mochi",
       "url": "https://www.genmo.ai",
       "country": "アメリカ",
@@ -3385,7 +3304,7 @@
       "noSignup": false
     },
     {
-      "id": 164,
+      "id": 160,
       "name": "Synthesia",
       "url": "https://www.synthesia.io",
       "country": "イギリス",
@@ -3405,7 +3324,7 @@
       "noSignup": false
     },
     {
-      "id": 165,
+      "id": 161,
       "name": "HeyGen",
       "url": "https://www.heygen.com",
       "country": "アメリカ",
@@ -3426,7 +3345,7 @@
       "noSignup": false
     },
     {
-      "id": 166,
+      "id": 162,
       "name": "D-ID",
       "url": "https://www.d-id.com",
       "country": "イスラエル",
@@ -3446,7 +3365,7 @@
       "noSignup": false
     },
     {
-      "id": 167,
+      "id": 163,
       "name": "Hedra",
       "url": "https://www.hedra.com",
       "country": "アメリカ",
@@ -3466,7 +3385,7 @@
       "noSignup": false
     },
     {
-      "id": 168,
+      "id": 164,
       "name": "Captions",
       "url": "https://www.captions.ai",
       "country": "アメリカ",
@@ -3486,7 +3405,7 @@
       "noSignup": false
     },
     {
-      "id": 169,
+      "id": 165,
       "name": "CapCut",
       "url": "https://www.capcut.com",
       "country": "シンガポール",
@@ -3506,7 +3425,7 @@
       "noSignup": false
     },
     {
-      "id": 170,
+      "id": 166,
       "name": "Descript",
       "url": "https://www.descript.com",
       "country": "アメリカ",
@@ -3527,7 +3446,7 @@
       "noSignup": false
     },
     {
-      "id": 171,
+      "id": 167,
       "name": "Kapwing",
       "url": "https://www.kapwing.com",
       "country": "アメリカ",
@@ -3547,7 +3466,7 @@
       "noSignup": false
     },
     {
-      "id": 172,
+      "id": 168,
       "name": "InVideo",
       "url": "https://invideo.io",
       "country": "インド",
@@ -3567,7 +3486,7 @@
       "noSignup": false
     },
     {
-      "id": 173,
+      "id": 169,
       "name": "Fliki",
       "url": "https://fliki.ai",
       "country": "アメリカ",
@@ -3588,7 +3507,7 @@
       "noSignup": false
     },
     {
-      "id": 174,
+      "id": 170,
       "name": "Pictory",
       "url": "https://pictory.ai",
       "country": "アメリカ",
@@ -3608,7 +3527,7 @@
       "noSignup": false
     },
     {
-      "id": 175,
+      "id": 171,
       "name": "OpusClip",
       "url": "https://www.opus.pro",
       "country": "アメリカ",
@@ -3628,7 +3547,7 @@
       "noSignup": false
     },
     {
-      "id": 176,
+      "id": 172,
       "name": "Vrew",
       "url": "https://vrew.ai",
       "country": "韓国",
@@ -3649,7 +3568,7 @@
       "noSignup": false
     },
     {
-      "id": 177,
+      "id": 173,
       "name": "Loom",
       "url": "https://www.loom.com",
       "country": "アメリカ",
@@ -3669,7 +3588,7 @@
       "noSignup": false
     },
     {
-      "id": 178,
+      "id": 174,
       "name": "VEED",
       "url": "https://www.veed.io",
       "country": "イギリス",
@@ -3690,7 +3609,7 @@
       "noSignup": false
     },
     {
-      "id": 179,
+      "id": 175,
       "name": "Clipchamp",
       "url": "https://clipchamp.com",
       "country": "アメリカ",
@@ -3710,7 +3629,7 @@
       "noSignup": false
     },
     {
-      "id": 180,
+      "id": 176,
       "name": "Filmora",
       "url": "https://filmora.wondershare.com",
       "country": "中国",
@@ -3730,7 +3649,7 @@
       "noSignup": false
     },
     {
-      "id": 181,
+      "id": 177,
       "name": "Topaz Video AI",
       "url": "https://www.topazlabs.com/topaz-video-ai",
       "country": "アメリカ",
@@ -3750,7 +3669,7 @@
       "noSignup": false
     },
     {
-      "id": 182,
+      "id": 178,
       "name": "Digen AI",
       "url": "https://digen.ai/en/explore",
       "country": "要確認",
@@ -3771,7 +3690,7 @@
       "noSignup": false
     },
     {
-      "id": 183,
+      "id": 179,
       "name": "Suno",
       "url": "https://suno.com",
       "country": "アメリカ",
@@ -3791,7 +3710,7 @@
       "noSignup": false
     },
     {
-      "id": 184,
+      "id": 180,
       "name": "Udio",
       "url": "https://www.udio.com",
       "country": "アメリカ",
@@ -3811,7 +3730,7 @@
       "noSignup": false
     },
     {
-      "id": 185,
+      "id": 181,
       "name": "Mureka",
       "url": "https://www.mureka.ai",
       "country": "シンガポール",
@@ -3831,7 +3750,7 @@
       "noSignup": false
     },
     {
-      "id": 186,
+      "id": 182,
       "name": "Stable Audio",
       "url": "https://stableaudio.com",
       "country": "イギリス",
@@ -3852,7 +3771,7 @@
       "noSignup": false
     },
     {
-      "id": 187,
+      "id": 183,
       "name": "SOUNDRAW",
       "url": "https://soundraw.io",
       "country": "日本",
@@ -3873,7 +3792,7 @@
       "noSignup": false
     },
     {
-      "id": 188,
+      "id": 184,
       "name": "AIVA",
       "url": "https://www.aiva.ai",
       "country": "ルクセンブルク",
@@ -3893,7 +3812,7 @@
       "noSignup": false
     },
     {
-      "id": 189,
+      "id": 185,
       "name": "Beatoven.ai",
       "url": "https://www.beatoven.ai",
       "country": "インド",
@@ -3913,7 +3832,7 @@
       "noSignup": false
     },
     {
-      "id": 190,
+      "id": 186,
       "name": "Boomy",
       "url": "https://boomy.com",
       "country": "アメリカ",
@@ -3933,7 +3852,7 @@
       "noSignup": false
     },
     {
-      "id": 191,
+      "id": 187,
       "name": "Mubert",
       "url": "https://mubert.com",
       "country": "アメリカ",
@@ -3953,11 +3872,11 @@
       "noSignup": false
     },
     {
-      "id": 192,
-      "name": "Riffusion",
-      "url": "https://www.riffusion.com",
+      "id": 188,
+      "name": "Google Flow Music",
+      "url": "https://www.flowmusic.app",
       "country": "アメリカ",
-      "company": "Riffusion",
+      "company": "Google",
       "category": [
         "音楽・音声生成"
       ],
@@ -3973,7 +3892,7 @@
       "noSignup": false
     },
     {
-      "id": 193,
+      "id": 189,
       "name": "Soundful",
       "url": "https://soundful.com",
       "country": "アメリカ",
@@ -3993,7 +3912,7 @@
       "noSignup": false
     },
     {
-      "id": 194,
+      "id": 190,
       "name": "Loudly",
       "url": "https://www.loudly.com",
       "country": "ドイツ",
@@ -4013,7 +3932,7 @@
       "noSignup": false
     },
     {
-      "id": 195,
+      "id": 191,
       "name": "Moises",
       "url": "https://moises.ai",
       "country": "ブラジル",
@@ -4034,7 +3953,7 @@
       "noSignup": false
     },
     {
-      "id": 196,
+      "id": 192,
       "name": "LALAL.AI",
       "url": "https://www.lalal.ai",
       "country": "スイス",
@@ -4054,7 +3973,7 @@
       "noSignup": false
     },
     {
-      "id": 197,
+      "id": 193,
       "name": "Ultimate Vocal Remover",
       "url": "https://ultimatevocalremover.com",
       "country": "アメリカ",
@@ -4074,7 +3993,7 @@
       "noSignup": true
     },
     {
-      "id": 198,
+      "id": 194,
       "name": "ElevenLabs",
       "url": "https://elevenlabs.io",
       "country": "アメリカ",
@@ -4096,7 +4015,7 @@
       "noSignup": false
     },
     {
-      "id": 199,
+      "id": 195,
       "name": "Murf",
       "url": "https://murf.ai",
       "country": "アメリカ",
@@ -4116,7 +4035,7 @@
       "noSignup": false
     },
     {
-      "id": 200,
+      "id": 196,
       "name": "Speechify",
       "url": "https://speechify.com",
       "country": "アメリカ",
@@ -4137,7 +4056,7 @@
       "noSignup": false
     },
     {
-      "id": 201,
+      "id": 197,
       "name": "NaturalReader",
       "url": "https://www.naturalreaders.com",
       "country": "カナダ",
@@ -4158,7 +4077,7 @@
       "noSignup": false
     },
     {
-      "id": 202,
+      "id": 198,
       "name": "VOICEVOX",
       "url": "https://voicevox.hiroshiba.jp",
       "country": "日本",
@@ -4179,7 +4098,7 @@
       "noSignup": true
     },
     {
-      "id": 203,
+      "id": 199,
       "name": "CoeFont",
       "url": "https://coefont.cloud",
       "country": "日本",
@@ -4200,7 +4119,7 @@
       "noSignup": false
     },
     {
-      "id": 204,
+      "id": 200,
       "name": "Style-Bert-VITS2",
       "url": "https://github.com/litagin02/Style-Bert-VITS2",
       "country": "日本",
@@ -4221,7 +4140,7 @@
       "noSignup": false
     },
     {
-      "id": 205,
+      "id": 201,
       "name": "Resemble AI",
       "url": "https://www.resemble.ai",
       "country": "アメリカ",
@@ -4241,7 +4160,7 @@
       "noSignup": false
     },
     {
-      "id": 206,
+      "id": 202,
       "name": "Adobe Podcast",
       "url": "https://podcast.adobe.com",
       "country": "アメリカ",
@@ -4261,7 +4180,7 @@
       "noSignup": false
     },
     {
-      "id": 207,
+      "id": 203,
       "name": "Fish Audio",
       "url": "https://fish.audio",
       "country": "アメリカ",
@@ -4281,7 +4200,7 @@
       "noSignup": false
     },
     {
-      "id": 208,
+      "id": 204,
       "name": "Whisper",
       "url": "https://github.com/openai/whisper",
       "country": "アメリカ",
@@ -4302,7 +4221,7 @@
       "noSignup": false
     },
     {
-      "id": 209,
+      "id": 205,
       "name": "Otter.ai",
       "url": "https://otter.ai",
       "country": "アメリカ",
@@ -4323,7 +4242,7 @@
       "noSignup": false
     },
     {
-      "id": 210,
+      "id": 206,
       "name": "Rev",
       "url": "https://www.rev.com",
       "country": "アメリカ",
@@ -4343,7 +4262,7 @@
       "noSignup": false
     },
     {
-      "id": 211,
+      "id": 207,
       "name": "Notta",
       "url": "https://www.notta.ai",
       "country": "日本",
@@ -4366,7 +4285,7 @@
       "noSignup": false
     },
     {
-      "id": 212,
+      "id": 208,
       "name": "Fireflies.ai",
       "url": "https://fireflies.ai",
       "country": "アメリカ",
@@ -4387,7 +4306,7 @@
       "noSignup": false
     },
     {
-      "id": 213,
+      "id": 209,
       "name": "tl;dv",
       "url": "https://tldv.io",
       "country": "ドイツ",
@@ -4408,7 +4327,7 @@
       "noSignup": false
     },
     {
-      "id": 214,
+      "id": 210,
       "name": "Fathom",
       "url": "https://fathom.video",
       "country": "アメリカ",
@@ -4429,7 +4348,7 @@
       "noSignup": false
     },
     {
-      "id": 215,
+      "id": 211,
       "name": "Tactiq",
       "url": "https://tactiq.io",
       "country": "オーストラリア",
@@ -4450,7 +4369,7 @@
       "noSignup": false
     },
     {
-      "id": 216,
+      "id": 212,
       "name": "Read AI",
       "url": "https://www.read.ai",
       "country": "アメリカ",
@@ -4471,7 +4390,7 @@
       "noSignup": false
     },
     {
-      "id": 217,
+      "id": 213,
       "name": "Krisp",
       "url": "https://krisp.ai",
       "country": "アメリカ",
@@ -4491,7 +4410,7 @@
       "noSignup": false
     },
     {
-      "id": 218,
+      "id": 214,
       "name": "Gladia",
       "url": "https://www.gladia.io",
       "country": "フランス",
@@ -4512,7 +4431,7 @@
       "noSignup": false
     },
     {
-      "id": 219,
+      "id": 215,
       "name": "AssemblyAI",
       "url": "https://www.assemblyai.com",
       "country": "アメリカ",
@@ -4533,7 +4452,7 @@
       "noSignup": false
     },
     {
-      "id": 220,
+      "id": 216,
       "name": "Deepgram",
       "url": "https://deepgram.com",
       "country": "アメリカ",
@@ -4554,7 +4473,7 @@
       "noSignup": false
     },
     {
-      "id": 221,
+      "id": 217,
       "name": "Speechnotes",
       "url": "https://speechnotes.co",
       "country": "イスラエル",
@@ -4574,7 +4493,7 @@
       "noSignup": true
     },
     {
-      "id": 222,
+      "id": 218,
       "name": "Rimo Voice",
       "url": "https://rimo.app",
       "country": "日本",
@@ -4595,7 +4514,7 @@
       "noSignup": false
     },
     {
-      "id": 223,
+      "id": 219,
       "name": "Writesonic",
       "url": "https://writesonic.com",
       "country": "アメリカ",
@@ -4615,7 +4534,7 @@
       "noSignup": false
     },
     {
-      "id": 224,
+      "id": 220,
       "name": "Rytr",
       "url": "https://rytr.me",
       "country": "アメリカ",
@@ -4635,7 +4554,7 @@
       "noSignup": false
     },
     {
-      "id": 225,
+      "id": 221,
       "name": "Jasper",
       "url": "https://www.jasper.ai",
       "country": "アメリカ",
@@ -4655,7 +4574,7 @@
       "noSignup": false
     },
     {
-      "id": 226,
+      "id": 222,
       "name": "Copy.ai",
       "url": "https://www.copy.ai",
       "country": "アメリカ",
@@ -4675,7 +4594,7 @@
       "noSignup": false
     },
     {
-      "id": 227,
+      "id": 223,
       "name": "Anyword",
       "url": "https://www.anyword.com",
       "country": "アメリカ",
@@ -4695,7 +4614,7 @@
       "noSignup": false
     },
     {
-      "id": 228,
+      "id": 224,
       "name": "Frase",
       "url": "https://www.frase.io",
       "country": "アメリカ",
@@ -4716,7 +4635,7 @@
       "noSignup": false
     },
     {
-      "id": 229,
+      "id": 225,
       "name": "Wordtune",
       "url": "https://www.wordtune.com",
       "country": "イスラエル",
@@ -4737,7 +4656,7 @@
       "noSignup": false
     },
     {
-      "id": 230,
+      "id": 226,
       "name": "QuillBot",
       "url": "https://quillbot.com",
       "country": "アメリカ",
@@ -4759,7 +4678,7 @@
       "noSignup": false
     },
     {
-      "id": 231,
+      "id": 227,
       "name": "Grammarly",
       "url": "https://www.grammarly.com",
       "country": "アメリカ",
@@ -4780,7 +4699,7 @@
       "noSignup": false
     },
     {
-      "id": 232,
+      "id": 228,
       "name": "LanguageTool",
       "url": "https://languagetool.org",
       "country": "ドイツ",
@@ -4801,7 +4720,7 @@
       "noSignup": false
     },
     {
-      "id": 233,
+      "id": 229,
       "name": "ProWritingAid",
       "url": "https://prowritingaid.com",
       "country": "イギリス",
@@ -4821,7 +4740,7 @@
       "noSignup": false
     },
     {
-      "id": 234,
+      "id": 230,
       "name": "Sudowrite",
       "url": "https://www.sudowrite.com",
       "country": "アメリカ",
@@ -4841,7 +4760,7 @@
       "noSignup": false
     },
     {
-      "id": 235,
+      "id": 231,
       "name": "Simplified",
       "url": "https://simplified.com",
       "country": "アメリカ",
@@ -4862,7 +4781,7 @@
       "noSignup": false
     },
     {
-      "id": 236,
+      "id": 232,
       "name": "TextCortex",
       "url": "https://textcortex.com",
       "country": "ドイツ",
@@ -4882,7 +4801,7 @@
       "noSignup": false
     },
     {
-      "id": 237,
+      "id": 233,
       "name": "DeepL Write",
       "url": "https://www.deepl.com/write",
       "country": "ドイツ",
@@ -4903,7 +4822,7 @@
       "noSignup": true
     },
     {
-      "id": 238,
+      "id": 234,
       "name": "Shodo",
       "url": "https://shodo.ink",
       "country": "日本",
@@ -4924,7 +4843,7 @@
       "noSignup": false
     },
     {
-      "id": 239,
+      "id": 235,
       "name": "Catchy",
       "url": "https://lp.ai-copywriter.jp",
       "country": "日本",
@@ -4945,7 +4864,7 @@
       "noSignup": false
     },
     {
-      "id": 240,
+      "id": 236,
       "name": "Jenni AI",
       "url": "https://jenni.ai",
       "country": "アメリカ",
@@ -4966,7 +4885,7 @@
       "noSignup": false
     },
     {
-      "id": 241,
+      "id": 237,
       "name": "Paperpal",
       "url": "https://paperpal.com",
       "country": "インド",
@@ -4987,7 +4906,7 @@
       "noSignup": false
     },
     {
-      "id": 242,
+      "id": 238,
       "name": "Notion AI",
       "url": "https://www.notion.com/product/ai",
       "country": "アメリカ",
@@ -5008,7 +4927,7 @@
       "noSignup": false
     },
     {
-      "id": 243,
+      "id": 239,
       "name": "Gamma",
       "url": "https://gamma.app",
       "country": "アメリカ",
@@ -5029,7 +4948,7 @@
       "noSignup": false
     },
     {
-      "id": 244,
+      "id": 240,
       "name": "Napkin AI",
       "url": "https://www.napkin.ai",
       "country": "アメリカ",
@@ -5050,7 +4969,7 @@
       "noSignup": false
     },
     {
-      "id": 245,
+      "id": 241,
       "name": "DeepL",
       "url": "https://www.deepl.com",
       "country": "ドイツ",
@@ -5070,7 +4989,7 @@
       "noSignup": true
     },
     {
-      "id": 246,
+      "id": 242,
       "name": "Google翻訳",
       "url": "https://translate.google.com",
       "country": "アメリカ",
@@ -5090,7 +5009,7 @@
       "noSignup": true
     },
     {
-      "id": 247,
+      "id": 243,
       "name": "Microsoft Translator",
       "url": "https://www.bing.com/translator",
       "country": "アメリカ",
@@ -5110,7 +5029,7 @@
       "noSignup": true
     },
     {
-      "id": 248,
+      "id": 244,
       "name": "Papago",
       "url": "https://papago.naver.com",
       "country": "韓国",
@@ -5130,7 +5049,7 @@
       "noSignup": true
     },
     {
-      "id": 249,
+      "id": 245,
       "name": "Yandex翻訳",
       "url": "https://translate.yandex.com",
       "country": "ロシア",
@@ -5150,7 +5069,7 @@
       "noSignup": true
     },
     {
-      "id": 250,
+      "id": 246,
       "name": "百度翻訳",
       "url": "https://fanyi.baidu.com",
       "country": "中国",
@@ -5170,7 +5089,7 @@
       "noSignup": true
     },
     {
-      "id": 251,
+      "id": 247,
       "name": "有道翻訳（Youdao）",
       "url": "https://fanyi.youdao.com",
       "country": "中国",
@@ -5190,7 +5109,7 @@
       "noSignup": true
     },
     {
-      "id": 252,
+      "id": 248,
       "name": "Reverso",
       "url": "https://www.reverso.net",
       "country": "フランス",
@@ -5211,7 +5130,7 @@
       "noSignup": true
     },
     {
-      "id": 253,
+      "id": 249,
       "name": "Immersive Translate",
       "url": "https://immersivetranslate.com",
       "country": "中国",
@@ -5231,7 +5150,7 @@
       "noSignup": false
     },
     {
-      "id": 254,
+      "id": 250,
       "name": "PLaMo翻訳",
       "url": "https://translate.preferredai.jp",
       "country": "日本",
@@ -5252,7 +5171,7 @@
       "noSignup": false
     },
     {
-      "id": 255,
+      "id": 251,
       "name": "NotebookLM",
       "url": "https://notebooklm.google.com",
       "country": "アメリカ",
@@ -5274,7 +5193,7 @@
       "noSignup": false
     },
     {
-      "id": 256,
+      "id": 252,
       "name": "Mapify",
       "url": "https://mapify.so",
       "country": "中国（香港）",
@@ -5295,7 +5214,7 @@
       "noSignup": false
     },
     {
-      "id": 257,
+      "id": 253,
       "name": "ChatPDF",
       "url": "https://www.chatpdf.com",
       "country": "ドイツ",
@@ -5316,7 +5235,7 @@
       "noSignup": false
     },
     {
-      "id": 258,
+      "id": 254,
       "name": "Humata",
       "url": "https://www.humata.ai",
       "country": "アメリカ",
@@ -5337,7 +5256,7 @@
       "noSignup": false
     },
     {
-      "id": 259,
+      "id": 255,
       "name": "Scholarcy",
       "url": "https://www.scholarcy.com",
       "country": "イギリス",
@@ -5358,7 +5277,7 @@
       "noSignup": false
     },
     {
-      "id": 260,
+      "id": 256,
       "name": "Consensus",
       "url": "https://consensus.app",
       "country": "アメリカ",
@@ -5380,7 +5299,7 @@
       "noSignup": false
     },
     {
-      "id": 261,
+      "id": 257,
       "name": "Elicit",
       "url": "https://elicit.com",
       "country": "アメリカ",
@@ -5401,7 +5320,7 @@
       "noSignup": false
     },
     {
-      "id": 262,
+      "id": 258,
       "name": "Scite",
       "url": "https://scite.ai",
       "country": "アメリカ",
@@ -5421,7 +5340,7 @@
       "noSignup": false
     },
     {
-      "id": 263,
+      "id": 259,
       "name": "Semantic Scholar",
       "url": "https://www.semanticscholar.org",
       "country": "アメリカ",
@@ -5442,7 +5361,7 @@
       "noSignup": true
     },
     {
-      "id": 264,
+      "id": 260,
       "name": "SciSpace",
       "url": "https://scispace.com",
       "country": "インド",
@@ -5463,7 +5382,7 @@
       "noSignup": false
     },
     {
-      "id": 265,
+      "id": 261,
       "name": "Connected Papers",
       "url": "https://www.connectedpapers.com",
       "country": "イスラエル",
@@ -5483,7 +5402,7 @@
       "noSignup": false
     },
     {
-      "id": 266,
+      "id": 262,
       "name": "ResearchRabbit",
       "url": "https://www.researchrabbit.ai",
       "country": "アメリカ",
@@ -5503,7 +5422,7 @@
       "noSignup": false
     },
     {
-      "id": 267,
+      "id": 263,
       "name": "Litmaps",
       "url": "https://www.litmaps.com",
       "country": "ニュージーランド",
@@ -5523,7 +5442,7 @@
       "noSignup": false
     },
     {
-      "id": 268,
+      "id": 264,
       "name": "Undermind",
       "url": "https://www.undermind.ai",
       "country": "アメリカ",
@@ -5544,7 +5463,7 @@
       "noSignup": false
     },
     {
-      "id": 269,
+      "id": 265,
       "name": "Anara",
       "url": "https://anara.com",
       "country": "アメリカ",
@@ -5565,7 +5484,7 @@
       "noSignup": false
     },
     {
-      "id": 270,
+      "id": 266,
       "name": "Julius AI",
       "url": "https://julius.ai",
       "country": "アメリカ",
@@ -5587,7 +5506,7 @@
       "noSignup": false
     },
     {
-      "id": 271,
+      "id": 267,
       "name": "Wolfram Alpha",
       "url": "https://www.wolframalpha.com",
       "country": "アメリカ",
@@ -5608,7 +5527,7 @@
       "noSignup": true
     },
     {
-      "id": 272,
+      "id": 268,
       "name": "Rows",
       "url": "https://rows.com",
       "country": "ドイツ",
@@ -5629,7 +5548,7 @@
       "noSignup": false
     },
     {
-      "id": 273,
+      "id": 269,
       "name": "KNIME",
       "url": "https://www.knime.com",
       "country": "スイス",
@@ -5651,7 +5570,7 @@
       "noSignup": true
     },
     {
-      "id": 274,
+      "id": 270,
       "name": "Orange Data Mining",
       "url": "https://orangedatamining.com",
       "country": "スロベニア",
@@ -5672,7 +5591,7 @@
       "noSignup": true
     },
     {
-      "id": 275,
+      "id": 271,
       "name": "Prophet",
       "url": "https://facebook.github.io/prophet/",
       "country": "アメリカ",
@@ -5692,7 +5611,7 @@
       "noSignup": false
     },
     {
-      "id": 276,
+      "id": 272,
       "name": "Power Automate Desktop",
       "url": "https://www.microsoft.com/ja-jp/power-platform/products/power-automate",
       "country": "アメリカ",
@@ -5713,7 +5632,7 @@
       "noSignup": false
     },
     {
-      "id": 277,
+      "id": 273,
       "name": "Zapier",
       "url": "https://zapier.com",
       "country": "アメリカ",
@@ -5733,7 +5652,7 @@
       "noSignup": false
     },
     {
-      "id": 278,
+      "id": 274,
       "name": "Make",
       "url": "https://www.make.com",
       "country": "チェコ",
@@ -5753,7 +5672,7 @@
       "noSignup": false
     },
     {
-      "id": 279,
+      "id": 275,
       "name": "IFTTT",
       "url": "https://ifttt.com",
       "country": "アメリカ",
@@ -5773,7 +5692,7 @@
       "noSignup": false
     },
     {
-      "id": 280,
+      "id": 276,
       "name": "n8n",
       "url": "https://n8n.io",
       "country": "ドイツ",
@@ -5794,7 +5713,7 @@
       "noSignup": false
     },
     {
-      "id": 281,
+      "id": 277,
       "name": "UiPath",
       "url": "https://www.uipath.com",
       "country": "アメリカ",
@@ -5815,7 +5734,7 @@
       "noSignup": false
     },
     {
-      "id": 282,
+      "id": 278,
       "name": "Automation Anywhere",
       "url": "https://www.automationanywhere.com",
       "country": "アメリカ",
@@ -5835,7 +5754,7 @@
       "noSignup": false
     },
     {
-      "id": 283,
+      "id": 279,
       "name": "Bardeen",
       "url": "https://www.bardeen.ai",
       "country": "アメリカ",
@@ -5855,7 +5774,7 @@
       "noSignup": false
     },
     {
-      "id": 284,
+      "id": 280,
       "name": "Relay.app",
       "url": "https://www.relay.app",
       "country": "アメリカ",
@@ -5875,7 +5794,7 @@
       "noSignup": false
     },
     {
-      "id": 285,
+      "id": 281,
       "name": "Lindy",
       "url": "https://www.lindy.ai",
       "country": "アメリカ",
@@ -5896,7 +5815,7 @@
       "noSignup": false
     },
     {
-      "id": 286,
+      "id": 282,
       "name": "Reclaim.ai",
       "url": "https://reclaim.ai",
       "country": "アメリカ",
@@ -5917,7 +5836,7 @@
       "noSignup": false
     },
     {
-      "id": 287,
+      "id": 283,
       "name": "Motion",
       "url": "https://www.usemotion.com",
       "country": "アメリカ",
@@ -5937,7 +5856,7 @@
       "noSignup": false
     },
     {
-      "id": 288,
+      "id": 284,
       "name": "Looka",
       "url": "https://looka.com",
       "country": "カナダ",
@@ -5957,7 +5876,7 @@
       "noSignup": false
     },
     {
-      "id": 289,
+      "id": 285,
       "name": "Beautiful.ai",
       "url": "https://www.beautiful.ai",
       "country": "アメリカ",
@@ -5977,7 +5896,7 @@
       "noSignup": false
     },
     {
-      "id": 290,
+      "id": 286,
       "name": "Uizard",
       "url": "https://uizard.io",
       "country": "デンマーク",
@@ -5998,7 +5917,7 @@
       "noSignup": false
     },
     {
-      "id": 291,
+      "id": 287,
       "name": "Figma",
       "url": "https://www.figma.com",
       "country": "アメリカ",
@@ -6020,7 +5939,7 @@
       "noSignup": false
     },
     {
-      "id": 292,
+      "id": 288,
       "name": "Framer",
       "url": "https://www.framer.com",
       "country": "オランダ",
@@ -6041,7 +5960,7 @@
       "noSignup": false
     },
     {
-      "id": 293,
+      "id": 289,
       "name": "Stitch",
       "url": "https://stitch.withgoogle.com",
       "country": "アメリカ",
@@ -6062,7 +5981,7 @@
       "noSignup": false
     },
     {
-      "id": 294,
+      "id": 290,
       "name": "Kittl",
       "url": "https://www.kittl.com",
       "country": "ドイツ",
@@ -6082,7 +6001,7 @@
       "noSignup": false
     },
     {
-      "id": 295,
+      "id": 291,
       "name": "Miro",
       "url": "https://miro.com",
       "country": "アメリカ",
@@ -6103,7 +6022,7 @@
       "noSignup": false
     },
     {
-      "id": 296,
+      "id": 292,
       "name": "Landbot",
       "url": "https://landbot.io",
       "country": "スペイン",
@@ -6125,7 +6044,7 @@
       "noSignup": false
     },
     {
-      "id": 297,
+      "id": 293,
       "name": "Durable",
       "url": "https://durable.com",
       "country": "カナダ",
@@ -6146,7 +6065,7 @@
       "noSignup": false
     },
     {
-      "id": 298,
+      "id": 294,
       "name": "Khanmigo",
       "url": "https://www.khanmigo.ai",
       "country": "アメリカ",
@@ -6166,7 +6085,7 @@
       "noSignup": false
     },
     {
-      "id": 299,
+      "id": 295,
       "name": "Quizlet",
       "url": "https://quizlet.com",
       "country": "アメリカ",
@@ -6186,7 +6105,7 @@
       "noSignup": false
     },
     {
-      "id": 300,
+      "id": 296,
       "name": "Photomath",
       "url": "https://photomath.com",
       "country": "クロアチア",
@@ -6206,7 +6125,7 @@
       "noSignup": true
     },
     {
-      "id": 301,
+      "id": 297,
       "name": "Gauth",
       "url": "https://www.gauthmath.com",
       "country": "シンガポール",
@@ -6226,7 +6145,7 @@
       "noSignup": false
     },
     {
-      "id": 302,
+      "id": 298,
       "name": "Brainly",
       "url": "https://brainly.com",
       "country": "ポーランド",
@@ -6246,7 +6165,7 @@
       "noSignup": false
     },
     {
-      "id": 303,
+      "id": 299,
       "name": "Symbolab",
       "url": "https://www.symbolab.com",
       "country": "イスラエル",
@@ -6266,7 +6185,7 @@
       "noSignup": true
     },
     {
-      "id": 304,
+      "id": 300,
       "name": "Mathway",
       "url": "https://www.mathway.com",
       "country": "アメリカ",
@@ -6286,7 +6205,7 @@
       "noSignup": true
     },
     {
-      "id": 305,
+      "id": 301,
       "name": "ELSA Speak",
       "url": "https://elsaspeak.com",
       "country": "アメリカ",
@@ -6307,7 +6226,7 @@
       "noSignup": false
     },
     {
-      "id": 306,
+      "id": 302,
       "name": "Speak",
       "url": "https://www.speak.com",
       "country": "アメリカ",
@@ -6328,7 +6247,7 @@
       "noSignup": false
     },
     {
-      "id": 307,
+      "id": 303,
       "name": "Duolingo",
       "url": "https://www.duolingo.com",
       "country": "アメリカ",
@@ -6349,7 +6268,7 @@
       "noSignup": false
     },
     {
-      "id": 308,
+      "id": 304,
       "name": "MagicSchool",
       "url": "https://www.magicschool.ai",
       "country": "アメリカ",
@@ -6369,7 +6288,7 @@
       "noSignup": false
     },
     {
-      "id": 309,
+      "id": 305,
       "name": "Knowt",
       "url": "https://knowt.com",
       "country": "アメリカ",
@@ -6390,7 +6309,7 @@
       "noSignup": false
     },
     {
-      "id": 310,
+      "id": 306,
       "name": "Character.AI",
       "url": "https://character.ai",
       "country": "アメリカ",
@@ -6413,7 +6332,7 @@
       "rank": 8
     },
     {
-      "id": 311,
+      "id": 307,
       "name": "Replika",
       "url": "https://replika.com",
       "country": "アメリカ",
@@ -6433,7 +6352,7 @@
       "noSignup": false
     },
     {
-      "id": 312,
+      "id": 308,
       "name": "Wysa",
       "url": "https://www.wysa.com",
       "country": "インド",
@@ -6454,7 +6373,7 @@
       "noSignup": false
     },
     {
-      "id": 313,
+      "id": 309,
       "name": "Youper",
       "url": "https://www.youper.com",
       "country": "アメリカ",
@@ -6475,7 +6394,7 @@
       "noSignup": false
     },
     {
-      "id": 314,
+      "id": 310,
       "name": "Earkick",
       "url": "https://earkick.com",
       "country": "スイス",
@@ -6495,7 +6414,7 @@
       "noSignup": false
     },
     {
-      "id": 315,
+      "id": 311,
       "name": "awarefy",
       "url": "https://www.awarefy.app",
       "country": "日本",
@@ -6516,7 +6435,7 @@
       "noSignup": false
     },
     {
-      "id": 316,
+      "id": 312,
       "name": "cotomo",
       "url": "https://cotomo.ai",
       "country": "日本",
@@ -6537,7 +6456,7 @@
       "noSignup": false
     },
     {
-      "id": 317,
+      "id": 313,
       "name": "Ada",
       "url": "https://ada.com",
       "country": "ドイツ",
@@ -6557,7 +6476,7 @@
       "noSignup": false
     },
     {
-      "id": 318,
+      "id": 314,
       "name": "ユビー（Ubie）",
       "url": "https://ubie.app",
       "country": "日本",
@@ -6578,7 +6497,7 @@
       "noSignup": true
     },
     {
-      "id": 319,
+      "id": 315,
       "name": "Symptomate",
       "url": "https://symptomate.com",
       "country": "ポーランド",
@@ -6598,7 +6517,7 @@
       "noSignup": true
     },
     {
-      "id": 320,
+      "id": 316,
       "name": "Buoy Health",
       "url": "https://www.buoyhealth.com",
       "country": "アメリカ",
@@ -6618,7 +6537,7 @@
       "noSignup": false
     },
     {
-      "id": 321,
+      "id": 317,
       "name": "OpenEvidence",
       "url": "https://www.openevidence.com",
       "country": "アメリカ",
@@ -6639,7 +6558,7 @@
       "noSignup": false
     },
     {
-      "id": 322,
+      "id": 318,
       "name": "Glass Health",
       "url": "https://glass.health",
       "country": "アメリカ",
@@ -6659,7 +6578,7 @@
       "noSignup": false
     },
     {
-      "id": 323,
+      "id": 319,
       "name": "Healthily",
       "url": "https://www.livehealthily.com",
       "country": "イギリス",
@@ -6679,7 +6598,7 @@
       "noSignup": false
     },
     {
-      "id": 324,
+      "id": 320,
       "name": "NVIDIA Isaac Sim",
       "url": "https://developer.nvidia.com/isaac/sim",
       "country": "アメリカ",
@@ -6699,7 +6618,7 @@
       "noSignup": false
     },
     {
-      "id": 325,
+      "id": 321,
       "name": "ROS 2",
       "url": "https://www.ros.org",
       "country": "アメリカ",
@@ -6719,7 +6638,7 @@
       "noSignup": false
     },
     {
-      "id": 326,
+      "id": 322,
       "name": "LeRobot",
       "url": "https://huggingface.co/lerobot",
       "country": "アメリカ",
@@ -6740,7 +6659,7 @@
       "noSignup": false
     },
     {
-      "id": 327,
+      "id": 323,
       "name": "Edge Impulse",
       "url": "https://edgeimpulse.com",
       "country": "アメリカ",
@@ -6761,7 +6680,7 @@
       "noSignup": false
     },
     {
-      "id": 328,
+      "id": 324,
       "name": "Roboflow",
       "url": "https://roboflow.com",
       "country": "アメリカ",
@@ -6783,7 +6702,7 @@
       "noSignup": false
     },
     {
-      "id": 329,
+      "id": 325,
       "name": "Ultralytics YOLO",
       "url": "https://www.ultralytics.com",
       "country": "アメリカ",
@@ -6804,7 +6723,7 @@
       "noSignup": false
     },
     {
-      "id": 330,
+      "id": 326,
       "name": "OpenCV",
       "url": "https://opencv.org",
       "country": "アメリカ",
@@ -6825,7 +6744,7 @@
       "noSignup": false
     },
     {
-      "id": 331,
+      "id": 327,
       "name": "LandingAI",
       "url": "https://landing.ai",
       "country": "アメリカ",
@@ -6845,7 +6764,7 @@
       "noSignup": false
     },
     {
-      "id": 332,
+      "id": 328,
       "name": "Webots",
       "url": "https://cyberbotics.com",
       "country": "スイス",
@@ -6866,7 +6785,7 @@
       "noSignup": false
     },
     {
-      "id": 333,
+      "id": 329,
       "name": "MuJoCo",
       "url": "https://mujoco.org",
       "country": "アメリカ",
@@ -6886,7 +6805,7 @@
       "noSignup": false
     },
     {
-      "id": 334,
+      "id": 330,
       "name": "Meshy",
       "url": "https://www.meshy.ai",
       "country": "アメリカ",
@@ -6907,7 +6826,7 @@
       "noSignup": false
     },
     {
-      "id": 335,
+      "id": 331,
       "name": "Tripo AI",
       "url": "https://www.tripo3d.ai",
       "country": "中国",
@@ -6928,7 +6847,7 @@
       "noSignup": false
     },
     {
-      "id": 336,
+      "id": 332,
       "name": "Hyper3D Rodin",
       "url": "https://hyper3d.ai",
       "country": "中国",
@@ -6948,7 +6867,7 @@
       "noSignup": false
     },
     {
-      "id": 337,
+      "id": 333,
       "name": "Hunyuan3D",
       "url": "https://3d.hunyuan.tencent.com",
       "country": "中国",
@@ -6968,7 +6887,7 @@
       "noSignup": false
     },
     {
-      "id": 338,
+      "id": 334,
       "name": "TRELLIS",
       "url": "https://github.com/microsoft/TRELLIS",
       "country": "アメリカ",
@@ -6989,7 +6908,7 @@
       "noSignup": false
     },
     {
-      "id": 339,
+      "id": 335,
       "name": "Spline",
       "url": "https://spline.design",
       "country": "アメリカ",
@@ -7010,7 +6929,7 @@
       "noSignup": false
     },
     {
-      "id": 340,
+      "id": 336,
       "name": "Rosebud AI",
       "url": "https://rosebud.ai",
       "country": "アメリカ",
@@ -7031,7 +6950,7 @@
       "noSignup": false
     },
     {
-      "id": 341,
+      "id": 337,
       "name": "Unity AI",
       "url": "https://unity.com/features/ai",
       "country": "アメリカ",
@@ -7052,7 +6971,7 @@
       "noSignup": false
     },
     {
-      "id": 342,
+      "id": 338,
       "name": "Inworld AI",
       "url": "https://inworld.ai",
       "country": "アメリカ",
@@ -7073,7 +6992,7 @@
       "noSignup": false
     },
     {
-      "id": 343,
+      "id": 339,
       "name": "Gemini in Android Studio",
       "url": "https://developer.android.com/studio/gemini/overview",
       "country": "アメリカ",
@@ -7094,7 +7013,7 @@
       "noSignup": false
     },
     {
-      "id": 344,
+      "id": 340,
       "name": "FlutterFlow",
       "url": "https://www.flutterflow.io",
       "country": "アメリカ",
@@ -7115,20 +7034,20 @@
       "noSignup": false
     },
     {
-      "id": 345,
-      "name": "Formula Bot",
-      "url": "https://www.formulabot.com",
+      "id": 341,
+      "name": "Better Analyst（旧Formula Bot）",
+      "url": "https://betteranalyst.com",
       "country": "アメリカ",
-      "company": "Formula Bot",
+      "company": "Better Analyst",
       "category": [
         "Excel・事務作業",
         "データ分析・予測"
       ],
       "strengths": [
-        "やりたいことを文章で伝えるとExcel関数を作成",
-        "関数の意味を解説",
-        "データ分析",
-        "無料枠"
+        "会話でデータを分析してグラフを作成",
+        "Excel・スプレッドシートの関数を生成",
+        "PDFの表をExcelに変換",
+        "ダッシュボード・定期レポートを自動化"
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
@@ -7136,7 +7055,7 @@
       "noSignup": false
     },
     {
-      "id": 346,
+      "id": 342,
       "name": "Numerous.ai",
       "url": "https://numerous.ai",
       "country": "アメリカ",
@@ -7145,10 +7064,7 @@
         "Excel・事務作業"
       ],
       "strengths": [
-        "スプレッドシートでAI関数を使える",
-        "大量データの分類・要約",
-        "Excel・Googleスプレッドシート対応",
-        "無料枠"
+        "Excel・スプレッドシートの関数を生成"
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
@@ -7156,7 +7072,7 @@
       "noSignup": false
     },
     {
-      "id": 347,
+      "id": 343,
       "name": "Sheet+",
       "url": "https://sheetplus.ai",
       "country": "アメリカ",
@@ -7165,10 +7081,7 @@
         "Excel・事務作業"
       ],
       "strengths": [
-        "Excel・スプレッドシートの関数を生成",
-        "関数の説明・修正",
-        "VBA・Apps Scriptの作成",
-        "無料枠"
+        "PDFの表をExcelに変換"
       ],
       "pricing": "無料枠あり",
       "freeLimit": "無料プランあり（回数・機能に制限）",
