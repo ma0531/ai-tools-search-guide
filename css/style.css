@@ -667,3 +667,73 @@ body.view-mobile .ai-warning { text-align: left; font-size: 0.78rem; margin-left
 .pf-mobile { background: #fdeefa; color: #8a2a78; }
 .card-meta .pf-badge { margin-top: 0; }
 .tool-name .pf-badge { white-space: normal; max-width: 100%; }
+
+/* ==========================================
+   読み上げソフト・キーボード操作・見やすさへの対応
+   ========================================== */
+/* 画面には見せず、読み上げだけする文字 */
+.sr-only {
+    position: absolute !important;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+}
+
+/* Tabキーで最初に出る「検索結果へ移動」 */
+.skip-link {
+    position: absolute;
+    left: 12px; top: -60px;
+    z-index: 3000;
+    background: #1f6f4a; color: #fff;
+    padding: 10px 18px; border-radius: 8px;
+    font-weight: 700; text-decoration: none;
+}
+.skip-link:focus { top: 12px; }
+
+/* どこを操作しているか、はっきり見えるように */
+:focus-visible { outline: 3px solid #1f5f99 !important; outline-offset: 2px; }
+.results-area:focus { outline: none; }
+
+/* 表の見出しの並び替えボタン */
+.sort-btn {
+    background: none; border: none; color: inherit;
+    font: inherit; font-weight: 600; cursor: pointer;
+    padding: 2px 4px; border-radius: 4px;
+}
+.sort-btn:hover { text-decoration: underline; }
+
+/* ---- 文字と背景の差をはっきりさせる（読みやすさの基準 4.5 以上） ---- */
+header h1, .hero-title { color: #1f6f4a; }
+.results-info, .tool-country, .tool-category,
+.filter-title, .results-info p { color: #1f7a4f; }
+.count, .card-limit, .legend, .guide-ex, .cat-info-hint { color: #595959 !important; }
+.cat-tag { color: #1f6f4a; }
+#searchInput::placeholder { color: #6b6b6b; }
+.hero-sub strong { color: #1f7a4f; }
+thead { background: linear-gradient(135deg, #237a52 0%, #1f6f4a 100%); }
+.reset-button, .tool-link a, .open-btn, .feedback-button, .guide-pick,
+.device-btn.active, .howto-back a, .howto-steps li::before {
+    background: #237a52 !important;
+}
+.reset-button:hover, .tool-link a:hover, .open-btn:hover, .feedback-button:hover,
+.guide-pick:hover, .howto-back a:hover { background: #1b5e40 !important; }
+.device-btn.active .device-label { color: #fff; }
+.detail-btn, .share-button, .guide-btn { color: #1f6f4a; border-color: #237a52; }
+.name-link { color: #1f6f4a; text-decoration-color: #7cc4a0; }
+.fav-btn { color: #8a8a8a; min-width: 32px; min-height: 32px; }
+.fav-btn.on { color: #b8860b; }
+.badge-free { color: #155d38; }
+.ai-warning { color: #c62828; }
+
+/* 動きを減らす設定にしている人には、アニメーションを止める */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}
+/* 読み上げで飛ばす絵文字の後ろにすき間を確保 */
+.filters label > span[aria-hidden="true"],
+.radio-group label > span[aria-hidden="true"] { margin-right: 0.3em; }

@@ -14,9 +14,9 @@ let favorites = loadFavorites();
 let currentView = 'pc';
 
 const PRICING_BADGE = {
-    '完全無料':     '<span class="badge badge-free">✅ 完全無料</span>',
-    '無料枠あり':   '<span class="badge badge-freemium">🟢 無料枠あり</span>',
-    'トライアルのみ': '<span class="badge badge-trial">⚠️ トライアルのみ</span>'
+    '完全無料':     '<span class="badge badge-free"><span aria-hidden="true">✅ </span><span class="sr-only">料金：</span>完全無料</span>',
+    '無料枠あり':   '<span class="badge badge-freemium"><span aria-hidden="true">🟢 </span><span class="sr-only">料金：</span>無料枠あり</span>',
+    'トライアルのみ': '<span class="badge badge-trial"><span aria-hidden="true">⚠️ </span><span class="sr-only">料金：</span>トライアルのみ</span>'
 };
 const JP_LABEL = { '◯': '日本語の画面あり', '△': '日本語で入力・出力できる', '×': '英語中心' };
 const PLATFORM_LABEL = {
@@ -27,7 +27,7 @@ const PLATFORM_LABEL = {
 function platformOf(tool) { return tool.platform || 'both'; }
 function platformBadge(tool) {
     const p = PLATFORM_LABEL[platformOf(tool)];
-    return `<span class="pf-badge pf-${platformOf(tool)}">${p.icon} ${p.text}</span>`;
+    return `<span class="pf-badge pf-${platformOf(tool)}"><span aria-hidden="true">${p.icon} </span><span class="sr-only">使う端末：</span>${p.text}</span>`;
 }
 
 // カテゴリごとの使い方のコツ・注意点（詳細ポップアップで表示）
@@ -198,6 +198,7 @@ function setupEventListeners() {
     document.getElementById('shareBtn').addEventListener('click', copyShareUrl);
     document.querySelectorAll('.sortable').forEach(th =>
         th.addEventListener('click', function () { sortTools(this.getAttribute('data-key')); }));
+    document.addEventListener('keydown', trapFocusInModal);
     document.getElementById('mobileSort').addEventListener('change', function () {
         if (!this.value) { setSort(null, 'asc'); }
         else { const [k, dir] = this.value.split(':'); setSort(k, dir); }
@@ -228,6 +229,7 @@ function setSort(key, direction) {
         const on = th.getAttribute('data-key') === key;
         th.querySelector('.sort-icon').textContent = on ? (direction === 'asc' ? '▲' : '▼') : '⇅';
         th.classList.toggle('sorted', on);
+        th.setAttribute('aria-sort', on ? (direction === 'asc' ? 'ascending' : 'descending') : 'none');
     });
     const sel = document.getElementById('mobileSort');
     const v = key ? `${key}:${direction}` : '';
@@ -293,8 +295,17 @@ function updateNotices(cats) {
 // ==========================================
 // 表示
 // ==========================================
+let announceTimer = null;
+function announce(text) {
+    const live = document.getElementById('a11yLive');
+    if (!live) return;
+    clearTimeout(announceTimer);
+    announceTimer = setTimeout(() => { live.textContent = ''; setTimeout(() => live.textContent = text, 50); }, 600);
+}
+
 function filterTools() {
     const tools = getFilteredAndSortedTools();
+    announce(`検索結果 ${tools.length}件`);
     updateNotices(getState().cats);
     document.getElementById('resultCount').textContent = tools.length;
     document.getElementById('noResults').hidden = tools.length !== 0;
@@ -317,32 +328,33 @@ function esc(s) {
 function favButton(tool) {
     const on = favorites.has(tool.name);
     return `<button type="button" class="fav-btn${on ? ' on' : ''}" data-fav="${esc(tool.name)}"
-        aria-pressed="${on}" title="${on ? 'お気に入りから外す' : 'お気に入りに追加'}">${on ? '★' : '☆'}</button>`;
+        aria-pressed="${on}" aria-label="お気に入り：${esc(tool.name)}"
+        title="${on ? 'お気に入りから外す' : 'お気に入りに追加'}"><span aria-hidden="true">${on ? '★' : '☆'}</span></button>`;
 }
 
 function jpBadge(tool) {
     const cls = { '◯': 'jp-o', '△': 'jp-a', '×': 'jp-x' }[tool.japanese];
-    return `<span class="jp-badge ${cls}" title="${JP_LABEL[tool.japanese]}">${tool.japanese}</span>`;
+    return `<span class="jp-badge ${cls}" title="${JP_LABEL[tool.japanese]}"><span aria-hidden="true">${tool.japanese}</span><span class="sr-only">日本語対応：${JP_LABEL[tool.japanese]}</span></span>`;
 }
 
 function extraBadges(tool) {
-    return tool.noSignup ? '<span class="badge badge-nosign">🚪 登録不要</span>' : '';
+    return tool.noSignup ? '<span class="badge badge-nosign"><span aria-hidden="true">🚪 </span>登録不要</span>' : '';
 }
 
 function createRow(tool) {
     return `<tr>
         <td class="tool-name">
-            ${tool.rank ? `<span class="rank-badge">👑 ${tool.rank}位</span><br>` : ''}
-            <div class="name-line">${favButton(tool)}<button type="button" class="name-link" data-detail="${esc(tool.name)}">${esc(tool.name)}</button></div>
+            ${tool.rank ? `<span class="rank-badge"><span aria-hidden="true">👑 </span><span class="sr-only">よく使われるAI </span>${tool.rank}位</span><br>` : ''}
+            <div class="name-line">${favButton(tool)}<button type="button" class="name-link" data-detail="${esc(tool.name)}" aria-haspopup="dialog">${esc(tool.name)}</button></div>
             ${platformBadge(tool)}
         </td>
         <td class="tool-company col-company">${esc(tool.company)}</td>
         <td class="tool-country">${esc(tool.country)}</td>
         <td class="tool-jp col-jp">${jpBadge(tool)}</td>
         <td class="tool-category col-category"><div class="cat-tags">${tool.category.map(c => `<span class="cat-tag">${esc(c)}</span>`).join('')}</div></td>
-        <td class="tool-strengths"><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></td>
+        <td class="tool-strengths"><span class="sr-only">強み：</span><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></td>
         <td class="tool-free-limit">${PRICING_BADGE[tool.pricing] || ''} ${extraBadges(tool)}<br>${esc(tool.freeLimit)}</td>
-        <td class="tool-link"><a href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">開く →</a></td>
+        <td class="tool-link"><a href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer" aria-label="開く：${esc(tool.name)}の公式サイト（新しいタブ）">開く <span aria-hidden="true">→</span></a></td>
     </tr>`;
 }
 
@@ -350,18 +362,18 @@ function createCard(tool) {
     return `<article class="tool-card">
         <div class="card-head">
             <div>
-                ${tool.rank ? `<span class="rank-badge">👑 ${tool.rank}位</span>` : ''}
-                <h3><button type="button" class="name-link" data-detail="${esc(tool.name)}">${esc(tool.name)}</button></h3>
+                ${tool.rank ? `<span class="rank-badge"><span aria-hidden="true">👑 </span><span class="sr-only">よく使われるAI </span>${tool.rank}位</span>` : ''}
+                <h3><button type="button" class="name-link" data-detail="${esc(tool.name)}" aria-haspopup="dialog">${esc(tool.name)}</button></h3>
                 <p class="card-meta">${esc(tool.country)}　日本語 ${jpBadge(tool)}　${platformBadge(tool)}</p>
             </div>
             ${favButton(tool)}
         </div>
         <div class="card-badges">${PRICING_BADGE[tool.pricing] || ''} ${extraBadges(tool)}</div>
-        <ul class="strength-list card-strengths">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+        <span class="sr-only">強み：</span><ul class="strength-list card-strengths">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
         <p class="card-limit">${esc(tool.freeLimit)}</p>
         <div class="card-actions">
-            <button type="button" class="detail-btn" data-detail="${esc(tool.name)}">詳しく見る</button>
-            <a class="open-btn" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">開く →</a>
+            <button type="button" class="detail-btn" data-detail="${esc(tool.name)}" aria-haspopup="dialog" aria-label="詳しく見る：${esc(tool.name)}">詳しく見る</button>
+            <a class="open-btn" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer" aria-label="開く：${esc(tool.name)}の公式サイト（新しいタブ）">開く <span aria-hidden="true">→</span></a>
         </div>
     </article>`;
 }
@@ -369,9 +381,16 @@ function createCard(tool) {
 // ==========================================
 // 詳細ポップアップ
 // ==========================================
+let lastFocus = null;
+function rememberFocus() {
+    const m = document.getElementById('modal');
+    if (m.hidden) lastFocus = document.activeElement;
+}
+
 function openModal(name) {
     const tool = allTools.find(t => t.name === name);
     if (!tool) return;
+    rememberFocus();
     const tips = tool.category.filter(c => CATEGORY_TIPS[c]).map(c => `<li>${esc(CATEGORY_TIPS[c])}</li>`);
     if (TOOL_NOTES[tool.name]) tips.unshift(`<li><strong>${esc(TOOL_NOTES[tool.name])}</strong></li>`);
     if (tool.pricing === 'トライアルのみ') tips.unshift('<li>無料で使えるのはお試し期間・お試し分だけです。有料プランへの自動更新に注意しましょう。</li>');
@@ -391,7 +410,7 @@ function openModal(name) {
         ${tips.length ? `<h3>使うときのポイント</h3><ul class="tips">${tips.join('')}</ul>` : ''}
         <div class="modal-actions">
             ${favButton(tool)}
-            <a class="open-btn" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">公式サイトを開く →</a>
+            <a class="open-btn" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer">公式サイトを開く <span aria-hidden="true">→</span><span class="sr-only">（新しいタブ）</span></a>
         </div>`;
     document.getElementById('modal').hidden = false;
     document.body.classList.add('modal-open');
@@ -403,6 +422,8 @@ function closeModal() {
     if (m.hidden) return;
     m.hidden = true;
     document.body.classList.remove('modal-open');
+    if (lastFocus && document.body.contains(lastFocus)) lastFocus.focus();
+    lastFocus = null;
 }
 
 // ==========================================
@@ -634,6 +655,7 @@ function updateCategoryInfo(cats) {
 
 // ② すべての目的の説明
 function openCategoryGuide() {
+    rememberFocus();
     const groups = CATEGORY_GUIDE.map(g => `
         <h3 class="guide-group">${g.group}</h3>
         ${g.items.map(i => {
@@ -688,3 +710,146 @@ document.addEventListener('click', e => {
     filterTools();
     document.querySelector('.results-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
+
+
+// ==========================================
+// 読み上げソフト・音声操作・キーボード操作への対応
+//  （index.html を書き換えずに、ページを開いたときに自動で整えます）
+// ==========================================
+function trapFocusInModal(e) {
+    const m = document.getElementById('modal');
+    if (m.hidden || e.key !== 'Tab') return;
+    const f = [...m.querySelectorAll('button, a[href], input, [tabindex]:not([tabindex="-1"])')]
+        .filter(el => el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+}
+
+// 項目名の先頭にある絵文字を、読み上げでは飛ばす
+function hideLeadingEmoji(el) {
+    const node = [...el.childNodes].find(n => n.nodeType === 3 && n.textContent.trim());
+    if (!node) return;
+    const m = node.textContent.match(/^(\s*)((?:[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D]|[◯△＋])+\s*)/u);
+    if (!m || !/\p{Extended_Pictographic}|[\u{1F1E6}-\u{1F1FF}]/u.test(m[2])) return;
+    const span = document.createElement('span');
+    span.setAttribute('aria-hidden', 'true');
+    span.textContent = m[2];
+    node.textContent = node.textContent.slice(m[0].length);
+    el.insertBefore(span, node);
+    if (m[1]) el.insertBefore(document.createTextNode(m[1]), span);
+}
+
+function setupAccessibility() {
+    const body = document.body;
+
+    // 1. 「検索結果へ移動」リンク（Tabキーを押すと最初に出てくる）
+    const skip = document.createElement('a');
+    skip.href = '#results';
+    skip.className = 'skip-link';
+    skip.textContent = '検索結果へ移動';
+    body.insertBefore(skip, body.firstChild);
+
+    // 2. 件数の読み上げ用（画面には見えない）
+    const live = document.createElement('div');
+    live.id = 'a11yLive';
+    live.className = 'sr-only';
+    live.setAttribute('role', 'status');
+    live.setAttribute('aria-live', 'polite');
+    body.appendChild(live);
+
+    // 3. ページの区画に名前を付ける
+    const search = document.querySelector('.search-area');
+    if (search) { search.setAttribute('role', 'search'); search.setAttribute('aria-label', 'AIツールの検索と絞り込み'); }
+    const results = document.querySelector('.results-area');
+    if (results) {
+        results.id = 'results';
+        results.setAttribute('role', 'region');
+        results.setAttribute('aria-label', '検索結果');
+        results.setAttribute('tabindex', '-1');
+    }
+    const container = document.querySelector('.container');
+    if (container) container.setAttribute('role', 'main');
+
+    // 4. 表示サイズのボタン
+    [['mobile', 'スマホ表示'], ['tablet', 'タブレット表示'], ['pc', 'PC表示']].forEach(([d, label]) => {
+        const b = document.getElementById('btn-' + d);
+        if (!b) return;
+        b.setAttribute('aria-label', label);
+        b.firstChild && b.firstChild.nodeType === 3 && hideLeadingEmoji(b);
+    });
+    const sw = document.querySelector('.device-switcher');
+    if (sw) sw.setAttribute('aria-label', '表示サイズの切り替え');
+    const syncPressed = () => ['mobile', 'tablet', 'pc'].forEach(d => {
+        const b = document.getElementById('btn-' + d);
+        if (b) b.setAttribute('aria-pressed', b.classList.contains('active'));
+    });
+    syncPressed();
+    new MutationObserver(syncPressed).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+    // 5. 絞り込みのグループに名前を付ける
+    document.querySelectorAll('.filter-group').forEach((g, i) => {
+        const h = g.querySelector('.filter-title');
+        if (!h) return;
+        h.id = h.id || `filter-title-${i}`;
+        const inner = g.querySelector('.radio-group');
+        const isRadio = inner && inner.querySelector('input[type="radio"]');
+        (inner || g).setAttribute('role', isRadio ? 'radiogroup' : 'group');
+        (inner || g).setAttribute('aria-labelledby', h.id);
+    });
+    const cats = document.querySelector('.filters');
+    if (cats) { cats.setAttribute('role', 'group'); cats.setAttribute('aria-label', '目的で絞り込む（複数選べます）'); }
+
+    // 6. 項目名の先頭の絵文字を読み上げない
+    document.querySelectorAll('.radio-group label, .filters label, .howto-link, .guide-btn, .share-button, .ai-warning, .hero-sub')
+        .forEach(hideLeadingEmoji);
+    document.querySelectorAll('.hero-icon').forEach(el => el.setAttribute('aria-hidden', 'true'));
+
+    // 7. 表：見出しの並び替えをキーボード・音声操作でも使えるように
+    const table = document.getElementById('resultsTable');
+    if (table && !table.querySelector('caption')) {
+        const cap = document.createElement('caption');
+        cap.className = 'sr-only';
+        cap.textContent = 'AIツールの一覧（AI・開発企業・国の見出しで並び替えできます）';
+        table.insertBefore(cap, table.firstChild);
+    }
+    document.querySelectorAll('#resultsTable th').forEach(th => th.setAttribute('scope', 'col'));
+    document.querySelectorAll('.sortable').forEach(th => {
+        const label = th.childNodes[0].textContent.trim();
+        const icon = th.querySelector('.sort-icon');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'sort-btn';
+        btn.textContent = label + ' ';
+        btn.setAttribute('aria-label', `${label}で並び替え`);
+        if (icon) { icon.setAttribute('aria-hidden', 'true'); btn.appendChild(icon); }
+        th.textContent = '';
+        th.appendChild(btn);
+        th.setAttribute('aria-sort', 'none');
+    });
+
+    // 8. 検索欄
+    const input = document.getElementById('searchInput');
+    if (input) { input.type = 'search'; input.setAttribute('autocomplete', 'off'); }
+
+    // 9. 選んだ目的の説明は、変わったときに読み上げる
+    const info = document.getElementById('categoryInfo');
+    if (info) info.setAttribute('aria-live', 'polite');
+
+    // 10. 件数表示「(12)」を「12件」と読ませる
+    const fixCounts = () => document.querySelectorAll('.filters .count').forEach(c => {
+        if (c.dataset.a11y === c.textContent) return;
+        const n = c.textContent.replace(/[()]/g, '');
+        c.setAttribute('aria-label', `${n}件`);
+        c.dataset.a11y = c.textContent;
+    });
+    new MutationObserver(fixCounts).observe(document.querySelector('.filters') || document.body, { childList: true, subtree: true });
+    fixCounts();
+
+    // 11. 詳細ポップアップ
+    const closeBtn = document.querySelector('.modal-close');
+    if (closeBtn) closeBtn.setAttribute('aria-label', '閉じる');
+}
+
+document.addEventListener('DOMContentLoaded', setupAccessibility);
