@@ -376,7 +376,7 @@ body.view-mobile .action-buttons button { width: 100%; }
     width: 100%; max-width: 560px; max-height: 88vh; overflow-y: auto;
     padding: 26px 24px 22px; box-shadow: 0 12px 40px rgba(0,0,0,0.25);
 }
-.modal-box h2 { font-family: 'Zen Maru Gothic', 'Meiryo', sans-serif; font-size: 1.5rem; color: #1f6f4a; margin: 4px 0; }
+.modal-box h2 { font-size: 1.5rem; color: #1f6f4a; margin: 4px 0; }
 .modal-box h3 { font-size: 1rem; color: #1f6f4a; margin: 16px 0 6px; }
 .modal-close {
     position: absolute; top: 10px; right: 12px;
@@ -466,6 +466,7 @@ body.view-mobile .howto-link { font-size: 0.72rem; padding: 6px 9px; }
     font-weight: 900; display: flex; align-items: center; justify-content: center;
 }
 .howto-steps h3 { font-size: 1.02rem; color: #1f6f4a; margin-bottom: 4px; }
+.howto-steps p { font-size: 0.93rem; line-height: 1.8; color: #333; }
 .howto-back {
     margin-top: 24px;
     text-align: center;
@@ -487,7 +488,6 @@ body.view-mobile .howto-link { font-size: 0.72rem; padding: 6px 9px; }
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(56,178,122,0.45);
 }
-.howto-back a { color: #2e8b62; font-weight: 700; }
 body.view-mobile .howto { padding: 18px 14px; }
 body.view-mobile .howto-steps li { padding: 10px 10px 10px 48px; }
 body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px; }
@@ -507,7 +507,7 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
 #resultsTable th:nth-child(3) { width: 6em; }
 #resultsTable th:nth-child(6) { width: 10.5em; }
 .tool-country { font-size: 0.88rem; white-space: normal; }
-/* ==========================================
+
 /* ==========================================
    カテゴリ列：横幅が広いPC表示のときだけ表示
    ========================================== */
@@ -532,6 +532,7 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
     padding: 0 6px;
     white-space: nowrap;
 }
+
 /* ==========================================
    開発企業・国・日本語・リンクを「強み」の2行目の高さにそろえる
    ========================================== */
@@ -539,6 +540,7 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
 #resultsTable td.tool-country,
 #resultsTable td.tool-jp { padding-top: calc(10px + 1.35rem); }
 #resultsTable td.tool-link { padding-top: calc(4px + 1.3rem); }
+
 /* ==========================================
    目的の説明（① 選択時の説明 ／ ② 説明一覧）
    ========================================== */
@@ -613,6 +615,7 @@ body.view-mobile .howto-steps li::before { left: 10px; width: 28px; height: 28px
 .guide-table th { color: #1f6f4a; font-weight: 700; width: 45%; background: #f0faf5; }
 body.view-mobile .guide-btn { display: block; margin: 6px 0 0; }
 body.view-mobile .guide-table th { width: 40%; }
+
 /* ==========================================
    「目的で絞り込む」の行の右端に出すAI利用の注意
    ========================================== */
@@ -645,3 +648,22 @@ body.view-mobile .ai-warning { text-align: left; font-size: 0.78rem; margin-left
 .safety-list { padding-left: 1.2em; font-size: 0.93rem; line-height: 1.8; }
 .safety-list li { margin-bottom: 6px; }
 .safety-list strong { color: #b71c1c; }
+
+/* ==========================================
+   使う端末（PC・スマホ）のバッジ
+   ========================================== */
+.pf-badge {
+    display: inline-block;
+    margin-top: 3px;
+    padding: 0 7px;
+    font-size: 0.72rem;
+    line-height: 1.6;
+    font-weight: 600;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+.pf-both   { background: #eef6ff; color: #1f5f99; }
+.pf-pc     { background: #f1f1f1; color: #555; }
+.pf-mobile { background: #fdeefa; color: #8a2a78; }
+.card-meta .pf-badge { margin-top: 0; }
+.tool-name .pf-badge { white-space: normal; max-width: 100%; }

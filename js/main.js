@@ -19,6 +19,16 @@ const PRICING_BADGE = {
     'トライアルのみ': '<span class="badge badge-trial">⚠️ トライアルのみ</span>'
 };
 const JP_LABEL = { '◯': '日本語の画面あり', '△': '日本語で入力・出力できる', '×': '英語中心' };
+const PLATFORM_LABEL = {
+    both:   { icon: '💻📱', text: 'PC・スマホ' },
+    pc:     { icon: '💻',   text: 'PCのみ' },
+    mobile: { icon: '📱',   text: 'スマホのみ' }
+};
+function platformOf(tool) { return tool.platform || 'both'; }
+function platformBadge(tool) {
+    const p = PLATFORM_LABEL[platformOf(tool)];
+    return `<span class="pf-badge pf-${platformOf(tool)}">${p.icon} ${p.text}</span>`;
+}
 
 // カテゴリごとの使い方のコツ・注意点（詳細ポップアップで表示）
 const CATEGORY_TIPS = {
@@ -181,7 +191,7 @@ function updateFilterCounts() {
 function setupEventListeners() {
     document.getElementById('searchInput').addEventListener('input', filterTools);
     document.querySelectorAll('.category-filter').forEach(cb => cb.addEventListener('change', filterTools));
-    document.querySelectorAll('input[name="pricing"], input[name="japanese"]').forEach(r => r.addEventListener('change', filterTools));
+    document.querySelectorAll('input[name="pricing"], input[name="japanese"], input[name="platform"]').forEach(r => r.addEventListener('change', filterTools));
     document.getElementById('noSignupFilter').addEventListener('change', filterTools);
     document.getElementById('favFilter').addEventListener('change', filterTools);
     document.getElementById('resetBtn').addEventListener('click', resetFilters);
@@ -234,6 +244,7 @@ function getState() {
         cats: [...document.querySelectorAll('.category-filter:checked')].map(cb => cb.value),
         pricing: document.querySelector('input[name="pricing"]:checked').value,
         japanese: document.querySelector('input[name="japanese"]:checked').value,
+        platform: (document.querySelector('input[name="platform"]:checked') || { value: 'all' }).value,
         noSignup: document.getElementById('noSignupFilter').checked,
         fav: document.getElementById('favFilter').checked
     };
@@ -252,6 +263,10 @@ function getFilteredAndSortedTools() {
         if (s.pricing === 'notrial' && tool.pricing === 'トライアルのみ') return false;
         if (s.japanese === 'o' && tool.japanese !== '◯') return false;
         if (s.japanese === 'oa' && tool.japanese === '×') return false;
+        const pf = platformOf(tool);
+        if (s.platform === 'pc' && pf === 'mobile') return false;
+        if (s.platform === 'mobile' && pf === 'pc') return false;
+        if (s.platform === 'both' && pf !== 'both') return false;
         if (s.noSignup && !tool.noSignup) return false;
         if (s.fav && !favorites.has(tool.name)) return false;
         return true;
@@ -319,6 +334,7 @@ function createRow(tool) {
         <td class="tool-name">
             ${tool.rank ? `<span class="rank-badge">👑 ${tool.rank}位</span><br>` : ''}
             <div class="name-line">${favButton(tool)}<button type="button" class="name-link" data-detail="${esc(tool.name)}">${esc(tool.name)}</button></div>
+            ${platformBadge(tool)}
         </td>
         <td class="tool-company col-company">${esc(tool.company)}</td>
         <td class="tool-country">${esc(tool.country)}</td>
@@ -336,7 +352,7 @@ function createCard(tool) {
             <div>
                 ${tool.rank ? `<span class="rank-badge">👑 ${tool.rank}位</span>` : ''}
                 <h3><button type="button" class="name-link" data-detail="${esc(tool.name)}">${esc(tool.name)}</button></h3>
-                <p class="card-meta">${esc(tool.country)}　日本語 ${jpBadge(tool)}</p>
+                <p class="card-meta">${esc(tool.country)}　日本語 ${jpBadge(tool)}　${platformBadge(tool)}</p>
             </div>
             ${favButton(tool)}
         </div>
@@ -367,6 +383,7 @@ function openModal(name) {
         <dl class="detail-list">
             <dt>開発企業</dt><dd>${esc(tool.company)}（${esc(tool.country)}）</dd>
             <dt>日本語対応</dt><dd>${jpBadge(tool)} ${JP_LABEL[tool.japanese]}</dd>
+            <dt>使う端末</dt><dd>${platformBadge(tool)}</dd>
             <dt>できること</dt><dd>${tool.category.map(esc).join('、')}</dd>
             <dt>強み</dt><dd><ul class="strength-list">${tool.strengths.map(s => `<li>${esc(s)}</li>`).join('')}</ul></dd>
             <dt>無料の範囲</dt><dd>${esc(tool.freeLimit)}</dd>
@@ -398,6 +415,7 @@ function buildShareUrl() {
     if (s.cats.length) p.set('cat', s.cats.join(','));
     if (s.pricing !== 'all') p.set('price', s.pricing);
     if (s.japanese !== 'all') p.set('jp', s.japanese);
+    if (s.platform !== 'all') p.set('device', s.platform);
     if (s.noSignup) p.set('nosign', '1');
     if (currentSort.key) p.set('sort', `${currentSort.key}:${currentSort.direction}`);
     const qs = p.toString();
@@ -422,6 +440,8 @@ function applyStateFromUrl() {
     if (price) { const r = document.querySelector(`input[name="pricing"][value="${price}"]`); if (r) r.checked = true; }
     const jp = p.get('jp');
     if (jp) { const r = document.querySelector(`input[name="japanese"][value="${jp}"]`); if (r) r.checked = true; }
+    const device = p.get('device');
+    if (device) { const r = document.querySelector(`input[name="platform"][value="${device}"]`); if (r) r.checked = true; }
     document.getElementById('noSignupFilter').checked = p.get('nosign') === '1';
     const sort = p.get('sort');
     if (sort) { const [k, d] = sort.split(':'); if (['name', 'company', 'country'].includes(k)) setSort(k, d === 'desc' ? 'desc' : 'asc'); }
@@ -435,11 +455,14 @@ function resetFilters() {
     document.querySelectorAll('.category-filter').forEach(cb => cb.checked = false);
     document.querySelector('input[name="pricing"][value="all"]').checked = true;
     document.querySelector('input[name="japanese"][value="all"]').checked = true;
+    const pfAll = document.querySelector('input[name="platform"][value="all"]');
+    if (pfAll) pfAll.checked = true;
     document.getElementById('noSignupFilter').checked = false;
     document.getElementById('favFilter').checked = false;
     history.replaceState(null, '', location.pathname);
     setSort(null, 'asc');
 }
+
 // ==========================================
 // 目的（カテゴリ）の説明
 //  ① チェックした目的の短い説明を結果の上に表示

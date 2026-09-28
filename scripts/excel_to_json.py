@@ -38,9 +38,10 @@ DEFAULT_LIMIT = {
 HEADERS = {
     "AI名": "name", "URL": "url", "国": "country", "開発企業": "company", "カテゴリ": "category",
     "強み": "strengths", "料金タイプ": "pricing", "無料利用範囲": "freeLimit",
-    "日本語対応": "japanese", "登録不要": "noSignup", "TOP10順位": "rank",
+    "日本語対応": "japanese", "登録不要": "noSignup", "TOP10順位": "rank", "対応端末": "platform",
 }
-REQUIRED = ["AI名", "URL", "国", "開発企業", "カテゴリ", "強み", "料金タイプ", "日本語対応"]
+PLATFORM = {"PC＋スマホ": "both", "PCのみ": "pc", "スマホのみ": "mobile"}
+REQUIRED = ["AI名", "URL", "国", "開発企業", "カテゴリ", "強み", "料金タイプ", "日本語対応", "対応端末"]
 
 
 def text(v):
@@ -113,6 +114,10 @@ def main():
         if jp and jp not in {"◯", "△", "×"}:
             errors.append(f"{where}：日本語対応は ◯ △ × のどれかにしてください（今：{values['日本語対応']}）")
 
+        platform = values["対応端末"].replace("+", "＋").replace(" ", "").replace("　", "")
+        if platform and platform not in PLATFORM:
+            errors.append(f"{where}：対応端末は「PC＋スマホ」「PCのみ」「スマホのみ」のどれかにしてください（今：{values['対応端末']}）")
+
         cats = split_list(values["カテゴリ"], r"[、,，\n]")
         for c in cats:
             if c not in CATEGORIES:
@@ -148,6 +153,7 @@ def main():
             "freeLimit": values["無料利用範囲"] or DEFAULT_LIMIT.get(pricing, ""),
             "japanese": jp,
             "noSignup": to_bool(values["登録不要"]),
+            "platform": PLATFORM.get(platform, "both"),
         }
         if rank:
             tool["rank"] = rank
