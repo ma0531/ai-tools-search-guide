@@ -269,7 +269,7 @@
     {
       "id": 12,
       "name": "ERNIE Bot（文心一言）",
-      "url": "https://yiyan.baidu.com",
+      "url": "https://wenxin.baidu.com",
       "country": "中国",
       "company": "Baidu",
       "category": [
@@ -704,7 +704,7 @@
     {
       "id": 33,
       "name": "Llama",
-      "url": "https://www.llama.com",
+      "url": "https://dev.meta.ai",
       "country": "アメリカ",
       "company": "Meta",
       "category": [
@@ -724,7 +724,7 @@
     {
       "id": 34,
       "name": "Gemma",
-      "url": "https://ai.google.dev/gemma",
+      "url": "https://deepmind.google/models/gemma/",
       "country": "アメリカ",
       "company": "Google",
       "category": [
@@ -2246,8 +2246,8 @@
     },
     {
       "id": 108,
-      "name": "Whisk",
-      "url": "https://labs.google/fx/tools/whisk",
+      "name": "Google Flow",
+      "url": "https://flow.google.com/",
       "country": "アメリカ",
       "company": "Google",
       "category": [
@@ -2267,7 +2267,7 @@
     {
       "id": 109,
       "name": "Playground",
-      "url": "https://playground.com",
+      "url": "https://playgroundai.com",
       "country": "アメリカ",
       "company": "Playground",
       "category": [
@@ -3083,7 +3083,7 @@
     {
       "id": 149,
       "name": "Runway",
-      "url": "https://runwayml.com",
+      "url": "https://runway.com",
       "country": "アメリカ",
       "company": "Runway",
       "category": [
@@ -3124,7 +3124,7 @@
     {
       "id": 151,
       "name": "Kling AI（可灵）",
-      "url": "https://klingai.com",
+      "url": "https://kling.ai",
       "country": "中国",
       "company": "Kuaishou",
       "category": [
@@ -4329,7 +4329,7 @@
     {
       "id": 210,
       "name": "Fathom",
-      "url": "https://fathom.video",
+      "url": "https://www.fathom.ai",
       "country": "アメリカ",
       "company": "Fathom",
       "category": [
@@ -6395,28 +6395,8 @@
     },
     {
       "id": 310,
-      "name": "Earkick",
-      "url": "https://earkick.com",
-      "country": "スイス",
-      "company": "Earkick",
-      "category": [
-        "悩み相談"
-      ],
-      "strengths": [
-        "気分・ストレスをAIで記録",
-        "匿名で会話",
-        "呼吸法などのセルフケア",
-        "無料"
-      ],
-      "pricing": "完全無料",
-      "freeLimit": "無料で利用可能",
-      "japanese": "×",
-      "noSignup": false
-    },
-    {
-      "id": 311,
       "name": "awarefy",
-      "url": "https://www.awarefy.app",
+      "url": "https://www.awarefy.com/app/",
       "country": "日本",
       "company": "Awarefy",
       "category": [
@@ -6435,7 +6415,7 @@
       "noSignup": false
     },
     {
-      "id": 312,
+      "id": 311,
       "name": "cotomo",
       "url": "https://cotomo.ai",
       "country": "日本",
@@ -6456,7 +6436,7 @@
       "noSignup": false
     },
     {
-      "id": 313,
+      "id": 312,
       "name": "Ada",
       "url": "https://ada.com",
       "country": "ドイツ",
@@ -6476,7 +6456,7 @@
       "noSignup": false
     },
     {
-      "id": 314,
+      "id": 313,
       "name": "ユビー（Ubie）",
       "url": "https://ubie.app",
       "country": "日本",
@@ -6497,7 +6477,7 @@
       "noSignup": true
     },
     {
-      "id": 315,
+      "id": 314,
       "name": "Symptomate",
       "url": "https://symptomate.com",
       "country": "ポーランド",
@@ -6517,7 +6497,7 @@
       "noSignup": true
     },
     {
-      "id": 316,
+      "id": 315,
       "name": "Buoy Health",
       "url": "https://www.buoyhealth.com",
       "country": "アメリカ",
@@ -6537,7 +6517,7 @@
       "noSignup": false
     },
     {
-      "id": 317,
+      "id": 316,
       "name": "OpenEvidence",
       "url": "https://www.openevidence.com",
       "country": "アメリカ",
@@ -6558,7 +6538,7 @@
       "noSignup": false
     },
     {
-      "id": 318,
+      "id": 317,
       "name": "Glass Health",
       "url": "https://glass.health",
       "country": "アメリカ",
@@ -6578,7 +6558,7 @@
       "noSignup": false
     },
     {
-      "id": 319,
+      "id": 318,
       "name": "Healthily",
       "url": "https://www.livehealthily.com",
       "country": "イギリス",
@@ -6598,7 +6578,7 @@
       "noSignup": false
     },
     {
-      "id": 320,
+      "id": 319,
       "name": "NVIDIA Isaac Sim",
       "url": "https://developer.nvidia.com/isaac/sim",
       "country": "アメリカ",
@@ -6618,7 +6598,7 @@
       "noSignup": false
     },
     {
-      "id": 321,
+      "id": 320,
       "name": "ROS 2",
       "url": "https://www.ros.org",
       "country": "アメリカ",
@@ -6638,7 +6618,7 @@
       "noSignup": false
     },
     {
-      "id": 322,
+      "id": 321,
       "name": "LeRobot",
       "url": "https://huggingface.co/lerobot",
       "country": "アメリカ",
@@ -6659,7 +6639,7 @@
       "noSignup": false
     },
     {
-      "id": 323,
+      "id": 322,
       "name": "Edge Impulse",
       "url": "https://edgeimpulse.com",
       "country": "アメリカ",
@@ -6680,7 +6660,7 @@
       "noSignup": false
     },
     {
-      "id": 324,
+      "id": 323,
       "name": "Roboflow",
       "url": "https://roboflow.com",
       "country": "アメリカ",
@@ -6702,7 +6682,7 @@
       "noSignup": false
     },
     {
-      "id": 325,
+      "id": 324,
       "name": "Ultralytics YOLO",
       "url": "https://www.ultralytics.com",
       "country": "アメリカ",
@@ -6723,7 +6703,7 @@
       "noSignup": false
     },
     {
-      "id": 326,
+      "id": 325,
       "name": "OpenCV",
       "url": "https://opencv.org",
       "country": "アメリカ",
@@ -6744,7 +6724,7 @@
       "noSignup": false
     },
     {
-      "id": 327,
+      "id": 326,
       "name": "LandingAI",
       "url": "https://landing.ai",
       "country": "アメリカ",
@@ -6764,7 +6744,7 @@
       "noSignup": false
     },
     {
-      "id": 328,
+      "id": 327,
       "name": "Webots",
       "url": "https://cyberbotics.com",
       "country": "スイス",
@@ -6785,7 +6765,7 @@
       "noSignup": false
     },
     {
-      "id": 329,
+      "id": 328,
       "name": "MuJoCo",
       "url": "https://mujoco.org",
       "country": "アメリカ",
@@ -6805,7 +6785,7 @@
       "noSignup": false
     },
     {
-      "id": 330,
+      "id": 329,
       "name": "Meshy",
       "url": "https://www.meshy.ai",
       "country": "アメリカ",
@@ -6826,7 +6806,7 @@
       "noSignup": false
     },
     {
-      "id": 331,
+      "id": 330,
       "name": "Tripo AI",
       "url": "https://www.tripo3d.ai",
       "country": "中国",
@@ -6847,7 +6827,7 @@
       "noSignup": false
     },
     {
-      "id": 332,
+      "id": 331,
       "name": "Hyper3D Rodin",
       "url": "https://hyper3d.ai",
       "country": "中国",
@@ -6867,7 +6847,7 @@
       "noSignup": false
     },
     {
-      "id": 333,
+      "id": 332,
       "name": "Hunyuan3D",
       "url": "https://3d.hunyuan.tencent.com",
       "country": "中国",
@@ -6887,7 +6867,7 @@
       "noSignup": false
     },
     {
-      "id": 334,
+      "id": 333,
       "name": "TRELLIS",
       "url": "https://github.com/microsoft/TRELLIS",
       "country": "アメリカ",
@@ -6908,7 +6888,7 @@
       "noSignup": false
     },
     {
-      "id": 335,
+      "id": 334,
       "name": "Spline",
       "url": "https://spline.design",
       "country": "アメリカ",
@@ -6929,7 +6909,7 @@
       "noSignup": false
     },
     {
-      "id": 336,
+      "id": 335,
       "name": "Rosebud AI",
       "url": "https://rosebud.ai",
       "country": "アメリカ",
@@ -6950,7 +6930,7 @@
       "noSignup": false
     },
     {
-      "id": 337,
+      "id": 336,
       "name": "Unity AI",
       "url": "https://unity.com/features/ai",
       "country": "アメリカ",
@@ -6971,7 +6951,7 @@
       "noSignup": false
     },
     {
-      "id": 338,
+      "id": 337,
       "name": "Inworld AI",
       "url": "https://inworld.ai",
       "country": "アメリカ",
@@ -6992,7 +6972,7 @@
       "noSignup": false
     },
     {
-      "id": 339,
+      "id": 338,
       "name": "Gemini in Android Studio",
       "url": "https://developer.android.com/studio/gemini/overview",
       "country": "アメリカ",
@@ -7013,7 +6993,7 @@
       "noSignup": false
     },
     {
-      "id": 340,
+      "id": 339,
       "name": "FlutterFlow",
       "url": "https://www.flutterflow.io",
       "country": "アメリカ",
@@ -7034,7 +7014,7 @@
       "noSignup": false
     },
     {
-      "id": 341,
+      "id": 340,
       "name": "Better Analyst（旧Formula Bot）",
       "url": "https://betteranalyst.com",
       "country": "アメリカ",
@@ -7055,7 +7035,7 @@
       "noSignup": false
     },
     {
-      "id": 342,
+      "id": 341,
       "name": "Numerous.ai",
       "url": "https://numerous.ai",
       "country": "アメリカ",
@@ -7072,7 +7052,7 @@
       "noSignup": false
     },
     {
-      "id": 343,
+      "id": 342,
       "name": "Sheet+",
       "url": "https://sheetplus.ai",
       "country": "アメリカ",
