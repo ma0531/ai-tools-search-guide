@@ -16,6 +16,19 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / "data" / "ai-tools.json").read_text(encoding="utf-8"))
 ISSUE_TITLE = "🔗 リンク切れチェックの結果"
+IGNORE_FILE = ROOT / "scripts" / "link_check_ignore.txt"
+
+
+def load_ignore():
+    """確認済みリスト（link_check_ignore.txt）を読み込む"""
+    if not IGNORE_FILE.exists():
+        return set()
+    names = set()
+    for line in IGNORE_FILE.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            names.add(line)
+    return names
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -69,9 +82,17 @@ def main():
     with ThreadPoolExecutor(max_workers=12) as ex:
         results = list(ex.map(check, tools))
 
+    ignore = load_ignore()
+    unknown = sorted(ignore - {t["name"] for t in tools})
+
+    # 確認済みのAIは 🟡・🔵 から外す（🔴 は念のため報告する）
+    def listed(r):
+        return r["tool"]["name"] in ignore
+
     broken = [r for r in results if r["kind"] == "broken"]
-    suspicious = [r for r in results if r["kind"] == "check"]
-    moved = [r for r in results if r["kind"] == "moved"]
+    suspicious = [r for r in results if r["kind"] == "check" and not listed(r)]
+    moved = [r for r in results if r["kind"] == "moved" and not listed(r)]
+    skipped = [r for r in results if r["kind"] in ("check", "moved") and listed(r)]
     ok = [r for r in results if r["kind"] == "ok"]
 
     jst = timezone(timedelta(hours=9))
@@ -81,7 +102,8 @@ def main():
               f"- 🔴 リンク切れの可能性が高い：**{len(broken)}件**",
               f"- 🟡 開けなかった（要確認）：**{len(suspicious)}件**",
               f"- 🔵 別のサイトに転送された：**{len(moved)}件**",
-              f"- 🟢 正常：{len(ok)}件", ""]
+              f"- 🟢 正常：{len(ok)}件",
+              f"- ⚪ 確認済みのため省略：{len(skipped)}件（link_check_ignore.txt に登録済み）", ""]
     if broken:
         report += ["## 🔴 リンク切れの可能性が高い",
                    "ページが見つからない（404など）か、サイトのドメインがなくなっています。URLの修正か、掲載の取りやめを検討してください。", "",
@@ -95,6 +117,12 @@ def main():
         report += ["## 🔵 別のサイトに転送された",
                    "サイトのURLが変わった可能性があります。転送先が正しければ、URLを新しいものに書き換えておくと安心です。", "",
                    table(moved, show_final=True), ""]
+    if unknown:
+        report += ["## ⚠️ 確認済みリストの名前がデータに見つかりません",
+                   "AI名を変えたか、削除した可能性があります。link_check_ignore.txt の名前を直してください。", "",
+                   *[f"- {n}" for n in unknown], ""]
+    if not (broken or suspicious or moved or unknown):
+        report += ["✅ 新しく確認が必要なリンクはありませんでした。"]
     text = "\n".join(report)
 
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -103,7 +131,7 @@ def main():
             f.write("# リンク切れチェック\n\n" + text)
     print(text)
 
-    report_issue(text, needs_attention=bool(broken or suspicious or moved))
+    report_issue(text, needs_attention=bool(broken or suspicious or moved or unknown))
 
 
 def report_issue(body, needs_attention):

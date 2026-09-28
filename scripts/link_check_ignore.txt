@@ -1,0 +1,35 @@
+# ==========================================================
+# リンク切れチェックで「確認済み」として報告から外すAIの一覧
+# ==========================================================
+# ・1行に1つ、サイトに表示されている「AI名」をそのまま書きます
+# ・「#」で始まる行はメモ（無視されます）
+# ・ここに書いたAIでも、ページが消えた（404）・ドメインがなくなった
+#   場合は、念のため 🔴 として報告されます
+# ・AI名を変えたときは、ここの名前も合わせて変えてください
+
+# --- 自動チェックを拒否するが、ブラウザでは正常に開けるサイト ---
+Claude
+Meta AI
+Pi
+Lovable
+Midjourney
+Leonardo.Ai
+NightCafe
+Craiyon
+Lexica
+Freepik AI
+InvokeAI
+Magnific
+Adobe Express
+QuillBot
+Gamma
+Make
+Looka
+Quizlet
+Gauth
+Brainly
+Youper
+OpenEvidence
+
+# --- ログイン画面に転送されるだけで正常なサイト ---
+NotebookLM
