@@ -3,7 +3,7 @@
 // ==========================================
 // Googleフォームを作ったら、そのURLに書き換えてください。
 // 空のままなら、GitHubの「Issues（報告）」ページにつながります。
-const FEEDBACK_URL = '';
+const FEEDBACK_URL = 'https://forms.gle/EiuK2cFBpW7pL8ai7';
 
 // ==========================================
 // データ・状態
