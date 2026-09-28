@@ -1,0 +1,26 @@
+# 週1回、すべてのAIサイトのURLを開いてリンク切れを調べます。
+# 結果はリポジトリの「Issues」タブに書き込まれます。
+name: リンク切れチェック
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # 毎週月曜 朝9時（日本時間）
+  workflow_dispatch:       # 「Run workflow」ボタンで手動実行もできる
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: リンクをチェック
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/check_links.py
