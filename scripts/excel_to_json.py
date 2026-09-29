@@ -41,6 +41,8 @@ HEADERS = {
     "日本語対応": "japanese", "登録不要": "noSignup", "TOP10順位": "rank", "対応端末": "platform",
 }
 PLATFORM = {"PC＋スマホ": "both", "PCのみ": "pc", "スマホのみ": "mobile"}
+# 英語版の列（なくても動きます）
+OPTIONAL_HEADERS = {"AI名（英語）": "nameEn", "強み（英語）": "strengthsEn", "無料利用範囲（英語）": "freeLimitEn"}
 REQUIRED = ["AI名", "URL", "国", "開発企業", "カテゴリ", "強み", "料金タイプ", "日本語対応", "対応端末"]
 
 
@@ -84,10 +86,16 @@ def main():
             sys.exit(1)
         col[h] = header_row.index(h)
 
+    for h in OPTIONAL_HEADERS:
+        if h in header_row:
+            col[h] = header_row.index(h)
+
     errors, warnings, tools, seen = [], [], [], {}
 
     for r, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         values = {h: text(row[i]) if i < len(row) else "" for h, i in col.items()}
+        for h in OPTIONAL_HEADERS:
+            values.setdefault(h, "")
         if not any(values.values()):
             continue  # 空の行は無視
 
@@ -155,6 +163,15 @@ def main():
             "noSignup": to_bool(values["登録不要"]),
             "platform": PLATFORM.get(platform, "both"),
         }
+        if values["AI名（英語）"]:
+            tool["nameEn"] = values["AI名（英語）"]
+        strengths_en = split_list(values["強み（英語）"], r"\n")
+        if strengths_en:
+            tool["strengthsEn"] = strengths_en
+        elif "強み（英語）" in col:
+            warnings.append(f"{where}：強み（英語）が空です（英語表示では日本語の強みが出ます）")
+        if values["無料利用範囲（英語）"]:
+            tool["freeLimitEn"] = values["無料利用範囲（英語）"]
         if rank:
             tool["rank"] = rank
         tools.append(tool)
