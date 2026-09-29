@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-09-29",
   "tools": [
     {
       "id": 1,
@@ -27,6 +27,12 @@
       "japanese": "◯",
       "noSignup": true,
       "platform": "both",
+      "strengthsEn": [
+        "Chat, writing, summaries and translation in one",
+        "Generates and understands images",
+        "Analyzes uploaded PDFs and Excel files",
+        "Voice conversation in the mobile app"
+      ],
       "rank": 1
     },
     {
@@ -55,6 +61,12 @@
       "japanese": "◯",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Reads very long documents at once",
+        "Natural, careful writing",
+        "Strong at writing and fixing code",
+        "Builds working apps and diagrams on screen"
+      ],
       "rank": 3
     },
     {
@@ -82,6 +94,12 @@
       "japanese": "◯",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Works with Gmail, Drive and YouTube",
+        "Uses Google Search for up-to-date answers",
+        "Image and video generation (Imagen, Veo)",
+        "Deep Research reports"
+      ],
       "rank": 2
     },
     {
@@ -108,6 +126,13 @@
       "japanese": "◯",
       "noSignup": true,
       "platform": "both",
+      "strengthsEn": [
+        "Answers with sources from Bing search",
+        "Free image generation",
+        "Built into Windows and Edge",
+        "Voice conversation"
+      ],
+      "freeLimitEn": "Free with a Microsoft account",
       "rank": 7
     },
     {
@@ -132,6 +157,12 @@
       "japanese": "△",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Available in Instagram, WhatsApp and Messenger",
+        "Image generation and editing",
+        "Free to chat",
+        "Powered by Llama models"
+      ],
       "rank": 10
     },
     {
@@ -157,6 +188,12 @@
       "japanese": "◯",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Answers on trending topics using posts on X",
+        "Image generation and editing",
+        "Web and mobile apps",
+        "Deep reasoning mode"
+      ],
       "rank": 5
     },
     {
@@ -181,6 +218,12 @@
       "japanese": "◯",
       "noSignup": true,
       "platform": "both",
+      "strengthsEn": [
+        "Shows source links for every answer",
+        "Summarizes many websites at once",
+        "Search focused on papers or news",
+        "In-depth Research mode"
+      ],
       "rank": 6
     },
     {
@@ -207,6 +250,12 @@
       "japanese": "△",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Strong at math and logical reasoning",
+        "Good at writing code",
+        "Free on web and app",
+        "Open-weight models"
+      ],
       "rank": 4
     },
     {
@@ -230,7 +279,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Qwen Chat",
+      "strengthsEn": [
+        "Reads long documents",
+        "Image and video generation",
+        "Builds web pages and apps",
+        "Many languages supported"
+      ]
     },
     {
       "id": 10,
@@ -253,7 +309,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Reads very long documents and many files",
+        "Searches the web and summarizes",
+        "Creates slide decks",
+        "Free reasoning model"
+      ]
     },
     {
       "id": 11,
@@ -275,7 +337,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Doubao",
+      "strengthsEn": [
+        "Popular AI assistant in China",
+        "Natural voice conversation",
+        "Image generation and photo editing",
+        "Writing and translation"
+      ]
     },
     {
       "id": 12,
@@ -297,7 +366,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "ERNIE Bot",
+      "strengthsEn": [
+        "Integrated with Baidu search",
+        "Strong in Chinese text and knowledge",
+        "Image generation",
+        "Free for personal use"
+      ]
     },
     {
       "id": 13,
@@ -319,7 +395,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "ChatGLM (Zhipu Qingyan)",
+      "strengthsEn": [
+        "GLM models from Tsinghua University",
+        "Chinese conversation and writing",
+        "Web search and file reading",
+        "Agent features"
+      ]
     },
     {
       "id": 14,
@@ -341,7 +424,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Tencent Yuanbao",
+      "strengthsEn": [
+        "Searches WeChat articles",
+        "Switch between DeepSeek and Hunyuan",
+        "File summaries",
+        "Free to use"
+      ]
     },
     {
       "id": 15,
@@ -363,7 +453,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "iFlytek Spark",
+      "strengthsEn": [
+        "Strong speech recognition and synthesis",
+        "Chinese–English translation",
+        "Education and office features",
+        "Writing help"
+      ]
     },
     {
       "id": 16,
@@ -385,7 +482,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Very fast responses",
+        "Web search with sources",
+        "Image generation",
+        "European privacy standards"
+      ]
     },
     {
       "id": 17,
@@ -406,7 +509,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Switch between ChatGPT, Claude, Gemini and more",
+        "Easy to compare answers",
+        "Create your own bots",
+        "Mobile app"
+      ]
     },
     {
       "id": 18,
@@ -428,7 +537,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Empathetic conversation partner",
+        "Gentle chat and advice",
+        "Voice conversation",
+        "Try it without signing up"
+      ]
     },
     {
       "id": 19,
@@ -449,7 +564,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI search with sources",
+        "Research mode",
+        "Choose from several AI models",
+        "Ask questions about uploaded files"
+      ]
     },
     {
       "id": 20,
@@ -471,7 +592,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Builds summary pages from search results",
+        "Creates slides, sheets and documents",
+        "Agents that can make calls",
+        "Combines several AIs"
+      ]
     },
     {
       "id": 21,
@@ -493,7 +620,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI search made in Japan",
+        "Answers with sources in many languages",
+        "Turns results into slides or mind maps",
+        "Summarizes and translates multilingual info"
+      ]
     },
     {
       "id": 22,
@@ -515,7 +648,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Plans and carries out tasks on its own",
+        "Creates reports and websites",
+        "You can watch its progress",
+        "Handles multi-step tasks"
+      ]
     },
     {
       "id": 23,
@@ -537,7 +676,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Browser extension that summarizes pages",
+        "Summarizes YouTube videos",
+        "Translation and rewriting",
+        "Access to several AI models"
+      ]
     },
     {
       "id": 24,
@@ -558,7 +703,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Russian conversation and writing",
+        "Image generation (Kandinsky)",
+        "Made by Sber",
+        "Free to use"
+      ]
     },
     {
       "id": 25,
@@ -579,7 +730,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Russian voice assistant",
+        "Works with Yandex search",
+        "Smart speaker support",
+        "Writing help"
+      ]
     },
     {
       "id": 26,
@@ -601,7 +758,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Wrtn",
+      "strengthsEn": [
+        "Latest AI models for free",
+        "Japanese interface available",
+        "Image generation",
+        "Collection of AI tools by purpose"
+      ]
     },
     {
       "id": 27,
@@ -623,7 +787,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Built into the Brave browser",
+        "Summarizes pages and videos",
+        "Does not store chat history",
+        "Usable without an account"
+      ]
     },
     {
       "id": 28,
@@ -644,7 +814,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Metaso AI Search",
+      "strengthsEn": [
+        "Ad-free AI search",
+        "Organizes answers as mind maps",
+        "Academic paper search",
+        "Strong for Chinese information"
+      ]
     },
     {
       "id": 29,
@@ -666,7 +843,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns research into reports",
+        "Generates slides, sheets and web pages",
+        "Multiple agents work together",
+        "With sources"
+      ]
     },
     {
       "id": 30,
@@ -687,7 +870,14 @@
       "freeLimit": "お試し検索回数のみ（継続は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Search with no ads or tracking",
+        "AI summaries of results",
+        "Boost or block sites you choose",
+        "Paid after the trial"
+      ],
+      "freeLimitEn": "Limited trial searches only (paid after)"
     },
     {
       "id": 31,
@@ -709,7 +899,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Prioritizes trustworthy sources",
+        "Paper search with citations",
+        "Save highlights from web pages",
+        "Usable in Japanese"
+      ]
     },
     {
       "id": 32,
@@ -731,7 +927,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Predicts and continues your writing",
+        "Agent that operates your browser",
+        "Research and summaries",
+        "Email drafting"
+      ]
     },
     {
       "id": 33,
@@ -752,7 +954,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Meta's flagship open model",
+        "Runs on your PC or server",
+        "Freely customizable",
+        "Commercial use allowed (with conditions)"
+      ]
     },
     {
       "id": 34,
@@ -773,7 +981,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Lightweight open model from Google",
+        "Runs on ordinary PCs",
+        "Versions that understand images",
+        "Small versions for phones"
+      ]
     },
     {
       "id": 35,
@@ -794,7 +1008,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Small model from Microsoft",
+        "Runs with little memory",
+        "Good at reasoning and math",
+        "Open weights"
+      ]
     },
     {
       "id": 36,
@@ -816,7 +1036,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Training data and methods fully public",
+        "For research and education",
+        "You can retrain it yourself",
+        "Made by a non-profit"
+      ]
     },
     {
       "id": 37,
@@ -837,7 +1063,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Developed by a UAE research institute",
+        "Open model",
+        "Multilingual including Arabic",
+        "Several sizes from small to large"
+      ]
     },
     {
       "id": 38,
@@ -858,7 +1090,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Developed by LG AI Research",
+        "Strong in Korean and English",
+        "High reasoning performance",
+        "Open model"
+      ]
     },
     {
       "id": 39,
@@ -880,7 +1118,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Llama and others further trained on Japanese",
+        "Strong Japanese reading and writing",
+        "Openly released",
+        "For research and business"
+      ]
     },
     {
       "id": 40,
@@ -902,7 +1146,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Japanese LLM led by the National Institute of Informatics",
+        "Training data is public",
+        "Specialized in Japanese",
+        "For research and development"
+      ]
     },
     {
       "id": 41,
@@ -924,7 +1174,14 @@
       "freeLimit": "公開モデルは無料",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Japanese LLM from a University of Tokyo startup",
+        "Follows Japanese instructions well",
+        "Open models",
+        "Enterprise support"
+      ],
+      "freeLimitEn": "Published models are free"
     },
     {
       "id": 42,
@@ -945,7 +1202,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Download an AI to your PC with one command",
+        "Works offline",
+        "Supports Llama, Gemma and more",
+        "Other apps can call it"
+      ]
     },
     {
       "id": 43,
@@ -966,7 +1229,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Use local AI through a simple interface",
+        "Easy model search and download",
+        "Japanese interface",
+        "No programming needed"
+      ]
     },
     {
       "id": 44,
@@ -987,7 +1256,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI chat that works offline",
+        "Ask questions about your own documents",
+        "Runs on ordinary PCs",
+        "Free and open source"
+      ]
     },
     {
       "id": 45,
@@ -1008,7 +1283,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "ChatGPT-like app for local AI",
+        "Keeps data on your PC",
+        "Open source",
+        "Can connect to online AIs too"
+      ]
     },
     {
       "id": 46,
@@ -1029,7 +1310,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Your own AI chat interface on a PC or server",
+        "Works with Ollama",
+        "Document search (RAG)",
+        "Multi-user"
+      ]
     },
     {
       "id": 47,
@@ -1051,7 +1338,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Hundreds of thousands of models and datasets",
+        "Browser demos (Spaces)",
+        "Share and publish models",
+        "AI developer community"
+      ]
     },
     {
       "id": 48,
@@ -1072,7 +1365,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Try Gemini for free",
+        "Get an API key instantly",
+        "Tune and compare prompts",
+        "Prototype apps by chatting"
+      ]
     },
     {
       "id": 49,
@@ -1095,7 +1394,14 @@
       "freeLimit": "無料GPUは時間制限あり",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Run Python in your browser",
+        "Free GPU access",
+        "Saves to Google Drive",
+        "Great for training AI"
+      ],
+      "freeLimitEn": "Free GPU with time limits"
     },
     {
       "id": 50,
@@ -1117,7 +1423,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Many free datasets",
+        "Python and GPU in the browser",
+        "Data science competitions",
+        "Learning courses"
+      ]
     },
     {
       "id": 51,
@@ -1138,7 +1450,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Very fast responses on dedicated chips",
+        "Open models via API",
+        "Free tier",
+        "For real-time uses"
+      ]
     },
     {
       "id": 52,
@@ -1159,7 +1477,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Hundreds of AI models through one API",
+        "Compare price and speed",
+        "Free models available",
+        "Easy switching"
+      ]
     },
     {
       "id": 53,
@@ -1181,7 +1505,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Image, video and audio models via API",
+        "Publish your own models",
+        "Pay only for what you use",
+        "Trial usage only"
+      ]
     },
     {
       "id": 54,
@@ -1202,7 +1532,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Fast API for open models",
+        "Fine-tuning",
+        "GPU rental",
+        "Initial credits only"
+      ]
     },
     {
       "id": 55,
@@ -1223,7 +1559,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Strong for document search (RAG)",
+        "Multilingual embedding models",
+        "Enterprise-grade safety",
+        "Free trial key"
+      ]
     },
     {
       "id": 56,
@@ -1245,7 +1587,14 @@
       "freeLimit": "クラウド版の無料枠・自前運用は無料",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build AI chatbots without code",
+        "Answers from your own documents",
+        "Automate with workflows",
+        "Japanese interface"
+      ],
+      "freeLimitEn": "Free cloud tier; free when self-hosted"
     },
     {
       "id": 57,
@@ -1266,7 +1615,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build AI apps by connecting blocks",
+        "Supports LangChain",
+        "Runs free on your PC",
+        "Open source"
+      ]
     },
     {
       "id": 58,
@@ -1287,7 +1642,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Standard library for AI apps",
+        "Connects to tools and data",
+        "Build agents",
+        "Python and JavaScript"
+      ]
     },
     {
       "id": 59,
@@ -1309,7 +1670,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Lets AI read your documents",
+        "Supports PDFs, databases and more",
+        "Better search accuracy",
+        "Open source"
+      ]
     },
     {
       "id": 60,
@@ -1331,7 +1698,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Several AIs with different roles work together",
+        "Split work like research then writing",
+        "Built in Python",
+        "Open source"
+      ]
     },
     {
       "id": 61,
@@ -1353,7 +1726,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Plans and acts on its own from a goal",
+        "Build agents with blocks",
+        "A pioneer of AI automation",
+        "Open source"
+      ]
     },
     {
       "id": 62,
@@ -1374,7 +1753,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI demo interfaces in a few lines of Python",
+        "Share with a public link",
+        "Works with Hugging Face",
+        "Handles image and audio in and out"
+      ]
     },
     {
       "id": 63,
@@ -1396,7 +1781,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Web apps with just Python",
+        "Easy charts and data views",
+        "Free publishing",
+        "Build AI chat interfaces"
+      ]
     },
     {
       "id": 64,
@@ -1418,7 +1809,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Standard deep learning framework",
+        "Widely used in research",
+        "GPU support",
+        "Many pretrained models"
+      ]
     },
     {
       "id": 65,
@@ -1440,7 +1837,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Machine learning library from Google",
+        "LiteRT for phones",
+        "Easy to write with Keras",
+        "Plenty of tutorials"
+      ]
     },
     {
       "id": 66,
@@ -1462,7 +1865,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Classic library for learning machine learning",
+        "Classification, regression, clustering",
+        "Rich preprocessing tools",
+        "Simple Python API"
+      ]
     },
     {
       "id": 67,
@@ -1483,7 +1892,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Strong predictions on tabular data",
+        "Fast computation",
+        "Popular in data competitions",
+        "Python and R"
+      ]
     },
     {
       "id": 68,
@@ -1505,7 +1920,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Notebooks with code and results side by side",
+        "Charts shown inline",
+        "Supports many languages",
+        "Widely used in education"
+      ]
     },
     {
       "id": 69,
@@ -1527,7 +1948,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automatically logs AI training",
+        "Compare runs in charts",
+        "Share with your team",
+        "Free tier for individuals"
+      ]
     },
     {
       "id": 70,
@@ -1548,7 +1975,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Vector database without managing servers",
+        "Fast similarity search",
+        "Ideal for RAG",
+        "Free plan"
+      ]
     },
     {
       "id": 71,
@@ -1569,7 +2002,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Combines vector and keyword search",
+        "Open source",
+        "Cloud version available",
+        "Multilingual"
+      ]
     },
     {
       "id": 72,
@@ -1590,7 +2029,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Fast vector database",
+        "Written in Rust, memory-efficient",
+        "Open source",
+        "Great filtered search"
+      ]
     },
     {
       "id": 73,
@@ -1611,7 +2056,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Easy vector database in a few lines",
+        "Works well with Python",
+        "Runs locally",
+        "Open source"
+      ]
     },
     {
       "id": 74,
@@ -1632,7 +2083,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Vector search over huge datasets",
+        "Distributed processing",
+        "Open source",
+        "Cloud version (Zilliz)"
+      ]
     },
     {
       "id": 75,
@@ -1654,7 +2111,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Database and login in one service",
+        "Vector search (pgvector)",
+        "Free plan",
+        "Speeds up app development"
+      ]
     },
     {
       "id": 76,
@@ -1675,7 +2138,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Large-scale search and ranking",
+        "Plug in machine learning models",
+        "Open source",
+        "Originally from Yahoo"
+      ]
     },
     {
       "id": 77,
@@ -1698,7 +2167,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Train image, sound or pose recognition in the browser",
+        "No coding",
+        "Export your model",
+        "Popular in classrooms"
+      ]
     },
     {
       "id": 78,
@@ -1720,7 +2195,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Development environment in the browser",
+        "Prototype apps with Gemini",
+        "Android emulator",
+        "Works with Firebase"
+      ]
     },
     {
       "id": 79,
@@ -1743,7 +2224,14 @@
       "freeLimit": "Copilot Free（月の回数制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Suggests the next lines as you type",
+        "Chat to ask and fix code",
+        "Works in VS Code and Android Studio",
+        "Free plan available"
+      ],
+      "freeLimitEn": "Copilot Free (monthly limits)"
     },
     {
       "id": 80,
@@ -1768,6 +2256,12 @@
       "japanese": "△",
       "noSignup": false,
       "platform": "pc",
+      "strengthsEn": [
+        "AI-first code editor",
+        "Understands and edits your whole project",
+        "Edits many files at once",
+        "Supports VS Code extensions"
+      ],
       "rank": 9
     },
     {
@@ -1790,7 +2284,14 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "nameEn": "Devin Desktop (formerly Windsurf)",
+      "strengthsEn": [
+        "Code editor with AI agents",
+        "Understands your project and works on it",
+        "Manages local and cloud agents",
+        "Free plan"
+      ]
     },
     {
       "id": 82,
@@ -1812,7 +2313,14 @@
       "freeLimit": "個人利用は無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Free code completion for individuals",
+        "VS Code and JetBrains",
+        "Chat about your code",
+        "GitHub code review"
+      ],
+      "freeLimitEn": "Free for individuals"
     },
     {
       "id": 83,
@@ -1833,7 +2341,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Answers AWS questions",
+        "Converts and upgrades code",
+        "Security scanning",
+        "Free plan"
+      ]
     },
     {
       "id": 84,
@@ -1855,7 +2369,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Writes a spec before coding",
+        "Agent-based IDE",
+        "Automates development steps",
+        "Made by Amazon"
+      ]
     },
     {
       "id": 85,
@@ -1876,7 +2396,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Works on your GitHub repository for you",
+        "Fixes bugs and adds tests",
+        "Works asynchronously",
+        "Made by Google"
+      ]
     },
     {
       "id": 86,
@@ -1897,7 +2423,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI completion for VS Code and JetBrains",
+        "Connect any AI model",
+        "Local AI supported",
+        "Open source"
+      ]
     },
     {
       "id": 87,
@@ -1918,7 +2450,14 @@
       "freeLimit": "拡張は無料（AI利用料は別）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Edits files and runs commands in VS Code",
+        "Review changes before applying",
+        "Connect any AI",
+        "Open source"
+      ],
+      "freeLimitEn": "Extension is free (AI usage billed separately)"
     },
     {
       "id": 88,
@@ -1939,7 +2478,14 @@
       "freeLimit": "ツールは無料（AI利用料は別）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Edit code with AI in the terminal",
+        "Automatic Git commits",
+        "Works with many AIs",
+        "Open source"
+      ],
+      "freeLimitEn": "Tool is free (AI usage billed separately)"
     },
     {
       "id": 89,
@@ -1962,7 +2508,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Program in the browser",
+        "Ask AI to build an app",
+        "Publish with one click",
+        "Good for learning"
+      ]
     },
     {
       "id": 90,
@@ -1983,7 +2535,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build web apps from a prompt",
+        "Instant preview in the browser",
+        "Publish directly",
+        "Edit the code too"
+      ]
     },
     {
       "id": 91,
@@ -2005,7 +2563,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build web apps by chatting",
+        "Polished design",
+        "Database integration (Supabase)",
+        "Save to GitHub"
+      ]
     },
     {
       "id": 92,
@@ -2027,7 +2591,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates UI from text",
+        "React and Next.js code",
+        "Deploy instantly on Vercel",
+        "Recreate screens from images"
+      ]
     },
     {
       "id": 93,
@@ -2048,7 +2618,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Terminal with AI",
+        "Suggests commands from plain language",
+        "Explains errors",
+        "Carries out tasks"
+      ]
     },
     {
       "id": 94,
@@ -2069,7 +2645,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates test code",
+        "Reviews pull requests",
+        "Checks code quality",
+        "Free plan"
+      ]
     },
     {
       "id": 95,
@@ -2091,7 +2673,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Works in IntelliJ and Android Studio family IDEs",
+        "Code completion and explanations",
+        "Refactoring suggestions",
+        "Writes commit messages"
+      ]
     },
     {
       "id": 96,
@@ -2113,7 +2701,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI editor from ByteDance",
+        "Agents that build for you",
+        "Generous free tier",
+        "Feels like VS Code"
+      ]
     },
     {
       "id": 97,
@@ -2134,7 +2728,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "nameEn": "Tongyi Lingma",
+      "strengthsEn": [
+        "Free code completion from Alibaba",
+        "VS Code and JetBrains",
+        "Explains code and writes tests",
+        "Chinese and English"
+      ]
     },
     {
       "id": 98,
@@ -2155,7 +2756,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Code completion from Tsinghua and Zhipu",
+        "Free",
+        "Converts code between languages",
+        "Open model"
+      ]
     },
     {
       "id": 99,
@@ -2176,7 +2783,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Generates and searches code",
+        "Reads code from images and videos",
+        "Browser extension",
+        "VS Code support"
+      ]
     },
     {
       "id": 100,
@@ -2197,7 +2810,14 @@
       "freeLimit": "現在は有料プランのみ（無料トライアルは不定期）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Artistic, beautiful images",
+        "Distinctive texture and composition",
+        "Style and character references",
+        "Paid plans only"
+      ],
+      "freeLimitEn": "Paid plans only (free trials are occasional)"
     },
     {
       "id": 101,
@@ -2218,7 +2838,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Free image generation",
+        "Uses OpenAI image models",
+        "Sign in with a Microsoft account",
+        "Also in Copilot"
+      ]
     },
     {
       "id": 102,
@@ -2240,7 +2866,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Designs for social posts and invitations",
+        "Image generation and editing",
+        "Background removal",
+        "Templates"
+      ]
     },
     {
       "id": 103,
@@ -2262,7 +2894,14 @@
       "freeLimit": "月ごとの無料クレジット",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Trained with copyright in mind",
+        "Generative fill and expand",
+        "Works with Photoshop and Illustrator",
+        "Monthly free credits"
+      ],
+      "freeLimitEn": "Monthly free credits"
     },
     {
       "id": 104,
@@ -2285,7 +2924,14 @@
       "freeLimit": "毎日無料クレジット付与",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Great for game assets and characters",
+        "Many models and styles",
+        "Image to video",
+        "Daily free credits"
+      ],
+      "freeLimitEn": "Daily free credits"
     },
     {
       "id": 105,
@@ -2307,7 +2953,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Renders text inside images cleanly",
+        "Good for logos and posters",
+        "Style controls",
+        "Free tier"
+      ]
     },
     {
       "id": 106,
@@ -2328,7 +2980,14 @@
       "freeLimit": "ローカル実行は無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open image generation model",
+        "Unlimited generation on your PC",
+        "Customize with models and LoRA",
+        "Commercial use allowed (with conditions)"
+      ],
+      "freeLimitEn": "Free when run locally"
     },
     {
       "id": 107,
@@ -2349,7 +3008,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Community for sharing image models and LoRA",
+        "Browse examples and prompts",
+        "Generate in the browser",
+        "Active community"
+      ]
     },
     {
       "id": 108,
@@ -2371,7 +3036,15 @@
       "freeLimit": "毎日50クレジット無料（混雑時は動画生成できない場合あり）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Google Flow (formerly ImageFX & Whisk)",
+      "strengthsEn": [
+        "Generates cinematic scenes from text (Veo)",
+        "Keeps characters and backgrounds across scenes",
+        "Image generation and editing too",
+        "Mobile app available"
+      ],
+      "freeLimitEn": "50 free credits daily (video may be unavailable at peak times)"
     },
     {
       "id": 109,
@@ -2393,7 +3066,14 @@
       "freeLimit": "視聴は無料・登録不要",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Watch AI-made videos for free",
+        "Shows the prompt behind each video",
+        "Channels by genre",
+        "Experience what video AI can do"
+      ],
+      "freeLimitEn": "Free to watch, no sign-up"
     },
     {
       "id": 110,
@@ -2415,7 +3095,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Image generation for design",
+        "Poster and T-shirt templates",
+        "Edit parts of an image",
+        "Free tier"
+      ]
     },
     {
       "id": 111,
@@ -2436,7 +3122,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Choose from several image models",
+        "Community to share artwork",
+        "Daily free credits",
+        "Creative challenges"
+      ]
     },
     {
       "id": 112,
@@ -2457,7 +3149,14 @@
       "freeLimit": "無料（広告あり）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Generate images without signing up",
+        "Completely free",
+        "Several ideas at once",
+        "Easy to try"
+      ],
+      "freeLimitEn": "Free (with ads)"
     },
     {
       "id": 113,
@@ -2479,7 +3178,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates in real time as you draw",
+        "Image upscaling",
+        "Video generation",
+        "Many models"
+      ]
     },
     {
       "id": 114,
@@ -2500,7 +3205,14 @@
       "freeLimit": "公開モデルはローカルで無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Photorealistic, high-quality images",
+        "Good at rendering text",
+        "Some models openly released",
+        "German research team"
+      ],
+      "freeLimitEn": "Published models are free locally"
     },
     {
       "id": 115,
@@ -2522,7 +3234,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates vector images (SVG)",
+        "Icon and logo sets",
+        "Keeps brand colors consistent",
+        "Mockups"
+      ]
     },
     {
       "id": 116,
@@ -2543,7 +3261,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Many anime and illustration models",
+        "Image to video",
+        "Character chat",
+        "Daily credits"
+      ]
     },
     {
       "id": 117,
@@ -2565,7 +3289,15 @@
       "freeLimit": "毎日無料クレジット付与",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Dreamina",
+      "strengthsEn": [
+        "Image and video generation from ByteDance",
+        "Japanese prompts OK",
+        "Lip-sync videos",
+        "Daily credits"
+      ],
+      "freeLimitEn": "Daily free credits"
     },
     {
       "id": 118,
@@ -2586,7 +3318,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Many models in one place",
+        "Keeps the same character across images",
+        "Editing and upscaling",
+        "Share workflows"
+      ]
     },
     {
       "id": 119,
@@ -2608,7 +3346,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Built into the Freepik stock site",
+        "Image, video and audio generation",
+        "Upscaling and editing",
+        "Combine with stock assets"
+      ]
     },
     {
       "id": 120,
@@ -2629,7 +3373,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Simple image generation",
+        "Several models",
+        "Try for free",
+        "Fast"
+      ]
     },
     {
       "id": 121,
@@ -2650,7 +3400,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Mix images to create new ones",
+        "Design character faces",
+        "Generate from collages",
+        "Collaborative creation"
+      ]
     },
     {
       "id": 122,
@@ -2672,7 +3428,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Node-based image and video generation",
+        "Fine-grained control",
+        "Quickly supports new models",
+        "Free and open source"
+      ]
     },
     {
       "id": 123,
@@ -2693,7 +3455,14 @@
       "freeLimit": "ローカル版は無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Paint and fix on a canvas",
+        "Free locally",
+        "Layer management",
+        "Professional workflow"
+      ],
+      "freeLimitEn": "Local version is free"
     },
     {
       "id": 124,
@@ -2714,7 +3483,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Accurately renders Chinese and English text in images",
+        "Image editing model too",
+        "Open weights",
+        "Runs locally"
+      ]
     },
     {
       "id": 125,
@@ -2736,7 +3511,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Great at anime-style illustrations",
+        "AI that continues your stories",
+        "Japanese interface",
+        "Paid plans"
+      ]
     },
     {
       "id": 126,
@@ -2759,7 +3540,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Huge range of templates",
+        "AI for images, text and video",
+        "Slides, flyers and social posts",
+        "Collaborative editing"
+      ]
     },
     {
       "id": 127,
@@ -2780,7 +3567,14 @@
       "freeLimit": "低解像度は無料",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Removes photo backgrounds in seconds",
+        "Accurate down to hair",
+        "Batch processing",
+        "Free at small size"
+      ],
+      "freeLimitEn": "Free at low resolution"
     },
     {
       "id": 128,
@@ -2801,7 +3595,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Product photo backgrounds",
+        "Generate new backgrounds with AI",
+        "Automatic shadows",
+        "Handy mobile app"
+      ]
     },
     {
       "id": 129,
@@ -2823,7 +3623,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Background removal",
+        "Erase unwanted objects",
+        "Image upscaling",
+        "Relighting"
+      ]
     },
     {
       "id": 130,
@@ -2844,7 +3650,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Brush over people or objects to remove them",
+        "Natural background fill",
+        "Easy in the browser",
+        "Free tier"
+      ]
     },
     {
       "id": 131,
@@ -2865,7 +3677,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Enlarge images without losing quality",
+        "Free PC software",
+        "Windows, Mac and Linux",
+        "Batch processing"
+      ]
     },
     {
       "id": 132,
@@ -2886,7 +3704,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Sharpens and enlarges low-quality images",
+        "Anime model included",
+        "Noise reduction",
+        "Open source"
+      ]
     },
     {
       "id": 133,
@@ -2908,7 +3732,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Enlarges illustrations and anime images",
+        "Noise reduction",
+        "Free in the browser",
+        "Made in Japan"
+      ]
     },
     {
       "id": 134,
@@ -2929,7 +3759,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Upscaling for print",
+        "Color and brightness correction",
+        "Batch processing",
+        "Free tier"
+      ]
     },
     {
       "id": 135,
@@ -2950,7 +3786,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Professional upscaling",
+        "Noise and blur removal",
+        "Face recovery",
+        "Paid software (trial)"
+      ]
     },
     {
       "id": 136,
@@ -2972,7 +3814,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Image editor in the browser",
+        "AI generation and background removal",
+        "Templates",
+        "No install needed"
+      ]
     },
     {
       "id": 137,
@@ -2994,7 +3842,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Automatic photo enhancement",
+        "Background and object removal",
+        "AI image generation",
+        "Templates"
+      ]
     },
     {
       "id": 138,
@@ -3015,7 +3869,14 @@
       "freeLimit": "無料（広告あり）",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Photoshop-like editing in the browser",
+        "Opens PSD files",
+        "AI replaces parts of images",
+        "Free (with ads)"
+      ],
+      "freeLimitEn": "Free (with ads)"
     },
     {
       "id": 139,
@@ -3037,7 +3898,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Photo editing on your phone",
+        "AI image generation and background change",
+        "Sticker maker",
+        "Social media templates"
+      ]
     },
     {
       "id": 140,
@@ -3058,7 +3925,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Photo editing app by Google",
+        "Selective adjustments and brushes",
+        "Auto enhance",
+        "Completely free"
+      ]
     },
     {
       "id": 141,
@@ -3079,7 +3952,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Batch background removal with Python",
+        "Simple commands",
+        "Local processing",
+        "Open source"
+      ]
     },
     {
       "id": 142,
@@ -3100,7 +3979,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Brush to erase unwanted objects",
+        "Runs locally",
+        "Several AI models",
+        "Open source"
+      ]
     },
     {
       "id": 143,
@@ -3121,7 +4006,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Upscales while adding detail",
+        "Enhances texture",
+        "For professionals",
+        "Paid"
+      ]
     },
     {
       "id": 144,
@@ -3142,7 +4033,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI photo editing",
+        "Sky replacement",
+        "Portrait retouching",
+        "Paid software (trial)"
+      ]
     },
     {
       "id": 145,
@@ -3164,7 +4061,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Social media graphics from templates",
+        "Image generation with Firefly",
+        "Background removal",
+        "Video editing"
+      ]
     },
     {
       "id": 146,
@@ -3185,7 +4088,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Background removal",
+        "Photo enhancement",
+        "Old photo restoration",
+        "Batch processing"
+      ]
     },
     {
       "id": 147,
@@ -3206,7 +4115,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Enlarge images in the browser",
+        "Try without signing up",
+        "Up to 4x",
+        "Simple"
+      ]
     },
     {
       "id": 148,
@@ -3228,7 +4143,14 @@
       "freeLimit": "初回のみ無料クレジット",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Film-quality video generation",
+        "Video editing and background removal",
+        "Control camera movement",
+        "Free credits only at first"
+      ],
+      "freeLimitEn": "Free credits only at first"
     },
     {
       "id": 149,
@@ -3249,7 +4171,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Short videos from text or images",
+        "Add effects to videos",
+        "Easy to use",
+        "Free tier"
+      ]
     },
     {
       "id": 150,
@@ -3271,7 +4199,15 @@
       "freeLimit": "毎日無料クレジット付与",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Kling AI",
+      "strengthsEn": [
+        "Natural human motion in videos",
+        "Longer videos up to minutes",
+        "Lip sync",
+        "Daily free credits"
+      ],
+      "freeLimitEn": "Daily free credits"
     },
     {
       "id": 151,
@@ -3292,7 +4228,14 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Hailuo AI",
+      "strengthsEn": [
+        "Expressive video generation",
+        "Camera movement control",
+        "Image to video",
+        "Free tier"
+      ]
     },
     {
       "id": 152,
@@ -3313,7 +4256,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Keeps characters consistent",
+        "Great at anime style",
+        "References multiple images",
+        "Fast generation"
+      ]
     },
     {
       "id": 153,
@@ -3334,7 +4283,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Short videos for social media",
+        "Many effects",
+        "Image to video",
+        "Free tier"
+      ]
     },
     {
       "id": 154,
@@ -3356,7 +4311,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Natural motion in videos",
+        "Image generation (Photon)",
+        "Camera control",
+        "Free tier"
+      ]
     },
     {
       "id": 155,
@@ -3377,7 +4338,15 @@
       "freeLimit": "公開モデルは無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "nameEn": "Wan",
+      "strengthsEn": [
+        "Open video model from Alibaba",
+        "Runs on your PC",
+        "Text or image to video",
+        "High quality"
+      ],
+      "freeLimitEn": "Published models are free"
     },
     {
       "id": 156,
@@ -3398,7 +4367,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open video model from Tencent",
+        "High-quality video",
+        "For research and development",
+        "Runs locally"
+      ]
     },
     {
       "id": 157,
@@ -3419,7 +4394,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open video model from Zhipu",
+        "Relatively lightweight",
+        "Text to video",
+        "For research"
+      ]
     },
     {
       "id": 158,
@@ -3440,7 +4421,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open video model from Genmo",
+        "Smooth motion",
+        "Runs locally",
+        "Free"
+      ]
     },
     {
       "id": 159,
@@ -3461,7 +4448,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Videos with AI avatars speaking",
+        "140+ languages",
+        "Training and manual videos",
+        "Free plan"
+      ]
     },
     {
       "id": 160,
@@ -3483,7 +4476,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI avatar videos",
+        "Dubs videos with matching lip movement",
+        "Create your own avatar",
+        "Japanese interface"
+      ]
     },
     {
       "id": 161,
@@ -3504,7 +4503,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Makes people in photos talk",
+        "Presentation avatars",
+        "Multilingual",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 162,
@@ -3525,7 +4530,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Characters that talk and sing",
+        "Very expressive",
+        "Syncs voice and lip movement",
+        "Free tier"
+      ]
     },
     {
       "id": 163,
@@ -3546,7 +4557,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Automatic subtitles",
+        "AI avatars",
+        "Eye contact correction",
+        "For short videos"
+      ]
     },
     {
       "id": 164,
@@ -3567,7 +4584,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Full video editing for free",
+        "Auto captions and transcription",
+        "Many templates",
+        "Phone and PC"
+      ]
     },
     {
       "id": 165,
@@ -3589,7 +4612,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Edit video by editing the transcript",
+        "Removes filler words automatically",
+        "Noise removal",
+        "Screen recording"
+      ]
     },
     {
       "id": 166,
@@ -3610,7 +4639,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Video editing in the browser",
+        "Auto subtitles and translation",
+        "Cuts silent parts",
+        "Collaborative editing"
+      ]
     },
     {
       "id": 167,
@@ -3631,7 +4666,14 @@
       "freeLimit": "無料版は透かし付き",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Creates videos from text automatically",
+        "Lots of stock footage",
+        "Narration included",
+        "Watermark on free plan"
+      ],
+      "freeLimitEn": "Free plan adds a watermark"
     },
     {
       "id": 168,
@@ -3653,7 +4695,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns blogs and text into videos",
+        "Natural narration in many languages",
+        "Auto subtitles",
+        "Media library"
+      ]
     },
     {
       "id": 169,
@@ -3674,7 +4722,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns articles into videos",
+        "Highlights from long videos",
+        "Auto subtitles",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 170,
@@ -3695,7 +4749,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automatically clips highlights from long videos",
+        "Converts to vertical shorts",
+        "Auto captions",
+        "For social media"
+      ]
     },
     {
       "id": 171,
@@ -3717,7 +4777,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automatic subtitles from speech",
+        "Cut video like editing text",
+        "Japanese support",
+        "AI voices"
+      ]
     },
     {
       "id": 172,
@@ -3738,7 +4804,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Record screen and camera together",
+        "Share instantly with a link",
+        "AI titles and summaries",
+        "Great for work manuals"
+      ]
     },
     {
       "id": 173,
@@ -3760,7 +4832,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Video editing in the browser",
+        "Auto subtitles and translation",
+        "Templates",
+        "Team sharing"
+      ]
     },
     {
       "id": 174,
@@ -3781,7 +4859,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Video editor built into Windows",
+        "Auto captions",
+        "Text to speech",
+        "Free to use"
+      ]
     },
     {
       "id": 175,
@@ -3802,7 +4886,14 @@
       "freeLimit": "無料版は透かし付き",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Beginner-friendly video editor",
+        "AI silence cutting and captions",
+        "Lots of effects",
+        "Watermark on free version"
+      ],
+      "freeLimitEn": "Free version adds a watermark"
     },
     {
       "id": 176,
@@ -3823,7 +4914,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Upscales old videos",
+        "Frame interpolation for smoothness",
+        "Stabilization",
+        "Paid software"
+      ]
     },
     {
       "id": 177,
@@ -3845,7 +4942,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Many video generation models in one place",
+        "Lip-sync videos",
+        "Dance and music video templates",
+        "Image generation"
+      ]
     },
     {
       "id": 178,
@@ -3866,7 +4969,14 @@
       "freeLimit": "毎日無料クレジット付与",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Generates songs with lyrics and melody",
+        "Supports Japanese lyrics",
+        "Choose genre and mood",
+        "Daily free credits"
+      ],
+      "freeLimitEn": "Daily free credits"
     },
     {
       "id": 179,
@@ -3887,7 +4997,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "High-quality song generation",
+        "Detailed genre control",
+        "Extend and edit songs",
+        "Lyrics generation"
+      ]
     },
     {
       "id": 180,
@@ -3908,7 +5024,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Composition and lyrics",
+        "Generates in the style of a reference song",
+        "Choose a singing voice",
+        "Free tier"
+      ]
     },
     {
       "id": 181,
@@ -3930,7 +5052,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates sound effects and music",
+        "High audio quality",
+        "Audio-to-audio transformation",
+        "Made by Stability AI"
+      ]
     },
     {
       "id": 182,
@@ -3952,7 +5080,14 @@
       "freeLimit": "作成・試聴は無料（ダウンロードは有料）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Background music generator from Japan",
+        "Adjust length and structure",
+        "Royalty-free use",
+        "For videos and streams"
+      ],
+      "freeLimitEn": "Creating and previewing are free (downloads are paid)"
     },
     {
       "id": 183,
@@ -3973,7 +5108,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Classical and film music composition",
+        "Export sheet music (MIDI)",
+        "Customize the mood",
+        "Free tier"
+      ]
     },
     {
       "id": 184,
@@ -3994,7 +5135,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Pick a mood to make background music",
+        "Matches your video length",
+        "For podcasts",
+        "Free tier"
+      ]
     },
     {
       "id": 185,
@@ -4015,7 +5162,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Make a song in one click",
+        "Release to music streaming services",
+        "Beginner-friendly",
+        "Free tier"
+      ]
     },
     {
       "id": 186,
@@ -4036,7 +5189,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Generates endless background music",
+        "For streams and videos",
+        "Choose mood and length",
+        "Free tier"
+      ]
     },
     {
       "id": 187,
@@ -4058,7 +5217,14 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Google Flow Music (formerly Riffusion)",
+      "strengthsEn": [
+        "Compose with a conversational AI producer",
+        "Songs from text, images or audio",
+        "Replace or extend parts of a song",
+        "Generates music videos"
+      ]
     },
     {
       "id": 188,
@@ -4079,7 +5245,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Royalty-free background music",
+        "Choose genre and tempo",
+        "For videos and streams",
+        "Free tier"
+      ]
     },
     {
       "id": 189,
@@ -4100,7 +5272,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Music generation plus a sound library",
+        "Adjust song length",
+        "Commercial licenses",
+        "Free tier"
+      ]
     },
     {
       "id": 190,
@@ -4122,7 +5300,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Separates vocals, drums and bass",
+        "Change tempo and key",
+        "Chord detection",
+        "For practicing instruments"
+      ]
     },
     {
       "id": 191,
@@ -4143,7 +5327,14 @@
       "freeLimit": "初回の無料分のみ",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Accurate stem separation",
+        "Extract vocals or backing track",
+        "Noise removal",
+        "Free only for the first uses"
+      ],
+      "freeLimitEn": "Free only for the first uses"
     },
     {
       "id": 192,
@@ -4164,7 +5355,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Separates vocals and instruments",
+        "Free on PC",
+        "Several AI models",
+        "Open source"
+      ]
     },
     {
       "id": 193,
@@ -4187,7 +5384,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Very natural speech synthesis",
+        "Clone your own voice",
+        "Multilingual video dubbing",
+        "Sound effect generation"
+      ]
     },
     {
       "id": 194,
@@ -4208,7 +5411,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Create voiceovers",
+        "Wide range of voices",
+        "Adjust intonation and speed",
+        "For videos and slides"
+      ]
     },
     {
       "id": 195,
@@ -4230,7 +5439,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Reads text, PDFs and web pages aloud",
+        "Any reading speed",
+        "Celebrity-style voices",
+        "For studying and reading"
+      ]
     },
     {
       "id": 196,
@@ -4252,7 +5467,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Reads documents and PDFs aloud",
+        "Natural voices",
+        "Browser extension",
+        "Convert to audio files"
+      ]
     },
     {
       "id": 197,
@@ -4274,7 +5495,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Free Japanese speech synthesis software",
+        "Many character voices",
+        "Fine intonation control",
+        "Commercial use OK (rules per character)"
+      ]
     },
     {
       "id": 198,
@@ -4296,7 +5523,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Many Japanese voices",
+        "Turn your own voice into AI",
+        "Create narration",
+        "For videos"
+      ]
     },
     {
       "id": 199,
@@ -4318,7 +5551,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Expressive Japanese speech",
+        "Train your own voice",
+        "Free locally",
+        "Open source"
+      ]
     },
     {
       "id": 200,
@@ -4339,7 +5578,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Voice cloning",
+        "Emotional expression",
+        "Detects fake (deepfake) audio",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 201,
@@ -4360,7 +5605,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Makes recordings sound studio-quality",
+        "Noise removal",
+        "Easy in the browser",
+        "Free tier"
+      ]
     },
     {
       "id": 202,
@@ -4381,7 +5632,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Multilingual speech synthesis",
+        "Clone a voice from a short sample",
+        "Open models",
+        "Free tier"
+      ]
     },
     {
       "id": 203,
@@ -4403,7 +5660,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Highly accurate transcription",
+        "Many languages including Japanese",
+        "Robust to noise",
+        "Free on PC"
+      ]
     },
     {
       "id": 204,
@@ -4425,7 +5688,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Automatic meeting transcription",
+        "Summaries and minutes",
+        "Works with Zoom and Meet",
+        "Especially good in English"
+      ]
     },
     {
       "id": 205,
@@ -4446,7 +5715,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI and human transcription",
+        "Subtitle files",
+        "High accuracy",
+        "Free tier"
+      ]
     },
     {
       "id": 206,
@@ -4470,7 +5745,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Excellent Japanese transcription",
+        "Meeting summaries",
+        "Works with Zoom, Meet and Teams",
+        "Translation"
+      ]
     },
     {
       "id": 207,
@@ -4492,7 +5773,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Records and transcribes meetings",
+        "Auto summaries and action items",
+        "Search conversations",
+        "Many integrations"
+      ]
     },
     {
       "id": 208,
@@ -4514,7 +5801,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Records Meet, Zoom and Teams",
+        "AI meeting notes",
+        "Japanese interface",
+        "Clip key moments"
+      ]
     },
     {
       "id": 209,
@@ -4536,7 +5829,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Free meeting recording and transcription",
+        "Automatic summaries",
+        "Share highlights",
+        "CRM integration"
+      ]
     },
     {
       "id": 210,
@@ -4558,7 +5857,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Real-time transcription for Google Meet",
+        "Browser extension",
+        "Summaries",
+        "Share meeting notes"
+      ]
     },
     {
       "id": 211,
@@ -4580,7 +5885,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Meeting summaries",
+        "Email and chat summaries",
+        "Meeting analytics",
+        "Many integrations"
+      ]
     },
     {
       "id": 212,
@@ -4601,7 +5912,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Removes background noise during calls",
+        "Meeting transcription",
+        "Summary notes",
+        "Works with Zoom and more"
+      ]
     },
     {
       "id": 213,
@@ -4623,7 +5940,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Real-time speech recognition API",
+        "Multilingual",
+        "Speaker identification",
+        "For developers"
+      ]
     },
     {
       "id": 214,
@@ -4645,7 +5968,14 @@
       "freeLimit": "初回クレジットのみ",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Accurate speech recognition API",
+        "Speaker separation",
+        "Summaries and sentiment",
+        "Initial credits only"
+      ],
+      "freeLimitEn": "Initial credits only"
     },
     {
       "id": 215,
@@ -4667,7 +5997,14 @@
       "freeLimit": "初回クレジットのみ",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Fast speech recognition API",
+        "Real-time processing",
+        "Speech synthesis",
+        "Initial credits only"
+      ],
+      "freeLimitEn": "Initial credits only"
     },
     {
       "id": 216,
@@ -4688,7 +6025,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Voice typing in the browser",
+        "No sign-up",
+        "Supports Japanese",
+        "Save as notes"
+      ]
     },
     {
       "id": 217,
@@ -4710,7 +6053,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Transcription specialized in Japanese",
+        "Fast processing",
+        "Summaries",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 218,
@@ -4731,7 +6080,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Writes blog articles automatically",
+        "SEO-aware structure",
+        "Analyzes visibility in AI search",
+        "Multilingual"
+      ]
     },
     {
       "id": 219,
@@ -4752,7 +6107,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "40+ templates by purpose",
+        "30+ languages",
+        "Choose the tone",
+        "Free tier"
+      ]
     },
     {
       "id": 220,
@@ -4773,7 +6134,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Marketing copy",
+        "Consistent brand voice",
+        "Team management",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 221,
@@ -4794,7 +6161,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Ads and sales emails",
+        "Workflow automation",
+        "Templates",
+        "Free tier"
+      ]
     },
     {
       "id": 222,
@@ -4815,7 +6188,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Predicts ad copy performance",
+        "Compare several versions",
+        "Write for each audience",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 223,
@@ -4837,7 +6216,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Analyzes top-ranking articles",
+        "Creates article outlines",
+        "SEO score",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 224,
@@ -4859,7 +6244,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Suggests English rewrites",
+        "Adjust sentence length",
+        "Summaries",
+        "Browser extension"
+      ]
     },
     {
       "id": 225,
@@ -4882,7 +6273,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Paraphrasing",
+        "Summaries",
+        "Grammar checking",
+        "Translation"
+      ]
     },
     {
       "id": 226,
@@ -4904,7 +6301,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "English grammar and spelling checks",
+        "Tone adjustments",
+        "Works in browsers and Word",
+        "Free tier"
+      ]
     },
     {
       "id": 227,
@@ -4926,7 +6329,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Proofreads many languages including Japanese",
+        "Grammar and consistency",
+        "Browser extension",
+        "Free tier"
+      ]
     },
     {
       "id": 228,
@@ -4947,7 +6356,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "English style checks",
+        "Detailed reports",
+        "For novels and papers",
+        "Free tier"
+      ]
     },
     {
       "id": 229,
@@ -4968,7 +6383,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Helps write fiction",
+        "Plot ideas",
+        "Adds descriptions",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 230,
@@ -4990,7 +6411,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Text, design and video in one place",
+        "Schedule social posts",
+        "For teams",
+        "Free tier"
+      ]
     },
     {
       "id": 231,
@@ -5011,7 +6438,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Writing and rewriting",
+        "Browser extension",
+        "Learns your writing style",
+        "Free tier"
+      ]
     },
     {
       "id": 232,
@@ -5033,7 +6466,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Corrects and rewrites text",
+        "Suggests natural wording",
+        "Supports Japanese",
+        "Free to use"
+      ]
     },
     {
       "id": 233,
@@ -5055,7 +6494,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Japanese proofreading for typos and consistency",
+        "Manage article writing",
+        "Team reviews",
+        "Free tier"
+      ]
     },
     {
       "id": 234,
@@ -5077,7 +6522,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Japanese catchphrase generator",
+        "Templates for ads, social posts and proposals",
+        "100+ use cases",
+        "Free tier"
+      ]
     },
     {
       "id": 235,
@@ -5099,7 +6550,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Suggests the next part of your paper",
+        "Reference management",
+        "Insert citations",
+        "Free tier"
+      ]
     },
     {
       "id": 236,
@@ -5121,7 +6578,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Proofreads English papers",
+        "Academic phrasing",
+        "Pre-submission checks",
+        "Free tier"
+      ]
     },
     {
       "id": 237,
@@ -5143,7 +6606,14 @@
       "freeLimit": "無料版は試用回数のみ",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Summarizes and organizes notes in Notion",
+        "Meeting notes",
+        "Searches your workspace",
+        "Free plan is trial only"
+      ],
+      "freeLimitEn": "Free plan includes limited trial uses"
     },
     {
       "id": 238,
@@ -5165,7 +6635,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Creates slides from a topic",
+        "Also web pages and documents",
+        "Automatic design",
+        "Free tier"
+      ]
     },
     {
       "id": 239,
@@ -5187,7 +6663,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns text into diagrams and charts",
+        "Choose a design",
+        "Paste into documents",
+        "Free tier"
+      ]
     },
     {
       "id": 240,
@@ -5208,7 +6690,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Natural, accurate translation",
+        "Translates Word and PDF files as is",
+        "Glossaries",
+        "Character limit on free plan"
+      ]
     },
     {
       "id": 241,
@@ -5229,7 +6717,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Google Translate",
+      "strengthsEn": [
+        "100+ languages",
+        "Translate signs and menus with the camera",
+        "Conversation mode",
+        "Completely free"
+      ]
     },
     {
       "id": 242,
@@ -5250,7 +6745,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Multilingual translation",
+        "Live translation for group conversations",
+        "Office integration",
+        "Free"
+      ]
     },
     {
       "id": 243,
@@ -5271,7 +6772,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Especially natural Japanese–Korean translation",
+        "Image and voice translation",
+        "Made by Naver",
+        "Free"
+      ]
     },
     {
       "id": 244,
@@ -5292,7 +6799,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Yandex Translate",
+      "strengthsEn": [
+        "Strong for Russian and Eastern European languages",
+        "Image and web page translation",
+        "Free",
+        "No sign-up"
+      ]
     },
     {
       "id": 245,
@@ -5313,7 +6827,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Baidu Translate",
+      "strengthsEn": [
+        "Strong Chinese translation",
+        "Document translation",
+        "Image translation",
+        "Free"
+      ]
     },
     {
       "id": 246,
@@ -5334,7 +6855,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Youdao Translate",
+      "strengthsEn": [
+        "Chinese translation with many languages",
+        "Dictionary features",
+        "Document translation",
+        "Free"
+      ]
     },
     {
       "id": 247,
@@ -5356,7 +6884,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Translations with real example sentences",
+        "Dictionary and conjugations",
+        "Rephrasing",
+        "Great for learning languages"
+      ]
     },
     {
       "id": 248,
@@ -5377,7 +6911,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Shows web pages in original and translated side by side",
+        "Translates PDFs and video subtitles",
+        "Several translation engines",
+        "Browser extension"
+      ]
     },
     {
       "id": 249,
@@ -5399,7 +6939,14 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "nameEn": "PLaMo Translate",
+      "strengthsEn": [
+        "Translation by a Japanese AI",
+        "Natural Japanese",
+        "Handles long text",
+        "Made by Preferred Networks"
+      ]
     },
     {
       "id": 250,
@@ -5422,7 +6969,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Ask questions about your PDFs and documents",
+        "Shows sources in answers",
+        "Turns materials into audio overviews",
+        "Completely free"
+      ]
     },
     {
       "id": 251,
@@ -5444,7 +6997,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns text, PDFs and YouTube into mind maps",
+        "Organizes key points",
+        "Edit and export",
+        "Made by Xmind"
+      ]
     },
     {
       "id": 252,
@@ -5466,7 +7025,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Upload a PDF and ask questions",
+        "Summaries",
+        "Answers with page numbers",
+        "Free tier"
+      ]
     },
     {
       "id": 253,
@@ -5488,7 +7053,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Ask questions about PDFs and papers",
+        "Compare several files",
+        "Summaries",
+        "Free tier"
+      ]
     },
     {
       "id": 254,
@@ -5510,7 +7081,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Turns papers into summary cards",
+        "Extracts key figures and findings",
+        "Organizes references",
+        "Free tier"
+      ]
     },
     {
       "id": 255,
@@ -5533,7 +7110,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Evidence-based answers from papers",
+        "Shows how much studies agree",
+        "With citations",
+        "Free tier"
+      ]
     },
     {
       "id": 256,
@@ -5555,7 +7138,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Finds papers and summarizes them in tables",
+        "Extracts data from papers",
+        "Speeds up literature reviews",
+        "Free tier"
+      ]
     },
     {
       "id": 257,
@@ -5576,7 +7165,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Shows whether citations support or dispute",
+        "Checks paper reliability",
+        "Answers with citations",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 258,
@@ -5598,7 +7193,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Free paper search",
+        "One-line AI summaries",
+        "Citation network",
+        "Run by a non-profit"
+      ]
     },
     {
       "id": 259,
@@ -5620,7 +7221,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Explains difficult papers simply",
+        "Literature reviews",
+        "Chat with PDFs",
+        "Free tier"
+      ]
     },
     {
       "id": 260,
@@ -5641,7 +7248,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Shows related papers as a graph",
+        "Overview of a research field",
+        "Simple to use",
+        "Free tier"
+      ]
     },
     {
       "id": 261,
@@ -5662,7 +7275,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Discover related papers step by step",
+        "Visualizes connections",
+        "New paper alerts",
+        "Free"
+      ]
     },
     {
       "id": 262,
@@ -5683,7 +7302,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Citation maps of papers",
+        "Alerts for new papers",
+        "Manage collections",
+        "Free tier"
+      ]
     },
     {
       "id": 263,
@@ -5705,7 +7330,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Deep, thorough paper search",
+        "Misses less",
+        "Research reports",
+        "Free tier"
+      ]
     },
     {
       "id": 264,
@@ -5727,7 +7358,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Ask across many papers and documents",
+        "Shows the source paragraph",
+        "Take notes",
+        "Formerly Unriddle"
+      ]
     },
     {
       "id": 265,
@@ -5750,7 +7387,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Upload Excel or CSV and analyze by chatting",
+        "Automatic charts",
+        "Calculates with Python",
+        "Free tier"
+      ]
     },
     {
       "id": 266,
@@ -5772,7 +7415,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Solves math accurately",
+        "Statistics and unit conversion",
+        "Scientific data",
+        "Step-by-step solutions are paid"
+      ]
     },
     {
       "id": 267,
@@ -5794,7 +7443,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Spreadsheet with AI",
+        "Automatic data analysis and summaries",
+        "Connects to other services",
+        "Free tier"
+      ]
     },
     {
       "id": 268,
@@ -5817,7 +7472,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Process data by connecting blocks",
+        "Automates Excel work",
+        "Machine learning",
+        "Desktop version is free"
+      ]
     },
     {
       "id": 269,
@@ -5839,7 +7500,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Analyze data by connecting components",
+        "See results as charts",
+        "Great for learning ML",
+        "Free"
+      ]
     },
     {
       "id": 270,
@@ -5860,7 +7527,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Forecasts time-series data like sales",
+        "Handles seasonality and holidays",
+        "Python and R",
+        "Made by Meta"
+      ]
     },
     {
       "id": 271,
@@ -5882,7 +7555,14 @@
       "freeLimit": "Windowsユーザーは無料",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Free RPA on Windows",
+        "Automates Excel, web and desktop tasks",
+        "Records your actions",
+        "Works with AI features"
+      ],
+      "freeLimitEn": "Free for Windows users"
     },
     {
       "id": 272,
@@ -5903,7 +7583,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automate by connecting thousands of apps",
+        "AI processing steps",
+        "No code",
+        "Free tier"
+      ]
     },
     {
       "id": 273,
@@ -5924,7 +7610,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Design automations as flowcharts",
+        "Complex logic with branches",
+        "Many app integrations",
+        "Free tier"
+      ]
     },
     {
       "id": 274,
@@ -5945,7 +7637,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Simple if-this-then-that automation",
+        "Works with phones and smart devices",
+        "Beginner-friendly",
+        "Free tier"
+      ]
     },
     {
       "id": 275,
@@ -5967,7 +7665,14 @@
       "freeLimit": "自前運用（セルフホスト）は無料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automation flows with AI",
+        "Free when self-hosted",
+        "Write code when needed",
+        "Open source"
+      ],
+      "freeLimitEn": "Free when self-hosted"
     },
     {
       "id": 276,
@@ -5989,7 +7694,14 @@
       "freeLimit": "Community版（個人・小規模）は無料",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Full-featured RPA",
+        "Automates screens and documents",
+        "AI agents",
+        "Free Community edition"
+      ],
+      "freeLimitEn": "Community edition is free (individuals and small teams)"
     },
     {
       "id": 277,
@@ -6010,7 +7722,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Cloud RPA",
+        "Reads documents with AI",
+        "Workflow management",
+        "Community edition"
+      ]
     },
     {
       "id": 278,
@@ -6031,7 +7749,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automates browser tasks",
+        "Collects data from web pages",
+        "Works with spreadsheets",
+        "Free tier"
+      ]
     },
     {
       "id": 279,
@@ -6052,7 +7776,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automation with AI steps",
+        "Add human approval steps",
+        "Works with Gmail and Slack",
+        "Free tier"
+      ]
     },
     {
       "id": 280,
@@ -6074,7 +7804,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI agents that handle email and scheduling",
+        "Start from templates",
+        "Many app integrations",
+        "Free tier"
+      ]
     },
     {
       "id": 281,
@@ -6096,7 +7832,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Blocks time for work on your calendar",
+        "Reschedules automatically",
+        "Protects habit time",
+        "Google Calendar integration"
+      ]
     },
     {
       "id": 282,
@@ -6117,7 +7859,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Builds your daily plan from tasks",
+        "Replans when things change",
+        "Project management",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 283,
@@ -6138,7 +7886,14 @@
       "freeLimit": "デザイン作成は無料・ダウンロードは有料",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Logo ideas from your company name",
+        "Business cards and social assets",
+        "Brand kit",
+        "Downloads are paid"
+      ],
+      "freeLimitEn": "Designing is free; downloads are paid"
     },
     {
       "id": 284,
@@ -6159,7 +7914,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Automatic slide layouts",
+        "Templates",
+        "Consistent team design",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 285,
@@ -6181,7 +7942,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "App screens from hand sketches",
+        "Turns screenshots into editable designs",
+        "Prototype screen flows",
+        "Free tier"
+      ]
     },
     {
       "id": 286,
@@ -6204,7 +7971,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "The standard UI design tool",
+        "Prototype screens with AI",
+        "Real-time collaboration",
+        "Free plan"
+      ]
     },
     {
       "id": 287,
@@ -6226,7 +7999,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Publish websites straight from your design",
+        "Generate pages with AI",
+        "Animations",
+        "Free tier"
+      ]
     },
     {
       "id": 288,
@@ -6248,7 +8027,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates app and web screens from text",
+        "Export to Figma",
+        "Code output",
+        "Free from Google"
+      ]
     },
     {
       "id": 289,
@@ -6269,7 +8054,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Logo and T-shirt design",
+        "Rich text effects",
+        "AI image generation",
+        "Templates"
+      ]
     },
     {
       "id": 290,
@@ -6291,7 +8082,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Online whiteboard",
+        "AI organizes sticky notes and diagrams",
+        "Real-time collaboration",
+        "Free tier"
+      ]
     },
     {
       "id": 291,
@@ -6314,7 +8111,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build chatbots without code",
+        "Embed on web or WhatsApp",
+        "Design conversations as flows",
+        "Free tier"
+      ]
     },
     {
       "id": 292,
@@ -6336,7 +8139,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Builds a website from your business type",
+        "Booking and invoicing",
+        "For small businesses",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 293,
@@ -6357,7 +8166,14 @@
       "freeLimit": "教師向けは無料",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI tutor that guides instead of giving answers",
+        "Math, science and writing",
+        "Free for teachers",
+        "By Khan Academy"
+      ],
+      "freeLimitEn": "Free for teachers"
     },
     {
       "id": 294,
@@ -6378,7 +8194,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Flashcards for memorizing",
+        "AI-generated questions",
+        "Practice tests",
+        "Free tier"
+      ]
     },
     {
       "id": 295,
@@ -6399,7 +8221,14 @@
       "freeLimit": "基本の解説は無料",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Shows how to solve a photographed equation",
+        "Step-by-step explanations",
+        "Graphs",
+        "Basic features are free"
+      ],
+      "freeLimitEn": "Basic explanations are free"
     },
     {
       "id": 296,
@@ -6420,7 +8249,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "AI explains photographed problems",
+        "Math, science and English",
+        "Homework help",
+        "Free tier"
+      ]
     },
     {
       "id": 297,
@@ -6441,7 +8276,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Post homework questions",
+        "Answers from AI and users",
+        "Many subjects",
+        "Free tier"
+      ]
     },
     {
       "id": 298,
@@ -6462,7 +8303,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Step-by-step math solutions",
+        "Graphing calculator",
+        "Practice problems",
+        "Free tier"
+      ]
     },
     {
       "id": 299,
@@ -6483,7 +8330,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Enter math problems for answers",
+        "Algebra, calculus and statistics",
+        "Camera input",
+        "Steps are paid"
+      ]
     },
     {
       "id": 300,
@@ -6505,7 +8358,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "AI scores your English pronunciation",
+        "Advice for each sound",
+        "Conversation practice",
+        "Japanese support"
+      ]
     },
     {
       "id": 301,
@@ -6527,7 +8386,13 @@
       "freeLimit": "無料トライアルのみ（継続利用は有料）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Practice English conversation with AI",
+        "Feedback on what you say",
+        "Lessons by situation",
+        "Paid after the trial"
+      ]
     },
     {
       "id": 302,
@@ -6549,7 +8414,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Learn languages like a game",
+        "40+ languages",
+        "Easy to keep going every day",
+        "Free to use"
+      ]
     },
     {
       "id": 303,
@@ -6570,7 +8441,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Creates materials and tests for teachers",
+        "Lesson planning",
+        "Feedback comments for students",
+        "Free tier"
+      ]
     },
     {
       "id": 304,
@@ -6592,7 +8469,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Makes flashcards from notes and PDFs",
+        "AI summaries",
+        "Exam practice",
+        "Free tier"
+      ]
     },
     {
       "id": 305,
@@ -6616,6 +8499,12 @@
       "japanese": "△",
       "noSignup": false,
       "platform": "both",
+      "strengthsEn": [
+        "Chat with your favorite characters",
+        "Create your own characters",
+        "Voice conversation",
+        "Free tier"
+      ],
       "rank": 8
     },
     {
@@ -6637,7 +8526,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "An AI companion to talk to",
+        "Diary-like conversations",
+        "Mood tracking",
+        "Free tier"
+      ]
     },
     {
       "id": 307,
@@ -6659,7 +8554,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Conversations based on CBT ideas",
+        "Talk anonymously",
+        "Relaxation exercises",
+        "Free tier"
+      ]
     },
     {
       "id": 308,
@@ -6681,7 +8582,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Japanese mental-care app",
+        "Talk to an AI about your feelings",
+        "Mood tracking",
+        "Psychology-based exercises"
+      ]
     },
     {
       "id": 309,
@@ -6703,7 +8610,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Japanese AI you chat with by voice",
+        "Casual conversation partner",
+        "Natural responses",
+        "Free"
+      ]
     },
     {
       "id": 310,
@@ -6724,7 +8637,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "mobile"
+      "platform": "mobile",
+      "strengthsEn": [
+        "Symptom check by answering questions",
+        "Possible causes",
+        "Guidance on seeing a doctor",
+        "Free"
+      ]
     },
     {
       "id": 311,
@@ -6746,7 +8665,14 @@
       "freeLimit": "無料で利用可能",
       "japanese": "◯",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "nameEn": "Ubie",
+      "strengthsEn": [
+        "Answer questions about symptoms in Japanese",
+        "Related conditions and where to go",
+        "Hospital search",
+        "Free"
+      ]
     },
     {
       "id": 312,
@@ -6767,7 +8693,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": true,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Symptom checker",
+        "How urgent it is to see a doctor",
+        "Multilingual",
+        "No sign-up"
+      ]
     },
     {
       "id": 313,
@@ -6788,7 +8720,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Symptom checker",
+        "Guidance on where to get care",
+        "For English speakers",
+        "Free"
+      ]
     },
     {
       "id": 314,
@@ -6810,7 +8748,14 @@
       "freeLimit": "医療従事者は無料",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Answers based on medical papers",
+        "Shows the source papers",
+        "For healthcare professionals",
+        "Free for professionals"
+      ],
+      "freeLimitEn": "Free for healthcare professionals"
     },
     {
       "id": 315,
@@ -6831,7 +8776,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Diagnostic support for clinicians",
+        "Differential diagnosis ideas",
+        "Clinical note drafting",
+        "Free tier"
+      ]
     },
     {
       "id": 316,
@@ -6852,7 +8803,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "both"
+      "platform": "both",
+      "strengthsEn": [
+        "Symptom checker",
+        "Health articles",
+        "Self-care suggestions",
+        "Free"
+      ]
     },
     {
       "id": 317,
@@ -6873,7 +8830,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Simulates robots in a virtual world",
+        "Creates AI training data",
+        "Physics simulation",
+        "Free"
+      ]
     },
     {
       "id": 318,
@@ -6894,7 +8857,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Standard framework for building robots",
+        "Lots of sensor and motor packages",
+        "Widely used in research",
+        "Free"
+      ]
     },
     {
       "id": 319,
@@ -6916,7 +8885,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Train AI with low-cost robot arms",
+        "Share trained models and data",
+        "Develop in Python",
+        "Free"
+      ]
     },
     {
       "id": 320,
@@ -6938,7 +8913,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build AI that runs on microcontrollers",
+        "Analyze sensor data",
+        "Train through a visual interface",
+        "Free tier"
+      ]
     },
     {
       "id": 321,
@@ -6961,7 +8942,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build image recognition models",
+        "Label images",
+        "Used for visual inspection",
+        "Free tier"
+      ]
     },
     {
       "id": 322,
@@ -6983,7 +8970,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Real-time object detection",
+        "A few lines of Python",
+        "Runs on phones and small devices",
+        "Open source"
+      ]
     },
     {
       "id": 323,
@@ -7005,7 +8998,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "The standard image processing library",
+        "Analyzes camera video",
+        "Detects faces and objects",
+        "Free"
+      ]
     },
     {
       "id": 324,
@@ -7026,7 +9025,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Visual inspection AI for manufacturing",
+        "Learns from few images",
+        "Extracts data from documents",
+        "Free tier"
+      ]
     },
     {
       "id": 325,
@@ -7048,7 +9053,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Robot simulation software",
+        "For education and research",
+        "Many robot models",
+        "Free"
+      ]
     },
     {
       "id": 326,
@@ -7069,7 +9080,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "×",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Accurate physics simulation",
+        "Reinforcement learning for robots",
+        "Made by DeepMind",
+        "Free"
+      ]
     },
     {
       "id": 327,
@@ -7091,7 +9108,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "3D models from text or images",
+        "Automatic textures",
+        "Export to Unity and Blender",
+        "Free tier"
+      ]
     },
     {
       "id": 328,
@@ -7113,7 +9136,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "3D model from a single image",
+        "Rigging for animation",
+        "For game assets",
+        "Free tier"
+      ]
     },
     {
       "id": 329,
@@ -7134,7 +9163,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Detailed 3D model generation",
+        "From images or text",
+        "Professional quality",
+        "Free tier"
+      ]
     },
     {
       "id": 330,
@@ -7155,7 +9190,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open 3D generation from Tencent",
+        "Image to 3D",
+        "With textures",
+        "Free"
+      ]
     },
     {
       "id": 331,
@@ -7177,7 +9218,13 @@
       "freeLimit": "無料で利用可能",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Open 3D generation from Microsoft",
+        "Image to 3D",
+        "For research",
+        "Runs locally"
+      ]
     },
     {
       "id": 332,
@@ -7199,7 +9246,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "3D design in the browser",
+        "Generate 3D objects with AI",
+        "Embed on websites",
+        "Free tier"
+      ]
     },
     {
       "id": 333,
@@ -7221,7 +9274,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build browser games by chatting",
+        "Publish your games",
+        "Remix other people's games",
+        "Free tier"
+      ]
     },
     {
       "id": 334,
@@ -7243,7 +9302,14 @@
       "freeLimit": "Unityのプランにより利用範囲が異なる",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI assistant inside the Unity Editor",
+        "Writes and fixes C# scripts",
+        "Generates image and sound assets",
+        "Depends on your Unity plan"
+      ],
+      "freeLimitEn": "Depends on your Unity plan"
     },
     {
       "id": 335,
@@ -7265,7 +9331,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Natural conversations with game characters",
+        "Set personality and memory",
+        "Speech synthesis",
+        "Unity and Unreal support"
+      ]
     },
     {
       "id": 336,
@@ -7287,7 +9359,14 @@
       "freeLimit": "個人利用は無料",
       "japanese": "◯",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "AI built into Android Studio",
+        "Generates and explains Kotlin code",
+        "Explains the cause of errors",
+        "Free for individuals"
+      ],
+      "freeLimitEn": "Free for individuals"
     },
     {
       "id": 337,
@@ -7309,7 +9388,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Build mobile apps without code",
+        "Generate screens with AI",
+        "Export Flutter code",
+        "Firebase integration"
+      ]
     },
     {
       "id": 338,
@@ -7331,7 +9416,14 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "nameEn": "Better Analyst (formerly Formula Bot)",
+      "strengthsEn": [
+        "Analyze data by chatting and make charts",
+        "Generates Excel and spreadsheet formulas",
+        "Converts PDF tables to Excel",
+        "Automates dashboards and reports"
+      ]
     },
     {
       "id": 339,
@@ -7352,7 +9444,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Use AI functions in spreadsheets",
+        "Classify and summarize lots of data",
+        "Excel and Google Sheets",
+        "Free tier"
+      ]
     },
     {
       "id": 340,
@@ -7373,7 +9471,13 @@
       "freeLimit": "無料プランあり（回数・機能に制限）",
       "japanese": "△",
       "noSignup": false,
-      "platform": "pc"
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates Excel and spreadsheet formulas",
+        "Explains and fixes formulas",
+        "Writes VBA and Apps Script",
+        "Free tier"
+      ]
     }
   ]
 }
