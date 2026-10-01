@@ -16,7 +16,6 @@ Midjourney
 Leonardo.Ai
 NightCafe
 Craiyon
-Lexica
 Freepik AI
 InvokeAI
 Magnific
@@ -28,7 +27,6 @@ Looka
 Quizlet
 Gauth
 Brainly
-Youper
 OpenEvidence
 
 # --- ログイン画面に転送されるだけで正常なサイト ---
