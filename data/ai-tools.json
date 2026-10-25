@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-25",
   "tools": [
     {
       "id": 1,
@@ -8736,33 +8736,6 @@
     },
     {
       "id": 314,
-      "name": "Healthily",
-      "url": "https://www.livehealthily.com",
-      "country": "イギリス",
-      "company": "Healthily",
-      "category": [
-        "医療・ヘルスケア"
-      ],
-      "strengths": [
-        "症状チェック",
-        "健康に関する記事",
-        "セルフケアの提案",
-        "無料"
-      ],
-      "pricing": "完全無料",
-      "freeLimit": "無料で利用可能",
-      "japanese": "×",
-      "noSignup": false,
-      "platform": "both",
-      "strengthsEn": [
-        "Symptom checker",
-        "Health articles",
-        "Self-care suggestions",
-        "Free"
-      ]
-    },
-    {
-      "id": 315,
       "name": "NVIDIA Isaac Sim",
       "url": "https://developer.nvidia.com/isaac/sim",
       "country": "アメリカ",
@@ -8789,7 +8762,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": 315,
       "name": "ROS 2",
       "url": "https://www.ros.org",
       "country": "アメリカ",
@@ -8816,7 +8789,7 @@
       ]
     },
     {
-      "id": 317,
+      "id": 316,
       "name": "LeRobot",
       "url": "https://huggingface.co/lerobot",
       "country": "アメリカ",
@@ -8844,7 +8817,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": 317,
       "name": "Edge Impulse",
       "url": "https://edgeimpulse.com",
       "country": "アメリカ",
@@ -8872,7 +8845,7 @@
       ]
     },
     {
-      "id": 319,
+      "id": 318,
       "name": "Roboflow",
       "url": "https://roboflow.com",
       "country": "アメリカ",
@@ -8901,7 +8874,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": 319,
       "name": "Ultralytics YOLO",
       "url": "https://www.ultralytics.com",
       "country": "アメリカ",
@@ -8929,7 +8902,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 320,
       "name": "OpenCV",
       "url": "https://opencv.org",
       "country": "アメリカ",
@@ -8957,7 +8930,7 @@
       ]
     },
     {
-      "id": 322,
+      "id": 321,
       "name": "LandingAI",
       "url": "https://landing.ai",
       "country": "アメリカ",
@@ -8984,7 +8957,7 @@
       ]
     },
     {
-      "id": 323,
+      "id": 322,
       "name": "Webots",
       "url": "https://cyberbotics.com",
       "country": "スイス",
@@ -9012,7 +8985,7 @@
       ]
     },
     {
-      "id": 324,
+      "id": 323,
       "name": "MuJoCo",
       "url": "https://mujoco.org",
       "country": "アメリカ",
@@ -9039,7 +9012,7 @@
       ]
     },
     {
-      "id": 325,
+      "id": 324,
       "name": "Meshy",
       "url": "https://www.meshy.ai",
       "country": "アメリカ",
@@ -9067,7 +9040,7 @@
       ]
     },
     {
-      "id": 326,
+      "id": 325,
       "name": "Tripo AI",
       "url": "https://www.tripo3d.ai",
       "country": "中国",
@@ -9095,7 +9068,7 @@
       ]
     },
     {
-      "id": 327,
+      "id": 326,
       "name": "Hyper3D Rodin",
       "url": "https://hyper3d.ai",
       "country": "中国",
@@ -9122,7 +9095,7 @@
       ]
     },
     {
-      "id": 328,
+      "id": 327,
       "name": "Hunyuan3D",
       "url": "https://3d.hunyuan.tencent.com",
       "country": "中国",
@@ -9149,7 +9122,7 @@
       ]
     },
     {
-      "id": 329,
+      "id": 328,
       "name": "TRELLIS",
       "url": "https://github.com/microsoft/TRELLIS",
       "country": "アメリカ",
@@ -9177,7 +9150,7 @@
       ]
     },
     {
-      "id": 330,
+      "id": 329,
       "name": "Spline",
       "url": "https://spline.design",
       "country": "アメリカ",
@@ -9205,7 +9178,7 @@
       ]
     },
     {
-      "id": 331,
+      "id": 330,
       "name": "Rosebud AI",
       "url": "https://rosebud.ai",
       "country": "アメリカ",
@@ -9233,7 +9206,7 @@
       ]
     },
     {
-      "id": 332,
+      "id": 331,
       "name": "Unity AI",
       "url": "https://unity.com/features/ai",
       "country": "アメリカ",
@@ -9262,7 +9235,7 @@
       "freeLimitEn": "Depends on your Unity plan"
     },
     {
-      "id": 333,
+      "id": 332,
       "name": "Inworld AI",
       "url": "https://inworld.ai",
       "country": "アメリカ",
@@ -9290,7 +9263,7 @@
       ]
     },
     {
-      "id": 334,
+      "id": 333,
       "name": "Gemini in Android Studio",
       "url": "https://developer.android.com/studio/gemini/overview",
       "country": "アメリカ",
@@ -9319,7 +9292,7 @@
       "freeLimitEn": "Free for individuals"
     },
     {
-      "id": 335,
+      "id": 334,
       "name": "FlutterFlow",
       "url": "https://www.flutterflow.io",
       "country": "アメリカ",
@@ -9347,7 +9320,7 @@
       ]
     },
     {
-      "id": 336,
+      "id": 335,
       "name": "Better Analyst（旧Formula Bot）",
       "url": "https://betteranalyst.com",
       "country": "アメリカ",
@@ -9376,7 +9349,7 @@
       ]
     },
     {
-      "id": 337,
+      "id": 336,
       "name": "Numerous.ai",
       "url": "https://numerous.ai",
       "country": "アメリカ",
@@ -9403,7 +9376,7 @@
       ]
     },
     {
-      "id": 338,
+      "id": 337,
       "name": "Sheet+",
       "url": "https://sheetplus.ai",
       "country": "アメリカ",
@@ -9430,7 +9403,7 @@
       ]
     },
     {
-      "id": 339,
+      "id": 338,
       "name": "Arena（旧LMArena）",
       "url": "https://arena.ai",
       "country": "アメリカ",
@@ -9460,7 +9433,7 @@
       "freeLimitEn": "Free"
     },
     {
-      "id": 340,
+      "id": 339,
       "name": "Comet",
       "url": "https://www.perplexity.ai/comet",
       "country": "アメリカ",
@@ -9490,7 +9463,7 @@
       "freeLimitEn": "Browser is free (advanced features on paid plans)"
     },
     {
-      "id": 341,
+      "id": 340,
       "name": "TurboScribe",
       "url": "https://turboscribe.ai",
       "country": "アメリカ",
@@ -9520,7 +9493,7 @@
       "freeLimitEn": "3 files per day (up to 30 min each)"
     },
     {
-      "id": 342,
+      "id": 341,
       "name": "Z.ai（GLM）",
       "url": "https://chat.z.ai",
       "country": "中国",
@@ -9550,7 +9523,7 @@
       "freeLimitEn": "Free"
     },
     {
-      "id": 343,
+      "id": 342,
       "name": "Zed",
       "url": "https://zed.dev",
       "country": "アメリカ",
@@ -9579,7 +9552,7 @@
       "freeLimitEn": "Editor is free (2,000 AI edit predictions/month)"
     },
     {
-      "id": 344,
+      "id": 343,
       "name": "Gizmo",
       "url": "https://gizmo.ai",
       "country": "イギリス",
@@ -9607,7 +9580,7 @@
       ]
     },
     {
-      "id": 345,
+      "id": 344,
       "name": "Granola",
       "url": "https://www.granola.ai",
       "country": "イギリス",
@@ -9637,7 +9610,7 @@
       "freeLimitEn": "Free plan (notes history limited to 30 days)"
     },
     {
-      "id": 346,
+      "id": 345,
       "name": "LTX Studio",
       "url": "https://ltx.io/studio",
       "country": "イスラエル",
@@ -9666,7 +9639,7 @@
       "freeLimitEn": "800 credits on signup (one-time, personal use)"
     },
     {
-      "id": 347,
+      "id": 346,
       "name": "Doctronic",
       "url": "https://www.doctronic.ai",
       "country": "アメリカ",
@@ -9692,6 +9665,295 @@
         "Doctor visits are US-only and paid"
       ],
       "freeLimitEn": "AI chat is free (doctor visits US-only, paid)"
+    },
+    {
+      "id": 347,
+      "name": "Tensor.Art",
+      "url": "https://tensor.art",
+      "country": "中国（香港）",
+      "company": "Echo International HK",
+      "category": [
+        "画像作成",
+        "画像編集"
+      ],
+      "strengths": [
+        "1万以上の画像生成モデルを選べる",
+        "Stable Diffusion・FLUXに対応",
+        "GPU不要でブラウザから生成",
+        "毎日無料クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日もらえる無料クレジットの範囲で生成",
+      "japanese": "◯",
+      "noSignup": false,
+      "platform": "both",
+      "strengthsEn": [
+        "Choose from 10,000+ image models",
+        "Supports Stable Diffusion and FLUX",
+        "Generate in the browser, no GPU needed",
+        "Free credits every day"
+      ],
+      "freeLimitEn": "Generate within free daily credits"
+    },
+    {
+      "id": 348,
+      "name": "PixAI",
+      "url": "https://pixai.art",
+      "country": "アメリカ",
+      "company": "Mewtant",
+      "category": [
+        "画像作成"
+      ],
+      "strengths": [
+        "アニメ・イラスト風の画像が得意",
+        "オリジナルキャラクターを作成",
+        "作品を共有するコミュニティ",
+        "毎日無料クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日もらえる無料クレジットの範囲で生成",
+      "japanese": "◯",
+      "noSignup": false,
+      "platform": "both",
+      "strengthsEn": [
+        "Specializes in anime and illustration styles",
+        "Create original characters",
+        "Community for sharing artwork",
+        "Free credits every day"
+      ],
+      "freeLimitEn": "Generate within free daily credits"
+    },
+    {
+      "id": 349,
+      "name": "Lovart",
+      "url": "https://www.lovart.ai",
+      "country": "アメリカ",
+      "company": "Resonate International",
+      "category": [
+        "デザイン・UI/UX",
+        "画像作成"
+      ],
+      "strengths": [
+        "指示するだけでデザイン一式を作成",
+        "ロゴ・SNS画像・広告をまとめて",
+        "キャンバス上で部分修正",
+        "毎日無料クレジット"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "毎日もらえる無料クレジットの範囲で利用可能",
+      "japanese": "◯",
+      "noSignup": false,
+      "platform": "pc",
+      "strengthsEn": [
+        "Creates a full design set from a prompt",
+        "Logos, social images and ads together",
+        "Edit parts directly on the canvas",
+        "Free credits every day"
+      ],
+      "freeLimitEn": "Use within free daily credits"
+    },
+    {
+      "id": 350,
+      "name": "イルシル",
+      "url": "https://irusiru.jp",
+      "country": "日本",
+      "company": "イルシル",
+      "category": [
+        "デザイン・UI/UX",
+        "Excel・事務作業",
+        "日本語特化"
+      ],
+      "strengths": [
+        "キーワードからスライドを自動作成",
+        "日本のビジネス向けテンプレート",
+        "PowerPoint形式で保存",
+        "日本語の資料作りに強い"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（作成できるスライドは3つまで）",
+      "japanese": "◯",
+      "noSignup": false,
+      "platform": "pc",
+      "strengthsEn": [
+        "Generates slides from keywords",
+        "Templates for Japanese business",
+        "Export to PowerPoint",
+        "Strong for Japanese presentations"
+      ],
+      "freeLimitEn": "Free plan (up to 3 slide decks)"
+    },
+    {
+      "id": 351,
+      "name": "Eraser",
+      "url": "https://www.eraser.io",
+      "country": "アメリカ",
+      "company": "Eraser",
+      "category": [
+        "デザイン・UI/UX",
+        "開発者向けツール",
+        "要約と構造化"
+      ],
+      "strengths": [
+        "文章から構成図・フローチャートを作成",
+        "システム設計図に強い",
+        "図と文書を1か所で管理",
+        "チームで共同編集"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（ファイル数・AI図の作成回数に制限）",
+      "japanese": "△",
+      "noSignup": false,
+      "platform": "pc",
+      "strengthsEn": [
+        "Creates diagrams and flowcharts from text",
+        "Great for system architecture",
+        "Diagrams and docs in one place",
+        "Team collaboration"
+      ],
+      "freeLimitEn": "Free plan (limited files and AI diagrams)"
+    },
+    {
+      "id": 352,
+      "name": "Opal",
+      "url": "https://opal.google",
+      "country": "アメリカ",
+      "company": "Google",
+      "category": [
+        "ノーコードでアプリ作成",
+        "タスクの自動化（RPA連携）"
+      ],
+      "strengths": [
+        "言葉で説明するだけでAIミニアプリを作成",
+        "手順を図で確認・編集",
+        "作ったアプリを共有",
+        "Google Labsの無料サービス"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "△",
+      "noSignup": false,
+      "platform": "pc",
+      "strengthsEn": [
+        "Builds AI mini-apps from a description",
+        "View and edit steps visually",
+        "Share the apps you make",
+        "Free Google Labs experiment"
+      ]
+    },
+    {
+      "id": 353,
+      "name": "Wispr Flow",
+      "url": "https://wisprflow.ai",
+      "country": "アメリカ",
+      "company": "Wispr",
+      "category": [
+        "音声認識",
+        "テキスト生成・AI執筆",
+        "Excel・事務作業"
+      ],
+      "strengths": [
+        "話した言葉をどのアプリにも入力",
+        "言い間違いやつなぎ言葉を自動で整える",
+        "Windows・Mac・スマホ対応",
+        "キーボードより速く文章入力"
+      ],
+      "pricing": "無料枠あり",
+      "freeLimit": "無料プランあり（PCは週2,000語まで）",
+      "japanese": "△",
+      "noSignup": false,
+      "platform": "both",
+      "strengthsEn": [
+        "Dictate into any app",
+        "Cleans up filler words and mistakes",
+        "Works on Windows, Mac and phones",
+        "Write faster than typing"
+      ],
+      "freeLimitEn": "Free plan (2,000 words/week on desktop)"
+    },
+    {
+      "id": 354,
+      "name": "VoiceTra",
+      "url": "https://voicetra.nict.go.jp",
+      "country": "日本",
+      "company": "情報通信研究機構（NICT）",
+      "category": [
+        "言語・翻訳",
+        "音声認識",
+        "日本語特化"
+      ],
+      "strengths": [
+        "話すだけで31言語に翻訳",
+        "1台のスマホで2人が会話",
+        "旅行・接客の会話に強い",
+        "国の研究機関が提供・完全無料"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true,
+      "platform": "mobile",
+      "strengthsEn": [
+        "Speak to translate into 31 languages",
+        "Two people can talk on one phone",
+        "Great for travel and customer service",
+        "Free from a Japanese national research institute"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "AivisSpeech",
+      "url": "https://aivis-project.com",
+      "country": "日本",
+      "company": "Walkers",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "感情豊かで自然な日本語音声",
+        "パソコンで動く無料ソフト",
+        "声のモデルを追加できる",
+        "商用利用もクレジット表記不要"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true,
+      "platform": "pc",
+      "strengthsEn": [
+        "Expressive, natural Japanese voices",
+        "Free software that runs on your PC",
+        "Add more voice models",
+        "Commercial use without credit"
+      ]
+    },
+    {
+      "id": 356,
+      "name": "COEIROINK",
+      "url": "https://coeiroink.com",
+      "country": "日本",
+      "company": "シロワニ",
+      "category": [
+        "音楽・音声生成",
+        "日本語特化"
+      ],
+      "strengths": [
+        "無料の日本語音声合成ソフト",
+        "つくよみちゃんなどキャラクターの声",
+        "Windows・Mac・Linux対応",
+        "商用利用可（クレジット表記が必要）"
+      ],
+      "pricing": "完全無料",
+      "freeLimit": "無料で利用可能",
+      "japanese": "◯",
+      "noSignup": true,
+      "platform": "pc",
+      "strengthsEn": [
+        "Free Japanese speech synthesis software",
+        "Character voices such as Tsukuyomi-chan",
+        "Windows, Mac and Linux",
+        "Commercial use OK (credit required)"
+      ]
     }
   ]
 }

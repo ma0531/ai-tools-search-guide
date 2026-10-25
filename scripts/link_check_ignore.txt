@@ -28,6 +28,22 @@ Quizlet
 Gauth
 Brainly
 OpenEvidence
+Perplexity
+Le Chat
+Poe
+Ideogram
+Civitai
+Reverso
+Character.AI
+OpenCV
+Comet
+TurboScribe
+Tensor.Art
 
 # --- ログイン画面に転送されるだけで正常なサイト ---
 NotebookLM
+
+# --- 公式の新しいドメインや言語別ページに転送されるだけで正常なサイト ---
+Microsoft Copilot
+Weights & Biases
+Symbolab
