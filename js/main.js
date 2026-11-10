@@ -447,7 +447,7 @@ const CATEGORY_GUIDE = [
         { cat: 'コード補完', icon: '⌨️',
           short: 'プログラムを書いている途中で、AIが続きを予測して提案してくれます。',
           long: 'スマホの予測変換のプログラム版です。エラーの修正やコードの説明もしてくれます。',
-          ex: 'GitHub Copilot、Cursor、Gemini Code Assist' },
+          ex: 'GitHub Copilot、Cursor、Google Antigravity' },
         { cat: 'Android開発', icon: '📱',
           short: 'Androidアプリ作りに役立つAIです。Android StudioやKotlinに対応しています。',
           long: 'Android Studioに組み込まれたAIや、ノーコードでスマホアプリを作れるツールを集めています。',
@@ -513,7 +513,7 @@ const CATEGORY_GUIDE = [
         { cat: 'Excel・事務作業', icon: '🗂️',
           short: 'Excel関数づくり、表の整理、議事録作成など、事務作業を楽にするAIです。',
           long: '会社のデータを入れる前に、社内ルールでAIの利用が認められているか確認しましょう。',
-          ex: 'Formula Bot、Power Automate Desktop、Notta',
+          ex: 'Better Analyst、Power Automate Desktop、Notta',
           hint: '複数の作業をつないで自動化したいなら「RPA・自動化」です。', hintCat: 'タスクの自動化（RPA連携）' },
         { cat: 'タスクの自動化（RPA連携）', icon: '⚙️',
           short: 'パソコンの繰り返し作業を、ロボットのように自動で代わりにやらせる仕組みです。',
@@ -1081,7 +1081,7 @@ function swapTextNodes(el, enParts) {
 function labelOf(sel) { const i = document.querySelector(sel); return i ? i.closest('label') : null; }
 
 const EN_TEXT = {
-    title: 'Free AI Tools Finder | Compare 340+ AI tools by purpose',
+    title: 'Free AI Tools Finder | Compare 390+ AI tools by purpose',
     heroTitle: 'Free AI Tools<br class="sp-br"> Finder',
     heroSub: n => `Just pick what you want to do.<br class="sp-br"> Find your AI partner among <strong id="toolTotal">${n}</strong> tools.`,
     notices: {
@@ -1091,7 +1091,7 @@ const EN_TEXT = {
     legend: `
         <p><strong>Devices:</strong> 💻 works in a PC browser or PC software / 📱 has an official app or works in a phone browser (approximate)</p>
         <p><strong>Japanese support:</strong> ◯ Japanese interface / △ interface in English etc., but works with Japanese input and output / × mainly English (approximate)</p>
-        <p>* The "Top 10 Most-Used AI" is based on Similarweb's global traffic ranking as of July 2026.</p>
+        <p>* The "Top 10 Most-Used AI" is based on Similarweb's global traffic ranking as of October 2026.</p>
         <p>* Free usage and pricing can change at any time. Please check each official site before using it.</p>`,
     safety: `
         <h2>⚠️ Things to keep in mind when using AI</h2>
