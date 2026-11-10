@@ -1,7 +1,7 @@
 # 🔍 無料AIツールAIサイト検索ガイド / Free AI Tools Finder
 
-**やりたいことを選ぶだけ。340以上の無料で使えるAIから、あなたの相棒が見つかる。**
-*Just pick what you want to do. Find your AI partner among 340+ free AI tools.*
+**やりたいことを選ぶだけ。390以上の無料で使えるAIから、あなたの相棒が見つかる。**
+*Just pick what you want to do. Find your AI partner among 390+ free AI tools.*
 
 ### 👉 [サイトを開く / Open the site](https://ma0531.github.io/ai-tools-search-guide/)
 
@@ -19,7 +19,7 @@
 
 ### どんなサイト？
 
-「画像を作りたい」「会議の文字起こしをしたい」「Excel作業を楽にしたい」など、**やりたいことから、無料で使えるAIツールを探せる**検索サイトです。世界中の340以上のAIについて、強み・無料で使える範囲・開発企業の国・日本語対応などを一覧で比べられます。
+「画像を作りたい」「会議の文字起こしをしたい」「Excel作業を楽にしたい」など、**やりたいことから、無料で使えるAIツールを探せる**検索サイトです。世界中の390以上のAIについて、強み・無料で使える範囲・開発企業の国・日本語対応などを一覧で比べられます。
 
 ### できること
 
@@ -75,7 +75,7 @@ AIが作成した説明文には、誤りが含まれる可能性があります
 
 ### What is this?
 
-A search site for finding **free AI tools by what you want to do** — create images, transcribe meetings, automate office work, and more. Compare 340+ AI tools from around the world by strengths, free usage, developer country, Japanese support and supported devices.
+A search site for finding **free AI tools by what you want to do** — create images, transcribe meetings, automate office work, and more. Compare 390+ AI tools from around the world by strengths, free usage, developer country, Japanese support and supported devices.
 
 ### Features
 
