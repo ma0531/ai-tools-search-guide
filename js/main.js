@@ -9,6 +9,12 @@ const FEEDBACK_URL = 'https://forms.gle/EiuK2cFBpW7pL8ai7';
 // データ・状態
 // ==========================================
 let allTools = [];
+// トップページを軽くするため、最初はTOP10だけの小さなデータを読み込み、
+// 全件のデータは必要になったとき（TOP10以外を表示するとき）に初めて読み込む
+const TOP10_CAT = 'よく使われるAIのTOP10';
+let META = { total: 0, counts: {} };   // 全体の件数と、目的ごとの件数
+let fullLoaded = false;                // 全件のデータを読み込み済みか
+let fullLoading = null;                // 全件のデータを読み込んでいる途中のPromise
 let currentSort = { key: null, direction: 'asc' };
 let favorites = loadFavorites();
 let currentView = 'pc';
@@ -141,28 +147,63 @@ function toggleFavorite(name) {
 // ==========================================
 // データ読み込み
 // ==========================================
+function showLoadError(err) {
+    console.error('データ読み込みエラー:', err);
+    document.getElementById('noResults').hidden = false;
+    document.getElementById('noResults').textContent = 'データを読み込めませんでした。ページを再読み込みしてください。';
+}
+
+// 最初に読み込むのはTOP10だけの小さなデータ（data/top10.json）
 function loadTools() {
-    fetch('data/ai-tools.json')
-        .then(r => r.json())
+    fetch('data/top10.json')
+        .then(r => { if (!r.ok) throw new Error('top10.json: ' + r.status); return r.json(); })
         .then(data => {
             allTools = data.tools;
+            META = { total: data.total, counts: data.counts };
             window.dataLastUpdated = data.lastUpdated;
-            document.getElementById('toolTotal').textContent = allTools.length;
-            document.getElementById('favCount').textContent = favorites.size;
-            updateFilterCounts();
-            applyStateFromUrl();
-            filterTools();
+            startApp();
         })
-        .catch(err => {
-            console.error('データ読み込みエラー:', err);
-            document.getElementById('noResults').hidden = false;
-            document.getElementById('noResults').textContent = 'データを読み込めませんでした。ページを再読み込みしてください。';
-        });
+        // 小さなデータが読めなかったときは、全件のデータで始める
+        .catch(() => ensureFull().then(startApp).catch(showLoadError));
+}
+
+function startApp() {
+    document.getElementById('toolTotal').textContent = META.total;
+    document.getElementById('favCount').textContent = favorites.size;
+    updateFilterCounts();
+    applyStateFromUrl();
+    filterTools();
+}
+
+// 全件のデータ（data/ai-tools.json）を読み込む。2回目以降は何もしない
+function ensureFull() {
+    if (fullLoaded) return Promise.resolve();
+    if (!fullLoading) {
+        fullLoading = fetch('data/ai-tools.json')
+            .then(r => { if (!r.ok) throw new Error('ai-tools.json: ' + r.status); return r.json(); })
+            .then(data => {
+                allTools = data.tools;
+                const counts = {};
+                allTools.forEach(t => t.category.forEach(c => { counts[c] = (counts[c] || 0) + 1; }));
+                META = { total: allTools.length, counts };
+                window.dataLastUpdated = data.lastUpdated;
+                fullLoaded = true;
+            })
+            .catch(err => { fullLoading = null; throw err; });
+    }
+    return fullLoading;
+}
+
+// 今の絞り込みが「TOP10だけにチェック」なら、TOP10のデータだけで表示できる
+function needsFull() {
+    if (fullLoaded) return false;
+    const s = getState();
+    return s.fav || !(s.cats.length === 1 && s.cats[0] === TOP10_CAT);
 }
 
 function updateFilterCounts() {
     document.querySelectorAll('.category-filter').forEach(cb => {
-        const n = allTools.filter(t => t.category.includes(cb.value)).length;
+        const n = META.counts[cb.value] || 0;
         const label = cb.parentElement;
         let span = label.querySelector('.count');
         if (!span) { span = document.createElement('span'); span.className = 'count'; label.appendChild(span); }
@@ -292,6 +333,12 @@ function announce(text) {
 }
 
 function filterTools() {
+    // TOP10以外を表示するときは、先に全件のデータを読み込んでから表示し直す
+    if (needsFull()) {
+        document.getElementById('resultCount').textContent = '…';
+        ensureFull().then(filterTools).catch(showLoadError);
+        return;
+    }
     const tools = getFilteredAndSortedTools();
     announce(T().announce(tools.length));
     updateNotices(getState().cats);
@@ -349,6 +396,8 @@ function buildShareUrl() {
     if (s.japanese !== 'all') p.set('jp', s.japanese);
     if (s.platform !== 'all') p.set('device', s.platform);
     if (s.noSignup) p.set('nosign', '1');
+    // 条件が何もないURLはTOP10の表示になるので、「全件を表示」の状態には印を付ける
+    if (!p.toString()) p.set('all', '1');
     if (currentSort.key) p.set('sort', `${currentSort.key}:${currentSort.direction}`);
     if (isEn()) p.set('lang', 'en');
     const qs = p.toString();
@@ -366,7 +415,10 @@ function copyShareUrl() {
 function applyStateFromUrl() {
     const p = new URLSearchParams(location.search);
     if (p.get('q')) document.getElementById('searchInput').value = p.get('q');
-    const cats = (p.get('cat') || '').split(',').filter(Boolean);
+    let cats = (p.get('cat') || '').split(',').filter(Boolean);
+    // 条件を指定していないURL（ふつうにトップページを開いたとき）は、TOP10にチェックを入れた状態で始める
+    const hasCondition = ['q', 'cat', 'price', 'jp', 'device', 'nosign', 'all'].some(k => p.get(k));
+    if (!hasCondition) cats = [TOP10_CAT];
     document.querySelectorAll('.category-filter').forEach(cb => cb.checked = cats.includes(cb.value));
     if (cats.length) document.getElementById('catDetails').open = true;
     const price = p.get('price');
@@ -385,7 +437,8 @@ function applyStateFromUrl() {
 // ==========================================
 function resetFilters() {
     document.getElementById('searchInput').value = '';
-    document.querySelectorAll('.category-filter').forEach(cb => cb.checked = false);
+    // リセットすると、トップページを開いたときと同じ「TOP10にチェック」の状態に戻る
+    document.querySelectorAll('.category-filter').forEach(cb => cb.checked = cb.value === TOP10_CAT);
     document.querySelector('input[name="pricing"][value="all"]').checked = true;
     document.querySelector('input[name="japanese"][value="all"]').checked = true;
     const pfAll = document.querySelector('input[name="platform"][value="all"]');
@@ -740,7 +793,7 @@ const COUNTRY_EN = {
     'スウェーデン': 'Sweden', 'スペイン': 'Spain', 'スロベニア': 'Slovenia', 'チェコ': 'Czechia', 'デンマーク': 'Denmark',
     'ドイツ': 'Germany', 'ニュージーランド': 'New Zealand', 'ノルウェー': 'Norway', 'フランス': 'France',
     'ブラジル': 'Brazil', 'ポーランド': 'Poland', 'ルクセンブルク': 'Luxembourg', 'ロシア': 'Russia', '中国': 'China',
-    '中国（香港）': 'China (Hong Kong)', '日本': 'Japan', '要確認': 'Unconfirmed', '韓国': 'South Korea'
+    '中国（香港）': 'China (Hong Kong)', '台湾': 'Taiwan', 'アルメニア': 'Armenia', 'イタリア': 'Italy', 'インドネシア': 'Indonesia', 'キプロス': 'Cyprus', 'ジョージア': 'Georgia', 'スロバキア': 'Slovakia', 'ハンガリー': 'Hungary', 'フィリピン': 'Philippines', 'フィンランド': 'Finland', 'ブルガリア': 'Bulgaria', 'ベトナム': 'Vietnam', 'ベルギー': 'Belgium', 'マレーシア': 'Malaysia', 'ラトビア': 'Latvia', 'リトアニア': 'Lithuania', 'ルーマニア': 'Romania', '日本': 'Japan', '要確認': 'Unconfirmed', '韓国': 'South Korea'
 };
 const COMPANY_EN = {
     '秘塔科技': 'Metaso Technology', '東京科学大学': 'Institute of Science Tokyo', '国立情報学研究所': 'National Institute of Informatics',
@@ -1028,7 +1081,7 @@ function openCategoryGuide() {
         <h3 class="guide-group">${isEn() ? (GUIDE_GROUP_EN[g.group] || g.group) : g.group}</h3>
         ${g.items.map(raw => {
             const i = guideItem(raw);
-            const n = allTools.filter(t => t.category.includes(raw.cat)).length;
+            const n = META.counts[raw.cat] || 0;
             return `<div class="guide-item">
                 <div class="guide-item-head">
                     <h4>${i.icon} ${esc(i.label || i.cat)} <span class="count">(${n})</span></h4>
@@ -1081,7 +1134,7 @@ function swapTextNodes(el, enParts) {
 function labelOf(sel) { const i = document.querySelector(sel); return i ? i.closest('label') : null; }
 
 const EN_TEXT = {
-    title: 'Free AI Tools Finder | Compare 390+ AI tools by purpose',
+    title: 'Free AI Tools Finder | Compare 1,000 AI tools by purpose',
     heroTitle: 'Free AI Tools<br class="sp-br"> Finder',
     heroSub: n => `Just pick what you want to do.<br class="sp-br"> Find your AI partner among <strong id="toolTotal">${n}</strong> tools.`,
     notices: {
@@ -1105,7 +1158,7 @@ const EN_TEXT = {
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
             <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or exclude trial-only tools. <strong>Japanese support</strong> shows only tools that work in Japanese. <strong>Devices</strong> lets you choose PC or phone. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
-            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, tools that match any of them are shown. If unsure, start with "👑 Top 10 Most-Used AI". The number next to each item is how many tools match.</p></li>
+            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, tools that match any of them are shown. The page opens with "👑 Top 10 Most-Used AI" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
             <li><h3>Save favorites</h3><p>Click ☆ next to an AI's name to turn it into ★ and save it as a favorite. Favorites are stored in this browser, so they will still be there next time (they are not shared with other browsers or phones).</p></li>
@@ -1136,9 +1189,9 @@ function applyStaticText() {
 
     // タイトル
     swapHTML(document.querySelector('.hero-title .marker'), EN_TEXT.heroTitle);
-    const n = allTools.length || (document.getElementById('toolTotal') || {}).textContent || '';
+    const n = META.total || (document.getElementById('toolTotal') || {}).textContent || '';
     swapHTML(document.querySelector('.hero-sub'), EN_TEXT.heroSub(n));
-    const tt = document.getElementById('toolTotal'); if (tt && allTools.length) tt.textContent = allTools.length;
+    const tt = document.getElementById('toolTotal'); if (tt && META.total) tt.textContent = META.total;
 
     // 検索・絞り込み
     const input = document.getElementById('searchInput');
