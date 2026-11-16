@@ -41,9 +41,11 @@ TurboScribe
 Tensor.Art
 
 # --- ログイン画面に転送されるだけで正常なサイト ---
-NotebookLM
+Gemini Notebook（旧NotebookLM）
+Google フォト
 
 # --- 公式の新しいドメインや言語別ページに転送されるだけで正常なサイト ---
 Microsoft Copilot
 Weights & Biases
 Symbolab
+Reve

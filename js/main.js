@@ -424,7 +424,7 @@ const CATEGORY_GUIDE = [
         { cat: '要約と構造化', icon: '📝',
           short: '長い文章・PDF・動画を短くまとめたり、見出しや図に整理したりするAIです。',
           long: '「構造化」とは、バラバラな情報を見出し・箇条書き・マインドマップなどに整理することです。資料を読む時間を減らせます。',
-          ex: 'NotebookLM、Mapify、ChatPDF' },
+          ex: 'Gemini Notebook、Mapify、ChatPDF' },
         { cat: '論文・リサーチ分析', icon: '🔬',
           short: '学術論文を探したり、内容を分析したりする専門的なAIです。',
           long: '一般の検索AIより、根拠となる研究を重視します。大学生・研究者・医療従事者向けです。',
