@@ -43,6 +43,7 @@ Tensor.Art
 # --- ログイン画面に転送されるだけで正常なサイト ---
 Gemini Notebook（旧NotebookLM）
 Google フォト
+Gmail
 
 # --- 公式の新しいドメインや言語別ページに転送されるだけで正常なサイト ---
 Microsoft Copilot

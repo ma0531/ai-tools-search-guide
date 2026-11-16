@@ -17,6 +17,8 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parent.parent
 XLSX = ROOT / "data" / "ai-tools.xlsx"
 JSON_OUT = ROOT / "data" / "ai-tools.json"
+# トップページ用の軽いデータ（TOP10のAIと、目的ごとの件数だけ）
+TOP10_OUT = ROOT / "data" / "top10.json"
 SHEET = "AIツール一覧"
 
 # サイトの「目的で絞り込む」にある項目と同じもの
@@ -194,9 +196,19 @@ def main():
         t["id"] = i
 
     jst = timezone(timedelta(hours=9))
-    data = {"lastUpdated": datetime.now(jst).strftime("%Y-%m-%d"), "tools": tools}
-    JSON_OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    today = datetime.now(jst).strftime("%Y-%m-%d")
+
+    # 全件のデータ：ファイルを小さくするため、1つのAIを1行にまとめて書き出す
+    lines = ",\n".join(json.dumps(t, ensure_ascii=False, separators=(",", ":")) for t in tools)
+    JSON_OUT.write_text('{"lastUpdated":"%s","tools":[\n%s\n]}\n' % (today, lines), encoding="utf-8")
     print(f"✅ {len(tools)}件のAIを {JSON_OUT.name} に書き出しました")
+
+    # トップページ用：最初はこの小さなファイルだけを読み込む
+    counts = {c: sum(1 for t in tools if c in t["category"]) for c in CATEGORIES}
+    top = sorted((t for t in tools if "rank" in t), key=lambda t: t["rank"])
+    TOP10_OUT.write_text(json.dumps({"lastUpdated": today, "total": len(tools), "counts": counts, "tools": top},
+                                    ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"✅ TOP10の{len(top)}件を {TOP10_OUT.name} に書き出しました")
 
 
 if __name__ == "__main__":
