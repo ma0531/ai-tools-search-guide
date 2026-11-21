@@ -1,6 +1,6 @@
-# 🔍 無料AIツールAIサイト検索ガイド / Free AI Tools Finder
+# 🔍 AIサイト検索ガイド / AI Site Finder
 
-**やりたいことを選ぶだけ。1000の無料で使えるAIから、あなたの相棒が見つかる。**
+**目的や希望を選ぶだけ。1000のAIサイトからあなたの相棒が見つかる！！**
 *Just pick what you want to do. Find your AI partner among 1,000 free AI tools.*
 
 ### 👉 [サイトを開く / Open the site](https://ma0531.github.io/ai-tools-search-guide/)
