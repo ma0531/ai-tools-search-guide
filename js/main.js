@@ -1134,9 +1134,9 @@ function swapTextNodes(el, enParts) {
 function labelOf(sel) { const i = document.querySelector(sel); return i ? i.closest('label') : null; }
 
 const EN_TEXT = {
-    title: 'Free AI Tools Finder | Compare 1,000 AI tools by purpose',
-    heroTitle: 'Free AI Tools<br class="sp-br"> Finder',
-    heroSub: n => `Just pick what you want to do.<br class="sp-br"> Find your AI partner among <strong id="toolTotal">${n}</strong> tools.`,
+    title: 'AI Site Finder | Compare 1,000 AI tools by purpose',
+    heroTitle: 'AI Site<br class="sp-br"> Finder',
+    heroSub: n => `Just pick your goals and wishes.<br class="sp-br"> Find your AI partner among <strong id="toolTotal">${n}</strong> AI sites!!`,
     notices: {
         medical: '🏥 Medical and healthcare AI is for reference only. <strong>It is not a substitute for a doctor\'s diagnosis.</strong> Please see a medical professional if you are concerned about your health.',
         consult: '💬 AI can be a casual conversation partner, but if you are struggling, please also reach out to people and support services in your area.'
@@ -1267,7 +1267,7 @@ function applyStaticText() {
         swapHTML(fb.querySelector('a'), 'Send a report or request');
     }
     swapHTML(document.getElementById('howto'), EN_TEXT.howto);
-    swapHTML(document.querySelector('footer p'), '© 2026 Free AI Tools Finder');
+    swapHTML(document.querySelector('footer p'), '© 2026 AI Site Finder');
     const skip = document.querySelector('.skip-link');
     if (skip) { if (!ORIG.has(skip)) ORIG.set(skip, skip.textContent); skip.textContent = en ? 'Skip to results' : ORIG.get(skip); }
     swapAttr(document.querySelector('.modal-close'), 'aria-label', 'Close');
