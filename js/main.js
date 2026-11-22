@@ -158,7 +158,8 @@ function showLoadError(err) {
 
 // 最初に読み込むのはTOP10だけの小さなデータ（data/top10.json）
 function loadTools() {
-    fetch('data/top10.json')
+    // ブラウザに古いデータが残っていても、毎回サーバーに更新を確認する（変わっていなければ保存分を使う）
+    fetch('data/top10.json', { cache: 'no-cache' })
         .then(r => { if (!r.ok) throw new Error('top10.json: ' + r.status); return r.json(); })
         .then(data => {
             allTools = data.tools;
@@ -182,7 +183,7 @@ function startApp() {
 function ensureFull() {
     if (fullLoaded) return Promise.resolve();
     if (!fullLoading) {
-        fullLoading = fetch('data/ai-tools.json')
+        fullLoading = fetch('data/ai-tools.json', { cache: 'no-cache' })
             .then(r => { if (!r.ok) throw new Error('ai-tools.json: ' + r.status); return r.json(); })
             .then(data => {
                 allTools = data.tools;
