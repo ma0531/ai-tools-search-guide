@@ -293,7 +293,11 @@ function getFilteredAndSortedTools() {
                       ...tool.strengths, ...(tool.strengthsEn || []),
                       ...tool.category, ...tool.category.map(c => CATEGORY_EN[c] || '')].join(' ').toLowerCase();
         if (term && !text.includes(term)) return false;
-        if (s.cats.length && !s.cats.some(c => tool.category.includes(c))) return false;
+        // 目的は「チェックしたすべてに当てはまる」AIだけを表示する
+        // ただしランキング（TOP10・TOP11〜30）どうしは、どちらかに入っていればよい
+        const rankSel = s.cats.filter(c => RANK_CATS.includes(c));
+        if (rankSel.length && !rankSel.some(c => tool.category.includes(c))) return false;
+        if (!s.cats.every(c => RANK_CATS.includes(c) || tool.category.includes(c))) return false;
         if (s.pricing === 'free' && tool.pricing !== '完全無料') return false;
         if (s.pricing === 'notrial' && tool.pricing === 'トライアルのみ') return false;
         if (s.japanese === 'o' && tool.japanese !== '◯') return false;
@@ -625,6 +629,11 @@ document.addEventListener('click', e => {
     const cat = pick.dataset.pickCat;
     if (pick.hasAttribute('data-only')) {
         document.querySelectorAll('.category-filter').forEach(cb => cb.checked = false);
+    }
+    // 「こちらに切り替える」：今の目的のチェックを外して、おすすめの目的に入れ替える
+    if (pick.dataset.replaceCat) {
+        const old = [...document.querySelectorAll('.category-filter')].find(c => c.value === pick.dataset.replaceCat);
+        if (old) old.checked = false;
     }
     const cb = [...document.querySelectorAll('.category-filter')].find(c => c.value === cat);
     if (cb) cb.checked = true;
@@ -1079,7 +1088,7 @@ function updateCategoryInfo(cats) {
                 <strong>${esc(i.label || i.cat)}</strong>${sep}${esc(i.short)}
                 ${i.hint && !cats.includes(i.hintCat)
                     ? `<br><span class="cat-info-hint">💡 ${esc(i.hint)}
-                       <button type="button" class="link-btn" data-pick-cat="${esc(i.hintCat)}">${isEn() ? 'Show these too' : '追加で表示する'}</button></span>` : ''}
+                       <button type="button" class="link-btn" data-pick-cat="${esc(i.hintCat)}" data-replace-cat="${esc(i.cat)}">${isEn() ? 'Switch to these' : 'こちらに切り替える'}</button></span>` : ''}
             </div>
         </div>`).join('') +
         `<p class="cat-info-more"><button type="button" class="link-btn" data-open-guide>📘 ${isEn() ? 'See all categories explained' : 'すべての目的の説明を見る'}</button></p>`;
@@ -1169,7 +1178,7 @@ const EN_TEXT = {
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
             <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or exclude trial-only tools. <strong>Japanese support</strong> shows only tools that work in Japanese. <strong>Devices</strong> lets you choose PC or phone. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
-            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, tools that match any of them are shown. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
+            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, only tools that match all of them are shown (for example, "Speech Recognition" + "Japanese-Focused" shows transcription tools that are strong in Japanese). The rankings are the exception: checking both "Top 10" and "#11–30" shows the tools in either ranking. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
             <li><h3>Save favorites</h3><p>Click ☆ next to an AI's name to turn it into ★ and save it as a favorite. Favorites are stored in this browser, so they will still be there next time (they are not shared with other browsers or phones).</p></li>
