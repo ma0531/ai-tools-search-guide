@@ -229,6 +229,7 @@ tbody tr:hover { background: #f0faf5; }
 .data-note  { margin-top: 14px; font-size: 0.8rem; color: #888; }
 
 footer { text-align: center; color: white; margin-top: 30px; padding: 16px; font-size: 0.9rem; }
+.ga-optout-note { font-size: 0.75rem; opacity: 0.85; margin-top: 6px; }
 
 :focus-visible { outline: 3px solid #2e8b62; outline-offset: 2px; }
 

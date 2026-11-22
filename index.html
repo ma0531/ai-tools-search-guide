@@ -20,6 +20,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- 自分のアクセスをGA4から除外するスイッチ
+         ?notrack=1 を付けて一度開くと、そのブラウザからのアクセスは以後カウントされない（?notrack=0 で解除）
+         公開サイト以外（手元での確認など）で開いたときもカウントしない -->
+    <script>
+      (function () {
+        var KEY = 'ga-optout';
+        var optout = false;
+        try {
+          var v = new URLSearchParams(location.search).get('notrack');
+          if (v === '1') localStorage.setItem(KEY, '1');
+          if (v === '0') localStorage.removeItem(KEY);
+          optout = localStorage.getItem(KEY) === '1';
+        } catch (e) { /* 保存できない環境では何もしない */ }
+        window.gaOptOut = optout;
+        if (optout || location.hostname !== 'ma0531.github.io') {
+          window['ga-disable-G-54THXGKFR8'] = true;
+        }
+      })();
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-54THXGKFR8"></script>
     <script>
@@ -242,7 +261,12 @@
         <footer>
             <p>© 2026 AIサイト検索ガイド</p>
             <p>AI検索ガイド by まーくん</p>
+            <p id="gaOptOutNote" class="ga-optout-note" hidden>📵 このブラウザのアクセスは解析から除外中（解除：URLの最後に ?notrack=0 を付けて開く）</p>
         </footer>
+        <script>
+            // 除外中のときだけ、フッターに小さく表示する
+            if (window.gaOptOut) document.getElementById('gaOptOutNote').hidden = false;
+        </script>
     </div>
 
     <!-- 詳細ポップアップ -->
