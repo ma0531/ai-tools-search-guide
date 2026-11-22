@@ -949,10 +949,10 @@ function createCard(tool) {
         <div class="card-head">
             <div>
                 ${rankBadge(tool)}
-                <h3><button type="button" class="name-link" data-detail="${esc(tool.name)}" aria-haspopup="dialog">${esc(n)}</button></h3>
+                <!-- PC・タブレットの表と同じく、☆はAI名の左に置く -->
+                <div class="name-line">${favButton(tool)}<h3><button type="button" class="name-link" data-detail="${esc(tool.name)}" aria-haspopup="dialog">${esc(n)}</button></h3></div>
                 <p class="card-meta">${esc(countryOf(tool))}　${T().japaneseWord} ${jpBadge(tool)}　${platformBadge(tool)}</p>
             </div>
-            ${favButton(tool)}
         </div>
         <div class="card-badges">${pricingBadge(tool)} ${extraBadges(tool)}</div>
         ${strengthList(tool, 'card-strengths')}
