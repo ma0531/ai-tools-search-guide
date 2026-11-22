@@ -24,13 +24,18 @@ SHEET = "AIツール一覧"
 # サイトの「目的で絞り込む」にある項目と同じもの
 # 新しい目的を増やすときは、ここと index.html の両方に追加してください
 CATEGORIES = [
-    "よく使われるAIのTOP10", "パーソナルアシスタント", "情報検索・リサーチ", "ノーコードでアプリ作成",
+    "よく使われるAIのTOP10", "よく使われるAIのTOP11〜50", "よく使われるAIのTOP51〜100", "パーソナルアシスタント", "情報検索・リサーチ", "ノーコードでアプリ作成",
     "開発者向けツール", "コード補完", "Android開発", "ゲーム開発", "画像作成", "画像編集", "3Dモデル生成",
     "動画作成", "音楽・音声生成", "音声認識", "テキスト生成・AI執筆", "デザイン・UI/UX", "言語・翻訳",
     "要約と構造化", "データ分析・予測", "Excel・事務作業", "タスクの自動化（RPA連携）", "学習・教育",
     "悩み相談", "論文・リサーチ分析", "医療・ヘルスケア", "製造・ロボティクス", "日本語特化",
 ]
 TOP10 = "よく使われるAIのTOP10"
+# 「よく使われる順位」の数字から、自動で付けるランキングのカテゴリ
+RANK_BUCKETS = [(1, 10, TOP10), (11, 50, "よく使われるAIのTOP11〜50"), (51, 100, "よく使われるAIのTOP51〜100")]
+RANK_CATS = {c for _, _, c in RANK_BUCKETS}
+RANK_HEADER = "よく使われる順位"
+OLD_RANK_HEADER = "TOP10順位"  # 以前の見出し名（古いExcelでも動くように）
 PRICING = {"完全無料", "無料枠あり", "トライアルのみ"}
 DEFAULT_LIMIT = {
     "完全無料": "無料で利用可能",
@@ -40,7 +45,7 @@ DEFAULT_LIMIT = {
 HEADERS = {
     "AI名": "name", "URL": "url", "国": "country", "開発企業": "company", "カテゴリ": "category",
     "強み": "strengths", "料金タイプ": "pricing", "無料利用範囲": "freeLimit",
-    "日本語対応": "japanese", "登録不要": "noSignup", "TOP10順位": "rank", "対応端末": "platform",
+    "日本語対応": "japanese", "登録不要": "noSignup", "よく使われる順位": "rank", "対応端末": "platform",
 }
 PLATFORM = {"PC＋スマホ": "both", "PCのみ": "pc", "スマホのみ": "mobile"}
 # 英語版の列（なくても動きます）
@@ -81,6 +86,8 @@ def main():
     ws = wb[SHEET]
 
     header_row = [text(c.value) for c in ws[1]]
+    if RANK_HEADER not in header_row and OLD_RANK_HEADER in header_row:
+        header_row[header_row.index(OLD_RANK_HEADER)] = RANK_HEADER
     col = {}
     for h in HEADERS:
         if h not in header_row:
@@ -134,18 +141,21 @@ def main():
                 errors.append(f"{where}：カテゴリ「{c}」はサイトにありません（「カテゴリ一覧」シートの名前を使ってください）")
 
         rank = None
-        if values["TOP10順位"]:
+        if values[RANK_HEADER]:
             try:
-                rank = int(float(values["TOP10順位"]))
-                if not 1 <= rank <= 10:
+                rank = int(float(values[RANK_HEADER]))
+                if not 1 <= rank <= 100:
                     raise ValueError
             except ValueError:
-                errors.append(f"{where}：TOP10順位は1〜10の数字にしてください")
+                errors.append(f"{where}：よく使われる順位は1〜100の数字にしてください")
                 rank = None
-        if rank and TOP10 not in cats:
-            cats.insert(0, TOP10)
-        if not rank and TOP10 in cats:
-            warnings.append(f"{where}：カテゴリにTOP10がありますが、TOP10順位が空です")
+        # ランキングのカテゴリは順位から自動で決める（手で入れたものは置き換える）
+        typed = [c for c in cats if c in RANK_CATS]
+        cats = [c for c in cats if c not in RANK_CATS]
+        if rank:
+            cats.insert(0, next(c for lo, hi, c in RANK_BUCKETS if lo <= rank <= hi))
+        elif typed:
+            warnings.append(f"{where}：カテゴリにランキングがありますが、よく使われる順位が空です（ランキングから外しました）")
 
         strengths = split_list(values["強み"], r"[\n／]")
         if strengths and len(strengths) != 4:
@@ -181,7 +191,7 @@ def main():
     ranks = [t["rank"] for t in tools if "rank" in t]
     dup = {x for x in ranks if ranks.count(x) > 1}
     if dup:
-        errors.append(f"TOP10順位が重複しています：{sorted(dup)}")
+        errors.append(f"よく使われる順位が重複しています：{sorted(dup)}")
 
     for w in warnings:
         print(f"⚠️ {w}")
@@ -205,7 +215,7 @@ def main():
 
     # トップページ用：最初はこの小さなファイルだけを読み込む
     counts = {c: sum(1 for t in tools if c in t["category"]) for c in CATEGORIES}
-    top = sorted((t for t in tools if "rank" in t), key=lambda t: t["rank"])
+    top = sorted((t for t in tools if t.get("rank", 999) <= 10), key=lambda t: t["rank"])
     TOP10_OUT.write_text(json.dumps({"lastUpdated": today, "total": len(tools), "counts": counts, "tools": top},
                                     ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"✅ TOP10の{len(top)}件を {TOP10_OUT.name} に書き出しました")
