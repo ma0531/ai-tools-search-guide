@@ -456,7 +456,7 @@ function resetFilters() {
 // ==========================================
 const CATEGORY_GUIDE = [
     { group: '👑 特別な項目', items: [
-        { cat: 'よく使われるAIのTOP10', icon: '👑',
+        { cat: 'よく使われるAIのTOP10', label: 'よく使われるAIサイトTOP10', icon: '👑',
           short: '世界で実際によく使われているAIを10個選んだものです。何から試せばいいか迷ったら、まずここから。',
           long: 'アクセス解析会社Similarwebの世界ランキングをもとに選んでいます。',
           ex: 'ChatGPT、Gemini、Claude、DeepSeek、Grok' },
@@ -775,7 +775,7 @@ document.addEventListener('DOMContentLoaded', setupAccessibility);
 // 日本語 / English の切り替え
 // ==========================================
 const CATEGORY_EN = {
-    'よく使われるAIのTOP10': 'Top 10 Most-Used AI', 'パーソナルアシスタント': 'Personal Assistant',
+    'よく使われるAIのTOP10': 'Top 10 Most-Used AI Sites','パーソナルアシスタント': 'Personal Assistant',
     '情報検索・リサーチ': 'Search & Research', 'ノーコードでアプリ作成': 'No-Code App Building',
     '開発者向けツール': 'Developer Tools', 'コード補完': 'Code Completion', 'Android開発': 'Android Development',
     'ゲーム開発': 'Game Development', '画像作成': 'Image Generation', '画像編集': 'Image Editing',
@@ -812,7 +812,7 @@ const I18N = {
         jp: { '◯': '日本語の画面あり', '△': '日本語で入力・出力できる', '×': '英語中心' },
         jpPrefix: '日本語対応：', pfPrefix: '使う端末：', pricePrefix: '料金：',
         platform: { both: 'PC・スマホ', pc: 'PCのみ', mobile: 'スマホのみ' },
-        noSignup: '登録不要', rank: n => `${n}位`, rankSr: 'よく使われるAI ', rankModal: n => `よく使われるAI ${n}位`,
+        noSignup: '登録不要', rank: n => `${n}位`, rankSr: 'よく使われるAIサイト ', rankModal: n => `よく使われるAIサイト ${n}位`,
         strengthsSr: '強み：', open: '開く', openLabel: n => `開く：${n}の公式サイト（新しいタブ）`,
         detail: '詳しく見る', detailLabel: n => `詳しく見る：${n}`, fav: n => `お気に入り：${n}`,
         favTitleOn: 'お気に入りから外す', favTitleOff: 'お気に入りに追加', japaneseWord: '日本語',
@@ -855,7 +855,9 @@ const isEn = () => LANG === 'en';
 function nameOf(t) { return isEn() && t.nameEn ? t.nameEn : t.name; }
 function countryOf(t) { return isEn() ? (COUNTRY_EN[t.country] || t.country) : t.country; }
 function companyOf(t) { return isEn() ? (COMPANY_EN[t.company] || t.company) : t.company; }
-function catOf(c) { return isEn() ? (CATEGORY_EN[c] || c) : c; }
+// 日本語の画面でだけ表示名を変えるカテゴリ（データ上の値やURLの値はそのまま使う）
+const CATEGORY_JA_LABEL = { [TOP10_CAT]: 'よく使われるAIサイトTOP10' };
+function catOf(c) { return isEn() ? (CATEGORY_EN[c] || c) : (CATEGORY_JA_LABEL[c] || c); }
 function strengthsOf(t) { return isEn() && t.strengthsEn && t.strengthsEn.length ? t.strengthsEn : t.strengths; }
 function limitOf(t) {
     if (!isEn()) return t.freeLimit;
@@ -1144,7 +1146,7 @@ const EN_TEXT = {
     legend: `
         <p><strong>Devices:</strong> 💻 works in a PC browser or PC software / 📱 has an official app or works in a phone browser (approximate)</p>
         <p><strong>Japanese support:</strong> ◯ Japanese interface / △ interface in English etc., but works with Japanese input and output / × mainly English (approximate)</p>
-        <p>* The "Top 10 Most-Used AI" is based on Similarweb's global traffic ranking as of October 2026.</p>
+        <p>* The "Top 10 Most-Used AI Sites" is based on Similarweb's global traffic ranking as of October 2026.</p>
         <p>* Free usage and pricing can change at any time. Please check each official site before using it.</p>`,
     safety: `
         <h2>⚠️ Things to keep in mind when using AI</h2>
@@ -1158,7 +1160,7 @@ const EN_TEXT = {
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
             <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or exclude trial-only tools. <strong>Japanese support</strong> shows only tools that work in Japanese. <strong>Devices</strong> lets you choose PC or phone. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
-            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, tools that match any of them are shown. The page opens with "👑 Top 10 Most-Used AI" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
+            <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, tools that match any of them are shown. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
             <li><h3>Save favorites</h3><p>Click ☆ next to an AI's name to turn it into ★ and save it as a favorite. Favorites are stored in this browser, so they will still be there next time (they are not shared with other browsers or phones).</p></li>
