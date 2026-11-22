@@ -24,7 +24,7 @@ SHEET = "AIツール一覧"
 # サイトの「目的で絞り込む」にある項目と同じもの
 # 新しい目的を増やすときは、ここと index.html の両方に追加してください
 CATEGORIES = [
-    "よく使われるAIのTOP10", "よく使われるAIのTOP11〜50", "よく使われるAIのTOP51〜100", "パーソナルアシスタント", "情報検索・リサーチ", "ノーコードでアプリ作成",
+    "よく使われるAIのTOP10", "よく使われるAIのTOP11〜50", "パーソナルアシスタント", "情報検索・リサーチ", "ノーコードでアプリ作成",
     "開発者向けツール", "コード補完", "Android開発", "ゲーム開発", "画像作成", "画像編集", "3Dモデル生成",
     "動画作成", "音楽・音声生成", "音声認識", "テキスト生成・AI執筆", "デザイン・UI/UX", "言語・翻訳",
     "要約と構造化", "データ分析・予測", "Excel・事務作業", "タスクの自動化（RPA連携）", "学習・教育",
@@ -32,7 +32,7 @@ CATEGORIES = [
 ]
 TOP10 = "よく使われるAIのTOP10"
 # 「よく使われる順位」の数字から、自動で付けるランキングのカテゴリ
-RANK_BUCKETS = [(1, 10, TOP10), (11, 50, "よく使われるAIのTOP11〜50"), (51, 100, "よく使われるAIのTOP51〜100")]
+RANK_BUCKETS = [(1, 10, TOP10), (11, 50, "よく使われるAIのTOP11〜50")]
 RANK_CATS = {c for _, _, c in RANK_BUCKETS}
 RANK_HEADER = "よく使われる順位"
 OLD_RANK_HEADER = "TOP10順位"  # 以前の見出し名（古いExcelでも動くように）
@@ -144,10 +144,10 @@ def main():
         if values[RANK_HEADER]:
             try:
                 rank = int(float(values[RANK_HEADER]))
-                if not 1 <= rank <= 100:
+                if not 1 <= rank <= 50:
                     raise ValueError
             except ValueError:
-                errors.append(f"{where}：よく使われる順位は1〜100の数字にしてください")
+                errors.append(f"{where}：よく使われる順位は1〜50の数字にしてください")
                 rank = None
         # ランキングのカテゴリは順位から自動で決める（手で入れたものは置き換える）
         typed = [c for c in cats if c in RANK_CATS]

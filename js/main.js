@@ -13,9 +13,8 @@ let allTools = [];
 // 全件のデータは必要になったとき（TOP10以外を表示するとき）に初めて読み込む
 const TOP10_CAT = 'よく使われるAIのTOP10';
 const TOP50_CAT = 'よく使われるAIのTOP11〜50';
-const TOP100_CAT = 'よく使われるAIのTOP51〜100';
 // 順位のあるカテゴリ（これを選んだときは順位の順に並べる）
-const RANK_CATS = [TOP10_CAT, TOP50_CAT, TOP100_CAT];
+const RANK_CATS = [TOP10_CAT, TOP50_CAT];
 let META = { total: 0, counts: {} };   // 全体の件数と、目的ごとの件数
 let fullLoaded = false;                // 全件のデータを読み込み済みか
 let fullLoading = null;                // 全件のデータを読み込んでいる途中のPromise
@@ -461,18 +460,13 @@ function resetFilters() {
 const CATEGORY_GUIDE = [
     { group: '👑 特別な項目', items: [
         { cat: 'よく使われるAIのTOP10', label: 'よく使われるAIサイトTOP10', icon: '👑',
-          short: '世界で実際によく使われているAIを10個選んだものです。何から試せばいいか迷ったら、まずここから。',
-          long: 'アクセス解析会社Similarwebの世界ランキングをもとに選んでいます。',
+          short: '世界で実際によく使われているAIを10個選んだものです。何から試せばいいか迷ったら、まずここから。アクセス解析会社Similarwebの世界ランキングをもとに掲載しています。',
+          long: '',
           ex: 'ChatGPT、Gemini、Claude、DeepSeek、Grok' },
         { cat: 'よく使われるAIのTOP11〜50', label: 'よく使われるAIサイトTOP11〜50', icon: '🥈',
           short: 'TOP10に続いて、世界でよく使われているAIです。アプリ作り・資料作成・画像生成など、用途がはっきりしたAIが多く入っています。',
           long: 'TOP10と同じく、Similarwebの世界ランキングをもとに順位を付けています。',
-          ex: 'Lovable、Cursor、Gamma、Manus、Genspark' },
-        { cat: 'よく使われるAIのTOP51〜100', label: 'よく使われるAIサイトTOP51〜100', icon: '🥉',
-          short: '世界のアクセス数で51〜100位に入るAIです。',
-          long: 'TOP10と同じく、Similarwebの世界ランキングをもとに順位を付けています。',
-          ex: '' },
-        { cat: '日本語特化', icon: '🇯🇵',
+          ex: 'Lovable、Cursor、Gamma、Manus、Genspark' },        { cat: '日本語特化', icon: '🇯🇵',
           short: '日本の会社が作ったAIや、日本語に特に強いAIです。',
           long: '日本語の文章や音声の自然さを重視したい方向けです。日本語の読み上げ、文字起こし、校正などがそろっています。',
           ex: 'VOICEVOX、Notta、Felo、Shodo' }
@@ -787,8 +781,7 @@ document.addEventListener('DOMContentLoaded', setupAccessibility);
 // 日本語 / English の切り替え
 // ==========================================
 const CATEGORY_EN = {
-    'よく使われるAIのTOP10': 'Top 10 Most-Used AI Sites', 'よく使われるAIのTOP11〜50': 'Most-Used AI Sites #11–50',
-    'よく使われるAIのTOP51〜100': 'Most-Used AI Sites #51–100','パーソナルアシスタント': 'Personal Assistant',
+    'よく使われるAIのTOP10': 'Top 10 Most-Used AI Sites', 'よく使われるAIのTOP11〜50': 'Most-Used AI Sites #11–50','パーソナルアシスタント': 'Personal Assistant',
     '情報検索・リサーチ': 'Search & Research', 'ノーコードでアプリ作成': 'No-Code App Building',
     '開発者向けツール': 'Developer Tools', 'コード補完': 'Code Completion', 'Android開発': 'Android Development',
     'ゲーム開発': 'Game Development', '画像作成': 'Image Generation', '画像編集': 'Image Editing',
@@ -871,9 +864,7 @@ function companyOf(t) { return isEn() ? (COMPANY_EN[t.company] || t.company) : t
 // 日本語の画面でだけ表示名を変えるカテゴリ（データ上の値やURLの値はそのまま使う）
 const CATEGORY_JA_LABEL = {
     [TOP10_CAT]: 'よく使われるAIサイトTOP10',
-    [TOP50_CAT]: 'よく使われるAIサイトTOP11〜50',
-    [TOP100_CAT]: 'よく使われるAIサイトTOP51〜100',
-};
+    [TOP50_CAT]: 'よく使われるAIサイトTOP11〜50',};
 function catOf(c) { return isEn() ? (CATEGORY_EN[c] || c) : (CATEGORY_JA_LABEL[c] || c); }
 function strengthsOf(t) { return isEn() && t.strengthsEn && t.strengthsEn.length ? t.strengthsEn : t.strengths; }
 function limitOf(t) {
@@ -1024,10 +1015,8 @@ const GUIDE_GROUP_EN = {
     '🏥 専門分野': '🏥 Specialized Fields'
 };
 const GUIDE_EN = {
-    'よく使われるAIのTOP10': { short: 'The 10 AI tools people use most around the world. Start here if you are not sure what to try.', long: 'Selected based on Similarweb\'s global traffic ranking.' },
-    'よく使われるAIのTOP11〜50': { short: 'The next most-used AI tools worldwide after the Top 10, many with a clear purpose such as building apps, making slides or generating images.', long: 'Ranked by Similarweb\'s global traffic ranking, like the Top 10.' },
-    'よく使われるAIのTOP51〜100': { short: 'AI tools ranked #51–100 worldwide by traffic.', long: 'Ranked by Similarweb\'s global traffic ranking, like the Top 10.' },
-    '日本語特化': { short: 'AI made by Japanese companies or especially strong in Japanese.', long: 'For people who care about natural Japanese text and speech: reading aloud, transcription, proofreading and more.' },
+    'よく使われるAIのTOP10': { short: 'The 10 AI tools people use most around the world. Start here if you are not sure what to try. Listed based on the global ranking by the web analytics company Similarweb.', long: '' },
+    'よく使われるAIのTOP11〜50': { short: 'The next most-used AI tools worldwide after the Top 10, many with a clear purpose such as building apps, making slides or generating images.', long: 'Ranked by Similarweb\'s global traffic ranking, like the Top 10.' },    '日本語特化': { short: 'AI made by Japanese companies or especially strong in Japanese.', long: 'For people who care about natural Japanese text and speech: reading aloud, transcription, proofreading and more.' },
     'パーソナルアシスタント': { short: 'So-called AI chat: ask for anything in conversation. The all-rounder when you do not have a specific goal.', long: 'Answers, writing, brainstorming, advice and more. If in doubt, start here.' },
     '情報検索・リサーチ': { short: 'AI that searches the web for current information and answers with source links.', long: 'Unlike ordinary chat AI, it looks things up on the spot. Sources are shown, so you can check whether the information is correct.' },
     '要約と構造化': { short: 'AI that shortens long text, PDFs or videos, or organizes them into headings and diagrams.', long: '"Organizing" means turning scattered information into headings, bullet points or mind maps. Saves reading time.' },
@@ -1165,7 +1154,7 @@ const EN_TEXT = {
     legend: `
         <p><strong>Devices:</strong> 💻 works in a PC browser or PC software / 📱 has an official app or works in a phone browser (approximate)</p>
         <p><strong>Japanese support:</strong> ◯ Japanese interface / △ interface in English etc., but works with Japanese input and output / × mainly English (approximate)</p>
-        <p>* The "Most-Used AI Sites" rankings (Top 10, #11–50 and #51–100) are based on Similarweb's global traffic ranking for AI chatbots and tools as of October 2026. Multiple sites of the same service are counted once, and company pages, enterprise-only services and sites with adult content are excluded.</p>
+        <p>* The "Most-Used AI Sites" rankings (Top 10 and #11–50) are based on Similarweb's global traffic ranking for AI chatbots and tools as of October 2026. Multiple sites of the same service are counted once, and company pages, enterprise-only services and sites with adult content are excluded.</p>
         <p>* Free usage and pricing can change at any time. Please check each official site before using it.</p>`,
     safety: `
         <h2>⚠️ Things to keep in mind when using AI</h2>
