@@ -273,6 +273,8 @@ body.view-tablet th, body.view-tablet td { padding: 10px 8px; }
 .radio-group { display: flex; flex-direction: column; gap: 4px; }
 .radio-group label { display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 0.93rem; }
 .radio-group input { accent-color: #38b27a; width: 16px; height: 16px; }
+/* フィルタの選択肢の意味を説明する小さな文字 */
+.filter-note { margin: 6px 0 0; font-size: 0.78rem; line-height: 1.5; color: #4a5a52; }
 
 .action-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .action-buttons .reset-button { margin: 0; }
@@ -737,7 +739,7 @@ thead { background: linear-gradient(135deg, #237a52 0%, #1f6f4a 100%); }
 }
 /* 読み上げで飛ばす絵文字の後ろにすき間を確保 */
 .filters label > span[aria-hidden="true"],
-.radio-group label > span[aria-hidden="true"] { margin-right: 0.3em; }
+.radio-group label > span[aria-hidden="true"] { margin-right: 0.3em; white-space: nowrap; flex-shrink: 0; }
 
 /* ==========================================
    言語の切り替え（日本語 / English）

@@ -1162,6 +1162,7 @@ const EN_TEXT = {
         consult: '💬 AI can be a casual conversation partner, but if you are struggling, please also reach out to people and support services in your area.'
     },
     legend: `
+        <p><strong>Price:</strong> ✅ Completely free (main features are free to use) / 🟢 Free tier (free to use, with limits on usage or features) / ⚠️ Trial only (only a trial period or trial credits are free; paid afterwards)</p>
         <p><strong>Devices:</strong> 💻 works in a PC browser or PC software / 📱 has an official app or works in a phone browser (approximate)</p>
         <p><strong>Japanese support:</strong> ◯ Japanese interface / △ interface in English etc., but works with Japanese input and output / × mainly English (approximate)</p>
         <p>* The "Most-Used AI Sites" rankings (Top 10 and #11–30) are based on Similarweb's global traffic ranking for AI chatbots and tools as of October 2026. Multiple sites of the same service are counted once, and company pages, enterprise-only services and sites with adult content are excluded.</p>
@@ -1177,7 +1178,7 @@ const EN_TEXT = {
         <h2>📖 How to use this site</h2>
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
-            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or exclude trial-only tools. <strong>Japanese support</strong> shows only tools that work in Japanese. <strong>Devices</strong> lets you choose PC or phone. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
+            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or all tools you can keep using for free, including those with a limited free tier (trial-only tools are excluded). <strong>Japanese support</strong> lets you show only tools with a Japanese interface, or also include tools whose interface is in English but which work with Japanese input and output. <strong>Devices</strong> lets you narrow down to tools that work on PC, on phones, or on both. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
             <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, only tools that match all of them are shown (for example, "Speech Recognition" + "Japanese-Focused" shows transcription tools that are strong in Japanese). The rankings are the exception: checking both "Top 10" and "#11–30" shows the tools in either ranking. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
@@ -1224,15 +1225,22 @@ function applyStaticText() {
         h.textContent = en ? (titles[ORIG.get(h).trim()] || ORIG.get(h)) : ORIG.get(h);
     });
     const radios = {
-        'input[name="pricing"][value="all"]': 'All', 'input[name="pricing"][value="free"]': ' Completely free only',
-        'input[name="pricing"][value="notrial"]': ' Exclude trial-only (free to keep using)',
-        'input[name="japanese"][value="all"]': 'All', 'input[name="japanese"][value="o"]': '◯ Japanese interface',
-        'input[name="japanese"][value="oa"]': '◯＋△ Usable in Japanese',
-        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' Usable on PC',
-        'input[name="platform"][value="mobile"]': ' Usable on phone', 'input[name="platform"][value="both"]': ' Usable on both phone and PC',
+        'input[name="pricing"][value="all"]': 'All (including trial-only tools)', 'input[name="pricing"][value="free"]': ' Completely free tools only',
+        'input[name="pricing"][value="notrial"]': ' Free to keep using (completely free + free tier)',
+        'input[name="japanese"][value="all"]': 'All (including mainly-English tools)', 'input[name="japanese"][value="o"]': '◯ Japanese interface only',
+        'input[name="japanese"][value="oa"]': '◯＋△ Works in Japanese (including English interfaces)',
+        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' Works on PC (including PC-only)',
+        'input[name="platform"][value="mobile"]': ' Works on phones (including phone-only)', 'input[name="platform"][value="both"]': ' Only tools that work on both PC and phones',
         '#noSignupFilter': ' Try without signing up'
     };
     Object.entries(radios).forEach(([sel, text]) => swapTextNodes(labelOf(sel), [' ' + text.trim()]));
+    // フィルタの選択肢の説明文
+    const notes = {
+        notepricing: 'Completely free: main features are free to use / Free tier: free, but with limits on usage or features / Trial only: only a trial period or trial credits are free, then paid',
+        notejapanese: '◯: menus and screens are in Japanese / △: screens are in English etc., but it replies in Japanese when you write in Japanese / ×: mainly English (Japanese may not work well)',
+        noteplatform: 'PC: works in a PC browser or PC software / Phone: has an official app or works well in a phone browser (approximate)'
+    };
+    Object.entries(notes).forEach(([id, text]) => swapHTML(document.getElementById(id), text));
     swapTextNodes(labelOf('#favFilter'), [' Show favorites only (', ')']);
     document.querySelectorAll('.category-filter').forEach(cb => {
         swapTextNodes(cb.closest('label'), [' ' + (CATEGORY_EN[cb.value] || cb.value) + ' ']);
