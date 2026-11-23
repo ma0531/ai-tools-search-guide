@@ -737,7 +737,7 @@ thead { background: linear-gradient(135deg, #237a52 0%, #1f6f4a 100%); }
 }
 /* 読み上げで飛ばす絵文字の後ろにすき間を確保 */
 .filters label > span[aria-hidden="true"],
-.radio-group label > span[aria-hidden="true"] { margin-right: 0.3em; }
+.radio-group label > span[aria-hidden="true"] { margin-right: 0.3em; white-space: nowrap; flex-shrink: 0; }
 
 /* ==========================================
    言語の切り替え（日本語 / English）
