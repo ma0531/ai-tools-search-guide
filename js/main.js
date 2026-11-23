@@ -1229,9 +1229,9 @@ function applyStaticText() {
         'input[name="pricing"][value="all"]': 'All', 'input[name="pricing"][value="free"]': ' Completely free to use',
         'input[name="pricing"][value="freemium"]': ' Usable within the free tier (limits on usage or features)',
         'input[name="pricing"][value="trial"]': ' Usable only during the free trial (paid afterwards)',
-        'input[name="japanese"][value="all"]': 'All', 'input[name="japanese"][value="o"]': '◯ Menus and screens are also in Japanese',
-        'input[name="japanese"][value="a"]': '△ Screens are in English etc., but works with Japanese input and output',
-        'input[name="japanese"][value="x"]': '× Mainly English (Japanese may not work well)',
+        'input[name="japanese"][value="all"]': 'All', 'input[name="japanese"][value="o"]': '“◯” Menus and screens are also in Japanese',
+        'input[name="japanese"][value="a"]': '“△” Screens are in English etc., but works with Japanese input and output',
+        'input[name="japanese"][value="x"]': '“×” Mainly English (Japanese may not work well)',
         'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' Works on PC',
         'input[name="platform"][value="mobile"]': ' Works on phones',
         '#noSignupFilter': ' Try without signing up'
