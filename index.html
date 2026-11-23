@@ -77,31 +77,29 @@
                 <div class="filter-group">
                     <h2 class="filter-title">料金タイプ</h2>
                     <div class="radio-group">
-                        <label><input type="radio" name="pricing" value="all" checked> すべて（お試し期間だけ無料のAIも含む）</label>
-                        <label><input type="radio" name="pricing" value="free"> ✅ 完全無料のAIだけ</label>
-                        <label><input type="radio" name="pricing" value="notrial"> 🟢 ずっと無料で使えるAI（完全無料＋無料枠あり）</label>
+                        <label><input type="radio" name="pricing" value="all" checked> すべて</label>
+                        <label><input type="radio" name="pricing" value="free"> ✅ 全て無料で使用可能</label>
+                        <label><input type="radio" name="pricing" value="freemium"> 🟢 無料枠内で使用可能（回数や機能に制限あり）</label>
+                        <label><input type="radio" name="pricing" value="trial"> ⚠️ トライアル期間内のみ使用可能（その後は有料）</label>
                     </div>
-                    <!-- 各選択肢の意味を短く説明する -->
-                    <p class="filter-note" id="notepricing">完全無料：お金を払わずに主な機能を使える／無料枠あり：無料でも使えるが、回数や機能に制限がある／トライアルのみ：無料はお試し期間・お試し分だけで、その後は有料</p>
                 </div>
                 <div class="filter-group">
                     <h2 class="filter-title">日本語対応</h2>
                     <div class="radio-group">
-                        <label><input type="radio" name="japanese" value="all" checked> すべて（英語中心のAIも含む）</label>
-                        <label><input type="radio" name="japanese" value="o"> ◯ 画面も日本語で使えるAIだけ</label>
-                        <label><input type="radio" name="japanese" value="oa"> ◯＋△ 日本語で入力・出力できるAI（画面が英語のものも含む）</label>
+                        <label><input type="radio" name="japanese" value="all" checked> 全て</label>
+                        <label><input type="radio" name="japanese" value="o"> ◯ メニューなどの画面も日本語で使える</label>
+                        <label><input type="radio" name="japanese" value="a"> △ 画面は英語などだが、日本語で入力・出力できる</label>
+                        <label><input type="radio" name="japanese" value="x"> × 英語中心（日本語はうまく使えないことがある）</label>
                     </div>
-                    <p class="filter-note" id="notejapanese">◯：メニューなどの画面が日本語／△：画面は英語などだが、日本語で話しかければ日本語で答えてくれる／×：英語中心（日本語はうまく使えないことがある）</p>
                 </div>
                 <div class="filter-group">
-                    <h2 class="filter-title">使う端末</h2>
+                    <h2 class="filter-title">使用可能な端末</h2>
                     <div class="radio-group">
                         <label><input type="radio" name="platform" value="all" checked> すべて</label>
-                        <label><input type="radio" name="platform" value="pc"> 💻 PCで使えるAI（PC専用も含む）</label>
-                        <label><input type="radio" name="platform" value="mobile"> 📱 スマホで使えるAI（スマホ専用も含む）</label>
-                        <label><input type="radio" name="platform" value="both"> 💻📱 PCとスマホの両方で使えるAIだけ</label>
+                        <label><input type="radio" name="platform" value="pc"> 💻 PCでのみ使用可能</label>
+                        <label><input type="radio" name="platform" value="mobile"> 📱 スマホでのみ使用可能</label>
+                        <label><input type="radio" name="platform" value="both"> 💻📱 どちらでも使用可能</label>
                     </div>
-                    <p class="filter-note" id="noteplatform">PC：パソコンのブラウザやソフトで使える／スマホ：公式アプリがある、またはスマホのブラウザで快適に使える（目安です）</p>
                 </div>
                 <div class="filter-group">
                     <h2 class="filter-title">その他</h2>
@@ -205,7 +203,7 @@
             <div class="legend">
                 <p><strong>料金の見方：</strong>✅ 完全無料（お金を払わずに主な機能を使える） ／ 🟢 無料枠あり（無料でも使えるが、回数や機能に制限がある） ／ ⚠️ トライアルのみ（無料はお試し期間・お試し分だけで、その後は有料）</p>
                 <p><strong>日本語対応の見方：</strong>◯ 日本語の画面あり ／ △ 画面は英語などだが日本語で入力・出力できる ／ × 英語中心（目安です）</p>
-                <p><strong>使う端末の見方：</strong>💻 PCのブラウザやソフトで使える ／ 📱 公式アプリがある、またはスマホのブラウザで使える（目安です）</p>
+                <p><strong>使用可能な端末の見方：</strong>💻 PCのブラウザやソフトで使える ／ 📱 公式アプリがある、またはスマホのブラウザで使える（目安です）</p>
                 <p>※「よく使われるAIサイトTOP10」「TOP11〜30」は、Similarwebの2026年10月時点の世界のアクセス数ランキング（AIチャットボット・ツール部門）をもとに選定しています。同じサービスの複数のサイトは1つにまとめ、会社の紹介サイト、個人が使えない企業向けのサービス、成人向けの内容を含むサイトなどは除いています。</p>
                 <p>※無料の範囲や料金は各サービスの都合で変わることがあります。利用前に公式サイトでご確認ください。</p>
             </div>
@@ -234,7 +232,7 @@
                 </li>
                 <li>
                     <h3>条件でしぼり込む</h3>
-                    <p><strong>料金タイプ</strong>では、お金を払わずに主な機能を使える「完全無料のAIだけ」か、回数や機能に制限のある「無料枠あり」も含めた「ずっと無料で使えるAI」を選べます（お試し期間だけ無料のAIは除かれます）。<strong>日本語対応</strong>では、画面も日本語のAIだけか、画面が英語でも日本語で入力・出力できるAIまで含めるかを選べます。<strong>使う端末</strong>では、PCで使えるAI・スマホで使えるAI・両方で使えるAIにしぼり込めます。<strong>その他</strong>では、アカウント登録なしで試せるAIや、お気に入りに登録したAIだけを表示できます。</p>
+                    <p><strong>料金タイプ</strong>では「全て無料で使用可能」「無料枠内で使用可能（回数や機能に制限あり）」「トライアル期間内のみ使用可能（その後は有料）」から選べます。<strong>日本語対応</strong>では、◯（画面も日本語）・△（画面は英語などだが日本語で入力・出力できる）・×（英語中心）から選べます。<strong>使用可能な端末</strong>では「PCでのみ使用可能」「スマホでのみ使用可能」「どちらでも使用可能」から選べます。<strong>その他</strong>では、アカウント登録なしで試せるAIや、お気に入りに登録したAIだけを表示できます。</p>
                 </li>
                 <li>
                     <h3>目的で選ぶ</h3>

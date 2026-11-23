@@ -298,14 +298,12 @@ function getFilteredAndSortedTools() {
         const rankSel = s.cats.filter(c => RANK_CATS.includes(c));
         if (rankSel.length && !rankSel.some(c => tool.category.includes(c))) return false;
         if (!s.cats.every(c => RANK_CATS.includes(c) || tool.category.includes(c))) return false;
-        if (s.pricing === 'free' && tool.pricing !== '完全無料') return false;
-        if (s.pricing === 'notrial' && tool.pricing === 'トライアルのみ') return false;
-        if (s.japanese === 'o' && tool.japanese !== '◯') return false;
-        if (s.japanese === 'oa' && tool.japanese === '×') return false;
-        const pf = platformOf(tool);
-        if (s.platform === 'pc' && pf === 'mobile') return false;
-        if (s.platform === 'mobile' && pf === 'pc') return false;
-        if (s.platform === 'both' && pf !== 'both') return false;
+        // 料金・日本語対応・端末は、選んだ種類と一致するAIだけを表示する
+        const PRICE_OF = { free: '完全無料', freemium: '無料枠あり', trial: 'トライアルのみ' };
+        if (s.pricing !== 'all' && tool.pricing !== PRICE_OF[s.pricing]) return false;
+        const JP_OF = { o: '◯', a: '△', x: '×' };
+        if (s.japanese !== 'all' && tool.japanese !== JP_OF[s.japanese]) return false;
+        if (s.platform !== 'all' && platformOf(tool) !== s.platform) return false;
         if (s.noSignup && !tool.noSignup) return false;
         if (s.fav && !favorites.has(tool.name)) return false;
         return true;
@@ -826,13 +824,13 @@ const I18N = {
     ja: {
         pricing: p => p,
         jp: { '◯': '日本語の画面あり', '△': '日本語で入力・出力できる', '×': '英語中心' },
-        jpPrefix: '日本語対応：', pfPrefix: '使う端末：', pricePrefix: '料金：',
+        jpPrefix: '日本語対応：', pfPrefix: '使用可能な端末：', pricePrefix: '料金：',
         platform: { both: 'PC・スマホ', pc: 'PCのみ', mobile: 'スマホのみ' },
         noSignup: '登録不要', rank: n => `${n}位`, rankSr: 'よく使われるAIサイト ', rankModal: n => `よく使われるAIサイト ${n}位`,
         strengthsSr: '強み：', open: '開く', openLabel: n => `開く：${n}の公式サイト（新しいタブ）`,
         detail: '詳しく見る', detailLabel: n => `詳しく見る：${n}`, fav: n => `お気に入り：${n}`,
         favTitleOn: 'お気に入りから外す', favTitleOff: 'お気に入りに追加', japaneseWord: '日本語',
-        dt: { company: '開発企業', jp: '日本語対応', pf: '使う端末', cats: 'できること', str: '強み', limit: '無料の範囲' },
+        dt: { company: '開発企業', jp: '日本語対応', pf: '使用可能な端末', cats: 'できること', str: '強み', limit: '無料の範囲' },
         tipsTitle: '使うときのポイント', officialSite: '公式サイトを開く', newTab: '（新しいタブ）',
         trialTip: '無料で使えるのはお試し期間・お試し分だけです。有料プランへの自動更新に注意しましょう。',
         announce: n => `検索結果 ${n}件`, catSep: '、',
@@ -1178,7 +1176,7 @@ const EN_TEXT = {
         <h2>📖 How to use this site</h2>
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
-            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you show only completely free tools, or all tools you can keep using for free, including those with a limited free tier (trial-only tools are excluded). <strong>Japanese support</strong> lets you show only tools with a Japanese interface, or also include tools whose interface is in English but which work with Japanese input and output. <strong>Devices</strong> lets you narrow down to tools that work on PC, on phones, or on both. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
+            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you choose completely free tools, tools usable within a free tier (with limits), or tools usable only during a free trial. <strong>Japanese support</strong> lets you choose ◯ (Japanese interface), △ (English interface, but works in Japanese) or × (mainly English). <strong>Devices</strong> lets you choose PC only, phone only, or both. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
             <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, only tools that match all of them are shown (for example, "Speech Recognition" + "Japanese-Focused" shows transcription tools that are strong in Japanese). The rankings are the exception: checking both "Top 10" and "#11–30" shows the tools in either ranking. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
@@ -1219,28 +1217,23 @@ function applyStaticText() {
     swapAttr(input, 'placeholder', 'Search by country, company, category and more');
     swapAttr(input, 'aria-label', 'Keyword search');
     swapAttr(document.querySelector('.search-area'), 'aria-label', 'Search and filter AI tools');
-    const titles = { '料金タイプ': 'Price', '日本語対応': 'Japanese support', '使う端末': 'Devices', 'その他': 'Other' };
+    const titles = { '料金タイプ': 'Price', '日本語対応': 'Japanese support', '使用可能な端末': 'Devices', 'その他': 'Other' };
     document.querySelectorAll('.filter-group .filter-title').forEach(h => {
         if (!ORIG.has(h)) ORIG.set(h, h.textContent);
         h.textContent = en ? (titles[ORIG.get(h).trim()] || ORIG.get(h)) : ORIG.get(h);
     });
     const radios = {
-        'input[name="pricing"][value="all"]': 'All (including trial-only tools)', 'input[name="pricing"][value="free"]': ' Completely free tools only',
-        'input[name="pricing"][value="notrial"]': ' Free to keep using (completely free + free tier)',
-        'input[name="japanese"][value="all"]': 'All (including mainly-English tools)', 'input[name="japanese"][value="o"]': '◯ Japanese interface only',
-        'input[name="japanese"][value="oa"]': '◯＋△ Works in Japanese (including English interfaces)',
-        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' Works on PC (including PC-only)',
-        'input[name="platform"][value="mobile"]': ' Works on phones (including phone-only)', 'input[name="platform"][value="both"]': ' Only tools that work on both PC and phones',
+        'input[name="pricing"][value="all"]': 'All', 'input[name="pricing"][value="free"]': ' Completely free to use',
+        'input[name="pricing"][value="freemium"]': ' Usable within the free tier (limits on usage or features)',
+        'input[name="pricing"][value="trial"]': ' Usable only during the free trial (paid afterwards)',
+        'input[name="japanese"][value="all"]': 'All', 'input[name="japanese"][value="o"]': '◯ Menus and screens are also in Japanese',
+        'input[name="japanese"][value="a"]': '△ Screens are in English etc., but works with Japanese input and output',
+        'input[name="japanese"][value="x"]': '× Mainly English (Japanese may not work well)',
+        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' PC only',
+        'input[name="platform"][value="mobile"]': ' Phone only', 'input[name="platform"][value="both"]': ' Both PC and phone',
         '#noSignupFilter': ' Try without signing up'
     };
     Object.entries(radios).forEach(([sel, text]) => swapTextNodes(labelOf(sel), [' ' + text.trim()]));
-    // フィルタの選択肢の説明文
-    const notes = {
-        notepricing: 'Completely free: main features are free to use / Free tier: free, but with limits on usage or features / Trial only: only a trial period or trial credits are free, then paid',
-        notejapanese: '◯: menus and screens are in Japanese / △: screens are in English etc., but it replies in Japanese when you write in Japanese / ×: mainly English (Japanese may not work well)',
-        noteplatform: 'PC: works in a PC browser or PC software / Phone: has an official app or works well in a phone browser (approximate)'
-    };
-    Object.entries(notes).forEach(([id, text]) => swapHTML(document.getElementById(id), text));
     swapTextNodes(labelOf('#favFilter'), [' Show favorites only (', ')']);
     document.querySelectorAll('.category-filter').forEach(cb => {
         swapTextNodes(cb.closest('label'), [' ' + (CATEGORY_EN[cb.value] || cb.value) + ' ']);
