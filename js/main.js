@@ -303,7 +303,10 @@ function getFilteredAndSortedTools() {
         if (s.pricing !== 'all' && tool.pricing !== PRICE_OF[s.pricing]) return false;
         const JP_OF = { o: '◯', a: '△', x: '×' };
         if (s.japanese !== 'all' && tool.japanese !== JP_OF[s.japanese]) return false;
-        if (s.platform !== 'all' && platformOf(tool) !== s.platform) return false;
+        // 端末は「その端末で使えるか」で判定する（両方で使えるAIはどちらでも表示）
+        const pf = platformOf(tool);
+        if (s.platform === 'pc' && pf === 'mobile') return false;
+        if (s.platform === 'mobile' && pf === 'pc') return false;
         if (s.noSignup && !tool.noSignup) return false;
         if (s.fav && !favorites.has(tool.name)) return false;
         return true;
@@ -1176,7 +1179,7 @@ const EN_TEXT = {
         <h2>📖 How to use this site</h2>
         <ol class="howto-steps">
             <li><h3>Search by keyword</h3><p>Type in the search box at the top and results are filtered instantly. Besides AI names, you can search by country, company or what it does, such as "China", "Google", "subtitles" or "free".</p></li>
-            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you choose completely free tools, tools usable within a free tier (with limits), or tools usable only during a free trial. <strong>Japanese support</strong> lets you choose ◯ (Japanese interface), △ (English interface, but works in Japanese) or × (mainly English). <strong>Devices</strong> lets you choose PC only, phone only, or both. <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
+            <li><h3>Narrow down with filters</h3><p><strong>Price</strong> lets you choose completely free tools, tools usable within a free tier (with limits), or tools usable only during a free trial. <strong>Japanese support</strong> lets you choose ◯ (Japanese interface), △ (English interface, but works in Japanese) or × (mainly English). <strong>Devices</strong> lets you choose tools that work on PC or on phones (tools that work on both appear in either). <strong>Other</strong> shows tools you can try without signing up, or only your favorites.</p></li>
             <li><h3>Choose by purpose</h3><p>Check what you want to do, such as "Image Generation", "Video Creation" or "Excel & Office Work". If you check several, only tools that match all of them are shown (for example, "Speech Recognition" + "Japanese-Focused" shows transcription tools that are strong in Japanese). The rankings are the exception: checking both "Top 10" and "#11–30" shows the tools in either ranking. The page opens with "👑 Top 10 Most-Used AI Sites" checked. Change the checkboxes to look for other purposes, or uncheck everything to see all tools. The number next to each item is how many tools match.</p></li>
             <li><h3>Sort</h3><p>Click the "AI", "Developer" or "Country" headings in the table to sort. Click again to reverse the order. On phones, use the "Sort" menu above the results.</p></li>
             <li><h3>See details and try it</h3><p>Click an AI's name to see what it can do and tips for using it. "Open →" opens the official site in a new tab.</p></li>
@@ -1229,8 +1232,8 @@ function applyStaticText() {
         'input[name="japanese"][value="all"]': 'All', 'input[name="japanese"][value="o"]': '◯ Menus and screens are also in Japanese',
         'input[name="japanese"][value="a"]': '△ Screens are in English etc., but works with Japanese input and output',
         'input[name="japanese"][value="x"]': '× Mainly English (Japanese may not work well)',
-        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' PC only',
-        'input[name="platform"][value="mobile"]': ' Phone only', 'input[name="platform"][value="both"]': ' Both PC and phone',
+        'input[name="platform"][value="all"]': 'All', 'input[name="platform"][value="pc"]': ' Works on PC',
+        'input[name="platform"][value="mobile"]': ' Works on phones',
         '#noSignupFilter': ' Try without signing up'
     };
     Object.entries(radios).forEach(([sel, text]) => swapTextNodes(labelOf(sel), [' ' + text.trim()]));
