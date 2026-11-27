@@ -35,12 +35,16 @@ body {
     gap: 10px;
 }
 .top-left p { margin: 0; }
+/* 生成AIの注意書き：赤文字で目立たせる（緑の背景でも読めるよう白地を敷く） */
 .ai-disclaimer {
-    color: #1f4f36;
-    font-size: 0.8rem;
-    font-weight: 600;
+    background: rgba(255,255,255,0.9);
+    color: #d32f2f;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 999px;
 }
-body.view-mobile .ai-disclaimer { font-size: 0.7rem; }
+body.view-mobile .ai-disclaimer { font-size: 0.7rem; padding: 5px 9px; }
 .device-switcher {
     display: flex;
     gap: 4px;
