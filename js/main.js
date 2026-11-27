@@ -1199,7 +1199,7 @@ function applyStaticText() {
     // 上部
     swapTextNodes(document.querySelector('.last-updated'), ['Last updated: ']);
     if (window._lastDate) document.getElementById('lastUpdated').textContent = T().date(window._lastDate);
-    swapTextNodes(document.querySelector('.ai-disclaimer'), ['This site was created with generative AI and may contain inaccurate information.']);
+    swapTextNodes(document.querySelector('.ai-disclaimer'), ['⚠️This site was created with generative AI and may contain inaccurate information.⚠️']);
     swapTextNodes(document.querySelector('.howto-link'), [' How to use this site']);
     [['mobile', 'Phone'], ['tablet', 'Tablet'], ['pc', 'PC']].forEach(([d, label]) => {
         const b = document.getElementById('btn-' + d);
