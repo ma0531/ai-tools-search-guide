@@ -27,6 +27,20 @@ body {
     padding: 8px 14px;
     border-radius: 999px;
 }
+/* 最終更新日と生成AIの注意書きを横並びにする */
+.top-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.top-left p { margin: 0; }
+.ai-disclaimer {
+    color: #1f4f36;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+body.view-mobile .ai-disclaimer { font-size: 0.7rem; }
 .device-switcher {
     display: flex;
     gap: 4px;
