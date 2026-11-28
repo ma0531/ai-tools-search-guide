@@ -248,6 +248,12 @@ tbody tr:hover { background: #f0faf5; }
 
 footer { text-align: center; color: white; margin-top: 30px; padding: 16px; font-size: 0.9rem; }
 .ga-optout-note { font-size: 0.75rem; opacity: 0.85; margin-top: 6px; }
+/* 他に作成したサイトへのリンク */
+.other-sites { margin-bottom: 14px; }
+.other-sites-title { font-weight: bold; margin-bottom: 6px; }
+.other-sites-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 12px; }
+.other-sites-list a { display: inline-block; color: white; background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.5); border-radius: 999px; padding: 6px 14px; text-decoration: none; }
+.other-sites-list a:hover { background: rgba(255,255,255,0.32); }
 
 :focus-visible { outline: 3px solid #2e8b62; outline-offset: 2px; }
 
